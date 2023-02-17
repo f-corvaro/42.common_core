@@ -6,7 +6,7 @@
 /*   By: fcorvaro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 19:43:26 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/02/17 19:48:09 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/02/17 19:55:54 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,5 @@ int	ft_isdigit(int p)
 		return (1);
 	return (0);
 }
+
+/*return 1 if p is a number or 0 if it doesn't*/

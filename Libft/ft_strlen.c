@@ -6,7 +6,7 @@
 /*   By: fcorvaro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 18:45:00 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/02/17 19:37:06 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/02/17 19:57:35 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,5 @@ int	ft_strlen(const char	*str)
 		i++;
 	return (i);
 }
+
+/*return the lenght of the string that you give to it*/
