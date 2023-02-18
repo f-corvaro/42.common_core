@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/18 21:28:54 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/02/18 21:51:27 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/02/18 21:49:19 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/02/18 21:51:16 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 int	ft_toupper(int i)
 {
-	if (i >= 97 && i <= 122)
-		return (i - 32);
+	if (i >= 65 && i <= 90)
+		return (i + 32);
 	return (i);
 }
 
-/*toupper function converts a 
-lowercase alphabet to an uppercase alphabet.*/
+/*tolower function converts a 
+uppercase alphabet to an lowercase alphabet.*/
