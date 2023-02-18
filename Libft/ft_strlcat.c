@@ -1,37 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/18 11:26:59 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/02/18 21:26:46 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/02/18 19:39:27 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/02/18 21:27:26 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t size)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	j;
 
 	i = 0;
 	j = 0;
-	while (src[i])
+	if ((!src || !dst) && !size)
+		return (0);
+	while (dst[i] && i < size)
 		i++;
-	if (size != 0)
+	while (src[j] && (i + j + 1) < size)
 	{
-		while (src[i] && j < (size - 1))
-		{
-			dst[j] = src[j];
-			j++;
-		}
-		dst[j] = '\0';
+		dst[i + j] = src[j];
+		j++;
 	}
-	return (i);
+	if (i < size)
+		dst[i + j] = '\0';
+	return (i + ft_strlen(src));
 }
 
-/*copy string to a specific size. The original function
-return the total lenght of the string.*/
+/*is used for concatenate strings respectively*/
