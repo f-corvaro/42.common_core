@@ -1,29 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/19 09:54:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/02/19 10:12:39 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/02/19 10:07:38 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/02/19 10:20:32 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *str, int c)
+char	*ft_strrchr(const char *str, int c)
 {
-	while (*str)
+	int	i;
+
+	i = ft_strlen(s);
+	if (c == 0)
+		return ((char *)str + i);
+	while (i >= 0)
 	{
-		if (*str == c)
-			return ((char *)str);
-		str++;
+		if (str[i] == c)
+			return ((char *)str + i);
+		i--;
 	}
-	if (c == '\0')
-		return ((char *)str);
-	return (0);
+	return (NULL);
 }
 
-/*This returns a pointer to the first occurrence of the character 
-c in the string str, or NULL if the character is not found.*/
+/*locate character in string*/
