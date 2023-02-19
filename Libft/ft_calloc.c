@@ -6,7 +6,7 @@
 /*   By: fcorvaro <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 11:12:19 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/02/19 11:13:55 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/02/19 11:14:51 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,5 @@ void	*ft_calloc(size_t n, size_t size)
 	ft_bzero(mem, (n * size));
 	return (mem);
 }
+
 /*allocates memory and sets its bytes' values to 0*/
