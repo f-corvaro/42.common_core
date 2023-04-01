@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 10:50:42 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/01 12:45:58 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/01 13:05:39 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ int	ft_atoi(const char *str)
 }
 
 /*convert a string to an integer
+const char* is a mutable pointer to an immutable character/string. 
 int	main(void)
 {
 	const char *ciao = "   1000";
