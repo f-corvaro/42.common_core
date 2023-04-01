@@ -1,4 +1,6 @@
-# LIBFT 
+# LIBFT [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://github.com/JaeSeoKim/badge42)
+
+
 
 C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation are into the code as a comments.
