@@ -2,7 +2,7 @@
 
 ## 🖥 Ring 00
 
-0️⃣ libft --> https://github.com/f-corvaro/42.common_core/tree/main/libft (C)
+0️⃣ libft --> https://github.com/f-corvaro/42.common_core/tree/main/libft (C - solo project)
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
