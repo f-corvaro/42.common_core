@@ -1,6 +1,6 @@
 ## 42 Common Core
 
-### Ring 00
+### 00 Ring
 
 [0️⃣ libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) --> (C - solo project)
 
