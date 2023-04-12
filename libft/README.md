@@ -1,7 +1,7 @@
 # LIBFT [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://github.com/JaeSeoKim/badge42)
 
 
-[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42_first.course/blob/main/Libft/0.en.subject.pdf)
+[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/0.en.subject.pdf)
 
 ## Introduction
 C programming can be very tedious when one doesn’t have access to the highly useful
