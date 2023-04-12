@@ -9,14 +9,15 @@
 /*   Updated: 2023/03/30 15:57:08 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+/*if not define, ifndef check if the symbol is defined*/
 #ifndef LIBFT_H
+/*if isn't define, define LIBFT_H*/
 # define LIBFT_H
-
-# include <unistd.h>
+/*including the libraries*/
 # include <stdio.h>
 # include <stdlib.h>
-
+# include <unistd.h>
+/*calling the functions with the same definition of them*/
 int		ft_atoi(const char *str);
 
 void	ft_bzero(void *s, size_t n);
@@ -62,5 +63,5 @@ char	*ft_strrchr(const char *str, int c);
 int		ft_toupper(int i);
 
 int		ft_toupper(int i);
-
+/*closing ifndef*/
 #endif
