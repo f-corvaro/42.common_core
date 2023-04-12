@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/30 15:10:03 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/04/12 15:52:40 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/04/12 16:02:46 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,12 +46,12 @@ OBJS_B = ${SRCS_B:.c=.o}
 #means "the first prerequisite" - the first thing after the : in the line above.
 .c.o:
 		${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
-
+#this command mean take the OBJS and put into the NAME with the commands of LIBC
 ${NAME}: ${OBJS}
 		${LIBC} ${NAME} ${OBJS}
 
 all: ${NAME}
-
+#for the bonus part
 bonus:	${NAME} ${OBJS_B}
 	${LIBC} ${NAME} ${OBJS_B}
 #The clean will remove all .o files
