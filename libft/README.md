@@ -2,7 +2,7 @@
 
 ## Outcome
 
-[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/0.en.subject.pdf)
+[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/0.en.subject.pdf)
 
 
 ## Introduction
@@ -32,29 +32,29 @@ Is a file where you compile your projects, instead of use an `int main` and `gcc
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
-| [ft_atoi](https://github.com/f-corvaro/42.common_core/blob/main/libft/ft_atoi.c)| Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/Makefile)  |
-| [ft_bzero](https://github.com/f-corvaro/42.common_core/blob/main/libft/ft_bzero.c) | Content Cell  | Content Cell  | [libft.h](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft.h) |
-| [ft_calloc](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_calloc.c)  | Content Cell  | Content Cell  |
-| [ft_isalnum](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_isalnum.c) | Content Cell  | Content Cell  |
-| [ft_isalpha](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_isalpha.c)  | Content Cell  | Content Cell  |
-| [ft_isascii](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_isascii.c)  | Content Cell  | Content Cell  |
-| [ft_isdigit](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_isdigit.c)  | Content Cell  | Content Cell  |
-| [ft_isprint](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_isprint.c)  | Content Cell  | Content Cell  |
-| [ft_memchr](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_memchr.c)  | Content Cell  | Content Cell  |
-| [ft_memcmp](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_memcmp.c)  | Content Cell  | Content Cell  |
-| [ft_memcpy](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_memcpy.c) | Content Cell  | Content Cell  |
-| [ft_memmove](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_memmove.c)  | Content Cell  | Content Cell  |
-| [ft_memset](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_memset.c) | Content Cell  | Content Cell  |
-| [ft_strchr](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strchr.c)  | Content Cell  | Content Cell  |
-| [ft_strdup](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strdup.c)  | Content Cell  | Content Cell  |
-| [ft_strlcat](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strlcat.c)  | Content Cell  | Content Cell  |
-| [ft_strlcpy](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strlcpy.c)  | Content Cell  | Content Cell  |
-| [ft_strlen](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strlen.c)  | Content Cell  | Content Cell  |
-| [ft_strncmp](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strncmp.c)  | Content Cell  | Content Cell  |
-| [ft_strnstr](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strnstr.c)  | Content Cell  | Content Cell  |
-| [ft_strrchr](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_strrstr.c)  | Content Cell  | Content Cell  |
-| [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_tolower.c)  | Content Cell  | Content Cell  |
-| [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/Libft/ft_toupper.c)  | Content Cell  | Content Cell  |
+| [ft_atoi](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
+| [ft_bzero](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_bzero.c) | Content Cell  | Content Cell  | [libft.h](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/libft.h) |
+| [ft_calloc](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_calloc.c)  | Content Cell  | Content Cell  |
+| [ft_isalnum](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalnum.c) | Content Cell  | Content Cell  |
+| [ft_isalpha](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalpha.c)  | Content Cell  | Content Cell  |
+| [ft_isascii](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isascii.c)  | Content Cell  | Content Cell  |
+| [ft_isdigit](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isdigit.c)  | Content Cell  | Content Cell  |
+| [ft_isprint](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isprint.c)  | Content Cell  | Content Cell  |
+| [ft_memchr](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memchr.c)  | Content Cell  | Content Cell  |
+| [ft_memcmp](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memcmp.c)  | Content Cell  | Content Cell  |
+| [ft_memcpy](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memcpy.c) | Content Cell  | Content Cell  |
+| [ft_memmove](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memmove.c)  | Content Cell  | Content Cell  |
+| [ft_memset](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memset.c) | Content Cell  | Content Cell  |
+| [ft_strchr](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strchr.c)  | Content Cell  | Content Cell  |
+| [ft_strdup](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strdup.c)  | Content Cell  | Content Cell  |
+| [ft_strlcat](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlcat.c)  | Content Cell  | Content Cell  |
+| [ft_strlcpy](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlcpy.c)  | Content Cell  | Content Cell  |
+| [ft_strlen](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlen.c)  | Content Cell  | Content Cell  |
+| [ft_strncmp](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strncmp.c)  | Content Cell  | Content Cell  |
+| [ft_strnstr](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strnstr.c)  | Content Cell  | Content Cell  |
+| [ft_strrchr](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrstr.c)  | Content Cell  | Content Cell  |
+| [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
+| [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
 
 
 
