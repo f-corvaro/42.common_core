@@ -1,12 +1,22 @@
 # LIBFT [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://github.com/JaeSeoKim/badge42)
 
 
+[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42_first.course/blob/main/Libft/0.en.subject.pdf)
 
 C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation are into the code as a comments.
 
 
-[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42_first.course/blob/main/Libft/0.en.subject.pdf)
+## What's in it?
+
+There are 4 sections:
+
+1. Libc Functions: Some of the standard C functions;
+2. Additional Functions: Functions that will be useful for other projects;
+3. Bonus Functions: Functions that will be useful for linked list manipulation;
+4. Other: makefile and libft.h.
+
+
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
