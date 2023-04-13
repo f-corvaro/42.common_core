@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 11:15:46 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/03/30 15:30:03 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/13 14:26:50 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,43 @@ char	*ft_strdup(const char *s)
 	return (str);
 }
 
+#include <stdio.h>
+#include <stdlib.h>
+
+int	ft_strlen(const char	*str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
+
+char	*ft_strdup(const char	*source)
+{
+	int		len;
+	char	*copy;
+	int		i;
+
+	len = ft_strlen(source) + 1;
+	copy = (char *)malloc (sizeof(char) * len);
+	i = 0;
+	while (i < len)
+	{
+		copy[i] = source[i];
+		i++;
+	}
+	copy[i] = '\0';
+	return (copy);
+}
+
+int	main (void)
+{
+	char	*c = "daje roma daje";
+	char	*d;
+
+	d = (ft_strdup(c));
+	printf ("%s", d);
+}
 /*creates a dupplicate for the string passed as parameter.*/

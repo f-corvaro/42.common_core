@@ -6,10 +6,10 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/03/30 15:57:08 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/13 15:34:27 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*if not define, ifndef check if the symbol is defined*/
+
 #ifndef LIBFT_H
 /*if isn't define, define LIBFT_H*/
 # define LIBFT_H
@@ -17,6 +17,13 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
+
 /*calling the functions with the same definition of them*/
 int		ft_atoi(const char *str);
 
@@ -63,5 +70,6 @@ char	*ft_strrchr(const char *str, int c);
 int		ft_toupper(int i);
 
 int		ft_toupper(int i);
+
 /*closing ifndef*/
 #endif
