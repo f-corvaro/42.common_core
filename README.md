@@ -1,8 +1,10 @@
 ## 42 Common Core
 
+<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/42 Roma Luiss.jpeg">
+
 ### A little brief
 
-Welcome in my journey at the 42 school (exactly in 42 Roma Luiss school). I create this repository to have a little diary about my coding experience and to give a little guide about the projects in 42 School. I hope this will help someone in future to understand the knowledge necessary to have done with success the projects. Watch out about the subject version of the project, it could change. Good coding.
+Welcome in my journey at the 42 school. I create this repository to have a little diary about my coding experience and to give a little guide about the projects in 42 School. I hope this will help someone in future to understand the knowledge necessary to have done with success the projects. Watch out about the subject version of the project, it could change. Good coding.
 
 ### 00 Ring
 
