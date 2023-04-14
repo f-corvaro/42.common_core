@@ -98,29 +98,30 @@ Drawbacks of Linked Lists:
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
-| [ft_atoi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| Content Cell  | Content Cell  | [libft.h](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/libft.h) |
-| [ft_bzero.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_bzero.c) | Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
-| [ft_calloc.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_calloc.c)  | Content Cell  | Content Cell  |
-| [ft_isalnum.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalnum.c) | Content Cell  | Content Cell  |
-| [ft_isalpha.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalpha.c)  | Content Cell  | Content Cell  |
-| [ft_isascii.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isascii.c)  | Content Cell  | Content Cell  |
-| [ft_isdigit.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isdigit.c)  | Content Cell  | Content Cell  |
-| [ft_isprint.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isprint.c)  | Content Cell  | Content Cell  |
-| [ft_memchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memchr.c)  | Content Cell  | Content Cell  |
-| [ft_memcmp.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memcmp.c)  | Content Cell  | Content Cell  |
-| [ft_memcpy.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memcpy.c) | Content Cell  | Content Cell  |
-| [ft_memmove.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memmove.c)  | Content Cell  | Content Cell  |
-| [ft_memset.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memset.c) | Content Cell  | Content Cell  |
-| [ft_strchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strchr.c)  | Content Cell  | Content Cell  |
-| [ft_strdup.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strdup.c)  | Content Cell  | Content Cell  |
-| [ft_strlcat.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlcat.c)  | Content Cell  | Content Cell  |
-| [ft_strlcpy.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlcpy.c)  | Content Cell  | Content Cell  |
-| [ft_strlen.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlen.c)  | Content Cell  | Content Cell  |
-| [ft_strncmp.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strncmp.c)  | Content Cell  | Content Cell  |
-| [ft_strnstr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strnstr.c)  | Content Cell  | Content Cell  |
-| [ft_strrchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrstr.c)  | Content Cell  | Content Cell  |
-| [ft_tolower.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
-| [ft_upper.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
+| [ft_atoi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [libft.h](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/libft.h) |
+
+| [ft_bzero.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_bzero.c) | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
+| [ft_calloc.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_calloc.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_isalnum.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalnum.c) | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_isalpha.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalpha.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_isascii.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isascii.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_isdigit.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isdigit.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_isprint.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isprint.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_memchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memchr.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_memcmp.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memcmp.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_memcpy.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memcpy.c) | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_memmove.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memmove.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_memset.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_memset.c) | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strchr.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strdup.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strdup.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strlcat.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlcat.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strlcpy.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlcpy.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strlen.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlen.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strncmp.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strncmp.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strnstr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strnstr.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_strrchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrstr.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_tolower.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
+| [ft_upper.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  | [riempi.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)  |
 
 </p>
 
