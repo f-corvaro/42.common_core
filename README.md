@@ -7,7 +7,8 @@
 
 ## 00 Ring
 
-[0️⃣ libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) --> (C - solo project) [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://github.com/JaeSeoKim/badge42)
+[0️⃣ libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) --> (C - solo project)
+**OUTCOME:** [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://github.com/JaeSeoKim/badge42)
 
 ## License
 
