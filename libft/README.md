@@ -51,10 +51,13 @@ This statement will deallocate the memory previously allocated. C does not come 
 ```
 
 **list:**
+
 </p>
 
 ## Index
+
 <p align="justify">
+
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
 | [ft_atoi](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
@@ -80,9 +83,11 @@ This statement will deallocate the memory previously allocated. C does not come 
 | [ft_strrchr](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrstr.c)  | Content Cell  | Content Cell  |
 | [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
 | [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
+
 </p>
 
 ## Running Tests
+
 <p align="justify">
 To run tests, run the following command
 
