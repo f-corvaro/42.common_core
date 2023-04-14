@@ -45,7 +45,6 @@ The `.o` suffix is the object code. GCC and other compilers actually run through
 3. Linking. The symbols in the object code are now resolved to the actual memory locations or call points to provide a fully fledged executable.
 
 In reality it's just a precompiled version of a source file.
-
 </p>
 
 
