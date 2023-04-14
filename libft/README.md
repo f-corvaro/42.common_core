@@ -28,6 +28,10 @@ Where all the functions are written.
 Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests").
 
 
+##Things "new" to understand
+**malloc:**
+
+**list:**
 
 
 | Libc functions  | Additional functions | Bonus part |  other |
