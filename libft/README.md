@@ -149,22 +149,30 @@ Drawbacks of Linked Lists:
 <p align="justify">
 To run tests, run the following command:
 
-1.
+This command is used to run the makefile with the rules and dependencies that we develop. In this project make will compile and give to us `.o` files from `.c` sources.
+
 ```bash
   make
 ```
 
-```bash
-  make re
-```
+This command will remove all `.o` files from our directory.
 
 ```bash
   make clean
 ```
 
+This command will remove all `.o` files from our directory and remove the `.a` file.
+
 ```bash
   make fclean
 ```
+
+This command will do the `fclean` and will do the make again.
+
+```bash
+  make re
+```
+
 </p>
 
 ## License
