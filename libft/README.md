@@ -26,7 +26,7 @@ There are 4 sections:
 ### Type of files:
 <p align="justify">
 
-**.c files:**
+**.c - source code file:**
 Where all the functions are written.
 
 **.h - header:**
@@ -45,6 +45,9 @@ The `.o` suffix is the object code. GCC and other compilers actually run through
 3. Linking. The symbols in the object code are now resolved to the actual memory locations or call points to provide a fully fledged executable.
 
 In reality it's just a precompiled version of a source file.
+
+**.a - archive libraries:**
+Archive libraries (.a) are statically linked. The library will remain unchanged unless the program is recompiled. This is the most straight forward way of using a library as the final result is a simple executable with no dependencies.
 </p>
 
 
@@ -107,7 +110,31 @@ Drawbacks of Linked Lists:
 9. Appending an element to a linked list is a costly operation, and takes O(n) time, where n is the number of elements in the linked list, as compared to arrays that take O(1) time.
 10. Not cache-friendly. Since array elements are contiguous locations, there is the locality of reference which is not there in the case of linked lists.
 
+Types of Linked Lists:
 
+1. Simple Linked List – In this type of linked list, one can move or traverse the linked list in only one direction. where the next pointer of each node points to other nodes but the next pointer of the last node points to NULL. It is also called “Singly Linked List”.
+
+2. Doubly Linked List – In this type of linked list, one can move or traverse the linked list in both directions (Forward and Backward).
+
+3. Circular Linked List – In this type of linked list, the last node of the linked list contains the link of the first/head node of the linked list in its next pointer.
+
+4. Doubly Circular Linked List – A Doubly Circular linked list or a circular two-way linked list is a more complex type of linked list that contains a pointer to the next as well as the previous node in the sequence. The difference between the doubly linked and circular doubly list is the same as that between a singly linked list and a circular linked list. The circular doubly linked list does not contain null in the previous field of the first node.
+
+5.Header Linked List – A header linked list is a special type of linked list that contains a header node at the beginning of the list.
+
+The basic operations on linked list are deletion, insertion, search and display. A linked list is represented by a pointer to the first node of the linked list. The first node is called the head of the linked list. If the linked list is empty, then the value of the head points to NULL. Each node in a list consists of at least two parts:
+
+1. A Data Item (we can store integers, strings, or any type of data).
+
+2. Pointer (Or Reference) to the next node (connects one node to another) or An address of another node.
+
+In C, we can represent a node using structures.
+
+```struct Node {
+    int data;
+    struct Node* next;
+};
+```
 
 </p>
 

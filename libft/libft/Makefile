@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/30 15:10:03 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/04/14 18:28:48 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/04/14 18:42:07 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,3 +65,4 @@ re : fclean all
 
 #declare the .PHONY is used to explicitly declare false targets.
 .PHONY : all clean fclean re
+
