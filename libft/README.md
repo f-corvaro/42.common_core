@@ -52,7 +52,9 @@ This statement will deallocate the memory previously allocated. C does not come 
 3. C passes by value instead of reference. Using malloc to assign memory, and then pass the pointer to another function, is more efficient than having the function recreate the structure.
 
 
-**list:**
+**linked lists:**
+
+Like arrays, a linked list is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers. They include a series of connected nodes. Here, each node stores the data and the address of the next node.
 
 </p>
 
