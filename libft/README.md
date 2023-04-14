@@ -6,6 +6,7 @@
 
 
 ## Introduction
+<p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation are into the code as a comments.
 
@@ -30,10 +31,10 @@ Is a file where you compile your projects, instead of use an `int main` and `gcc
 
 ## Things "new" to understand
 
-<p align="justify">
+
 **malloc:** malloc() allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
 C does not know the data type it is allocating memory for; so we use sizeof() to allocate the right amount of memory for that data type.
-</p>
+
 
 ```
 char    *arr;
@@ -98,3 +99,5 @@ To run tests, run the following command
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+</p>
