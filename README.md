@@ -1,4 +1,4 @@
-## <img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/42 Roma Luiss.jpeg"> Common Core
+# <img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/42 Roma Luiss.jpeg"> **COMMON CORE**
 
 
 ### A little brief
