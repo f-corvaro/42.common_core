@@ -21,8 +21,10 @@ There are 4 sections:
 2. **Additional Functions:** Functions that will be useful for other projects;
 3. **Bonus Functions:** Functions that will be useful for linked list manipulation;
 4. **Other:** makefile and libft.h.
+</p>
 
 ### Type of files:
+<p align="justify">
 
 **.c files:**
 Where all the functions are written.
@@ -32,7 +34,6 @@ Useful because insteade of doing `#include <library.h>`in all c files, you will 
 
 **makefile:**
 Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests"). A makefile consists of a set of dependencies and rules. A dependency has a target (a file to be created) and a set of source files upon which it is dependent. The rules describe how to create the target from the dependent files. Typically, the target is a single executable file. In this project we want to create a `.o` files. The makefile is read by the `make` command, which determines the target file or files that are to be made and then compares the dates and times of the source files to decide which rules need to be invoked to construct the target. Often, other intermediate targets have to be created before the final target can be made. The make command uses the makefile to determine the order in which the targets have to be made and the correct sequence of rules to invoke.
-
 
 **.o - object:**
 The `.o` suffix is the object code. GCC and other compilers actually run through several steps when compiling.
@@ -44,6 +45,7 @@ The `.o` suffix is the object code. GCC and other compilers actually run through
 3. Linking. The symbols in the object code are now resolved to the actual memory locations or call points to provide a fully fledged executable.
 
 In reality it's just a precompiled version of a source file.
+
 </p>
 
 
