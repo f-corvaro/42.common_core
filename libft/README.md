@@ -25,11 +25,24 @@ There are 4 sections:
 **.c files:**
 Where all the functions are written.
 
-**.h - header:** Useful because insteade of doing `#include <library.h>`in all c files, you will write only once in your header. In advance you can reuse the function you did in your library for other functions in your library. For example in `ft_bzero.c` I use the `ft_memset.c`. Obviousbly you need to add `#include <libft.h>` at the top of all your files .c.
+**.h - header:**
+Useful because insteade of doing `#include <library.h>`in all c files, you will write only once in your header. In advance you can reuse the function you did in your library for other functions in your library. For example in `ft_bzero.c` I use the `ft_memset.c`. Obviousbly you need to add `#include <libft.h>` at the top of all your files .c.
 
 **makefile:**
 Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests").
+
+**.o - object:**
+The `.o` suffix is the object code. GCC and other compilers actually run through several steps when compiling.
+
+1. Pre-processor. This resolves your #define and #include and other #... macros. This step is rarely output to a file - it's almost universally passed directly into the next step.
+
+2. Object compilation. The lines of code are transformed into machine code and symbol tables. The symbol tables are not yet linked into an executable. For larger programs, this is an intermediate output when you are compiling multiple files which may have dependencies on one another.
+
+3. Linking. The symbols in the object code are now resolved to the actual memory locations or call points to provide a fully fledged executable.
+
+In reality it's just a precompiled version of a source file.
 </p>
+
 
 ## Things "new" to understand
 <p align="justify">
@@ -90,6 +103,7 @@ Drawbacks of Linked Lists:
 10. Not cache-friendly. Since array elements are contiguous locations, there is the locality of reference which is not there in the case of linked lists.
 
 
+
 </p>
 
 ## Index
@@ -128,9 +142,9 @@ Drawbacks of Linked Lists:
 ## Running Tests
 
 <p align="justify">
-To run tests, run the following command
+To run tests, run the following command:
 
-```bash
+1.```bash
   make
 ```
 
