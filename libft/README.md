@@ -42,7 +42,9 @@ arr = (char *)malloc(sizeof(char) * 10)
 
 This statement used malloc to set aside memory for an array of 10 char. As sizes can change between computers, it’s important to use the ```sizeof()``` function to calculate the size on the current computer. Any memory allocated during the program’s execution will need to be freed before the program closes. To free memory, we can use the ```free()``` function
 
-```free(arr);```
+```
+free(arr);
+```
 
 This statement will deallocate the memory previously allocated. C does not come with a garbage collector; as a result, memory not properly freed will continue to be allocated after the program is closed. ```malloc()``` is used for:
 1. dynamic memory allocation and is useful when you don’t know the amount of memory needed during compile time;
