@@ -22,6 +22,8 @@ There are 4 sections:
 3. **Bonus Functions:** Functions that will be useful for linked list manipulation;
 4. **Other:** makefile and libft.h.
 
+### Type of files
+
 **.c files:**
 Where all the functions are written.
 
