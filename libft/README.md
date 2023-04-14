@@ -63,7 +63,24 @@ Like arrays, a linked list is a linear data structure. Linked list elements are 
 </p>
 
 <p align="justify">
-
+Arrays can be used to store linear data of similar types, but arrays have some limitations:
+1. The size of the arrays is fixed;
+2. Insertion of a new element / Deletion of a existing element in an array of elements is expensive.
+The advantages of linked lists over arrays are:
+1. Dynamic Array.
+2. Ease of Insertion/Deletion.
+3. Insertion at the beginning is a constant time operation and takes O(1) time, as compared to arrays where inserting an element at the beginning takes O(n) time,where n is the number of elements in the array.
+Drawbacks of Linked Lists:
+1. Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot do a binary search with linked lists efficiently with its default implementation.
+2. Extra memory space for a pointer is required with each element of the list.
+3. It takes a lot of time in traversing and changing the pointers.
+4. Reverse traversing is not possible in singly linked lists.
+5. It will be confusing when we work with pointers.
+6. Direct access to an element is not possible in a linked list as in an array by index.
+7. Searching for an element is costly and requires O(n) time complexity.
+8. Sorting of linked lists is very complex and costly.
+9. Appending an element to a linked list is a costly operation, and takes O(n) time, where n is the number of elements in the linked list, as compared to arrays that take O(1) time.
+10. Not cache-friendly. Since array elements are contiguous locations, there is the locality of reference which is not there in the case of linked lists.
 </p>
 
 ## Index
