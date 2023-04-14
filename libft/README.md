@@ -48,7 +48,7 @@ This statement will deallocate the memory previously allocated. C does not come 
 1. dynamic memory allocation and is useful when you don’t know the amount of memory needed during compile time;
 2. Allocating memory allows objects to exist beyond the scope of the current block.
 3. C passes by value instead of reference. Using malloc to assign memory, and then pass the pointer to another function, is more efficient than having the function recreate the structure.
-```
+
 
 **list:**
 
@@ -56,6 +56,7 @@ This statement will deallocate the memory previously allocated. C does not come 
 
 ## Index
 
+<p align="justify">
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
@@ -83,6 +84,7 @@ This statement will deallocate the memory previously allocated. C does not come 
 | [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
 | [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
 
+</p>
 
 ## Running Tests
 
