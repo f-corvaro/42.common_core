@@ -98,8 +98,8 @@ Drawbacks of Linked Lists:
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
-| [ft_atoi](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
-| [ft_bzero](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_bzero.c) | Content Cell  | Content Cell  | [libft.h](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/libft.h) |
+| [ft_atoi](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| Content Cell  | Content Cell  | [libft.h](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/libft.h) |
+| [ft_bzero](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_bzero.c) | Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
 | [ft_calloc](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_calloc.c)  | Content Cell  | Content Cell  |
 | [ft_isalnum](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalnum.c) | Content Cell  | Content Cell  |
 | [ft_isalpha](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_isalpha.c)  | Content Cell  | Content Cell  |
