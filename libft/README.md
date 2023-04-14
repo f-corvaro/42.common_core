@@ -56,7 +56,6 @@ This statement will deallocate the memory previously allocated. C does not come 
 
 ## Index
 
-<p align="justify">
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
@@ -84,7 +83,6 @@ This statement will deallocate the memory previously allocated. C does not come 
 | [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
 | [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
 
-</p>
 
 ## Running Tests
 
