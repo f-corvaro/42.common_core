@@ -28,10 +28,21 @@ Where all the functions are written.
 Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests").
 
 
-##Things "new" to understand
-**malloc:**
+## Things "new" to understand
+
+<p align="justify">
+**malloc:** malloc() allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
+C does not know the data type it is allocating memory for; so we use sizeof() to allocate the right amount of memory for that data type.
+</p>
+
+```
+char    *arr;
+
+arr = (char *)malloc(sizeof(char) * 10)
+```
 
 **list:**
+
 
 
 | Libc functions  | Additional functions | Bonus part |  other |
