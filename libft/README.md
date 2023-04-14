@@ -9,10 +9,10 @@
 <p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation are into the code as a comments.
-
+</p>
 
 ## What's in it?
-
+<p align="justify">
 There are 4 sections:
 
 1. **Libc Functions:** Some of the standard C functions;
@@ -27,10 +27,10 @@ Where all the functions are written.
 
 **makefile:**
 Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests").
-
+</p>
 
 ## Things "new" to understand
-
+<p align="justify">
 
 **malloc:** malloc() allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
 C does not know the data type it is allocating memory for; so we use sizeof() to allocate the right amount of memory for that data type.
@@ -44,7 +44,10 @@ arr = (char *)malloc(sizeof(char) * 10)
 
 **list:**
 
+</p>
 
+## Index
+<p align="justify">
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
@@ -72,10 +75,10 @@ arr = (char *)malloc(sizeof(char) * 10)
 | [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
 | [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
 
-
+</p>
 
 ## Running Tests
-
+<p align="justify">
 To run tests, run the following command
 
 ```bash
@@ -93,11 +96,10 @@ To run tests, run the following command
 ```bash
   make fclean
 ```
+</p>
 
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
-</p>
