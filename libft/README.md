@@ -56,15 +56,19 @@ This statement will deallocate the memory previously allocated. C does not come 
 
 Like arrays, a linked list is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers. They include a series of connected nodes. Here, each node stores the data and the address of the next node.
 
+</p>
 
-<img align="left" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/linked%20list%20example.png">
+<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/linked%20list%20example.png">
 
+</p>
+
+<p align="justify">
 
 </p>
 
 ## Index
 
-<p align="justify">
+<p align="center">
 
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
