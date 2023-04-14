@@ -22,7 +22,7 @@ There are 4 sections:
 3. **Bonus Functions:** Functions that will be useful for linked list manipulation;
 4. **Other:** makefile and libft.h.
 
-### Type of files
+### Type of files:
 
 **.c files:**
 Where all the functions are written.
@@ -31,7 +31,8 @@ Where all the functions are written.
 Useful because insteade of doing `#include <library.h>`in all c files, you will write only once in your header. In advance you can reuse the function you did in your library for other functions in your library. For example in `ft_bzero.c` I use the `ft_memset.c`. Obviousbly you need to add `#include <libft.h>` at the top of all your files .c.
 
 **makefile:**
-Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests").
+Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests"). A makefile consists of a set of dependencies and rules. A dependency has a target (a file to be created) and a set of source files upon which it is dependent. The rules describe how to create the target from the dependent files. Typically, the target is a single executable file. In this project we want to create a `.o` files. The makefile is read by the `make` command, which determines the target file or files that are to be made and then compares the dates and times of the source files to decide which rules need to be invoked to construct the target. Often, other intermediate targets have to be created before the final target can be made. The make command uses the makefile to determine the order in which the targets have to be made and the correct sequence of rules to invoke.
+
 
 **.o - object:**
 The `.o` suffix is the object code. GCC and other compilers actually run through several steps when compiling.
@@ -48,6 +49,7 @@ In reality it's just a precompiled version of a source file.
 
 ## Things "new" to understand
 <p align="justify">
+
 **malloc:** ```malloc()``` allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
 C does not know the data type it is allocating memory for; so we use ```sizeof()``` to allocate the right amount of memory for that data type.
 
@@ -146,7 +148,8 @@ Drawbacks of Linked Lists:
 <p align="justify">
 To run tests, run the following command:
 
-1.```bash
+1.
+```bash
   make
 ```
 

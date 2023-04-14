@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/30 15:10:03 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/04/12 16:02:46 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/04/14 18:28:48 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ NAME = libft.a
 # other change is made to the archive.
 #ar s on an archive is equivalent to running ranlib on it.
 LIBC = ar rcs
-#CC is my compiler
+#CC is my compiler, that are called macro
 CC = cc
 # RM is remove forced
 RM = rm -f
