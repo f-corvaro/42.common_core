@@ -31,7 +31,6 @@ Is a file where you compile your projects, instead of use an `int main` and `gcc
 
 ## Things "new" to understand
 <p align="justify">
-
 **malloc:** ```malloc()``` allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
 C does not know the data type it is allocating memory for; so we use ```sizeof()``` to allocate the right amount of memory for that data type.
 
@@ -52,12 +51,10 @@ This statement will deallocate the memory previously allocated. C does not come 
 ```
 
 **list:**
-
 </p>
 
 ## Index
 <p align="justify">
-
 | Libc functions  | Additional functions | Bonus part |  other |
 | ------------- | ------------- | ------------- |  ------------- |
 | [ft_atoi](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_atoi.c)| Content Cell  | Content Cell  | [makefile](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/Makefile)  |
@@ -83,7 +80,6 @@ This statement will deallocate the memory previously allocated. C does not come 
 | [ft_strrchr](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrstr.c)  | Content Cell  | Content Cell  |
 | [ft_tolower](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  | Content Cell  | Content Cell  |
 | [ft_upper](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  | Content Cell  | Content Cell  |
-
 </p>
 
 ## Running Tests
