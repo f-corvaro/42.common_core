@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 19:59:06 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 11:50:50 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 16:05:09 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,10 @@ int	ft_isascii(int arg)
 	return (0);
 }
 
-/*if arg is an ascii return 1, or return 0 if it doesn't*/
+/*if arg is an ascii return 1, or return 0 if it doesn't
 
-/*the code below is used to test the function
+the code below is used to test the function
+
 #include <stdio.h>
 int	main (void)
 {
