@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 11:53:28 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 12:00:26 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int		ft_isascii(int arg)
 
 int		ft_isdigit(int arg)
 
-int		ft_isprint(int p);
+int		ft_isprint(int arg)
 
 void	*ft_memchr(const void *s, int c, size_t n);
 
