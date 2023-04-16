@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 12:16:44 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 17:09:00 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,15 @@ void	ft_bzero(void *s, size_t n);
 
 void	*ft_calloc(size_t n, size_t size);
 
-int		ft_isalnum(int arg)
+int		ft_isalnum(int arg);
 
-int		ft_isalpha(int arg)
+int		ft_isalpha(int arg);
 
-int		ft_isascii(int arg)
+int		ft_isascii(int arg);
 
-int		ft_isdigit(int arg)
+int		ft_isdigit(int arg);
 
-int		ft_isprint(int arg)
+int		ft_isprint(int arg);
 
 void	*ft_memchr(const void *s, int c, size_t n);
 
@@ -49,7 +49,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n);
 
 void	*ft_memmove(void *dst, const void *src, size_t n);
 
-void	*ft_memset(void *str, int c, size_t len);
+void	*ft_memset(void *dest, int ch, size_t len);
 
 char	*ft_strchr(const char *str, int c);
 
@@ -59,7 +59,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size);
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 
-int		ft_strlen(const char *str)
+int		ft_strlen(const char *str);
 
 int		ft_strncmp(const char *s1, char *s2, size_t	n);
 
