@@ -6,28 +6,30 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 09:11:51 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/03/30 15:29:55 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 17:07:19 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memset(void *str, int c, size_t len)
+void	*ft_memset(void *dest, int ch, size_t len)
 {
-	unsigned char	*p;
+	unsigned char	*ptr;
 
-	p = (unsigned char *)str;
+	ptr = (unsigned char *)dest;
 	while (len > 0)
 	{
-		p[len - 1] = c;
+		ptr [len - 1] = ch;
 		len--;
 	}
-	return (str);
+	return (dest);
 }
 
-/*size_t is an unsigned data type defined by standards. Is used
-to rappresent the size of an object, it must be >0. Memset 
-function sets the first len bytes of str to the value c.
-The value of c is converted to an unsigned char. The memset 
-function returns a pointer to str. fill memory with a constant 
-byte*/
+/*memset function writes len bytes of value ch (converted to an
+unsigned char) to the string dest. This function returns it's
+first argument. ptr means pointer to.
+size_t is an unsigned data type defined by standards. Is used
+to rappresent the size of an object, it must be >0.
+type casting is a way to convert a variable from one data type to another
+data type.
+*/
