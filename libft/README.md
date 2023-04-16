@@ -130,7 +130,8 @@ The basic operations on linked list are deletion, insertion, search and display.
 
 In C, we can represent a node using structures.
 
-```struct Node {
+```
+struct Node {
     int data;
     struct Node* next;
 };
