@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 09:11:51 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 17:33:39 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 17:39:01 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,10 @@ the code below is used to test the function
 
 int main(void)
 {
-	char str[50];
-	strcpy(str, "This is string.h library function");
+	char str[15];
+	strcpy(str, "daje Roma daje");
 	puts(str);
-	ft_memset(str, 'a', 50);
+	ft_memset(str, 'a', 10);
 	puts(str);
 	return (0);
 }
