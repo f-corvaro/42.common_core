@@ -6,11 +6,12 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 09:11:51 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 17:07:19 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 17:33:39 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+/*#include <stddef.h>*/
 
 void	*ft_memset(void *dest, int ch, size_t len)
 {
@@ -32,4 +33,20 @@ size_t is an unsigned data type defined by standards. Is used
 to rappresent the size of an object, it must be >0.
 type casting is a way to convert a variable from one data type to another
 data type.
+
+the code below is used to test the function
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void)
+{
+	char str[50];
+	strcpy(str, "This is string.h library function");
+	puts(str);
+	ft_memset(str, 'a', 50);
+	puts(str);
+	return (0);
+}
 */

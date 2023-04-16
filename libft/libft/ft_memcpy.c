@@ -6,21 +6,21 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 10:06:10 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/03/30 15:29:46 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 17:25:28 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dst, const void *src, size_t n)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t	i;
 	char	*p;
 	char	*q;
 
-	if (!dst && !src)
+	if (!dest && !src)
 		return (NULL);
-	p = (char *)dst;
+	p = (char *)dest;
 	q = (char *)src;
 	i = 0;
 	while (i < n)
@@ -28,7 +28,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		p[i] = q[i];
 		i++;
 	}
-	return (dst);
+	return (dest);
 }
 
-/*memcpy function copy memory area*/
+/*memcpy is used to copy a block of memory from a location to another. */
