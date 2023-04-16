@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 20:29:30 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 21:15:32 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ char	*ft_strdup(const char *s);
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 
 int		ft_strlen(const char *str);
 
