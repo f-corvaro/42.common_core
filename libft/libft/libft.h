@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/14 14:37:03 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 11:53:28 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,13 +31,13 @@ void	ft_bzero(void *s, size_t n);
 
 void	*ft_calloc(size_t n, size_t size);
 
-int		ft_isalnum(int p);
+int		ft_isalnum(int arg)
 
-int		ft_isalpha(int p);
+int		ft_isalpha(int arg)
 
-int		ft_isascii(int p);
+int		ft_isascii(int arg)
 
-int		ft_isdigit(int p);
+int		ft_isdigit(int arg)
 
 int		ft_isprint(int p);
 
