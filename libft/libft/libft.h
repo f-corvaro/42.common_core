@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 19:19:55 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 19:49:31 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int		ft_isprint(int arg);
 
 void	*ft_memchr(const void *str, int c, size_t n);
 
-int		ft_memcmp(const void *s1, const void *s2, size_t n);
+int		ft_memcmp(const void *str1, const void *str2, size_t n);
 
 void	*ft_memcpy(void *dest, const void *src, size_t len);
 
