@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 18:30:50 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 18:45:21 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n);
 
 char	*ft_strrchr(const char *str, int c);
 
-int		ft_toupper(int i);
+int		ft_tolower(int i);
 
 int		ft_toupper(int i);
 
