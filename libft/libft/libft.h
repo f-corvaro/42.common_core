@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 17:09:00 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/16 17:21:43 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ typedef struct s_list
 /*calling the functions with the same definition of them*/
 int		ft_atoi(const char *str);
 
-void	ft_bzero(void *s, size_t n);
+void	ft_bzero(void *dest, size_t len);
 
 void	*ft_calloc(size_t n, size_t size);
 
