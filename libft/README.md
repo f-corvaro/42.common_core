@@ -166,7 +166,7 @@ struct Node {
 | [ft_strlen.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strlen.c)  |
 | [ft_strncmp.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strncmp.c)  |
 | [ft_strnstr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strnstr.c)  |
-| [ft_strrchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrstr.c)  |
+| [ft_strrchr.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_strrchr.c)  |
 | [ft_tolower.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_tolower.c)  |
 | [ft_toupper.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  |
 
