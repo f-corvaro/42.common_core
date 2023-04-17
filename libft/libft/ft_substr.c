@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:12:30 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/12 20:12:42 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 16:01:42 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,27 +14,44 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char	*sub;
+	char	*substr;
+	int		slen;
 	size_t	i;
 	size_t	j;
 
 	if (!s)
 		return (NULL);
-	if ((int)start >= ft_strlen(s))
+	slen = ft_strlen(s);
+	if ((int)start >= slen)
 		return (ft_strdup(""));
-	if ((int)len > ft_strlen(s))
-		len = ft_strlen(s);
-	sub = (char *)malloc(sizeof(char) * (len + 1));
-	if (!sub)
+	if ((int)len > slen)
+		len = slen;
+	substr = (char *)malloc(sizeof(char) * (len + 1));
+	if (!substr)
 		return (NULL);
 	i = 0;
 	j = 0;
 	while (s[i])
 	{
 		if (i >= start && j < len)
-			sub[j++] = s[i];
+			substr[j++] = s[i];
 		i++;
 	}
-	sub[j] = 0;
-	return (sub);
+	substr[j] = 0;
+	return (substr);
 }
+
+/*s -> the string from which to create the substring.
+start -> start index of the substr in the s.
+len -> maximum lenght of the substr.
+the function return the substr.
+
+int	main(void)
+{
+	char const		*d = "daje-roma-daje";
+	unsigned int	f = 4;
+	size_t			l = 8;
+
+	printf("%s\n", ft_substr(d, f, l));
+}
+*/
