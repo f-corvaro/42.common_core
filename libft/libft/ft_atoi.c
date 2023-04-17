@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 10:50:42 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/01 13:05:39 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 14:52:48 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,17 @@ int	ft_atoi(const char *str)
 }
 
 /*convert a string to an integer
-const char* is a mutable pointer to an immutable character/string. 
-int	main(void)
+const char* is a mutable pointer to an immutable character/string.
+
+the code below is used to test the function
+
+#include <stdio.h>
+int main ()
 {
-	const char *ciao = "   1000";
-	printf("%d", ft_atoi(ciao));
-	return (0);
+	const char *c = "-1230";
+	int			res;
+
+	res = ft_atoi(c);
+	printf("%d\n", res);
 }
 */
