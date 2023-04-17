@@ -4,7 +4,7 @@
 
 ## Outcome
 
-[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/0.en.subject.pdf)
+[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/en.subject.pdf)
 
 
 ## Introduction
