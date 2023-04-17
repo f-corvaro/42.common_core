@@ -6,14 +6,12 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 11:12:19 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/12 18:34:33 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 15:12:07 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*void * meaning that isn't associated with any data*/
-/*types. It points to some data location in the storage. This*/
-/*means it points to the adress of variables.*/
+
 void	*ft_calloc(size_t n, size_t size)
 {
 	void	*memo;
@@ -24,8 +22,13 @@ void	*ft_calloc(size_t n, size_t size)
 	ft_bzero(memo, (n * size));
 	return (memo);
 }
-/*void	ft_bzero(void *s, size_t n)*/
-/*allocates memory and sets its bytes in fuction of the space*/
-/*needed.The allocated memory is filled with bytes of value*/
-/*zero. size_t is an unsigned integer*/
-/*usefull because can be used to allocate memory of any data type*/
+
+/*void	ft_bzero(void *s, size_t n)
+void * meaning that isn't associated with any data types.
+It points to some data location in the storage. This
+means it points to the adress of variables.
+allocates memory and sets its bytes in fuction of the space
+needed.The allocated memory is filled with bytes of value
+zero. size_t is an unsigned integer
+usefull because can be used to allocate memory of any data type
+*/
