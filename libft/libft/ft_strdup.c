@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 11:15:46 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/17 15:00:48 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 15:04:38 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ char	*ft_strdup(const char	*source)
 
 	len = ft_strlen(source) + 1;
 	copy = (char *)malloc (sizeof(char) * len);
+	if (!copy)
+		return (NULL);
 	i = 0;
 	while (i < len)
 	{
