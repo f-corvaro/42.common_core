@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 10:07:38 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/03/30 15:30:29 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 12:23:49 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,16 +16,29 @@ char	*ft_strrchr(const char *str, int c)
 {
 	int	i;
 
-	i = ft_strlen(str);
-	if (c == 0)
-		return ((char *)str + i);
-	while (i >= 0)
+	i = 0;
+	while (str[i])
 	{
-		if (str[i] == c)
-			return ((char *)str + i);
-		i--;
+		if (str[i] == (char)c)
+			return ((char *)&str[i]);
+		i++;
 	}
-	return (NULL);
+	if (str[i] == (char)c)
+		return ((char *)&str[i]);
+	return (0);
 }
 
-/*locate character in string*/
+/*the function returns a pointer to the last occurence of character in the C
+str
+
+the code below is used to test the function
+
+#include <stdio.h>
+int main ()
+{
+	const char	p[15] = "daje-roma-daje";
+
+	printf("%s\n", ft_strrchr(p, '-'));
+	printf("%s\n", p);
+}
+*/
