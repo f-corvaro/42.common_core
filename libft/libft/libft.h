@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/17 16:02:22 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 16:05:40 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,8 @@ void	*ft_memset(void *dest, int ch, size_t len);
 char	*ft_strchr(const char *str, int c);
 
 char	*ft_strdup(const char *source);
+
+char	*ft_strjoin(char const *s1, char const *s2);
 
 size_t	ft_strlcat(char *dest, const char *src, size_t destsize);
 
