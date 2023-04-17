@@ -6,38 +6,38 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:10:03 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/12 20:10:22 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/17 16:56:37 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	strlen_neg_pos(const char *s)
+static int	strlen_1(const char *str)
 {
 	int	i;
 
 	i = 0;
-	while (s[i] != '\0')
+	while (str[i])
 		i++;
 	return (i);
 }
 
-static int	count_words(const char *str, char c)
+static int	counter_word(const char *str, char c)
 {
 	int	count;
-	int	flag;
+	int	f0;
 
 	count = 0;
-	flag = 0;
+	f0 = 0;
 	while (*str)
 	{
-		if (*str != c && flag == 0)
+		if (*str != c && f0 == 0)
 		{
-			flag = 1;
+			f0 = 1;
 			count++;
 		}
 		else if (*str == c)
-			flag = 0;
+			f0 = 0;
 		str++;
 	}
 	return (count);
@@ -63,17 +63,17 @@ char	**ft_split(char const *s, char c)
 	int		start;
 	int		j;
 
-	split = (char **)malloc(sizeof(char *) * (count_words(s, c) + 1));
+	split = (char **)malloc(sizeof(char *) * (counter_word(s, c) + 1));
 	if (!s || !split)
 		return (0);
 	start = -1;
 	i = 0;
 	j = 0;
-	while (i <= strlen_neg_pos(s))
+	while (i <= strlen_1(s))
 	{
 		if (s[i] != c && start < 0)
 			start = i;
-		else if ((s[i] == c || i == strlen_neg_pos(s)) && start >= 0)
+		else if ((s[i] == c || i == strlen_1(s)) && start >= 0)
 		{
 			split[j++] = copy_words(s, start, i);
 			start = -1;
@@ -83,3 +83,8 @@ char	**ft_split(char const *s, char c)
 	split[j] = 0;
 	return (split);
 }
+
+/*s is the str to be split. c is the delimiter char.
+The function return the array of new strs resulting from the split. NULL
+if the allocation fails.
+*/
