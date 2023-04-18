@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 09:54:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 20:28:58 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 12:08:47 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ char	*ft_strchr(const char *str, int c)
 		return ((char *)&str[i]);
 	return (0);
 }
-
 
 /*This returns a pointer to the first occurrence of the character
 c in the string str, or NULL if the character is not found.
