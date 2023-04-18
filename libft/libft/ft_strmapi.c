@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:11:35 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/18 10:47:19 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 11:24:07 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,23 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	return (newstr);
 }
 
-/* s is the str on wich to iterate, f is the function to apply to each char.
-The function return the str created from the successive applications of f.
+/*The function is used to pointing a function, that is used to copy str.
+
+the code below is used to test the function
+
+char roma(unsigned int i, char c)
+{
+	char str;
+	i = 0;
+	str = c;
+	return (str);
+}
+
+int main()
+{
+	char str1[] = "abc";
+	char* str2;
+	str2 = ft_strmapi(str1, *roma);
+	printf("%s\n", str2);
+}
 */
