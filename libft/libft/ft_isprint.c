@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 21:17:20 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/16 16:06:14 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 12:36:17 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isprint(int arg)
 {
-	if (arg >= 32 && arg <= 127)
+	if (arg >= 32 && arg <= 126)
 		return (1);
 	else
 		return (0);
