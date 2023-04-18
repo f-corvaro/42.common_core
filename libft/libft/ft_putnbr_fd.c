@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:09:15 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/12 20:09:27 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 12:00:01 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,5 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n % 10, fd);
 	}
 }
+
+/*Outputs the integer ’n’ to the given file descriptor.*/
