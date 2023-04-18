@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:07:24 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/13 15:48:52 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 12:07:31 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ t_list	*ft_lstnew(void *content)
 
 	return (new);
 }
-
+/*
 void	print_list(t_list *node)
 {
 	while (node)
@@ -38,10 +38,10 @@ void	print_list(t_list *node)
 int	main (void)
 {
 	t_list	*d;
-	
+
 	d = ft_lstnew("daje roma daje");
 	d->next = ft_lstnew("777");
 	d->next->next = ft_lstnew("er capitano");
 	d->next->next->next = ft_lstnew("bella pe te");
 	print_list(d);
-}
+}*/
