@@ -6,15 +6,12 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 19:00:43 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/13 12:29:19 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 09:56:56 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*static int is a variable that exist till the end of the program*/
-/*once initialized. int will be destroyed when the function ends.*/
-/*long is a data type that can store a single 64-bit signed int.*/
-/*from -2.147.483.648 to 2.147.483.648*/
+
 static int	ft_size(long n)
 {
 	int	i;
@@ -29,9 +26,6 @@ static int	ft_size(long n)
 		n = n / 10;
 	return (i);
 }
-/*len is +1 because there is null at the end of the string.*/
-/*/ is division and % module. The problem of --len is caused by*/
-/*the differences from position and lenght*/
 
 char	*ft_itoa(int n)
 {
@@ -64,8 +58,15 @@ char	*ft_itoa(int n)
 	}
 	return (c);
 }
-/*it converts the int to a str (char *). Negative numbers*/
-/*must be handled*/
+
+/*it converts the int to a str (char *). Negative numbers must be handled
+static int is a variable that exist till the end of the program
+once initialized. int will be destroyed when the function ends.
+long is a data type that can store a single 64-bit signed int.
+from -2.147.483.648 to 2.147.483.648
+len is +1 because there is null at the end of the string.
+ is division and % module. The problem of --len is caused by
+the differences from position and lenght*/
 
 int main()
 {
