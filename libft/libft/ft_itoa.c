@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 19:00:43 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/18 09:56:56 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 10:27:28 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,34 +29,29 @@ static int	ft_size(long n)
 
 char	*ft_itoa(int n)
 {
-	char	*c;
+	char	*str;
 	long	l;
 	size_t	len;
 
 	l = n;
 	len = ft_size(l) + 1;
-	printf("len-> %zu\n", len);
-	c = (char *)malloc(sizeof(char) * len);
-	if (!c)
+	str = (char *)malloc(sizeof(char) * len);
+	if (!str)
 		return (NULL);
 	if (l < 0)
 	{
 		l *= -1;
-		c[0] = '-';
+		str[0] = '-';
 	}
-	printf("len prima di -> %d\n", c[len]);
-	c[--len] = '\0';
-	printf("len dopo di -> %d\n", c[--len]);
+	str[--len] = '\0';
 	if (l == 0)
-		c[0] = '0';
+		str[0] = '0';
 	while (l)
 	{
-		printf("len prima di ma dentro -> %zu\n", len);
-		c[--len] = (l % 10) + '0';
-		printf("len dopo di ma dentro -> %zu\n", len);
+		str[--len] = (l % 10) + '0';
 		l /= 10;
 	}
-	return (c);
+	return (str);
 }
 
 /*it converts the int to a str (char *). Negative numbers must be handled
@@ -66,9 +61,16 @@ long is a data type that can store a single 64-bit signed int.
 from -2.147.483.648 to 2.147.483.648
 len is +1 because there is null at the end of the string.
  is division and % module. The problem of --len is caused by
-the differences from position and lenght*/
+the differences from position and lenght
 
-int main()
+the code below is used to test the function
+
+int main ()
 {
-	ft_itoa(01234   \0);
+	int	c = -124030;
+	char	*res;
+
+	res = ft_itoa(c);
+	printf("%s\n", res);
 }
+*/
