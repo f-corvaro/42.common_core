@@ -6,13 +6,49 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:10:03 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/17 16:56:37 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 06:38:48 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	strlen_1(const char *str)
+static int	function_1(const char *str, char c)
+{
+	int	counter;
+	int	warn;
+
+	counter = 0;
+	warn = 0;
+	while (*str)
+	{
+		if (*str != c && warn == 0)
+		{
+			warn = 1;
+			counter++;
+		}
+		else if (*str == c)
+			warn = 0;
+		str++;
+	}
+	return (counter);
+}
+/*function_1 is used as counter for word.*/
+
+static char	*function_2(const char *str, int start, int end)
+{
+	char	*rtn;
+	int		i;
+
+	rtn = (char *)malloc(sizeof(char) * ((end - start) + 1));
+	i = 0;
+	while (start < end)
+		rtn[i++] = str[start++];
+	rtn[i] = 0;
+	return (rtn);
+}
+/*function_2 is used as method to copy the words*/
+
+static int	function_3(const char *str)
 {
 	int	i;
 
@@ -21,70 +57,50 @@ static int	strlen_1(const char *str)
 		i++;
 	return (i);
 }
-
-static int	counter_word(const char *str, char c)
-{
-	int	count;
-	int	f0;
-
-	count = 0;
-	f0 = 0;
-	while (*str)
-	{
-		if (*str != c && f0 == 0)
-		{
-			f0 = 1;
-			count++;
-		}
-		else if (*str == c)
-			f0 = 0;
-		str++;
-	}
-	return (count);
-}
-
-static char	*copy_words(const char *str, int start, int end)
-{
-	char	*out;
-	int		i;
-
-	i = 0;
-	out = (char *)malloc(sizeof(char) * ((end - start) + 1));
-	while (start < end)
-		out[i++] = str[start++];
-	out[i] = 0;
-	return (out);
-}
+/*function 3 is used as strlen, but with static_int*/
 
 char	**ft_split(char const *s, char c)
 {
-	char	**split;
+	char	**out;
 	int		i;
 	int		start;
 	int		j;
 
-	split = (char **)malloc(sizeof(char *) * (counter_word(s, c) + 1));
-	if (!s || !split)
+	out = (char **)malloc(sizeof(char *) * (function_1(s, c) + 1));
+	if (!s || !out)
 		return (0);
 	start = -1;
 	i = 0;
 	j = 0;
-	while (i <= strlen_1(s))
+	while (i <= function_3(s))
 	{
 		if (s[i] != c && start < 0)
 			start = i;
-		else if ((s[i] == c || i == strlen_1(s)) && start >= 0)
+		else if (start >= 0 && (s[i] == c || i == function_3(s)))
 		{
-			split[j++] = copy_words(s, start, i);
+			out[j++] = function_2(s, start, i);
 			start = -1;
 		}
 		i++;
 	}
-	split[j] = 0;
-	return (split);
+	out[j] = 0;
+	return (out);
 }
 
 /*s is the str to be split. c is the delimiter char.
 The function return the array of new strs resulting from the split. NULL
 if the allocation fails.
+
+the code below is used to test the function
+
+int	main(void)
+{
+	char str[] = "dajedajedaje";
+	char **str1;
+	s1 = ft_split(str,'d');
+	while(*str1)
+	{
+		printf("%s\n",*str1++);
+	}
+}
 */
