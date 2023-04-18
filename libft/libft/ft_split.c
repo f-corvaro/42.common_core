@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:10:03 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/18 06:38:48 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 15:29:30 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,13 +66,15 @@ char	**ft_split(char const *s, char c)
 	int		start;
 	int		j;
 
+	if (!s)
+		return (NULL);
 	out = (char **)malloc(sizeof(char *) * (function_1(s, c) + 1));
-	if (!s || !out)
-		return (0);
+	if (!out)
+		return (NULL);
 	start = -1;
-	i = 0;
+	i = -1;
 	j = 0;
-	while (i <= function_3(s))
+	while (++i <= function_3(s))
 	{
 		if (s[i] != c && start < 0)
 			start = i;
@@ -81,7 +83,6 @@ char	**ft_split(char const *s, char c)
 			out[j++] = function_2(s, start, i);
 			start = -1;
 		}
-		i++;
 	}
 	out[j] = 0;
 	return (out);

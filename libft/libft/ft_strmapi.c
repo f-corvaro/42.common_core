@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/12 20:11:35 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/18 11:24:07 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 15:09:58 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	char			*newstr;
 
 	i = 0;
+	if (!s)
+		return (NULL);
 	while (s[i])
 		i++;
 	newstr = (char *)malloc(sizeof(char) * (i + 1));

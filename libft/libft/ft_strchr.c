@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 09:54:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/18 12:08:47 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 15:15:54 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ char	*ft_strchr(const char *str, int c)
 {
 	int	i;
 
-	if (!str)
-		return (0);
 	i = 0;
 	while (str[i])
 	{

@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/19 11:12:19 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/04/17 15:12:07 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/04/18 15:49:23 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	*ft_calloc(size_t n, size_t size)
 {
 	void	*memo;
 
+	if (n == 18446744073709551615UL || size == 18446744073709551615UL)
+		return (0);
 	memo = (void *)malloc(n * size);
 	if (!memo)
 		return (NULL);
