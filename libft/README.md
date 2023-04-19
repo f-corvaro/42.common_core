@@ -203,6 +203,10 @@ This command will do the `fclean` and will do the make again.
 
 </p>
 
+## Result
+
+<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/linked%20list%20example.png">
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
