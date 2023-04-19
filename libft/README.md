@@ -203,9 +203,17 @@ This command will do the `fclean` and will do the make again.
 
 </p>
 
-## Result
+## Evaluation
+<p align="justify">
+<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/moulinette_libft.png">
 
-<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/linked%20list%20example.png">
+Libft (with the bonus) will give to you 65 days for the blackhole. The repo was tested with some tester online.
+</p>
+
+## Special Thanks
+<p align="justify">
+@dieremy (https://github.com/dieremy) helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it.
+</p>
 
 ## License
 
