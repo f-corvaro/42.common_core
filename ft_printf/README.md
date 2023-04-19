@@ -6,6 +6,7 @@
 
 <p align="justify">
 
-[![subject](https://img.shields.io/badge/subject-ft_printf-blueviolet)]([https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/en.subject.pdf](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/en.subject.pdf))
+[![subject](https://img.shields.io/badge/subject-ft_printf-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/en.subject.pdf)
+
 
 </p>
