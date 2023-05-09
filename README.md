@@ -41,10 +41,11 @@ OUTCOME --> ![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/
 
 ## Exams
 
-### Exam-02
+### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) --> (2 C exercises - inter or union & ft_printf or getnextline)
 
 <p align="justify">
 
+OUTCOME --> [![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576)]
 
 </p>
 
