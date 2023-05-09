@@ -7,7 +7,7 @@
 
 ## 00 Ring
 
-<p align="justify"> 
+<p align="justify">
 
 ### 0️. [libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) --> (C - solo project)
 
@@ -17,7 +17,7 @@ OUTCOME --> ![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftr
 
 ## 01 Ring
 
-<p align="justify"> 
+<p align="justify">
 
 ### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) --> ()
 
@@ -35,7 +35,16 @@ OUTCOME --> ![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/
 
 ## 02 Ring
 
-<p align="justify"> 
+<p align="justify">
+
+</p>
+
+## Exams
+
+### Exam-02
+
+<p align="justify">
+
 
 </p>
 
