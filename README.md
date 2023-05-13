@@ -13,12 +13,9 @@
 
 <p align="justify">
 
-### 0️. [libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) --> (C - solo project)
+### 0️. [libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) |--> ![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229) |--> (C - solo project)
 
-
-  OUTCOME --> ![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)
-
-  ```BlackHole = 60 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = 
+  ```BlackHole = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = 
   ON```
 </p>
 
@@ -26,25 +23,17 @@
 
 <p align="justify">
 
-### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) --> ()
-
-
-  OUTCOME --> ![fcorvaro's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069523)\
+### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) |--> ![fcorvaro's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069523) |--> ()
   
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = 
   ON```
 
-### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) --> ()
-
-
-  OUTCOME --> ![fcorvaro's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069521)
+### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) |--> ![fcorvaro's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069521) |--> ()
 
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = 
   ON```
-### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) --> ()
-
-
-  OUTCOME --> ![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069522)
+  
+### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) |--> ![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069522) |--> ()
   
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = 
   ON```
@@ -61,9 +50,7 @@
 
 <p align="justify">
 
-### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) --> (2 C exercises)
-
-  OUTCOME --> ![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576)
+### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) |--> ![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576) |--> (2 C exercises)
 
   ```BlackHole = 0 Days``` | ```Length = 60 Mins``` | ```NORMINETTE = OFF```
 
