@@ -3,7 +3,7 @@
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/02.png">
 
 ## Exam details
-<p align="justify"> 
+<p align="justify">
 This exam has 2 random questions picked from each level below.
 
 ### Level 1:
@@ -48,7 +48,7 @@ pasword -> your password
 ### 5. Access Rendu typing:
 
 ```
-'y' 
+'y'
 ```
 
 ### 6. In the Exam Shell, you have 3 commands:
@@ -66,7 +66,7 @@ pasword -> your password
 - You must create a folder named by the project and start working in that folder.
 ```
 ### 8. Submit your project:
-  
+
 When you are ready to sumbit your work, go into Rendu and push the folder you created by doing the following:
 
 ```
@@ -91,37 +91,6 @@ After you git push, type ```grademe``` in the examshell for your project to be e
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,c,vim" />
   </a>
-</p>
-
-## Usefull tips for vim
-```
-<p align="justify">
-set number
-set showmatch
-set mouse=a
-set colorcolumn=80
-set cursorline
-syntax on
-filetype plugin indent on
-set hidden			"mantiene il buffer anche dopo aver salvato
-set autoindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
-
-nnoremap <F5> :!gcc -Wall -Wextra -Werror %:t -o %:r.out && ./%:r.out<enter>
-nmap <F6> :NERDTreeToggle<CR>
-
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-
-colorscheme codedark
-```
 </p>
 
 ## License
