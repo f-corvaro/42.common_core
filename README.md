@@ -56,34 +56,52 @@
 
 </p>
 
-## Usefull tips for vim
-```
+## Usefull commands for vim
+
 <p align="justify">
-set number
-set showmatch
-set mouse=a
-set colorcolumn=80
-set cursorline
-syntax on
-filetype plugin indent on
-set hidden			"mantiene il buffer anche dopo aver salvato
-set autoindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
+  
+Vim is a usefull IDE that you use in the exams. 
 
-nnoremap <F5> :!gcc -Wall -Wextra -Werror %:t -o %:r.out && ./%:r.out<enter>
-nmap <F6> :NERDTreeToggle<CR>
+  - To creating a new file: eg. `vim filename.c`. 
+  
+  - To write something: `:i`.
+  
+  - For save and quit: ':wq'.
 
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+  - For forcing quit: ':q!'.
 
-colorscheme codedark
+  - To set the lines counter: `set number` or `set nu`.
+
+  - To have highlight syntax colours: ':syntax on'.
+  
+  - Enable mouse click, + enable to copy paste without taking line number: ':set mouse=r'
+  
+```
+  set tabstop=4     " set tab to 4 spaces
+  set showmatch
+  set mouse=a
+  set colorcolumn=80
+  set cursorline
+  filetype plugin indent on
+  set hidden			"mantiene il buffer anche dopo aver salvato
+  set autoindent
+  set tabstop=4     " set tab to 4 spaces
+
+  set shiftwidth=4
+  set expandtab
+
+  nnoremap <F5> :!gcc -Wall -Wextra -Werror %:t -o %:r.out && ./%:r.out<enter>
+  nmap <F6> :NERDTreeToggle<CR>
+
+  inoremap " ""<left>
+  inoremap ' ''<left>
+  inoremap ( ()<left>
+  inoremap [ []<left>
+  inoremap { {}<left>
+  inoremap {<CR> {<CR>}<ESC>O
+  inoremap {;<CR> {<CR>};<ESC>O
+  
+  colorscheme codedark
 ```
 </p>
 
