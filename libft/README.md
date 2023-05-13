@@ -212,7 +212,9 @@ Libft (with the bonus) will give to you 65 days for the blackhole. The repo was 
 
 ## Special Thanks
 <p align="justify">
-@dieremy (https://github.com/dieremy) helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it.
+    
+[@dieremy]( https://github.com/dieremy ) helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it.
+
 </p>
 
 ## License
