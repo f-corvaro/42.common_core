@@ -5,7 +5,7 @@
 This exam has 2 random questions picked from each level below.
 
 ### Level 1:
-  
+
 ```
 - inter
 - union
@@ -15,14 +15,7 @@ This exam has 2 random questions picked from each level below.
 - Ft_Printf
 - Get_Next_Line
 ```
-There isn't norminette and you must use vim for this exam. 
-</p>
-
-## Usefull tips
-
-<p align="justify">
-
-
+There isn't norminette and you must use vim for this exam. The success of this exam doesn't give to you additional days for blackhole.
 </p>
 
 ## Exam Login Details
