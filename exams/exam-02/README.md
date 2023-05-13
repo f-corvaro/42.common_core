@@ -1,55 +1,99 @@
 # <img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/02.png">
 
-### A little brief
-<p align="justify"> Welcome in my journey at the 42 school. I create this repository to have a little diary about my coding experience and to give a little guide about the projects in 42 School. I hope this will help someone in future to understand the knowledge necessary to have done with success the projects. Watch out about the subject version of the project, it could change. Good coding!
+## Exam details
+<p align="justify"> 
+This exam has 2 random questions picked from each level below.
+
+### Level 1:
+  
+```
+- inter
+- union
+```
+### Level 2:
+```
+- Ft_Printf
+- Get_Next_Line
+```
+There isn't norminette and you must use vim for this exam. 
 </p>
 
-## 00 Ring
+## Usefull tips
 
 <p align="justify">
 
-### 0️. [libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) --> (C - solo project)
-
-OUTCOME --> ![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)
 
 </p>
 
-## 01 Ring
+## Exam Login Details
 
 <p align="justify">
 
-### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) --> ()
+### 1. Login with the following:
 
-OUTCOME --> ![fcorvaro's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069523)
+```
+login -> exam
+password -> exam
+```
 
-### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) --> ()
+### 2. In the terminal type:
 
-OUTCOME --> ![fcorvaro's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069521)
+```
+examshell
+```
 
-### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) --> ()
+### 3. Login with your 42 intra account
 
-OUTCOME --> ![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069522)
+```
+login -> your 42 intra username (eg. fcorvaro)
+pasword -> your password
+```
+### 4. Allow photo check
+
+### 5. Access Rendu typing:
+
+```
+'y' 
+```
+
+### 6. In the Exam Shell, you have 3 commands:
+
+```
+- 'status' - check the time and other things
+- 'grademe' - checking pushed exercise (moulinet)
+- 'finish' - closing examshell and finish exam
+```
+### 7. Open a new terminal:
+
+```
+- You can find your exam subject in the directory subject
+- Then you can see directory Rendu. It is your repository.
+- You must create a folder named by the project and start working in that folder.
+```
+### 8. Submit your project:
+  
+When you are ready to sumbit your work, go into Rendu and push the folder you created by doing the following:
+
+```
+'git add <folder name/files in folder>'
+```
+
+```
+'git status'
+```
+```
+'git commit -m "any commit message you like in these strings"'
+```
+```
+'git push'
+```
+After you git push, type ```grademe``` in the examshell for your project to be evaluated.
 
 </p>
 
-## 02 Ring
-
-<p align="justify">
-
+## Exam skill required:
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,c,vim" />
+  </a>
 </p>
-
-## Exams
-
-### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) --> (2 C exercises - inter or union & ft_printf or getnextline)
-
-<p align="justify">
-
-OUTCOME --> [![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576)]
-
-</p>
-
-## License
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
