@@ -72,9 +72,11 @@ Vim is a usefull IDE that you use in the exams.
 
   - To set the lines counter: `set number` or `set nu`.
 
-  - To have highlight syntax colours: ':syntax on'.
+  - To have highlight syntax colours: `:syntax on`.
   
-  - Enable mouse click, + enable to copy paste without taking line number: ':set mouse=r'
+  - Enable mouse click, + enable to copy paste without taking line number: `:set mouse=r`.
+  
+  - To insert your header: `:Stdheader`.
   
 ```
   set tabstop=4     " set tab to 4 spaces
