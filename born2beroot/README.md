@@ -209,7 +209,7 @@ Modify the mount point.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/39.png">
   
-Choose the option ```not to mount it```.
+Choose the option ``` Do not mount it```.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/40.png">
   
@@ -237,11 +237,24 @@ Finish configuring the current partition.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/46.png">
   
-```Finish``` because we don't want to create more encrypted volumes
+```Finish``` because we don't want to create more encrypted volumes.
+  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/47.png">
+
+Accept the confirmation message. It tells us that everything inside the partition will be encrypted and it should not take long to finish.
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/48.png">
+  
+We don't care if it takes a long time or not, cancel it because there is nothing to encrypt since the partition is empty.
+  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/49.png">
+  
+Enter a password, this time it will be the encryption phrase.
+  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/50.png">
+  
+  
+  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/51.png">
   
   
