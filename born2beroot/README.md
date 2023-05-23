@@ -122,40 +122,135 @@ The```cmd``` key on your keyboard will help you to switch the capture of your mo
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/19.png">
 
-9 |
+9 | Go to *Show Pawssword in Clear* and then press the ```Space bar```. Now set a strong password policy for the root user. **Save this password, will be useful**. Then you need to repeat the password to set.
 
-<img width="792" alt="Captura de pantalla 2022-07-13 a las 19 20 29" src="https://user-images.githubusercontent.com/66915274/178793113-b0934aac-fac4-4844-8412-aca124038fd0.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/20.png">
 
-10 ◦ We have to set a password for the root user. **IMPORTANT** Save this password since we need to use the root user. If you want to check the password is correct, try going to *Show Pawssword in Clear* and then press the ```Space bar```.
+10 | Set up the username. As is wrote in the subject, write your student login name. Then repeat
 
-<img width="794" alt="Captura de pantalla 2022-07-13 a las 19 21 29" src="https://user-images.githubusercontent.com/66915274/178793296-c2c3b6c5-9744-4ba8-ac32-8e3c21c44f9b.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/21.png">
 
-11 ◦ Repeat the process as you need to confirm the password we just set.
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/22.png">
+  
+11 | Set our new user password. I will use the same password. Just as before, you need to repeat the process.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/23.png">
 
-<img width="796" alt="Captura de pantalla 2022-07-13 a las 19 24 53" src="https://user-images.githubusercontent.com/66915274/178793903-2ea7c623-7175-4c27-98bf-85c8c1b359db.png">
+12 | Select ```Manual```. (If you want to do the bonus, so we can edit the partitions one by one)
 
-12 ◦ Set up the user name. As is in the subject, we need a new user that isn't the root user, and the name for that user have to be your student login.
-
-<img width="794" alt="Captura de pantalla 2022-07-13 a las 19 26 20" src="https://user-images.githubusercontent.com/66915274/178794178-901f7951-a978-458d-a925-4586026784f7.png">
-
-Repeat you user name.
-
-![image](https://user-images.githubusercontent.com/66915274/182679675-4d3805a9-34c9-4ba3-9488-1a7fe30f2519.png)
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/24.png">
 
 
-13 ◦ And now we have to set our new user password. Just as before, repeat te process; save this password too because it will be used later.
+13 | It shows us a general description of our memory partitions and mount points. Currently, I don't have any partitions. To create a new partition, we must choose the disk where we want to create them. In our case, we will choose the only one available.
 
-<img width="790" alt="Captura de pantalla 2022-07-13 a las 19 30 08" src="https://user-images.githubusercontent.com/66915274/178794862-94de8c7a-282e-4a83-9903-d3b8439122ea.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/25.png">
 
-14 ◦ Select your time zone.
+14 |  Accept the confirmation message. Basically, it warns us that if there are already partitions on the device, they will be deleted and if we are sure to create a new empty partition.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/26.png">
 
-<img width="796" alt="Captura de pantalla 2022-07-13 a las 19 31 41" src="https://user-images.githubusercontent.com/66915274/178795105-956854e1-deff-4851-8eba-26cdefb1e06f.png">
+15 | Appears our partition table that is empty. Now we must configure it, for this we must select ```pri/log  32.2  GB FREE SPACE```
 
-15 ◦ Select ```Guied - use entire disk and set up encrypted LVM```. ⚠️❗️ **If you want to do the bonus select ```Manual``` and then [click here](#8--bonus-%EF%B8%8F)** ❗️⚠️
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/27.png">
+  
+16 | Create a new partition.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/28.png">
+  
+17 | I start with sda1, as the subject indicates, the size of the partition must be 500 megabytes.
 
-<img width="796" alt="Captura de pantalla 2022-07-13 a las 19 33 13" src="https://user-images.githubusercontent.com/66915274/178795367-b82018de-edc8-47d3-8cd6-b90c5e3be2fa.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/29.png">
+  
+18 | Choose the type of partition. We choose primary because it will be the partition where the Operating System will be installed.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/30.png">
+  
+Brief description of all types of partitions:
 
-16 ◦ We choose the disk wich we wish to create the partition (it only have to show one disk).
+◦ Primary: The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
+
+◦ Extended: It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
+
+◦ Logical: It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux, the OS we are currently working with, reduces it to 15, more than enough for this project.  
+  
+19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/31.png">
+
+20 |  It shows the details of the partition. We will modify the mount point as specified in the subject.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/32.png">
+  
+We choose boot.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/33.png">
+
+We finish configuring the current partition.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/34.png">
+  
+21 | Completed the previous step, the partition should already appear. Now we must create a logical partition with all the available space on the disk, which has no mount point and is encrypted. To do this, select the free space where we want to create it.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  We choose the disk wich we wish to create the partition (it only have to show one disk).
 
 <img width="789" alt="Captura de pantalla 2022-07-13 a las 19 40 03" src="https://user-images.githubusercontent.com/66915274/178796481-29ef7ebc-0518-40f0-9429-3f43316b35d3.png">
 
