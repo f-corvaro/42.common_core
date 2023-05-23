@@ -94,35 +94,35 @@ The```cmd``` key on your keyboard will help you to switch the capture of your mo
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/12.png">
 
-2 ◦ Now language must be choosed for the machine that will be present during the installation and the default setting. Select ```English```.  
+2 | Choose the language. Select ```English```.  
 
-<img width="794" alt="Captura de pantalla 2022-07-13 a las 19 00 41" src="https://user-images.githubusercontent.com/66915274/178789949-4fe83ac8-23b8-4f82-a034-a6d5e81d4f17.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/13.png">
 
-3 ◦ It's time to select the country. If yours no on the pressent list go to ```Other```.
+3 | Select the country. If yours there isn't in the list, go to ```other```.
 
-<img width="791" alt="Captura de pantalla 2022-07-13 a las 19 07 50" src="https://user-images.githubusercontent.com/66915274/178791067-44230a4c-e647-46cb-9d6f-bc441bf0227b.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/14.png">
 
-4 ◦ Time to select continent. In our case we will select ```Europe``` 🇪🇺. 
+4 | Select your location (for me is Italy).
 
-<img width="797" alt="Captura de pantalla 2022-07-13 a las 19 09 58" src="https://user-images.githubusercontent.com/66915274/178791387-78171f90-2834-42ab-aedb-9cf900d0ecd5.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/15.png">
 
-5 ◦ Now select the country. In our case we will select ```Spain``` 🇪🇸.
+5 | Select the configure locales, choose ```United States```.
 
-<img width="793" alt="Captura de pantalla 2022-07-13 a las 19 12 01" src="https://user-images.githubusercontent.com/66915274/178791824-7a34813c-eae9-4b5c-9873-cea158229e07.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/16.png">
 
-6 ◦ Choose ```United States```.
+6 | Select your keymap, I will choose ```American English```.
 
-<img width="792" alt="Captura de pantalla 2022-07-13 a las 19 13 43" src="https://user-images.githubusercontent.com/66915274/178792054-4e72dfdd-8175-48f9-a06d-f2696fa752e3.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/17.png">
 
-7 ◦ This time it's turn for selecting a keymap. Our keyboard follows the ANSI standard so ```American English```. If you don't know what keyboard standard is yours we higly recommend you to ask your staff.
+7 | Set a ```Host Name``` of the machine, must be your login followed by a 42.
 
-<img width="793" alt="Captura de pantalla 2022-07-13 a las 19 02 21" src="https://user-images.githubusercontent.com/66915274/178790230-d2571d4f-a546-4b43-bd44-c6a591d92d72.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/18.png">
 
-8 ◦ Now we must set a ```Host Name``` of the machine, which must be your login followed by a 42.
+8 | The ```Domain name``` must be blank until the subject will require it. (see the version of the subject).
 
-<img width="792" alt="Captura de pantalla 2022-07-13 a las 19 17 23" src="https://user-images.githubusercontent.com/66915274/178792607-1cc585eb-ae32-4b2c-97fd-4fcf5bad4262.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/19.png">
 
-9 ◦ This section will be left blank since the subject doesn't requiere it.
+9 |
 
 <img width="792" alt="Captura de pantalla 2022-07-13 a las 19 20 29" src="https://user-images.githubusercontent.com/66915274/178793113-b0934aac-fac4-4844-8412-aca124038fd0.png">
 
