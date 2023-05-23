@@ -318,19 +318,45 @@ Final result is:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/66.png">
 
+Accept the message and the changes will be saved. Make sure that all of the partitions look the same as in the screenshot.
 
-  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/67.png">
+
+Select the option ```No``` because we don't need additional packages.
+  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/68.png">
+  
+Choose your Country.
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/69.png">
+  
+Choose ```deb.debian.org```.
+  
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/70.png">
+
+Leave this option empty and click ```Continue```.
   
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/71.png">
   
+ We selected the option ```No``` because we do not want developers to see our statistics even though they are anonymous.
   
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/72.png">
+
+Remove all the software options using the spacebar and press ```Continue```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/73.png">
   
+Select ```Yes``` to install  [GRUB boot](https://es.wikipedia.org/wiki/GNU_GRUB) in the primary drive.
   
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/74.png">
   
+Choose the device for the bootloader installation ```/dev/sda```.
   
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/75.png">
+  
+Press ```Continue``` to finish the installation.
+  
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/76.png">
   
   
   
