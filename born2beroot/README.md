@@ -560,9 +560,11 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 + minlen=10 -> The minimun characters a password must contain.
 
-* ucredit=-1 -> The password at least have to contain a capital letter. We must write it with a - sign, as is how it knows that's refering to minumum caracters; if we put a + sign it will refer to maximum characters.
-
-* dcredit=-1 -> The passworld at least have to containt a digit.
+**- sign, that's refering to minumum caracters. + sign it refer to maximum characters.**
+	
+* ucredit=-1 -> The password at least have to contain a capital letter. 
+	
+* dcredit=-1 -> The password at least have to containt a digit.
 
 * lcredit=-1 -> The password at least have to contain a lowercase letter.
 
@@ -570,11 +572,11 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 * reject_username -> The password can not contain the username inside itself.
 
-* difok=7 -> The password it have to containt at least seven diferent characters from the last password ussed. 
+* difok=7 -> The password it have to containt at least seven diferent characters from the last password used. 
 
 - enforce_for_root -> We will implement this password policy to root.
 
-### 4.6 Connecting via SSH 🗣
+### 4.5 Connecting via SSH
 
 1 ◦ If we want to connect via SSH we must close the machine and go to settings.
 
