@@ -538,11 +538,11 @@ As it should be:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/90.png">
 
-PASS_MAX_DAYS: It's the max days till password expiration.
+* PASS_MAX_DAYS: It's the max days till password expiration.
 
-PASS_MIN_DAYS: It's the min days till password change.
+* PASS_MIN_DAYS: It's the min days till password change.
 
-PASS_WARN_AGE: It's the days till password warning.
+- PASS_WARN_AGE: It's the days till password warning.
 
 3 | Install the package ```sudo apt install libpam-pwquality``` , then write ```Y``` when is required. Wait till it finish.
 
