@@ -630,7 +630,7 @@ To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/98.png">
 
-### 5.4. - RAM
+### 5.4 - RAM
 
 To show the RAM memory use the command ```free``` to see at the moment information about the RAM (the amount used, the amount available, the amount reserved for other resources, etc). For more info use the command ```free --help```. We will use ```free --mega``` since that unit of measure appears in the subject.
 	
@@ -647,6 +647,29 @@ To obtain the total memory, we change the third one with the second one.
 For calculate the % of used memory. The differences between the code we wrote before and this one is the printing part. We are using ```%.2f``` so that only 2 decimals are shown. In printf to show a ```%``` you have to put ```%%```. The whole command ```free --mega | awk '$1 == "Mem:" {printf("(%.2f%%)\n", $3/$2*100)}'```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/99.png">
+
+### 5.5 - Disk memory
+	
+To view the occupied and available memory of the disk, we will use the ```df``` command ("disk filesystem"), it is used to get a complete summary of the use of disk space. As indicated in the subject, the used memory is shown in MB. We use the -m flag. Next, we will do a grep to only show us the lines that contain "/dev/" and then we will do another grep with the -v flag to exclude lines that contain "/boot". Finally, we will use the awk command and sum the value of the third word of each line to once all the lines are summed, print the final result of the sum. 
+```df -m | grep "/dev/" | grep -v "/boot" | awk '{memory_use += $3} END {print memory_use}'```.
+
+To obtain the total space, the only differences will be that the values we will sum will be $2 instead of $3 and the other difference is that in the subject the total size appears in Gb, so as the result of the sum gives us the number in Mb we must transform it to Gb, for this we must divide the number by 1024 and remove the decimals.
+```df -m | grep "/dev/" | grep -v "/boot" | awk '{memory_result += $2} END {printf ("%.0fGb\n"), memory_result/1024)}'```.
+
+We must show a percentage of the used memory. We combine the two previous commands to have two variables, one represents the used memory and the other the total. The operation to obtain the percentage is: ```use/total*100``` and the result of this operation will be printed as it appears in the subject, between parentheses and with the % symbol at the end.
+```df -m | grep "/dev/" | grep -v "/boot" | awk '{use += $3} {total += $2} END {printf("(%d%%)\n"), use/total*100}'```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/100.png">
+
+### 5.6 - CPU usage percentage
+
+To view the percentage of CPU usage, we will use the ```vmstat``` command, which shows system statistics, allowing us to obtain a general detail of the processes, memory usage, CPU activity, system status, etc. We could put no option but I will put an interval of seconds from 1 to 3. We will also use the ```tail -1``` command, which will allow us to produce the output only on the last line, so of the 3 generated, only the last one will be printed. We will only print word 15, which is the available memory usage. The entire command is as follows: ```vmstat 1 3| tail -1 | awk '{print$15}'```. 
+The result of this command is only part of the final result since there is still some operation to be done in the script for it to be correct. What should be done is to subtract the amount returned by our command from 100, the result of this operation will be printed with one decimal and a % at the end and the operation would be finished.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/101.png">
+	
+	
+	
 	
 </p>
 ## License
