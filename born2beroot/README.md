@@ -676,11 +676,29 @@ To see the date and time of our last reboot, we will use the ```who``` command w
 	
 ### 5.8 - LVM activation
 
-To check if LVM is active or not, we will use the ```lsblk``` command, which shows us information about all block devices (hard drives, SSDs, memories, etc) among all the information it provides. This command will print Yes or No. Basically, the condition we are looking for will be to count the number of lines in which "lvm" appears and if there are more than 0 we will print Yes, if there are 0 we will print No. ```if [ $(lsblk | grep "lvm" | wc -l) -gt 0 ]; then echo yes; else echo no; fi```.
+To check if LVM is active or not, we will use the ```lsblk``` command, which shows us information about all block devices (hard drives, SSDs, memories, etc) among all the information it provides. This command will print Yes or No. Basically, the condition we are looking for will be to count the number of lines in which "lvm" appears and if there are more than 0 we will print Yes, if there are 0 we will print No. ```if [ $(lsblk | grep lvm | wc -l) -gt 0 ];then echo yes; else echo no; fi```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/103.png">
 
+### 5.9 - TCP connections
+
+To check the number of established TCP connections, we will use the ```ss``` command replacing the netstat. We will filter with the ```-ta``` flag so only TCP connections are shown. ```ss -ta | grep ESTAB | wc -l```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/104.png">
+
+### 5-10 Number of users
+
+We will use the ```users``` command which will show us the names of the users there are, we will put ```wc -w``` to count the number of words in the command output. ```users | wc -w```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/105.png">
+
+### 5.11 - IP adress & MAC
+
+To obtain the host address, we will use the ```hostname -I``` command and to obtain the MAC, we will use the ```ip link``` command which is used to show or modify the network interfaces. We will use the grep command to search for what we want and thus be able to print only what is requested. ```ip link | grep "link/ether" | awk '{print $2}'``` and in this way we will only print the MAC.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/106.png">
 	
+
 	
 </p>
 ## License
