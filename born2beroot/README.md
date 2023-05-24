@@ -394,7 +394,7 @@ Press ```Continue``` to finish the installation.
   
 ### 1 - Installing sudo & configuration of user and groups 
 
-1 | The beginning of the installation starts with changing user to root so we can install sudo. For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```).
+1 | The beginning of the installation starts with changing user to root so we can install sudo. For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. 
 Write the command 
   
 ```
@@ -445,21 +445,21 @@ Confirm writing ```y```, and wait for the installation time.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/80.png">
 
-3 ◦ Going on, some files have been created and we need to configur them. For that we will use [Nano](https://en.wikipedia.org/wiki/GNU_Nano) or [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) (we will need to install vim since it's not preinstalled using ```sudo apt install vim```) or any other text editor. First file that we will edit will be ```/etc/ssh/sshd_config```. If you are not on root you will not be able to edit the file; as you know, for switching to root we use ```su```.
+3 | Edit the file ```/etc/ssh/sshd_config```. If you are not on root you will not be able to edit the file; as you know, for switching to root we use ```su```.
 
-<img width="497" alt="Captura de pantalla 2022-07-14 a las 3 24 21" src="https://user-images.githubusercontent.com/66915274/178867150-273c75c1-c935-45f0-a551-1a115d3f6f6a.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/81.png">
 
-4 ◦ The ```#``` means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the  file we need to update the following lines:
+4 | The ```#``` means that line it is commented. The lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
 
-➤ #Port 22 -> Port 4242
++ ```#Port 22 -> Port 4242```
 
-<img width="807" alt="Captura de pantalla 2022-07-14 a las 3 31 04" src="https://user-images.githubusercontent.com/66915274/178867929-0f8be11e-d0ca-4445-af05-a693d01411bd.png">
+* ```#PermitRootLogin prohibit-password -> PermitRootLogin no```
 
-➤ #PermitRootLogin prohibit-password -> PermitRootLogin no
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/82.png">
 
-<img width="798" alt="Captura de pantalla 2022-07-14 a las 3 34 13" src="https://user-images.githubusercontent.com/66915274/178868266-fc6d6684-8196-4021-b884-a047a443a3ec.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/83.png">
 
-When finish we have to save the changes and leave the file.
+Save the changes and leave the file.
 
 5 ◦ Now with the file ```/etc/ssh/ssh_config```. (not ```sshd_config```)
 
