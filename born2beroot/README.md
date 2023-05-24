@@ -11,7 +11,8 @@
 </p>
 
   ## Index
-	
+
+Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup, 
   
 	
   ## 0 - Introduction
