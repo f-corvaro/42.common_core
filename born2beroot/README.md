@@ -10,7 +10,7 @@
 
 </p>
 
-  ## Index
+   ## Index
 
 Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup, 
   
@@ -27,7 +27,7 @@ Introduction, Download the virtual machine ISO, Installing the VM (virtual machi
 
   <p align="justify">
     
-  [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended.
+  [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
 
   </p>
   
@@ -41,7 +41,9 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/1.png">
 
-2 | Choose a name for the machine and the folder which will locate it. **!_IMPORTANT_!** Store the machine created inside the goinfre folder located in your cluster server; this is important because we will run out of memory space in our session and the installation will fail. (Ask your staff if you can't find it). Then click ```continue```.
+2 | Choose a name for the machine and the folder which will locate it. 
+	
+**IMPORTANT:** Store the machine created inside the goinfre folder located in your cluster server. This will avoid the run out of memory space in your session and avoid that the installation will fail. (Ask your staff if you can't find it). Then click ```continue```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/2.png">
 
@@ -49,7 +51,7 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/3.png">
 
-4 | Select the second option - "create a virtual hard disk now".
+4 | Select the second option - ```create a virtual hard disk now```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/4.png">
 
@@ -61,7 +63,7 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/6.png">
 
-7 | Select the ```12 GB``` recommended then click on ```Create```. If we are doing the bonus, set ```30 GB```.
+7 | Set ```30 GB```, because we are doing the bonus.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/7.png">
 
@@ -77,7 +79,7 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/10.png">
 
-11 | Once all this steps have been completed we can ```Start``` our new virtual machine.
+11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
   
 </p>
 
