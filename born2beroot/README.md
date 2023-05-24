@@ -594,19 +594,54 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/95.png">
 
-## 5 - Script_Information_System
+## 5 - Script_System_Info
 
 You need to pay attention to all things in this section. You will be asked how the script works during the evaluation.
 
 A **script** is a sequence of commands stored in a file that when executed will do the commands writed.
 
-### 5.1 - Architecture information
+### 5.1 - Architecture
 
 To show the architecture of the OS, you can use the command ```uname -a``` ("-a" == "--all"). This command print information about the current machine and the OS running on it, except the hardware information and the CPU. ```uname -a``` print all available system information.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/96.png">
   
+### 5.2 - Physical Cores
 
+To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/97.png">
+
+### 5.3 - Virtual Cores
+
+To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/98.png">
+	
+### 5.2 - Physical Cores
+
+To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/97.png">
+
+### 5.3 - Virtual Cores
+
+To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/98.png">
+
+### 5.4. - RAM
+
+To show the RAM memory use the command ```free``` to see at the moment information about the RAM (the amount used, the amount available, the amount reserved for other resources, etc). For more info use the command ```free --help```. We will use ```free --mega``` since that unit of measure appears in the subject.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/99.png">
+
+We must filter our search because we do not need all the information that it provides. The first thing we need to show is the used memory, using the ```awk``` command, which processes data based on text files,  we can use the data that interests us from a file. We compare if the first word of a row is equal to "Mem:" we will print the third word of that row, which will be the used memory. The whole command together would be ```free --mega | awk '$1 == "Mem:" {print $3}'```. In the script the return value of this command will be assigned to a variable that will be concatenated with other variables so that everything is the same as specified in the subject.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/100.png">
+	
+	
+	
 </p>
 ## License
 
