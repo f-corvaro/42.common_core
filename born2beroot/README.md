@@ -668,7 +668,18 @@ The result of this command is only part of the final result since there is still
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/101.png">
 	
+### 5.7 - Last reboot
+
+To see the date and time of our last reboot, we will use the ```who``` command with the ```-b``` flag, as this flag will display the time of the last system boot on the screen. It shows us more information than we want, so we will filter it and only show what we are interested in, for this we will use the awk command and compare if the first word of a line is "system", the third word of that line will be printed on the screen, a space, and the fourth word. ```who -b | awk '$1 == "system" {print $3 " " $4}'```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/102.png">
 	
+### 5.8 - LVM activation
+
+To check if LVM is active or not, we will use the ```lsblk``` command, which shows us information about all block devices (hard drives, SSDs, memories, etc) among all the information it provides. This command will print Yes or No. Basically, the condition we are looking for will be to count the number of lines in which "lvm" appears and if there are more than 0 we will print Yes, if there are 0 we will print No. ```if [ $(lsblk | grep "lvm" | wc -l) -gt 0 ]; then echo yes; else echo no; fi```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/103.png">
+
 	
 	
 </p>
