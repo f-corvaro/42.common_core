@@ -12,7 +12,7 @@
 
   ## Index
 	
-0. [Introduction](##0 - --Introduction-)
+0. [Introduction](##0--Introduction-)
 1. [Download virtual machine ISO ](#1--download-the-virtual-machine-iso-)
 2. [Virtual machine installation 🛠](#2--installing-the-virtual-machine-)
 3. [Debian installation 🌀](#3--installing-debian-)
