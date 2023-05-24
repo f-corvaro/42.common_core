@@ -594,7 +594,17 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/95.png">
 
-## 5- Script 🚨
+## 5 - Script_Information_System
+
+You need to pay attention to all things in this section. You will be asked how the script works during the evaluation.
+
+A **script** is a sequence of commands stored in a file that when executed will do the commands writed.
+
+### 5.1 - Architecture information
+
+To show the architecture of the OS, you can use the command ```uname -a``` ("-a" == "--all"). This command print information about the current machine and the OS running on it, except the hardware information and the CPU. ```uname -a``` print all available system information.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/96.png">
   
 
 </p>
