@@ -12,46 +12,6 @@
 
   ## Index
 	
-0. [Introduction](##0--Introduction-)
-1. [Download virtual machine ISO ](#1--download-the-virtual-machine-iso-)
-2. [Virtual machine installation 🛠](#2--installing-the-virtual-machine-)
-3. [Debian installation 🌀](#3--installing-debian-)
-4. [Virtual machine setup ⚙️](#4--virtual-machine-setup-%EF%B8%8F)
-
-	4.1 [Installing sudo & configuration of users and groups 👤](#41---installing-sudo--configuration-of-user-and-groups-)
-	
-	4.2 [Installing & configuring SSH 📶](#42---installing--configuring-ssh-)
-	
-	4.3 [Installing & configuring UFW 🔥🧱](#43-installing--configuring-ufw-)
-	
-	4.4 [Setting up the sudo policies 🔒](#44-setting-up-the-sudo-policies-)
-	
-	4.5 [Setting up the strong password policy 🔑](#45-setting-up-a-strong-password-policy-)
-	
-	4.6 [Connecting via SSH 🗣](#46-connecting-via-ssh-)
-	
-5. [Script ](#5--script-)
-
-	5.1 [Total result of the script 🆗](#5-13-total-result-of-the-script)
-	
-6. [Crontab ⏰](#6--crontab-)
-7. [Signature.txt 📝](#7--signaturetxt-)
-8. [Bonus ⭐](#8--bonus-%EF%B8%8F)
-
-	8.1 [Manual partition](#81--manual-partition)
-	
-	8.2 [Wordpress & services configuration 🌐](#82---wordpress--services-configuration-)
-
-	8.3 [Aditional service ➕](#83---aditional-service-)
-
-9. [Correction sheet ✅](#9--correction-sheet-)
-
-	9.1 [Evaluation answers 💯](#91-evaluation-answers-)
-
-	9.2 [Evaluation commands ⌨️](#9-2-evaluation-commands-%EF%B8%8F)
-
-10. [Tester 🆗](#10--tester-)
-
   
 	
   ## 0 - Introduction
