@@ -524,20 +524,19 @@ As it should be:
 
 - secure_path	-> Folders that will be excluded of sudo
 	
-### 4.5 Setting up a strong password policy 🔑
+### 4.4 Setting up a strong password policy 
 
-1 ◦ First step will be editing the login.defs file.
+1 | Edit the login.defs file.
 
-<img width="493" alt="Captura de pantalla 2022-07-16 a las 2 54 06" src="https://user-images.githubusercontent.com/66915274/179327943-67432d4a-7042-44ea-96f4-5975556ce4dc.png">
+```sudo vim /etc/login.defs```
 
-2 ◦ Once we are done editing the file, we will set the next parameters:
+2 | Edit the file, set the parameters:
 
-➤ PASS_MAX_DAYS 99999 -> PASS_MAX_DAYS 30
++ PASS_MAX_DAYS 99999 -> PASS_MAX_DAYS 30
 
-➤ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
+* PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 
-
-<img width="802" alt="Captura de pantalla 2022-07-16 a las 3 05 49" src="https://user-images.githubusercontent.com/66915274/179328449-32a40f67-a18d-4f29-993b-94d013cd7670.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/90.png">
 
 PASS_MAX_DAYS: It's the max days till password expiration.
 
@@ -545,51 +544,35 @@ PASS_MIN_DAYS: It's the min days till password change.
 
 PASS_WARN_AGE: It's the days till password warning.
 
-3 ◦ For continuing the installation we must install the next packages with the following command```sudo apt install libpam-pwquality``` , then we wrute ```Y``` so we can continue; we wait till it finish.
+3 | Install the package ```sudo apt install libpam-pwquality``` , then write ```Y``` when is required. Wait till it finish.
 
-<img width="770" alt="Captura de pantalla 2022-07-16 a las 3 13 52" src="https://user-images.githubusercontent.com/66915274/179328708-c5054703-bdb0-4cca-82a8-6ab25ce42b40.png">
+4 | Edit the file using ```sudo vim /etc/pam.d/common-password```. 
 
-4 ◦ Next thing we must do is is edit a file and change itś content. We will use ```nano /etc/pam.d/common-password```. 
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/91.png">
 
-<img width="500" alt="Captura de pantalla 2022-07-16 a las 3 27 02" src="https://user-images.githubusercontent.com/66915274/179329260-0e18bd27-a522-4c7c-86bf-21823eee0f8b.png">
-
-5 ◦ After retry=3 we must add the following commands:
+5 | Immediately after ```retry=3```, add (in the same line) the commands:
 
 ```
-minlen=10
-ucredit=-1
-dcredit=-1
-lcredit=-1
-maxrepeat=3
-reject_username
-difok=7
-enforce_for_root
+minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
 ```
-➤ This is how the line must be↙️
 
-<img width="1127" alt="Captura de pantalla 2022-07-16 a las 3 34 33" src="https://user-images.githubusercontent.com/66915274/179329511-0619183a-8ccc-456b-8f27-3962fc542cc3.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/92.png">
 
-➤ This is how the file must look ↙️
++ minlen=10 -> The minimun characters a password must contain.
 
-<img width="800" alt="Captura de pantalla 2022-07-16 a las 3 38 08" src="https://user-images.githubusercontent.com/66915274/179329787-1b718843-9272-43e4-8d92-8d83933cc938.png">
+* ucredit=-1 -> The password at least have to contain a capital letter. We must write it with a - sign, as is how it knows that's refering to minumum caracters; if we put a + sign it will refer to maximum characters.
 
-🤔 <b>What does each command❓</b>
+* dcredit=-1 -> The passworld at least have to containt a digit.
 
-minlen=10 ➤ The minimun characters a password must contain.
+* lcredit=-1 -> The password at least have to contain a lowercase letter.
 
-ucredit=-1 ➤ The password at least have to contain a capital letter. We must write it with a - sign, as is how it knows that's refering to minumum caracters; if we put a + sign it will refer to maximum characters.
+* maxrepeat=3 -> The password can not have the same character repited three contiusly times.
 
-dcredit=-1 ➤ The passworld at least have to containt a digit.
+* reject_username -> The password can not contain the username inside itself.
 
-lcredit=-1 ➤ The password at least have to contain a lowercase letter.
+* difok=7 -> The password it have to containt at least seven diferent characters from the last password ussed. 
 
-maxrepeat=3 ➤ The password can not have the same character repited three contiusly times.
-
-reject_username ➤ The password can not contain the username inside itself.
-
-difok=7 ➤ The password it have to containt at least seven diferent characters from the last password ussed. 
-
-enforce_for_root ➤ We will implement this password policy to root.
+- enforce_for_root -> We will implement this password policy to root.
 
 ### 4.6 Connecting via SSH 🗣
 
