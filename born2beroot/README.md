@@ -87,15 +87,19 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 <p align="justify">
   
-Choose your scale rate to get window bigger or smaller: 
+Choose your scale rate to get window bigger or smaller: (I prefer 300%)
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/11.png">
 
-The```cmd``` key on your keyboard will help you to switch the capture of your mouse from vm and your system.
+The ```cmd``` key on your keyboard will help you to switch the capture of your mouse from vm to your system or viceversa.
+  
+**WARNING:** when you will switch from one to another, pay attention to change uppercase to lowercase or viceversa. This could be a common mistake that you wuold do and you would have problem with the input of the password, because the vm will remain at the old choice.
 
 1 | We will choose the version without graphic interface ```Install``` (is a mandatory part of the subject). 
  
-  To confirm something is used ```Enter key```; The ```Arrow keys``` are used to move around.
+  To confirm something is used ```Enter key```.
+  
+  The ```Arrow keys``` are used to move around.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/12.png">
 
@@ -123,7 +127,7 @@ The```cmd``` key on your keyboard will help you to switch the capture of your mo
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/18.png">
 
-8 | The ```Domain name``` must be blank until the subject will require it. (see the version of the subject).
+8 | The ```Domain name``` must be blank until the subject will require it (see the version of the subject).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/19.png">
 
