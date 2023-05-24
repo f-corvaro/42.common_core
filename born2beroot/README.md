@@ -490,19 +490,13 @@ Save the changes and leave the file.
 
 ### 4.3 - Setting up the sudo policies 
 
-1 ◦ Begining with this section, we will create a file in */etc/sudoerd.d/*. The file will serve the purpouse of storing our sudo policy. The command that we will use will be ```touch /etc/sudoers.d/sudo_config```.
+1 | Create a file in ```/etc/sudoerd.d/```. The file will serve the purpouse of storing our sudo policy. Use: ```sudo touch /etc/sudoers.d/sudo_config```.
 
-<img width="511" alt="Captura de pantalla 2022-07-14 a las 22 00 40" src="https://user-images.githubusercontent.com/66915274/179072822-2f86bd8b-216e-45e4-a15b-8fe3a49149ff.png">
+2 | We must create a directory, as is asked in the subject, in ```/var/log/``` because each commands need to be logged, the input and output. Use ```sudo mkdir /var/log/sudo```.
 
-2 ◦ Then we must create a directory as is asked in the subject in */var/log/* because each commands need to be logged, the input and output. We will use ```mkdir /var/log/sudo``` for our folder.
+3 | Edit the file that we created in the first step of this section. Use ```sudo vim /etc/sudoers.d/sudo_config```.
 
-<img width="502" alt="Captura de pantalla 2022-07-14 a las 21 56 53" src="https://user-images.githubusercontent.com/66915274/179072210-ad99e50d-fa57-494b-999d-3a80dd0f7849.png">
-
-3 ◦ We must edit the file that we created in the first step of this section. Use any text editor, but for this guide as is in every screenshot we will use nano. Use ```nano /etc/sudoers.d/sudo_config```.
-
-<img width="502" alt="Captura de pantalla 2022-07-14 a las 22 04 10" src="https://user-images.githubusercontent.com/66915274/179073389-5b2a9c16-811c-4133-87c6-479e770c880b.png">
-
-4 ◦ Once we are editing the file we must set it up with the following commands.
+4 | Write into the file the following lines:
 
 ```
 Defaults  passwd_tries=3
@@ -514,26 +508,22 @@ Defaults  requiretty
 Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 ```
 
-➤ As it should be on the file.
+As it should be:
 
-<img width="1202" alt="Captura de pantalla 2022-07-16 a las 2 03 45" src="https://user-images.githubusercontent.com/66915274/179326003-1fd67295-4be2-47bd-98fc-d5821f5f1c4d.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/89.png">
 
-🤔 <b>What does each command❓ </b>
++ passwd_tries -> Total tries for entering the sudo password.
 
-![F5B5BED3-C144-4EDF-91AB-226533DD5B18_4_5005_c](https://user-images.githubusercontent.com/66915274/211846396-e3212104-b8ce-412c-ac1a-e4d3124dfba8.jpeg)
+* badpass_message -> The message that will show when the password failed, can be customized.
 
-🟩 **GREEN**	-> Total tries for entering the sudo password.
+* logfile	-> Path where will the sudo logs will be stored.
 
-🟥 **RED**		-> The message that will show when the password failed.
+* log_input, log_output, iolog_dir  -> What will be logged.
 
-🟨 **YELLOW**	-> Path where will the sudo logs will be stored.
+* requiretty  -> [TTY](https://www.ibm.com/docs/en/aix/7.2?topic=t-tty-command) is required .
 
-🟦 **BLUE**	-> What will be logged.
-
-🟫 **BROWN**	-> TTY is required lol.
-
-🟪 **PURPLE**	-> Folders that will be excluded of sudo
-
+- secure_path	-> Folders that will be excluded of sudo
+	
 ### 4.5 Setting up a strong password policy 🔑
 
 1 ◦ First step will be editing the login.defs file.
