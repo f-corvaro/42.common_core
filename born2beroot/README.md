@@ -374,13 +374,19 @@ Press ```Continue``` to finish the installation.
 
 <p align="justify">
 
--> Select ```Debian GNU/Linux```.
+### Boot - When the system boot 
+  
+  -> Select ```Debian GNU/Linux```.
 
+### Boot - The system will require the password of the encrypted disk 
+  
 -> Write the encryptation password that previously we set. For me is ```Pw.20STNG!81```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/77.png">
 
--> After that we must introduce the user and password that we created. In my case the user is ```fcorvaro``` and the password is ```Pw.20STNG!81```.
+### Boot - The system will require the user and password that we created 
+  
+-> In my case the user is ```fcorvaro``` and the password is ```Pw.20STNG!81```.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/78.png">
 
@@ -388,15 +394,16 @@ Press ```Continue``` to finish the installation.
   
 ### 1 - Installing sudo & configuration of user and groups 
 
-1 | The beginning of the installation starts with changing user to root so we can install sudo, for this purpouse we write ```su -``` in the bash prompt and introduce the root password, for me ```Pw.20STNG!81```.
-Once we are done we write down the command 
+1 | The beginning of the installation starts with changing user to root so we can install sudo. For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```).
+Write the command 
+  
 ```
 $>apt-get update
 $>apt-get install vim
 $>apt install sudo
 ```
 
-Verify whether _sudo_ was successfully installed via `dpkg -l | grep sudo`.
+Verify whether _sudo_ was successfully installed via:
 
 ```
 $>dpkg -l | grep sudo
