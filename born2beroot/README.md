@@ -633,14 +633,20 @@ To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in 
 ### 5.4. - RAM
 
 To show the RAM memory use the command ```free``` to see at the moment information about the RAM (the amount used, the amount available, the amount reserved for other resources, etc). For more info use the command ```free --help```. We will use ```free --mega``` since that unit of measure appears in the subject.
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/99.png">
-
+	
 We must filter our search because we do not need all the information that it provides. The first thing we need to show is the used memory, using the ```awk``` command, which processes data based on text files,  we can use the data that interests us from a file. We compare if the first word of a row is equal to "Mem:" we will print the third word of that row, which will be the used memory. The whole command together would be ```free --mega | awk '$1 == "Mem:" {print $3}'```. In the script the return value of this command will be assigned to a variable that will be concatenated with other variables so that everything is the same as specified in the subject.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/100.png">
+To obtain the total memory, we change the third one with the second one.
+```free --mega | awk '$1 == "Mem:" {print $2}'```.
+
+For calculate the % of used memory. The differences between the code we wrote before and this one is the printing part. We are using ```%.2f``` so that only 2 decimals are shown. In printf to show a ```%``` you have to put ```%%```. The whole command ```free --mega | awk '$1 == "Mem:" {printf("(%.2f%%)\n", $3/$2*100)}'```.
 	
-	
+To obtain the total memory, we change the third one with the second one.
+```free --mega | awk '$1 == "Mem:" {print $2}'```.
+
+For calculate the % of used memory. The differences between the code we wrote before and this one is the printing part. We are using ```%.2f``` so that only 2 decimals are shown. In printf to show a ```%``` you have to put ```%%```. The whole command ```free --mega | awk '$1 == "Mem:" {printf("(%.2f%%)\n", $3/$2*100)}'```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/99.png">
 	
 </p>
 ## License
