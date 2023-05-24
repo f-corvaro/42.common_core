@@ -12,7 +12,7 @@
 
    ## Index
 
-Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup, 
+Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup 3.18 theory link, 
   
 	
   ## 0 - Introduction
@@ -131,7 +131,7 @@ The ```cmd``` key on your keyboard will help you to switch the capture of your m
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/19.png">
 
-9 | Go to *Show Pawssword in Clear* and then press the ```Space bar```. Now set a strong password policy for the root user. **Save this password, will be useful**. Then you need to repeat the password to set.
+9 | Go to *Show Password in Clear* and then press the ```Space bar```. Now set a strong password policy for the root user. **Save this password, will be useful**. Then you need to repeat the password to set.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/20.png">
 
@@ -145,10 +145,9 @@ The ```cmd``` key on your keyboard will help you to switch the capture of your m
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/23.png">
 
-12 | Select ```Manual```. (If you want to do the bonus, so we can edit the partitions one by one)
+12 | Select ```Manual```. (Is required part for the bonus, so we can edit the partitions one by one)
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/24.png">
-
 
 13 | It shows us a general description of our memory partitions and mount points. Currently, I don't have any partitions. To create a new partition, we must choose the disk where we want to create them. In our case, we will choose the only one available.
 
@@ -170,17 +169,17 @@ The ```cmd``` key on your keyboard will help you to switch the capture of your m
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/29.png">
   
-18 | Choose the type of partition. We choose primary because it will be the partition where the Operating System will be installed.
+18 | Choose the type of partition. We choose primary because it will be the partition where the operating system will be installed.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/30.png">
   
-Brief description of all types of partitions:
+** Brief description of all types of partitions:**
 
-◦ Primary: The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
+◦ **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
 
-◦ Extended: It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
+◦ **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
 
-◦ Logical: It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux, the OS we are currently working with, reduces it to 15, more than enough for this project.  
+◦ **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.  
   
 19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
   
@@ -190,11 +189,11 @@ Brief description of all types of partitions:
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/32.png">
   
-We choose boot.
+Choose ```/boot```.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/33.png">
 
-We finish configuring the current partition.
+Finish configuring the current partition.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/34.png">
   
@@ -218,7 +217,7 @@ Modify the mount point.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/39.png">
   
-Choose the option ``` Do not mount it```.
+Choose the option ```Do not mount it```.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/40.png">
   
@@ -254,7 +253,7 @@ Accept the confirmation message. It tells us that everything inside the partitio
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/48.png">
   
-We don't care if it takes a long time or not, cancel it because there is nothing to encrypt since the partition is empty.
+```cancel``` it because there is nothing to encrypt (the partition is empty).
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/49.png">
   
@@ -292,7 +291,7 @@ Choose the group where we want to create the logical partitions. We select the o
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/57.png">
   
-The order of creation of the logical units must be the same of the subject, so we will start with root and end with var-log. 
+The order of creation of the logical units must be the same of the subject, so we will start with ```root``` and end with ```var-log```. 
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/58.png">
   
@@ -317,13 +316,15 @@ Choose the ```Ext4 file system``` in use as option, it is the most commonly used
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/63.png">
   
-Then select the mount point as home. And the first one is gone. Now we need to repeat, to see what mount point I use and the use as, watch the image below.
+Then select the mount point as home.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/64.png">
 
+And the first one is gone.
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/65.png">
   
-Final result is:
+Now we need to repeat, to see what mount point I use and the use as, watch the image below that resume the final result:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/66.png">
 
@@ -347,7 +348,7 @@ Leave this option empty and click ```Continue```.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/71.png">
   
- We selected the option ```No``` because we do not want developers to see our statistics even though they are anonymous.
+ We selected the option ```No``` because we do not want that developers watch our statistics even though they are anonymous.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/72.png">
 
@@ -355,7 +356,7 @@ Remove all the software options using the spacebar and press ```Continue```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/73.png">
   
-Select ```Yes``` to install  [GRUB boot](https://es.wikipedia.org/wiki/GNU_GRUB) in the primary drive.
+Select ```Yes``` to install  [GRUB](https://es.wikipedia.org/wiki/GNU_GRUB) boot in the primary drive.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/74.png">
   
