@@ -415,57 +415,35 @@ $>dpkg -l | grep sudo
 $>adduser <username> sudo
 ```
 
-Alternatively, add user to sudo group via `usermod -aG sudo <username>`.
+Alternatively, add user to sudo group via:
 
 	$>usermod -aG sudo <username>
 
-Verify whether user was successfully added to sudo group via `getent group sudo`.
+Verify whether user was successfully added to sudo group via:
 
 	$>getent group sudo
 
 `sudo reboot` for changes to take effect, then log in and verify sudopowers via `sudo -v`.
 
-3 | 
+3 | Running root-privilege commands 
 
-5 | We will create a new group called ```user42```. For that we must use ```sudo addgroup user42```.
+Run root-privileged command via prefix ```sudo```.
 
-<img width="367" alt="Screen Shot 2022-10-26 at 6 30 52 PM" src="https://user-images.githubusercontent.com/66915274/198082677-d393243e-363a-4d1f-95d8-a6695336a47a.png">
+### 4.1 -   Installing & configuring SSH
 
-🧠 <b>What is GID❓</b> It's the group identifier, in short, Group 🆔.
+SSH stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
-🤔 <b> Was the group created without problems? </b> Truth is that there is no sign of one, still we can check it using ```getent group <groupname>``` or we can also use ```cat /etc/group``` and see all groups and the users in any of them.
+1 | Update the system using ```sudo apt update```.
 
-6 ◦ With ```sudo adduser <user> <groupname>``` we can include a user to a group. We mst include out user in the groups ```sudo``` and ```user42```.
+2 | Install the main tool for remote access with the SSH protocol, using OpenSSH. The packagerequired:
 
-<img width="422" alt="Screen Shot 2022-10-26 at 6 32 30 PM" src="https://user-images.githubusercontent.com/66915274/198083019-c5a442bb-c625-45ce-84e1-bcbca3a7dba5.png">
+```sudo apt install openssh-server``` 
 
-<img width="404" alt="Screen Shot 2022-10-26 at 6 34 09 PM" src="https://user-images.githubusercontent.com/66915274/198083377-bd4162c6-317b-474f-8bc4-e542be4dcfde.png">
+Confirm writing ```y```, and wait for the installation time.
 
-7 ◦ Once we are done with that we can check it using ```getent group <groupname>``` or editing the /etc/group file using ```nano /etc/group```; the groups ```sudo``` and ```user42``` must be present with our user.
+```sudo service ssh status``` to check if the package was succesfully installed. **Active** is required to continue.
 
-<img width="328" alt="Screen Shot 2022-10-26 at 6 35 50 PM" src="https://user-images.githubusercontent.com/66915274/198083739-ad16e388-69c3-41d1-a061-e55dd66b0d14.png">
-
-<img width="151" alt="Screen Shot 2022-10-26 at 6 36 18 PM" src="https://user-images.githubusercontent.com/66915274/198083854-0fba5296-a49f-44cc-8427-59a692e69288.png">
-
-<img width="353" alt="Screen Shot 2022-10-26 at 6 39 22 PM" src="https://user-images.githubusercontent.com/66915274/198084464-f73352ee-ed21-478b-a44d-d86eb6d8a1cd.png">
-
-<img width="183" alt="Screen Shot 2022-10-26 at 6 38 25 PM" src="https://user-images.githubusercontent.com/66915274/198084311-45a50162-ff89-4e7d-a3c5-45e7048520a4.png">
-
-### 4.2 - Installing & configuring SSH 📶
-
-🧠 <b> What is SSH❓</b> The acronym SSH stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
-
-1 ◦ First thing, we should update the system using ```sudo apt update```.
-
-<img width="774" alt="Captura de pantalla 2022-07-14 a las 3 09 44" src="https://user-images.githubusercontent.com/66915274/178864173-aa5a08cf-8562-4484-a60a-3e1c7a533a28.png">
-
-2 ◦ Following up we will install the main tool for remote access with the SSH protocol, using OpenSSH. The installation requieres the package ```sudo apt install openssh-server```. When we are asked for confirmation we will write ```y```, and just then the installation will proceed.
-
-<img width="772" alt="Captura de pantalla 2022-07-14 a las 3 14 52" src="https://user-images.githubusercontent.com/66915274/178865991-cdb90f12-ebd8-4583-bcbb-70f47c86abe6.png">
-
-Anywan curious that the installation have been realices without problems we can use ```sudo service ssh status``` and it will show how is the state of it. **Active** must be show to continue.
-
-<img width="702" alt="Captura de pantalla 2022-07-14 a las 3 53 59" src="https://user-images.githubusercontent.com/66915274/178876938-7fd74214-15df-4759-bf8d-52b53a8f4251.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/80.png">
 
 3 ◦ Going on, some files have been created and we need to configur them. For that we will use [Nano](https://en.wikipedia.org/wiki/GNU_Nano) or [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) (we will need to install vim since it's not preinstalled using ```sudo apt install vim```) or any other text editor. First file that we will edit will be ```/etc/ssh/sshd_config```. If you are not on root you will not be able to edit the file; as you know, for switching to root we use ```su```.
 
