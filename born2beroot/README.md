@@ -305,7 +305,6 @@ Repeat the process for all the seven logical volumes. Then continue with finish.
   
 25 | Now we can see all our partitions and free space, all the logical partitions that we just created are already appearing. We must configure the mount point and the usage of these. Again we will go in order and select the first one that appears, which is ```home```.
   
-
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/61.png">
   
 We can see the configuration of the partitions. We must choose a file system as it currently does not have one.
@@ -461,22 +460,17 @@ Confirm writing ```y```, and wait for the installation time.
 
 Save the changes and leave the file.
 
-5 ◦ Now with the file ```/etc/ssh/ssh_config```. (not ```sshd_config```)
+5 | With the file ```/etc/ssh/ssh_config``` (not ```sshd_config```) we will do the same we do early. Edit the following line: 
 
-<img width="501" alt="Captura de pantalla 2022-07-14 a las 3 48 56" src="https://user-images.githubusercontent.com/66915274/178872582-8277e687-8ab7-4087-bd17-a71e5e86d5e6.png">
++ ```#Port 22 -> Port 4242```
 
-Edit the following line: 
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/84.png">
 
-➤ #Port 22 -> Port 4242
+6 | Restart the ssh service so it can be updated. Use ```sudo service ssh restart``` and once it is done we will check the service state with ```sudo service ssh status``` and confirm that everything is alright.
 
-<img width="795" alt="Captura de pantalla 2022-07-14 a las 3 50 29" src="https://user-images.githubusercontent.com/66915274/178875013-1969c13f-9e43-4f2a-a037-f384a8e87a78.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/85.png">
 
-6 ◦ Finally we must restart the ssh service so it can be updated. For that purpuse we will use ```sudo service ssh restart``` and once it is done we will check the service state with ```sudo service ssh status``` and confirm that everything is alright.
-
-<img width="713" alt="Captura de pantalla 2022-07-14 a las 3 56 56" src="https://user-images.githubusercontent.com/66915274/178880333-0e2ad7fd-674b-4b4f-b92a-25acbc36c8a5.png">
-
-
-### 4.3 Installing & configuring UFW 🔥🧱
+### 4.2 - Installing & configuring UFW 
 
 🧠 <b>What is [UFW](https://en.wikipedia.org/wiki/Uncomplicated_Firewall)❓</b> It is a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) which use the command line for setting up [iptables](https://en.wikipedia.org/wiki/Iptables) using a small number of easy commands.
 
