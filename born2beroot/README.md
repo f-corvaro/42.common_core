@@ -578,27 +578,21 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 ### 4.5 Connecting via SSH
 
-1 ◦ If we want to connect via SSH we must close the machine and go to settings.
+1 | To connect via SSH we must close the machine and go to settings.
 
-<img width="832" alt="Captura de pantalla 2022-07-18 a las 10 15 13" src="https://user-images.githubusercontent.com/66915274/179470948-d9a863ef-f1a3-41fb-a103-25378064e747.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/93.png">
 
-2 ◦ Once there we will click on ```Network```, click on ```Advanced``` so it shows more options, then we click on ```Port fowarding```.
+2 | Click on ```Network```, click on ```Advanced``` so it shows more options, then we click on ```Port fowarding```.
 
-<img width="684" alt="Captura de pantalla 2022-07-18 a las 10 18 32" src="https://user-images.githubusercontent.com/66915274/179471690-cfbdbf4b-ab93-4b12-9504-2482712652a3.png">
+3 | Click on the emoji for adding a new rule.
 
-3 ◦ Click on the emoji for adding a new rule.
+4 | Add the ```4242``` port to Host and Guest. The IP's are not required. Click accept so changes are saved.
 
-<img width="585" alt="Captura de pantalla 2022-07-18 a las 10 21 24" src="https://user-images.githubusercontent.com/66915274/179471855-913a684d-c7b0-43e2-9e01-d2c954fe75a4.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/94.png">
 
-4 ◦ Lastly we will add the ```4242``` port to host and client. The IP's are not required. We will click accept so changes can be saved.
+-> To connect via ssh from the machine to the vm use the command ```ssh <user>@localhost -p 4242```. It will ask for the password of the user that we are trying to log in. Once the password is introduced it will show login in different colour, that will mean that the connections has been successfully.
 
-<img width="588" alt="Captura de pantalla 2022-07-18 a las 10 22 29" src="https://user-images.githubusercontent.com/66915274/179472105-5942b3ec-5c29-4d49-a00e-67f9cde289e8.png">
-
-➤ To connect via ssh from the machine to the virstual machine using and the use the command ```ssh <user>@localhost -p 4242```; it will ask for the password of the user that we are trying to log in. Once the password is introduced it will show or login in green, that will mean that the connections has been successfully.
-
-<img width="517" alt="Screen Shot 2022-10-27 at 12 40 23 AM" src="https://user-images.githubusercontent.com/66915274/198174777-28f7793b-273b-43ce-b1c2-4a890353cb8c.png">
-
-<img width="566" alt="Screen Shot 2022-10-27 at 12 40 04 AM" src="https://user-images.githubusercontent.com/66915274/198174814-c1873c62-41dd-4c1d-ad2d-f268b2da0e4c.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/95.png">
 
 ## 5- Script 🚨
   
