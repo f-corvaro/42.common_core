@@ -686,7 +686,7 @@ To check the number of established TCP connections, we will use the ```ss``` com
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/104.png">
 
-### 5-10 Number of users
+### 5.10 - Number of users
 
 We will use the ```users``` command which will show us the names of the users there are, we will put ```wc -w``` to count the number of words in the command output. ```users | wc -w```.
 
