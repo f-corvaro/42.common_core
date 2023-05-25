@@ -2,12 +2,17 @@
 
 
 ### A little brief
+
 <p align="justify">
+ 
   Welcome in my journey at the 42 school. I create this repository to have a little diary about my coding
   experience and to give a little guide about the projects in 42 School. I hope this will help someone in future
   to understand the knowledge necessary to have done with success the projects. Watch out about the subject
   version of the project, it could change. Good coding!
+
 </p>
+
+<img align="center" alt="Coding" width="400" src="https://media.tenor.com/Qbv1xLc6sWkAAAAC/rofl-okaay.gif?cid=790b76113b436609d62942c29651694ad708c581098838a8&rid=giphy.gif&ct=g">
 
 ## 00 Ring
 
