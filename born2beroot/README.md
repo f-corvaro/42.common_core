@@ -706,7 +706,11 @@ To obtain the number of commands executed with sudo, we will use the ```journacl
 	
 ### 5.13 - Total result of the script
 
-⚠️ Remember not to copy and paste if you do not know the function of each command. ⚠️
+Now we need write this script togheter. Go ```cd /home/fcorvaro``` and then write the script into the ```monitoring.sh``` file ```sudo vim monitoring.sh```
+
+### 5.13 - Total result of the script
+
+Now we need write this script togheter. Go ```cd /home/fcorvaro/``` (fcorvaro is for me, change with your username) and then write the script into the ```monitoring.sh``` file. ```sudo vim monitoring.sh```. Copy and paste the script below.
 
 ```
 #!/bin/bash
@@ -767,13 +771,10 @@ wall "	Architecture: $arch
 	Network: IP $ip ($mac)
 	Sudo: $cmnd cmd"
 ```
-Script viewed from vim ↙️
+
+Save the file and test with the command ```sh monitoring.sh```. 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/108.png">
-
-Result after executing the script ↙️
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/109.png">
 	
 </p>
 ## License
