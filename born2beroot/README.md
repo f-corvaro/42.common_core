@@ -858,7 +858,29 @@ Reaload privilege tables now? [Y/N] → Y
 * Remove test database and access to it? ```Y```. This will remove the test database and any users who have access to it.
 
 - Reaload privilege tables now? ```Y```. This will reload the MySQL permission tables so that the changes to the security settings will take effect immediately.
-	
+
+### Database
+
+1 | Finished the installation of mariadb we must create the database and the user for the WordPress. First we must access mariadb typing ```sudo mariadb```.
+
+
+2 | Create a database for the WordPress. I will do all this with the command ```CREATE DATABASE wp_database;```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/114.png">
+
+3 | To make sure that the database for WordPress has been created we can view all existing databases with the command ```SHOW DATABASES;```.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/115.png">
+
+4 | Next we need to create a user inside the database. ```CREATE USER 'fcorvaro'@'localhost' IDENTIFIED BY '12345';```.
+
+
+5 | We bind the new user to our database so that we grant him the necessary permissions to be able to work. ```GRANT ALL PRIVILEGES ON wp_database.* TO 'fcorvaro'@'localhost';```.
+
+6 | We update the permissions for the changes to take effect with the command ```FLUSH PRIVILEGES;```.
+
+7 | ```exit``` mariadb.
+
 
 </p>
 	
