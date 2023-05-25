@@ -12,8 +12,6 @@
 
 </p>
 
-<img align="center" alt="Coding" width="400" src="https://media.tenor.com/Qbv1xLc6sWkAAAAC/rofl-okaay.gif?cid=790b76113b436609d62942c29651694ad708c581098838a8&rid=giphy.gif&ct=g">
-
 ## 00 Ring
 
 <p align="justify">
@@ -42,6 +40,8 @@
 
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
+ 
+ <img align="center" alt="Coding" width="400" src="https://media.tenor.com/Qbv1xLc6sWkAAAAC/rofl-okaay.gif?cid=790b76113b436609d62942c29651694ad708c581098838a8&rid=giphy.gif&ct=g">
 
 </p>
 
