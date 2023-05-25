@@ -801,8 +801,6 @@ Operation of each crontab parameter:
 * user -> Defines the user who will execute the command, it can be root, or another user as long as it has permission to execute the script.
 
 - command -> Refers to the command or the absolute path of the script to be executed.
-	
-</p>
 
 
 </p>
