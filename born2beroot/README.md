@@ -704,7 +704,7 @@ To obtain the number of commands executed with sudo, we will use the ```journacl
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/107.png">
 	
-### 5.13 - Total result of the script
+### 5.13 - Final result of the script
 
 Now we need write this script togheter. Go ```cd /home/fcorvaro``` and then write the script into the ```monitoring.sh``` file ```sudo vim monitoring.sh```
 
@@ -775,7 +775,10 @@ wall "	Architecture: $arch
 Save the file and test with the command ```sh monitoring.sh```. 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/108.png">
-	
+
+
+
+
 </p>
 ## License
 
