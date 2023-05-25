@@ -928,6 +928,53 @@ To (values that we have previously set when we created the database and the user
 11 | If we want to access the admin panel to make changes to our site we will have to put in the browser ```localhost/wp-admin``` and log in with our account.
 
 12 | Once you have logged in, you can modify whatever you like. Customizing the page is optional, as it is not specified in the subject of this guide, we will not deal with it. 
+	
+### 7.2 - Aditional service 
+
+### LiteSpeed ⚡️
+
+[LiteSpeed](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server) is a proprietary web server software. 
+
+1 | Before installing any software, it is important to ensure that the system is up to date.
+
+```sudo apt update```
+
+```sudo apt upgrade```
+
+2 | OpenLiteSpeed is available in the Debian 11 base repository. So, you must run the following command to add the OpenLiteSpeed repository to your Debian system:
+
+```wget -O - http://rpms.litespeedtech.com/debian/enable_lst_debian_repo.sh | sudo bash```
+
+3 | Again, we update the packages and install OpenLiteSpeed.
+
+```sudo apt update```
+
+```sudo apt install openlitespeed```
+
+```y```
+
+4 | The default password for OpenLiteSpeed is 123456. We will change the password to something more secure
+
+```sudo /usr/local/lsws/admin/misc/admpass.sh```
+
+```User name [admin]: idroot```
+
+```Password: 123456```
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/122.png">
+
+5 | We configure the firewall to allow connections through ports 8088 and 7080. We then add the rules in the port forwarding.
+
+```sudo ufw allow 8088/tcp```
+
+```sudo ufw allow 7080/tcp```
+
+```sudo ufw reload```
+
+Add the rule that includes port 7080 and 8088 in virtual box settings. Little reminder how to add rules in port forwarding: 
+Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/123.png">
 
 </p>
 	
