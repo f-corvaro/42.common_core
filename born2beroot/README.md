@@ -889,6 +889,46 @@ Reaload privilege tables now? [Y/N] → Y
 
 ### WordPress configuration
 
+1 | Set your path to the folder html ```cd /var/www/html```.
+
+2 | Copy the file ```sudo cp wp-config-sample.php wp-config.php```.
+
+3 | Edit the file  ```sudo vim wp-config.php``` and modify the following values.
+
+From
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/116.png">
+
+To (values that we have previously set when we created the database and the user so that WordPress).
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/117.png">
+
+4 | We enabled the fastcgi-php module in Lighttpd to improve the performance and speed of web applications on the server. ```sudo lighty-enable-mod fastcgi```
+
+5 | We enabled the fastcgi-php module in Lighttpd to improve the performance and speed of PHP-based web applications on the server. ```sudo lighty-enable-mod fastcgi-php```
+
+6 | We update and apply the changes in the configuration with the command ```sudo service lighttpd force-reload```.
+
+7 | Once we have completed the previous steps we can go back to our browser and type ```localhost```. 
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/118.png">
+
+8 | We must fill in all the fields.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/119.png">
+
+9 | Click on ```Install WordPress``` and we will have finished the installation. You will see the next tab. Now WordPress can create the tables and dump all the data it needs to work in the database we have assigned to it.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/120.png">
+
+10 | If we access again to our localhost from the browser we can see our functional page.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/121.png">
+
+11 | If we want to access the admin panel to make changes to our site we will have to put in the browser ```localhost/wp-admin``` and log in with our account.
+
+12 | Once you have logged in, you can modify whatever you like. Customizing the page is optional, as it is not specified in the subject of this guide, we will not deal with it. 
+
 </p>
 	
 ## License
