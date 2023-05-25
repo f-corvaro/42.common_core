@@ -812,6 +812,54 @@ Operation of each crontab parameter:
 
 [Wordpress](https://en.wikipedia.org/wiki/WordPress) is a web content management system focused on the creation of any type of website.
 
+1 | To install the latest version of WordPress we must first install wget and zip. To do this we will use the following command ```sudo apt install wget tar```.
+
++ [Wget](https://en.wikipedia.org/wiki/Wget)is a command line tool used to download files from the web.
+
+* [Tar](https://en.wikipedia.org/wiki/Tar_(computing)) It is a command line utility for compressing and decompressing files in tar format.
+
+2 | Locate ourselves in the folder ```cd /var/www/html/```.
+
+3 | Download the latest version of WordPress. ```sudo wget http://wordpress.org/latest.tar.gz```.
+
+4 | Tar the file you just downloaded ```sudo tar -xzvf latest.tar.gz```.
+
+5 | Move the files inside the folder ```sudo mv wordpress/* /var/www/html/```.
+
+6 | Remove the tar file ```rm -rf latest.tar.gz wordpress/```.
+
+7 | Set permissions for the html folder. Move backword ```cd ..```. For set the permissions use: ```sudo chmod -R 755 html```. The number 7 indicates that the owner has read, write and execute permissions. The number 5 indicates that the group and others only have read and execute permissions.
+
+### Mariadb
+
+[MariaDB](https://en.wikipedia.org/wiki/MariaDB) is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications. 
+
+1 | Install the packages: ```sudo apt install mariadb-server```.
+
+2 | The default configuration leaves your MariaDB installation unsecure, we will use a script provided by the mariadb-server package to restrict access to the server and remove unused accounts. We will run the script with the following command: ```sudo mysql_secure_installation```. It will ask to you the password of the root. Additional it will ask you:
+
+```
+Switch to unix_socket autentication? [Y/N] → N
+Change the root password? [Y/N] → N
+Remove anonymous users? [Y/N] → Y
+Disallow root login remotely? [Y/N] → Y
+Remove test database and acces to it? [Y/N] → Y
+Reaload privilege tables now? [Y/N] → Y
+````
+
++ Switch to unix_socket authentication? ```N``` because we don't want it to switch to Unix socket authentication because we already have a protected root account.
+
+* Change the root password? ```N```. We do not want to change the root password. By default we have no password but in mariadb he is not really root as we must give him administrator permissions.
+
+* Remove anonymous users? ```Y```. By default when you install mariadb it has an anonymous user, which allows anyone to log into mariadb without having to create their own user account. This is designed for testing purposes and to make the installation smoother. When we leave the development environment and want to move to a production environment we must remove the anonymous users. 
+
+* Disallow root login remotely? ```Y```. Disabling root login remotely will prevent anyone from guessing the root password. We will only be able to connect to root from localhost.
+
+* Remove test database and access to it? ```Y```. This will remove the test database and any users who have access to it.
+
+- Reaload privilege tables now? ```Y```. This will reload the MySQL permission tables so that the changes to the security settings will take effect immediately.
+	
+
 </p>
 	
 ## License
