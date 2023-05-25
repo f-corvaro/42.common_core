@@ -984,6 +984,24 @@ Close your VM → Settings → Network → Advanced → Port forwarding → Add 
 	
 ## 8 - Signature.txt
 
+To obtain the signature, we must shutdown the virtual machine saving the machine state. If you turn it on or modify something, the signature will change.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/126.png">
+
+The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. You can see the path in the settings -> storage. 
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/127.png">
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/128.png">
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/129.png">
+
+**FINAL** | Run ```shasum Born2beroot.vdi``` and this will give us the signature. The result of this signature is what we will add and push into the intra folder of the school. It is very important not to reopen the machine since the signature will be modified. For corrections, remember to clone the machine so you can turn it on without fear of changing the signature.
+
+[shasum](https://ss64.com/osx/shasum.html) is a command that allows you to identify the integrity of a file using the SHA-1 hash check sum of a file.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/130.png">
+
 </p>
 	
 ## License
