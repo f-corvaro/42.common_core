@@ -814,9 +814,9 @@ Operation of each crontab parameter:
 
 1 | To install the latest version of WordPress we must first install wget and zip. To do this we will use the following command ```sudo apt install wget tar```.
 
-+ [Wget](https://en.wikipedia.org/wiki/Wget)is a command line tool used to download files from the web.
++ [Wget](https://en.wikipedia.org/wiki/Wget) is a command line tool used to download files from the web.
 
-* [Tar](https://en.wikipedia.org/wiki/Tar_(computing)) It is a command line utility for compressing and decompressing files in tar format.
+* [Tar](https://en.wikipedia.org/wiki/Tar_(computing)) is a command line utility for compressing and decompressing files in tar format.
 
 2 | Locate ourselves in the folder ```cd /var/www/html/```.
 
