@@ -975,6 +975,14 @@ Add the rule that includes port 7080 and 8088 in virtual box settings. Little re
 Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/123.png">
+	
+6 | Completed the previous steps we can connect. We will put in the search engine of our browser ```localhost:7080``` (obviously with the VM online).
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/124.png">
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/125.png">
+	
+## 8 - Signature.txt
 
 </p>
 	
