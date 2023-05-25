@@ -776,7 +776,33 @@ Save the file and test with the command ```sh monitoring.sh```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/108.png">
 
+## 6 - Crontab 
 
+Crontab is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
+
+To configure crontab, we must edit the crontab file with the following command ```sudo crontab -u root -e```. We need to insert the password and make a choice for the text editor.
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/109.png">
+
+We must add into the file the rule: the script must execute every 10 minutes ```*/10 * * * * sh /home/fcorvaro/monitoring.sh```. 
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/110.png">
+
+Operation of each crontab parameter:
+
++ m -> Corresponds to the minute at which the script will be executed (from 0 to 59).
+
+* h -> The exact hour, the 24-hour format is used (from 0 to 23 - with 0 being midnight).
+
+* dom -> refers to the day of the month (for example, you can specify 15 if you want to execute every 15th of the month).
+
+* dow -> means the day of the week (it can be numeric 0 to 7, where 0 and 7 are Sunday - or the first three letters of the day in English: mon, tue, wed, thu, fri, sat, sun).
+
+* user -> Defines the user who will execute the command, it can be root, or another user as long as it has permission to execute the script.
+
+- command -> Refers to the command or the absolute path of the script to be executed.
+	
+</p>
 
 
 </p>
