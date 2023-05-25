@@ -881,6 +881,13 @@ Reaload privilege tables now? [Y/N] → Y
 
 7 | ```exit``` mariadb.
 
+### PHP
+
+[PHP](https://en.wikipedia.org/wiki/PHP) is a programming language. It is mainly used to develop dynamic web applications and interactive websites. PHP runs on the server side.
+
+1 | We install the necessary packages to be able to run web applications written in PHP language and that need to connect to a MySQL database. ```sudo apt install php-cgi php-mysql``` and then ```y```.
+
+### WordPress configuration
 
 </p>
 	
