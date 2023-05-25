@@ -173,13 +173,15 @@ The ```cmd``` key on your keyboard will help you to switch the capture of your m
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/30.png">
   
-** Brief description of all types of partitions:**
+**Brief description of all types of [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning) :**
 
 ◦ **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
 
 ◦ **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
 
 ◦ **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.  
+
+◦ Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
   
 19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
   
@@ -310,12 +312,12 @@ Repeat the process for all the seven logical volumes. Then continue with finish.
 We can see the configuration of the partitions. We must choose a file system as it currently does not have one.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/62.png">
-
-Choose the ```Ext4 file system``` in use as option, it is the most commonly used file system in Linux distributions.
+	
+Choose the ```Ext4 file system``` in use as option, it is the most commonly used [file system](https://en.wikipedia.org/wiki/File_system) in Linux distributions.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/63.png">
   
-Then select the mount point as home.
+Then select the [mount point](https://en.wikipedia.org/wiki/Mount_(computing)#MOUNT-POINT) as home.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/64.png">
 
@@ -391,7 +393,7 @@ Press ```Continue``` to finish the installation.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/79.png">
   
-### 1 - Installing sudo & configuration of user and groups 
+### 1 - Installing [sudo](https://en.wikipedia.org/wiki/Sudo) & configuration of user and groups 
 
 1 | The beginning of the installation starts with changing user to root so we can install sudo. For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. 
 Write the command 
@@ -430,7 +432,7 @@ Run root-privileged command via prefix ```sudo```.
 
 ### 4.1 -   Installing & configuring SSH
 
-SSH stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
+[SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
 1 | Update the system using ```sudo apt update```.
 
@@ -520,7 +522,7 @@ As it should be:
 
 * log_input, log_output, iolog_dir  -> What will be logged.
 
-* requiretty  -> [TTY](https://www.ibm.com/docs/en/aix/7.2?topic=t-tty-command) is required .
+* requiretty  -> [TTY](https://www.ibm.com/docs/en/aix/7.2?topic=t-tty-command) is required for security reason (subject).
 
 - secure_path	-> Folders that will be excluded of sudo
 	
@@ -600,37 +602,25 @@ You need to pay attention to all things in this section. You will be asked how t
 
 A **script** is a sequence of commands stored in a file that when executed will do the commands writed.
 
-### 5.1 - Architecture
+### 5.1 - [Architecture](https://en.wikipedia.org/wiki/Computer_architecture)
 
 To show the architecture of the OS, you can use the command ```uname -a``` ("-a" == "--all"). This command print information about the current machine and the OS running on it, except the hardware information and the CPU. ```uname -a``` print all available system information.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/96.png">
   
-### 5.2 - Physical Cores
+### 5.2 - [Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit)
 
 To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/97.png">
 
-### 5.3 - Virtual Cores
+### 5.3 - [Virtual Cores](https://en.wikipedia.org/wiki/Central_processing_unit)
 
 To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/98.png">
 	
-### 5.2 - Physical Cores
-
-To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/97.png">
-
-### 5.3 - Virtual Cores
-
-To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/98.png">
-
-### 5.4 - RAM
+### 5.4 - [RAM](https://en.wikipedia.org/wiki/Random-access_memory)
 
 To show the RAM memory use the command ```free``` to see at the moment information about the RAM (the amount used, the amount available, the amount reserved for other resources, etc). For more info use the command ```free --help```. We will use ```free --mega``` since that unit of measure appears in the subject.
 	
@@ -648,7 +638,7 @@ For calculate the % of used memory. The differences between the code we wrote be
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/99.png">
 
-### 5.5 - Disk memory
+### 5.5 - [Disk memory](https://en.wikipedia.org/wiki/Disk_storage)
 	
 To view the occupied and available memory of the disk, we will use the ```df``` command ("disk filesystem"), it is used to get a complete summary of the use of disk space. As indicated in the subject, the used memory is shown in MB. We use the -m flag. Next, we will do a grep to only show us the lines that contain "/dev/" and then we will do another grep with the -v flag to exclude lines that contain "/boot". Finally, we will use the awk command and sum the value of the third word of each line to once all the lines are summed, print the final result of the sum. 
 ```df -m | grep "/dev/" | grep -v "/boot" | awk '{memory_use += $3} END {print memory_use}'```.
@@ -680,7 +670,7 @@ To check if LVM is active or not, we will use the ```lsblk``` command, which sho
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/103.png">
 
-### 5.9 - TCP connections
+### 5.9 - [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) connections
 
 To check the number of established TCP connections, we will use the ```ss``` command replacing the netstat. We will filter with the ```-ta``` flag so only TCP connections are shown. ```ss -ta | grep ESTAB | wc -l```.
 
@@ -692,7 +682,7 @@ We will use the ```users``` command which will show us the names of the users th
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/105.png">
 
-### 5.11 - IP adress & MAC
+### 5.11 - [IP adress](https://en.wikipedia.org/wiki/IP_address) & MAC
 
 To obtain the host address, we will use the ```hostname -I``` command and to obtain the MAC, we will use the ```ip link``` command which is used to show or modify the network interfaces. We will use the grep command to search for what we want and thus be able to print only what is requested. ```ip link | grep "link/ether" | awk '{print $2}'``` and in this way we will only print the MAC.
 
@@ -703,10 +693,6 @@ To obtain the host address, we will use the ```hostname -I``` command and to obt
 To obtain the number of commands executed with sudo, we will use the ```journaclctl``` command, which is a tool that is responsible for collecting and managing the system logs. Next, we will put ```_COMM=sudo``` in order to filter the entries by specifying its path. In our case we put ```_COMM``` because it refers to an executable script. Once we have filtered the search and only the sudo logs appear, we still need to filter a bit more as when you start or close the root session it also appears in the log, so to finish filtering we will put a ```grep COMMAND``` and this will only show the command lines. Finally, we will put ```wc -l``` so that the lines are numbered. The entire command is as follows: ```journalctl _COMM=sudo | grep COMMAND | wc -l)```. To check that it works correctly, we can run the command in the terminal, put a command that includes sudo and run the command again and it should increase the number of sudo executions.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/107.png">
-	
-### 5.13 - Final result of the script
-
-Now we need write this script togheter. Go ```cd /home/fcorvaro``` and then write the script into the ```monitoring.sh``` file ```sudo vim monitoring.sh```
 
 ### 5.13 - Total result of the script
 
@@ -778,7 +764,7 @@ Save the file and test with the command ```sh monitoring.sh```.
 
 ## 6 - Crontab 
 
-Crontab is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
+[Crontab](https://en.wikipedia.org/wiki/Cron) is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
 
 To configure crontab, we must edit the crontab file with the following command ```sudo crontab -u root -e```. We need to insert the password and make a choice for the text editor.
 
@@ -802,6 +788,29 @@ Operation of each crontab parameter:
 
 - command -> Refers to the command or the absolute path of the script to be executed.
 
+## 7 - Bonus 
+
+### 7.1 - Wordpress & services configuration 
+
+### Lighttpd 
+
+[Lighttpd](https://en.wikipedia.org/wiki/Lighttpd) is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a top priority because it consumes less CPU and RAM than other servers.
+
+1 | Installation of Lighttpd packages. ```sudo apt install lighttpd```
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/111.png">
+
+2 | Allow connections through port 80 with the command ```sudo ufw allow 80```. Check the status with ```sudo ufw status```. 
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/112.png">
+
+3 | Add the rule that includes port 80 in virtual box settings. Little reminder how to add rules in port forwarding: Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/113.png">
+
+### WordPress 
+
+[Wordpress](https://en.wikipedia.org/wiki/WordPress) is a web content management system focused on the creation of any type of website.
 
 </p>
 	
