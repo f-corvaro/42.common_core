@@ -28,7 +28,7 @@
 
 ### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) |--> [![fcorvaro's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069523)](https://profile.intra.42.fr/users/fcorvaro) |--> ()
 
-  ```BlackHole =  Days``` | ```Evaluation Length = 60 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
+  ```BlackHole = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) |--> [![fcorvaro's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069521)](https://profile.intra.42.fr/users/fcorvaro) |--> ()
 
