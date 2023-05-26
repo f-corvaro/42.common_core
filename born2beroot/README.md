@@ -152,7 +152,7 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
 </p>
 
-## 3 - Installing Debian
+## 3 - _Installing Debian_
 
 <p align="justify">
 	
