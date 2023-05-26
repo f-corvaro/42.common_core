@@ -589,7 +589,7 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/95.png">
 </p>
 	
-## 5 - Script_System_Info
+## 5 - Script System Info
 	
 <p align="justify">
 	
