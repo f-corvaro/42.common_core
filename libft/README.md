@@ -11,7 +11,10 @@
 0. [About](#0---about)
     
 1. [What's in it?](#1---what-s-in-it-)
+   
+2. [Type of files](#2---type-of-files)
 
+3. [Things new to understand](#3---things-new-to-understand)
 ## 0 - About
 <p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
@@ -28,7 +31,7 @@ There are 4 sections:
 4. **Other:** makefile and libft.h.
 </p>
 
-### Type of files:
+### 2 - Type of files:
 <p align="justify">
 
 **.c - source code file:**
@@ -56,7 +59,7 @@ Archive libraries (.a) are statically linked. The library will remain unchanged 
 </p>
 
 
-## Things "new" to understand
+## 3 - Things new to understand
 <p align="justify">
 
 **malloc:** ```malloc()``` allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
