@@ -40,7 +40,7 @@ There are 4 sections:
 4. **Other:** makefile and libft.h.
 </p>
 
-### 2 - Type of files:
+## 2 - Type of files:
 <p align="justify">
 
 **.c - source code file:**
