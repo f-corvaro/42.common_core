@@ -14,10 +14,7 @@
 0. [About](#0---about)
 	
 1. [Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
-	
-	## 2 - Installing the VM (virtual machine)
-	## 3 - Installing Debian
-	## 4- VM setup 
+
 	
 ## 0 - _About_
   
@@ -600,26 +597,30 @@ You need to pay attention to all things in this section. You will be asked how t
 
 A **script** is a sequence of commands stored in a file that when executed will do the commands writed.
 
-### 5.1 - [Architecture](https://en.wikipedia.org/wiki/Computer_architecture)
+### 5.1 - Architecture
 
+[Architecture](https://en.wikipedia.org/wiki/Computer_architecture).
 To show the architecture of the OS, you can use the command ```uname -a``` ("-a" == "--all"). This command print information about the current machine and the OS running on it, except the hardware information and the CPU. ```uname -a``` print all available system information.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/96.png">
   
-### 5.2 - [Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit)
+### 5.2 - Physical Cores
 
+[Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit). 
 To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/97.png">
 
-### 5.3 - [Virtual Cores](https://en.wikipedia.org/wiki/Central_processing_unit)
+### 5.3 - Virtual Cores
 
+[Virtual Cores](https://en.wikipedia.org/wiki/Central_processing_unit).
 To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/98.png">
 	
-### 5.4 - [RAM](https://en.wikipedia.org/wiki/Random-access_memory)
+### 5.4 - RAM
 
+[RAM](https://en.wikipedia.org/wiki/Random-access_memory).
 To show the RAM memory use the command ```free``` to see at the moment information about the RAM (the amount used, the amount available, the amount reserved for other resources, etc). For more info use the command ```free --help```. We will use ```free --mega``` since that unit of measure appears in the subject.
 	
 We must filter our search because we do not need all the information that it provides. The first thing we need to show is the used memory, using the ```awk``` command, which processes data based on text files,  we can use the data that interests us from a file. We compare if the first word of a row is equal to "Mem:" we will print the third word of that row, which will be the used memory. The whole command together would be ```free --mega | awk '$1 == "Mem:" {print $3}'```. In the script the return value of this command will be assigned to a variable that will be concatenated with other variables so that everything is the same as specified in the subject.
@@ -636,8 +637,9 @@ For calculate the % of used memory. The differences between the code we wrote be
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/99.png">
 
-### 5.5 - [Disk memory](https://en.wikipedia.org/wiki/Disk_storage)
+### 5.5 - Disk memory
 	
+[Disk memory](https://en.wikipedia.org/wiki/Disk_storage).
 To view the occupied and available memory of the disk, we will use the ```df``` command ("disk filesystem"), it is used to get a complete summary of the use of disk space. As indicated in the subject, the used memory is shown in MB. We use the -m flag. Next, we will do a grep to only show us the lines that contain "/dev/" and then we will do another grep with the -v flag to exclude lines that contain "/boot". Finally, we will use the awk command and sum the value of the third word of each line to once all the lines are summed, print the final result of the sum. 
 ```df -m | grep "/dev/" | grep -v "/boot" | awk '{memory_use += $3} END {print memory_use}'```.
 
@@ -668,8 +670,9 @@ To check if LVM is active or not, we will use the ```lsblk``` command, which sho
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/103.png">
 
-### 5.9 - [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) connections
+### 5.9 - TCP
 
+[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) connections.
 To check the number of established TCP connections, we will use the ```ss``` command replacing the netstat. We will filter with the ```-ta``` flag so only TCP connections are shown. ```ss -ta | grep ESTAB | wc -l```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/104.png">
@@ -680,8 +683,9 @@ We will use the ```users``` command which will show us the names of the users th
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/105.png">
 
-### 5.11 - [IP adress](https://en.wikipedia.org/wiki/IP_address) & MAC
+### 5.11 - IP adress
 
+[IP adress](https://en.wikipedia.org/wiki/IP_address).
 To obtain the host address, we will use the ```hostname -I``` command and to obtain the MAC, we will use the ```ip link``` command which is used to show or modify the network interfaces. We will use the grep command to search for what we want and thus be able to print only what is requested. ```ip link | grep "link/ether" | awk '{print $2}'``` and in this way we will only print the MAC.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/106.png">
