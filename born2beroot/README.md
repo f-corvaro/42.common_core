@@ -1208,9 +1208,6 @@ sudo reboot
 sudo crontab -u root -e
 ```
 
-
-
-
 ### 9.2 - Must to know
 	
 
