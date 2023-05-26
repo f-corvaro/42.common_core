@@ -128,7 +128,7 @@
 	- [7.1.e - PHP](#71e---php)
 	- [WordPress configuration](#wordpress-configuration)
 	- [7.2 - Additional service](#72---additional-service)
-	- [LiteSpeed ⚡️](#litespeed-️)
+	- [LiteSpeed](#litespeed)
 - [8 - Signature.txt](#8---signaturetxt)
 - [9 - Theory](#9---theory)
 	- [9.1 - How to correct - evaluator version](#91---how-to-correct---evaluator-version)
@@ -1066,7 +1066,7 @@ To (values that we have previously set when we created the database and the user
 	
 ### 7.2 - Additional service 
 
-### LiteSpeed ⚡️
+### LiteSpeed
 
 [LiteSpeed](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server) is a proprietary web server software. 
 
