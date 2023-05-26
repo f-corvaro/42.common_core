@@ -21,9 +21,9 @@
 
 4. [VM setup](#4---vm-setup)
 
-	4.1 [Installing sudo & configuration of user and groups](#4.1---installing-sudo-&-configuration-of-user-and-groups)
+	4.1 [Installing sudo & configuration of user and groups](###4.1---installing-sudo-&-configuration-of-user-and-groups)
 
-	4.2 [Installing & configuring SSH](#4.2---installing-&-configuring-ssh)
+	4.2 [Installing & configuring SSH](##4.2---installing-&-configuring-ssh)
 	
 	4.3 [Installing & configuring UFW](#4.3---installing-&-configuring-ufw)
 
@@ -495,7 +495,7 @@ Verify whether user was successfully added to sudo group via:
 
 Run root-privileged command via prefix ```sudo```.
 
-### 4.2 -   Installing & configuring SSH
+### 4.2 - Installing & configuring SSH
 
 [SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
