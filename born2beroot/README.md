@@ -21,9 +21,9 @@
 
 4. [VM setup](#4---vm-setup)
 
-	4.1 [Installing sudo & configuration of user and groups](##41---installing-sudo-&-configuration-of-user-and-groups)
+	4.1 [Installing sudo & configuration of user and groups](#41---installing-sudo--configuration-of-user-and-groups)
 
-	4.2 [Installing & configuring SSH](#42---installing-&-configuring-ssh)
+	4.2 [Installing & configuring SSH](#42---installing--configuring-ssh)
 	
 	4.3 [Installing & configuring UFW](#4.3---installing-&-configuring-ufw)
 
