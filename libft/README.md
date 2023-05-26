@@ -21,12 +21,12 @@
   [5 - Running Tests](#5---running-tests)
     
   [6 - Evaluation](#6---evaluation)
+  
+        [6.1 - Tester](#61---tester)
     
-    [6.1 - Tester](#61---tester)
+        [6.2 - Correction Sheet](#62---correction-sheet)
     
-    [6.2 - Correction Sheet](#62---correction-sheet)
-    
-    [6.3 - Moulinette Result](#63---moulinette-result)
+        [6.3 - Moulinette Result](#63---moulinette-result)
     
   [7 - Special Thanks](#7---special-thanks)
     
