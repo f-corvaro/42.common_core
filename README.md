@@ -1,7 +1,6 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42RomaLuiss.jpeg"></a>  **COMMON CORE**
 
-
-### A little brief
+### A briefing
 
 <p align="justify">
  
