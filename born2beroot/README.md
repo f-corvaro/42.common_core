@@ -5,39 +5,34 @@
 ## Outcome
 
 <p align="justify">
-  
+	
 [![subject](https://img.shields.io/badge/subject-born2beroot-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/en.subject.pdf)
-
 </p>
 
-   ## Index
+## Index
 
 Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup 3.18 theory link, 
   
 	
-  ## 0 - About
+## 0 - About
   
-  <p align="justify">
-    
- Born2beRoot is an introduction to virtualization and system administration. The purpose is to create a virtual machine which is a server implementing strict rules, and minimum required services.
-    
-  </p>
+<p align="justify">
+Born2beRoot is an introduction to virtualization and system administration. The purpose is to create a virtual machine which is a server implementing strict rules, and minimum required services. The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
+</p>
 
 ## 1 - Download the virtual machine ISO
 
-  <p align="justify">
-    
-  [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
-
-  </p>
-  
-  ## 2 - Installing the VM (virtual machine)
-  
 <p align="justify">
+    
+[Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
+</p>
   
+## 2 - Installing the VM (virtual machine)
+
+<p align="justify">
 In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
-  1 | Open VirtualBox and click ```New```.
+1 | Open VirtualBox and click ```New```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/1.png">
 
@@ -80,13 +75,12 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/10.png">
 
 11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
-  
 </p>
 
 ## 3 - Installing Debian
 
 <p align="justify">
-  
+	
 Choose your scale rate to get window bigger or smaller: (I prefer 300%)
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/11.png">
@@ -97,9 +91,9 @@ The ```cmd``` key on your keyboard will help you to switch the capture of your m
 
 1 | We will choose the version without graphic interface ```Install``` (is a mandatory part of the subject). 
  
-  To confirm something is used ```Enter key```.
+To confirm something is used ```Enter key```.
   
-  The ```Arrow keys``` are used to move around.
+The ```Arrow keys``` are used to move around.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/12.png">
 
@@ -172,17 +166,19 @@ The ```cmd``` key on your keyboard will help you to switch the capture of your m
 18 | Choose the type of partition. We choose primary because it will be the partition where the operating system will be installed.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/30.png">
-  
+
+
 **Brief description of all types of [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning) :**
 
-◦ **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
+- **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended. 
 
-◦ **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
+- **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
 
-◦ **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.  
+- **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.  
 
-◦ Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
-  
+- Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
+</p>
+	
 19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/31.png">
@@ -368,16 +364,12 @@ Choose the device for the bootloader installation ```/dev/sda```.
 Press ```Continue``` to finish the installation.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/76.png">
-  
-</p>
 
 ## 4- VM setup 
 
-<p align="justify">
-
 ### Boot - When the system boot 
   
-  -> Select ```Debian GNU/Linux```.
+-> Select ```Debian GNU/Linux```.
 
 ### Boot - The system will require the password of the encrypted disk 
   
@@ -595,9 +587,12 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 -> To connect via ssh from the machine to the vm use the command ```ssh <user>@localhost -p 4242```. It will ask for the password of the user that we are trying to log in. Once the password is introduced it will show login in different colour, that will mean that the connections has been successfully.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/95.png">
-
+</p>
+	
 ## 5 - Script_System_Info
-
+	
+<p align="justify">
+	
 You need to pay attention to all things in this section. You will be asked how the script works during the evaluation.
 
 A **script** is a sequence of commands stored in a file that when executed will do the commands writed.
@@ -761,8 +756,11 @@ wall "	Architecture: $arch
 Save the file and test with the command ```sh monitoring.sh```. 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/108.png">
+</p>
 
 ## 6 - Crontab 
+	
+<p align="justify">
 
 [Crontab](https://en.wikipedia.org/wiki/Cron) is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
 
@@ -787,13 +785,16 @@ Operation of each crontab parameter:
 * user -> Defines the user who will execute the command, it can be root, or another user as long as it has permission to execute the script.
 
 - command -> Refers to the command or the absolute path of the script to be executed.
+</p>
 
 ## 7 - Bonus 
 
 ### 7.1 - Wordpress & services configuration 
 
 ### Lighttpd 
-
+	
+<p align="justify">
+	
 [Lighttpd](https://en.wikipedia.org/wiki/Lighttpd) is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a top priority because it consumes less CPU and RAM than other servers.
 
 1 | Installation of Lighttpd packages. ```sudo apt install lighttpd```
@@ -981,8 +982,11 @@ Close your VM → Settings → Network → Advanced → Port forwarding → Add 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/124.png">
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/125.png">
+</p>
 	
 ## 8 - Signature.txt
+
+<p align="justify">
 
 To obtain the signature, we must shutdown the virtual machine saving the machine state. If you turn it on or modify something, the signature will change.
 
@@ -1003,6 +1007,9 @@ The next step will be to locate ourselves in the path where we have the .vdi of 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/130.png">
 	
 Now copy the signature into the intra folder ```vim signature.txt```.
+</p>
+	
+## 9 - 
 
 </p>
 	
