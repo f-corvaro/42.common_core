@@ -10,7 +10,7 @@
 
 0. [About](#0---about)
     
-1. [What's in it?](#1---what-s-in-it--)
+1. [What's in it?](#1---what_s-in-it--)
    
 2. [Type of files](#2---type-of-files)
 
@@ -26,7 +26,7 @@
     
     6.2 [Correction Sheet](#62---correction-sheet)
     
-    6.3 [About this repo](63---correction-sheet)
+    6.3 [About this repo](63---about-this-repo)
 
 7. [Special Thanks](#7---special-thanks)
     
