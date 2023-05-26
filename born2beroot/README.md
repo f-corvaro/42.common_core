@@ -168,16 +168,15 @@ The ```Arrow keys``` are used to move around.
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/30.png">
 
 
-**Brief description of all types of [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning) :**
++ **Brief description of all types of [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning) :**
 
-- **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended. 
+* **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended. 
 
-- **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
+* **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
 
 - **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.  
 
-- Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
-</p>
+Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
 	
 19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
   
