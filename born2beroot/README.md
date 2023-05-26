@@ -75,7 +75,7 @@
 	
 	7.1.e [PHP](#71e---php)
 	
-	7.2 [Additional service](#72---additional service)
+	7.2 [Additional service](#72---additional-service)
 	
 8. [Signature.txt](#8---signature.txt)
 	
