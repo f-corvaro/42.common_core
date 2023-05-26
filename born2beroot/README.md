@@ -11,10 +11,15 @@
 
 ## Index
 
-Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup 3.18 theory link, 
-  
+0. [About](#0---about)
 	
-## 0 - About
+1. [Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
+	
+	## 2 - Installing the VM (virtual machine)
+	## 3 - Installing Debian
+	## 4- VM setup 
+	
+## 0 - _About_
   
 <p align="justify">
 Born2beRoot is an introduction to virtualization and system administration. The purpose is to create a virtual machine which is a server implementing strict rules, and minimum required services. The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
@@ -363,7 +368,7 @@ Press ```Continue``` to finish the installation.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/76.png">
 
-## 4- VM setup 
+## 4 - VM setup 
 
 ### Boot - When the system boot 
   
@@ -383,7 +388,7 @@ Press ```Continue``` to finish the installation.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/79.png">
   
-### 1 - Installing sudo & configuration of user and groups 
+### 4.1 - Installing sudo & configuration of user and groups 
 
 1 | The beginning of the installation starts with changing user to root so we can install [sudo](https://en.wikipedia.org/wiki/Sudo). For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. 
 Write the command 
@@ -420,7 +425,7 @@ Verify whether user was successfully added to sudo group via:
 
 Run root-privileged command via prefix ```sudo```.
 
-### 4.1 -   Installing & configuring SSH
+### 4.2 -   Installing & configuring SSH
 
 [SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
@@ -462,7 +467,7 @@ Save the changes and leave the file.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/85.png">
 
-### 4.2 - Installing & configuring UFW 
+### 4.3 - Installing & configuring UFW 
 
 [UFW](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) is a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) which use the command line for setting up [iptables](https://en.wikipedia.org/wiki/Iptables) using a small number of easy commands.
 
@@ -568,7 +573,7 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 - enforce_for_root -> We will implement this password policy to root.
 
-### 4.5 Connecting via SSH
+### 4.4 Connecting via SSH
 
 1 | To connect via SSH we must close the machine and go to settings.
 
@@ -789,7 +794,7 @@ Operation of each crontab parameter:
 
 ### 7.1 - Wordpress & services configuration 
 
-### Lighttpd 
+### 7.1.a - Lighttpd 
 	
 <p align="justify">
 	
@@ -807,7 +812,7 @@ Operation of each crontab parameter:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/113.png">
 
-### WordPress 
+### 7.1.b - WordPress 
 
 [Wordpress](https://en.wikipedia.org/wiki/WordPress) is a web content management system focused on the creation of any type of website.
 
@@ -829,7 +834,7 @@ Operation of each crontab parameter:
 
 7 | Set permissions for the html folder. Move backword ```cd ..```. For set the permissions use: ```sudo chmod -R 755 html```. The number 7 indicates that the owner has read, write and execute permissions. The number 5 indicates that the group and others only have read and execute permissions.
 
-### Mariadb
+### 7.1.c - Mariadb
 
 [MariaDB](https://en.wikipedia.org/wiki/MariaDB) is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications. 
 
@@ -858,7 +863,7 @@ Reaload privilege tables now? [Y/N] → Y
 
 - Reaload privilege tables now? ```Y```. This will reload the MySQL permission tables so that the changes to the security settings will take effect immediately.
 
-### Database
+### 7.1.d - Database
 
 1 | Finished the installation of mariadb we must create the database and the user for the WordPress. First we must access mariadb typing ```sudo mariadb```.
 
@@ -880,7 +885,7 @@ Reaload privilege tables now? [Y/N] → Y
 
 7 | ```exit``` mariadb.
 
-### PHP
+### 7.1.e - PHP
 
 [PHP](https://en.wikipedia.org/wiki/PHP) is a programming language. It is mainly used to develop dynamic web applications and interactive websites. PHP runs on the server side.
 
