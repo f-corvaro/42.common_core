@@ -17,7 +17,7 @@
 
 2. [Installing the VM (virtual machine)](#2---installing-the-vm---virtual-machine)
 
-3. [Installing Debian](#3.---installing-debian)
+3. [Installing Debian](#3---installing-debian)
 
 4. [VM setup](#4.---vm-setup)
 
@@ -152,7 +152,7 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
 </p>
 
-## 3 - _Installing Debian_
+## 3 - Installing Debian
 
 <p align="justify">
 	
