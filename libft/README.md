@@ -15,6 +15,15 @@
 2. [Type of files](#2---type-of-files)
 
 3. [Things new to understand](#3---things-new-to-understand)
+
+4. [Functions Index](#4---functions-index)
+    
+5. [Running Tests](#5---running-tests)
+    
+6.
+
+7.
+  
 ## 0 - About
 <p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
@@ -145,7 +154,7 @@ struct Node {
 
 </p>
 
-## Index
+## 4 - Functions Index
 
 <p align="center">
 
@@ -178,7 +187,7 @@ struct Node {
 
 </p>
 
-## Running Tests
+## 5 - Running Tests
 
 <p align="justify">
 To run tests, run the following command:
@@ -209,7 +218,13 @@ This command will do the `fclean` and will do the make again.
 
 </p>
 
-## Evaluation
+## 6 - Evaluation
+
+### 6.1 - Tester
+    
+### 6.2 - Correction Sheet
+
+### 6.3 - About this repo
 <p align="justify">
 <img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/moulinette_libft.png">
 
