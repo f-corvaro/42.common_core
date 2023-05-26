@@ -38,7 +38,7 @@ C programming can be very tedious when one doesn’t have access to the highly u
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation of the coding are into the code as a comments.
 </p>
 
-## 1 - What's in it
+## 1 - What's in it?
 <p align="justify">
 There are 4 sections:
 
@@ -48,7 +48,7 @@ There are 4 sections:
 4. **Other:** makefile and libft.h.
 </p>
 
-## 2 - Type of files:
+## 2 - Type of files
 <p align="justify">
 
 **.c - source code file:**
@@ -76,7 +76,7 @@ Archive libraries (.a) are statically linked. The library will remain unchanged 
 </p>
 
 
-## 3 - Things new to understand
+## 3 - Things "new" to understand
 <p align="justify">
 
 **malloc:** ```malloc()``` allocates memory of a requested size and returns a pointer to the beginning of the allocated block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
