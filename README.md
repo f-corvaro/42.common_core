@@ -81,7 +81,7 @@ Vim is a usefull IDE that you use in the exams.
   - To insert your header: `:Stdheader`.
   
 ```
-  set tabstop=4     " set tab to 4 spaces
+  set tabstop=4     // set tab to 4 spaces
   set showmatch
   set mouse=a
   set colorcolumn=80
