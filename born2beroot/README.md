@@ -15,77 +15,77 @@
 	
 1. [Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
 
-2. [](#---)
+2. [Installing the VM (virtual machine)](#2---installing-the-vm---virtual-machine)
 
-3. [](#---)
+3. [Installing Debian](#3.---)
 
-4. [](#---)
+4. [VM setup](#4.---)
 
-4.1 [](#---)
+	4.1 [Installing sudo & configuration of user and groups](#4.1---)
 
-4.2 [](#---)
+	4.2 [Installing & configuring SSH](#4.2---)
 	
-4.3 [](#---)
+	4.3 [Installing & configuring UFW](#4.3---)
 
-4.4 [](#---)
+	4.4 [Setting up a strong password policy](#4.4---)
 	
-4.5 [](#---)
+	4.5 [Connecting via SSH](#4.5---)
 	
-5. [](#---)
+5. [Script System Info](#5.---)
 	
-5.1 [](#---)
+	5.1 [Architecture](#5.1---)
 	
-5.2 [](#---)
+	5.2 [Physical Cores](#5.2---)
 	
-5.3 [](#---)
+	5.3 [Virtual Cores](#5.3---)
 	
-5.4 [](#---)
+	5.4 [RAM](#5.4---)
 	
-5.5 [](#---)
+	5.5 [Disk memory](#5.5---)
 	
-5.6 [](#---)
+	5.6 [CPU usage percentage](#5.6---)
 	
-5.7 [](#---)
+	5.7 [Last reboot](#5.7---)
 	
-5.8 [](#---)
+	5.8 [LVM activation](#5.8---)
 	
-5.9 [](#---)
+	5.9 [TCP](#5.9---)
 	
-5.10 [](#---)
+	5.10 [Number of users](#5.10---)
 	
-5.11 [](#---)
+	5.11 [IP adress](#5.11---)
 	
-5.12 [](#---)
+	5.12 [Number of commands executed with sudo](#5.12---)
 	
-5.13 [](#---)
+	5.13 [Total result of the script](#5.13---)
 	
-6. [](#---)
+6. [Crontab](#6.---)
 	
-7. [](#---)
+7. [Bonus](#7.---)
 	
-7.1 [](#---)
+	7.1 [Wordpress & services configuration](#7.1---)
 	
-7.1.a [](#---)
+	7.1.a [Lighttpd](#7.1.a---)
 	
-7.1.b [](#---)
+	7.1.b [WordPress](#7.1.b---)
 	
-7.1.c [](#---)
+	7.1.c [Mariadb](#7.1.c---)
 	
-7.1.d [](#---)
+	7.1.d [Database](#7.1.d---)
 	
-7.1.e [](#---)
+	7.1.e [PHP](#7.1.e---)
 	
-7.2 [](#---)
+	7.2 [Aditional service](#7.2---)
 	
-8. [](#---)
+8. [Signature.txt](#8---)
 	
-9. [](#---)
+9. [Theory](#9---)
 	
-9.1 [](#---)
+	9.1 [How to correct - evaluator version](#9.1---)
 	
-9.2 [](#---)
+	9.2 [Must to know](#9.2---)
 	
-9.3 [](#---)
+	9.3 [Correction Sheet](#9.3---)
 	
 [LICENSE](#license)
 
@@ -102,7 +102,7 @@ Born2beRoot is an introduction to virtualization and system administration. The 
 [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
 </p>
   
-## 2 - Installing the VM (virtual machine)
+## 2 - Installing the VM - virtual machine
 
 <p align="justify">
 In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
