@@ -1220,7 +1220,11 @@ This is a personal answer. [Debian](https://en.wikipedia.org/wiki/Debian) <-----
 
 ### Basic differences between CentOS and Debian
 
-![182516961-c3e4da77-2db8-4737-a68f-27b033908705 (1) (1)](https://user-images.githubusercontent.com/66915274/182517306-edb92eac-cba4-444a-83f8-9692bac69231.png)
+v.1             |  v.2
+:-------------------------:|:-------------------------:
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/CvD1.jpeg">  |  <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/CvD2.jpeg">
+
+
 
 ### What is the purpose of virtual machines?
 
