@@ -80,10 +80,8 @@ This statement will deallocate the memory previously allocated. C does not come 
 Like arrays, a linked list is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers. They include a series of connected nodes. Here, each node stores the data and the address of the next node.
 
 </p>
-
-<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/lle.png">
-
-</p>
+    
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/lle.png">
 
 <p align="justify">
 Arrays can be used to store linear data of similar types, but arrays have some limitations:
