@@ -518,7 +518,7 @@ As it should be:
 
 - secure_path	-> Folders that will be excluded of sudo
 	
-### 4.4 Setting up a strong password policy 
+### 4.4 - Setting up a strong password policy 
 
 1 | Edit the login.defs file.
 
@@ -570,7 +570,7 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 - enforce_for_root -> We will implement this password policy to root.
 
-### 4.4 Connecting via SSH
+### 4.5 - Connecting via SSH
 
 1 | To connect via SSH we must close the machine and go to settings.
 
