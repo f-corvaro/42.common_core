@@ -26,7 +26,7 @@
     
     6.2 [Correction Sheet](#62---correction-sheet)
     
-    6.3 [About this repo](63---about-this-repo)
+    6.3 [Moulinette Result](63---moulinette-result)
 
 7. [Special Thanks](#7---special-thanks)
     
@@ -232,12 +232,11 @@ This command will do the `fclean` and will do the make again.
     
 ### 6.2 - Correction Sheet
 
-### 6.3 - About this repo
+### 6.3 - Moulinette Result
     
 <p align="justify">
 <img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/moulinette_libft.png">
 
-Libft (with the bonus) will give to you 65 days for the blackhole. The repo was tested with some tester online.
 </p>
 
 ## 7 - Special Thanks
