@@ -19,7 +19,7 @@
 
 3. [Installing Debian](#3---installing-debian)
 
-4. [VM setup](#4.---vm-setup)
+4. [VM setup](#4---vm-setup)
 
 	4.1 [Installing sudo & configuration of user and groups](##4.1---installing-sudo-&-configuration-of-user-and-groups)
 
@@ -31,7 +31,7 @@
 	
 	4.5 [Connecting via SSH](#4.5---connecting-via-ssh)
 	
-5. [Script System Info](#5.---script-system-info)
+5. [Script System Info](#5---script-system-info)
 	
 	5.1 [Architecture](#5.1---architecture)
 	
@@ -59,9 +59,9 @@
 	
 	5.13 [Total result of the script](#5.13---total-result-of-the-script)
 	
-6. [Crontab](#6.---crontab)
+6. [Crontab](#6---crontab)
 	
-7. [Bonus](#7.---bonus)
+7. [Bonus](#7---bonus)
 	
 	7.1 [Wordpress & services configuration](#7.1---wordpress-&-services-configuration)
 	
