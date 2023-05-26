@@ -10,7 +10,7 @@
 
 0. [About](#0---about)
     
-1. [What's in it?](#1---what's-in-it?)
+1. [What's in it?](#1---whats-in-it?)
 
 ## 0 - About
 <p align="justify">
