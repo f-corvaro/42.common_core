@@ -1210,7 +1210,47 @@ sudo crontab -u root -e
 
 ### 9.2 - Must to know
 	
+### What is a virtual machine?
 
+A [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine) is software that simulates a computer system and can run programs as if it were a real computer. It allows the creation of multiple simulated environments or dedicated resources from a single physical hardware system. 
+
+### Why did you choose Debian/CentOS?
+
+This is a personal answer. [Debian](https://en.wikipedia.org/wiki/Debian) <------> [CentOS](https://en.wikipedia.org/wiki/CentOS)
+
+### Basic differences between CentOS and Debian
+
+![182516961-c3e4da77-2db8-4737-a68f-27b033908705 (1) (1)](https://user-images.githubusercontent.com/66915274/182517306-edb92eac-cba4-444a-83f8-9692bac69231.png)
+
+### What is the purpose of virtual machines?
+
+Their purpose is to provide a hardware platform and operating system independent execution environment, which hides the details of the underlying system and allows a program to always run the same way on any platform.
+
+### Differences between apt and aptitude 
+
+Aptitude It offers a command-line and text-based front-end for package management. It doesn't come by default, so you need to install it with the `apt` command. Aptitude offers the possibility to manage your packages through command lines and also from a visual interface directly 
+on your terminal. You can perform the main actions like installing, updating, and deleting your packages. it also offers sub-commands to manage your packages as apt but some people prefer the visual interface as it's easy to use.. APT is a lower-level package manager and aptitude 
+is a high-level package manager. Another big difference is the functionality offered by both tools. Aptitude offers better functionality compared to apt-get.Both are able to provide the necessary means to perform package management.
+If you consider only the command-line interfaces of each, they are quite similar. There are a few differences that we can list:
+
++ Apt offers a command-line interface, while aptitude offers a visual interface.
+
+* When facing a package conflict, `apt` will not fix the issue while `aptitude` will suggest a resolution.
+
+* aptitude can interactively retrieve and displays the Debian changelog of all available official packages.
+
+- Apt requires the user to have a solid knowledge of Linux systems and package management as you are running everything in the command line. It can be difficult for a novice to handle.
+
+On the other hand, aptitude with its interface is more user-friendly as it offers a layer of abstraction regarding the different sub-commands to use for installation, upgrades, etc.
+
+### What is APPArmor?
+
+[APParmor](https://en.wikipedia.org/wiki/AppArmor#:~:text=AppArmor%20(%22Application%20Armor%22),capabilities%20with%20per%2Dprogram%20profiles.) is a security module in the Linux kernel that allows the system administrator to restrict the capabilities of a program.
+
+### What is LVM?
+
+[LVM](https://en.wikipedia.org/wiki/Logical_volume_management#:~:text=In%20computer%20storage%2C%20logical%20volume,partitioning%20schemes%20to%20store%20volumes.) is a logical volume manager. It provides a method for allocating space on mass storage devices, which is more 
+flexible than conventional partitioning schemes for storing volumes.
 
 ### 9.3 - Correction Sheet 
 
