@@ -7,7 +7,7 @@
 [![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/en.subject.pdf)
 
 
-## Introduction
+## About
 <p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation of the coding are into the code as a comments.
