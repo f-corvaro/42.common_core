@@ -63,7 +63,7 @@
 	
 7. [Bonus](#7---bonus)
 	
-	7.1 [Wordpress & services configuration](#71---wordpress-&-services-configuration)
+	7.1 [Wordpress & services configuration](#71---wordpress--services-configuration)
 	
 	7.1.a [Lighttpd](#71a---lighttpd)
 	
