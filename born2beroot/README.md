@@ -1220,9 +1220,9 @@ This is a personal answer. [Debian](https://en.wikipedia.org/wiki/Debian) <-----
 
 ### Basic differences between CentOS and Debian
 
-v.1             |  v.2
+v.1 | v.2
 :-------------------------:|:-------------------------:
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/CvD1.jpeg">  |  <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/CvD2.jpeg">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/CvD1.jpeg">  |  <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/CvD2.png">
 
 
 
