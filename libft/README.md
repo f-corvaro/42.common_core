@@ -231,7 +231,7 @@ This command will do the `fclean` and will do the make again.
 Libft (with the bonus) will give to you 65 days for the blackhole. The repo was tested with some tester online.
 </p>
 
-## Special Thanks
+## 7 - Special Thanks
 <p align="justify">
     
 [@dieremy]( https://github.com/dieremy ) helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it.
