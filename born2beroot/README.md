@@ -383,9 +383,9 @@ Press ```Continue``` to finish the installation.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/79.png">
   
-### 1 - Installing [sudo](https://en.wikipedia.org/wiki/Sudo) & configuration of user and groups 
+### 1 - Installing sudo & configuration of user and groups 
 
-1 | The beginning of the installation starts with changing user to root so we can install sudo. For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. 
+1 | The beginning of the installation starts with changing user to root so we can install [sudo](https://en.wikipedia.org/wiki/Sudo). For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. 
 Write the command 
   
 ```
