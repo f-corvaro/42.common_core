@@ -15,7 +15,7 @@
 Introduction, Download the virtual machine ISO, Installing the VM (virtual machine), Installing Debian, VM setup 3.18 theory link, 
   
 	
-  ## 0 - Introduction
+  ## 0 - About
   
   <p align="justify">
     
