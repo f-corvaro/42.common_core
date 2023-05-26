@@ -1,4 +1,4 @@
-# **GET_NEXT_LINE** [![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069522)](https://profile.intra.42.fr/users/fcorvaro)
+# **GET_NEXT_LINE** [![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069522)](https://profile.intra.42.fr/users/fcorvaro) ⚠️ **WORKING IN PROGRESS** ⚠️
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/get_next_line"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/get_next_line_intra.png">
 
