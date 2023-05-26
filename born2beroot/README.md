@@ -1217,7 +1217,13 @@ sudo crontab -u root -e
 
 ### 9.3 - Correction Sheet 
 
-	
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs1.png">
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs2.png">
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs3.png">
+
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs4.png">
 
 </p>
 	
