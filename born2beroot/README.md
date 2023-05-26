@@ -1,6 +1,6 @@
 # **BORN2BEROOT** [![fcorvaro's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069523)](https://profile.intra.42.fr/users/fcorvaro)
 
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/born2beroot"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/born.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/born2beroot"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/born.png">
 
 ## Outcome
 
@@ -34,45 +34,45 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 1 | Open VirtualBox and click ```New```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/1.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/1.png">
 
 2 | Choose a name for the machine and the folder which will locate it. 
 	
 **IMPORTANT:** Store the machine created inside the goinfre folder located in your cluster server. This will avoid the run out of memory space in your session and avoid that the installation will fail. (Ask your staff if you can't find it). Then click ```continue```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/2.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/2.png">
 
 3 | Select the total RAM memory which we will reserve for the machine.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/3.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/3.png">
 
 4 | Select the second option - ```create a virtual hard disk now```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/4.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/4.png">
 
 5 | Choose ```VDI``` option (we downloaded an ISO).
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/5.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/5.png">
 
 6 | Select the ```Dynamically allocated``` option, it will allocate the memory of the physical machine as it feels necessary while using the virtual machine until we reach the available limit.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/6.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/6.png">
 
 7 | Set ```30 GB```, because we are doing the bonus.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/7.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/7.png">
 
 8 | Click on ```Settings```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/8.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/8.png">
 
 9 | Now click on ```Storage``` , again click on ```💿 Empty```. Click the ```💿``` in the line of "optical drive" and click ```Choose a disk file```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/9.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/9.png">
 
 10 | Select the ISO that we just downloaded and click ```Open```, then click on ```Ok```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/10.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/10.png">
 
 11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
 </p>
@@ -83,7 +83,7 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 	
 Choose your scale rate to get window bigger or smaller: (I prefer 300%)
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/11.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/11.png">
 
 The ```cmd``` key on your keyboard will help you to switch the capture of your mouse from vm to your system or viceversa.
   
@@ -95,78 +95,77 @@ To confirm something is used ```Enter key```.
   
 The ```Arrow keys``` are used to move around.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/12.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/12.png">
 
 2 | Choose the language. Select ```English```.  
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/13.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/13.png">
 
 3 | Select the country. If yours there isn't in the list, go to ```other```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/14.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/14.png">
 
 4 | Select your location (for me is Italy).
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/15.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/15.png">
 
 5 | Select the configure locales, choose ```United States```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/16.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/16.png">
 
 6 | Select your keymap, I will choose ```American English```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/17.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/17.png">
 
 7 | Set a ```Host Name``` of the machine, must be your login followed by a 42.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/18.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/18.png">
 
 8 | The ```Domain name``` must be blank until the subject will require it (see the version of the subject).
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/19.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/19.png">
 
 9 | Go to *Show Password in Clear* and then press the ```Space bar```. Now set a strong password policy for the root user. **Save this password, will be useful**. Then you need to repeat the password to set.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/20.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/20.png">
 
 10 | Set up the username. As is wrote in the subject, write your student login name. Then repeat
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/21.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/21.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/22.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/22.png">
   
 11 | Set our new user password. I will use the same password. Just as before, you need to repeat the process.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/23.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/23.png">
 
 12 | Select ```Manual```. (Is required part for the bonus, so we can edit the partitions one by one)
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/24.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/24.png">
 
 13 | It shows us a general description of our memory partitions and mount points. Currently, I don't have any partitions. To create a new partition, we must choose the disk where we want to create them. In our case, we will choose the only one available.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/25.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/25.png">
 
 14 |  Accept the confirmation message. Basically, it warns us that if there are already partitions on the device, they will be deleted and if we are sure to create a new empty partition.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/26.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/26.png">
 
 15 | Appears our partition table that is empty. Now we must configure it, for this we must select ```pri/log  32.2  GB FREE SPACE```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/27.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/27.png">
   
 16 | Create a new partition.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/28.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/28.png">
   
 17 | I start with sda1, as the subject indicates, the size of the partition must be 500 megabytes.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/29.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/29.png">
   
 18 | Choose the type of partition. We choose primary because it will be the partition where the operating system will be installed.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/30.png">
-
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/30.png">
 
 + **Brief description of all types of [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning) :**
 
@@ -180,189 +179,189 @@ Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_T
 	
 19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/31.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/31.png">
 
 20 |  It shows the details of the partition. We will modify the mount point as specified in the subject.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/32.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/32.png">
   
 Choose ```/boot```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/33.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/33.png">
 
 Finish configuring the current partition.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/34.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/34.png">
   
 21 | Completed the previous step, the partition should already appear. Now we must create a logical partition with all the available space on the disk, which has no mount point and is encrypted. To do this, select the free space where we want to create it.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/35.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/35.png">
   
 22 | Create a new partition.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/36.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/36.png">
   
 Select the maximum size.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/37.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/37.png">
   
 Select the type of partition, logical in this case.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/38.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/38.png">
 
 Modify the mount point.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/39.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/39.png">
   
 Choose the option ```Do not mount it```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/40.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/40.png">
   
 Finish configuring the current partition.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/41.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/41.png">
   
 23 | Configure encrypted volumes, so we can encrypt our partition.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/42.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/42.png">
   
 Accept the confirmation message.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/43.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/43.png">
   
 Create the encrypted volumes.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/44.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/44.png">
   
 Select which partition we want to encrypt.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/45.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/45.png">
   
 Finish configuring the current partition.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/46.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/46.png">
   
 ```Finish``` because we don't want to create more encrypted volumes.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/47.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/47.png">
 
 Accept the confirmation message. It tells us that everything inside the partition will be encrypted and it should not take long to finish.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/48.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/48.png">
   
 ```cancel``` it because there is nothing to encrypt (the partition is empty).
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/49.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/49.png">
   
 Enter a password, this time it will be the encryption phrase.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/50.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/50.png">
   
 24 | ```Configure the logical volume manager```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/51.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/51.png">
   
 Accept the confirmation message as we agree to save the changes to the disk.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/52.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/52.png">
 
 ```Create a new volume group```. 
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/53.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/53.png">
   
 Enter the name we want to give it: ```LVMGroup``` as indicated in the subject.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/54.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/54.png">
   
 Select the partition where we want to create the group: ```sda5_crypt```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/55.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/55.png">
   
 Create all the logical partitions as we requested from the subject. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/b.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/56.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/56.png">
   
 Choose the group where we want to create the logical partitions. We select the only one available (the one we created).
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/57.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/57.png">
   
 The order of creation of the logical units must be the same of the subject, so we will start with ```root``` and end with ```var-log```. 
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/58.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/58.png">
   
 Size, as indicated in the subject, will be ```10g```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/59.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/59.png">
   
 Repeat the process for all the seven logical volumes. Then continue with finish.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/60.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/60.png">
   
 25 | Now we can see all our partitions and free space, all the logical partitions that we just created are already appearing. We must configure the mount point and the usage of these. Again we will go in order and select the first one that appears, which is ```home```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/61.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/61.png">
   
 We can see the configuration of the partitions. We must choose a file system as it currently does not have one.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/62.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/62.png">
 	
 Choose the ```Ext4 file system``` in use as option, it is the most commonly used [file system](https://en.wikipedia.org/wiki/File_system) in Linux distributions.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/63.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/63.png">
   
 Then select the [mount point](https://en.wikipedia.org/wiki/Mount_(computing)#MOUNT-POINT) as home.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/64.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/64.png">
 
 And the first one is gone.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/65.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/65.png">
   
 Now we need to repeat, to see what mount point I use and the use as, watch the image below that resume the final result:
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/66.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/66.png">
 
 Accept the message and the changes will be saved. Make sure that all of the partitions look the same as in the screenshot.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/67.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/67.png">
 
 Select the option ```No``` because we don't need additional packages.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/68.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/68.png">
   
 Choose your Country.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/69.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/69.png">
   
 Choose ```deb.debian.org```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/70.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/70.png">
 
 Leave this option empty and click ```Continue```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/71.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/71.png">
   
  We selected the option ```No``` because we do not want that developers watch our statistics even though they are anonymous.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/72.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/72.png">
 
 Remove all the software options using the spacebar and press ```Continue```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/73.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/73.png">
   
 Select ```Yes``` to install  [GRUB](https://es.wikipedia.org/wiki/GNU_GRUB) boot in the primary drive.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/74.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/74.png">
   
 Choose the device for the bootloader installation ```/dev/sda```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/75.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/75.png">
   
 Press ```Continue``` to finish the installation.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/76.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/76.png">
 
 ## 4- VM setup 
 
@@ -374,15 +373,15 @@ Press ```Continue``` to finish the installation.
   
 -> Write the encryptation password that previously we set. For me is ```Pw.20STNG!81```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/77.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/77.png">
 
 ### Boot - The system will require the user and password that we created 
   
 -> In my case the user is ```fcorvaro``` and the password is ```Pw.20STNG!81```.
   
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/78.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/78.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/79.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/79.png">
   
 ### 1 - Installing [sudo](https://en.wikipedia.org/wiki/Sudo) & configuration of user and groups 
 
@@ -435,11 +434,11 @@ Confirm writing ```y```, and wait for the installation time.
 
 ```sudo service ssh status``` to check if the package was succesfully installed. **Active** is required to continue.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/80.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/80.png">
 
 3 | Edit the file ```/etc/ssh/sshd_config```. If you are not on root you will not be able to edit the file; as you know, for switching to root we use ```su```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/81.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/81.png">
 
 4 | The ```#``` means that line it is commented. The lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
 
@@ -447,9 +446,9 @@ Confirm writing ```y```, and wait for the installation time.
 
 * ```#PermitRootLogin prohibit-password -> PermitRootLogin no```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/82.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/82.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/83.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/83.png">
 
 Save the changes and leave the file.
 
@@ -457,11 +456,11 @@ Save the changes and leave the file.
 
 + ```#Port 22 -> Port 4242```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/84.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/84.png">
 
 6 | Restart the ssh service so it can be updated. Use ```sudo service ssh restart``` and once it is done we will check the service state with ```sudo service ssh status``` and confirm that everything is alright.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/85.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/85.png">
 
 ### 4.2 - Installing & configuring UFW 
 
@@ -471,15 +470,15 @@ Save the changes and leave the file.
 
 2 | Start the UFW using the command ```sudo ufw enable``` and then it have to show us the *firewall is active.*
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/86.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/86.png">
 
 3 | We must allow our firewall to accept the connections (that will happens in the 4242 port). Use ```sudo ufw allow 4242```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/87.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/87.png">
 
 4 | For checking if everything done is correct, we need to check the actual state of our firewall. Use ```sudo ufw status```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/88.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/88.png">
 
 ### 4.3 - Setting up the sudo policies 
 
@@ -503,7 +502,7 @@ Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/
 
 As it should be:
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/89.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/89.png">
 
 + passwd_tries -> Total tries for entering the sudo password.
 
@@ -529,7 +528,7 @@ As it should be:
 
 * PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/90.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/90.png">
 
 * PASS_MAX_DAYS: It's the max days till password expiration.
 
@@ -541,7 +540,7 @@ As it should be:
 
 4 | Edit the file using ```sudo vim /etc/pam.d/common-password```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/91.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/91.png">
 
 5 | Immediately after ```retry=3```, add (in the same line) the commands:
 
@@ -549,7 +548,7 @@ As it should be:
 minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
 ```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/92.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/92.png">
 
 + minlen=10 -> The minimun characters a password must contain.
 
@@ -573,7 +572,7 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 1 | To connect via SSH we must close the machine and go to settings.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/93.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/93.png">
 
 2 | Click on ```Network```, click on ```Advanced``` so it shows more options, then we click on ```Port fowarding```.
 
@@ -581,11 +580,11 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 4 | Add the ```4242``` port to Host and Guest. The IP's are not required. Click accept so changes are saved.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/94.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/94.png">
 
 -> To connect via ssh from the machine to the vm use the command ```ssh <user>@localhost -p 4242```. It will ask for the password of the user that we are trying to log in. Once the password is introduced it will show login in different colour, that will mean that the connections has been successfully.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/95.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/95.png">
 </p>
 	
 ## 5 - Script_System_Info
@@ -600,19 +599,19 @@ A **script** is a sequence of commands stored in a file that when executed will 
 
 To show the architecture of the OS, you can use the command ```uname -a``` ("-a" == "--all"). This command print information about the current machine and the OS running on it, except the hardware information and the CPU. ```uname -a``` print all available system information.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/96.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/96.png">
   
 ### 5.2 - [Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit)
 
 To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/97.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/97.png">
 
 ### 5.3 - [Virtual Cores](https://en.wikipedia.org/wiki/Central_processing_unit)
 
 To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/98.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/98.png">
 	
 ### 5.4 - [RAM](https://en.wikipedia.org/wiki/Random-access_memory)
 
@@ -630,7 +629,7 @@ To obtain the total memory, we change the third one with the second one.
 
 For calculate the % of used memory. The differences between the code we wrote before and this one is the printing part. We are using ```%.2f``` so that only 2 decimals are shown. In printf to show a ```%``` you have to put ```%%```. The whole command ```free --mega | awk '$1 == "Mem:" {printf("(%.2f%%)\n", $3/$2*100)}'```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/99.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/99.png">
 
 ### 5.5 - [Disk memory](https://en.wikipedia.org/wiki/Disk_storage)
 	
@@ -643,50 +642,50 @@ To obtain the total space, the only differences will be that the values we will 
 We must show a percentage of the used memory. We combine the two previous commands to have two variables, one represents the used memory and the other the total. The operation to obtain the percentage is: ```use/total*100``` and the result of this operation will be printed as it appears in the subject, between parentheses and with the % symbol at the end.
 ```df -m | grep "/dev/" | grep -v "/boot" | awk '{use += $3} {total += $2} END {printf("(%d%%)\n"), use/total*100}'```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/100.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/100.png">
 
 ### 5.6 - CPU usage percentage
 
 To view the percentage of CPU usage, we will use the ```vmstat``` command, which shows system statistics, allowing us to obtain a general detail of the processes, memory usage, CPU activity, system status, etc. We could put no option but I will put an interval of seconds from 1 to 3. We will also use the ```tail -1``` command, which will allow us to produce the output only on the last line, so of the 3 generated, only the last one will be printed. We will only print word 15, which is the available memory usage. The entire command is as follows: ```vmstat 1 3| tail -1 | awk '{print$15}'```. 
 The result of this command is only part of the final result since there is still some operation to be done in the script for it to be correct. What should be done is to subtract the amount returned by our command from 100, the result of this operation will be printed with one decimal and a % at the end and the operation would be finished.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/101.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/101.png">
 	
 ### 5.7 - Last reboot
 
 To see the date and time of our last reboot, we will use the ```who``` command with the ```-b``` flag, as this flag will display the time of the last system boot on the screen. It shows us more information than we want, so we will filter it and only show what we are interested in, for this we will use the awk command and compare if the first word of a line is "system", the third word of that line will be printed on the screen, a space, and the fourth word. ```who -b | awk '$1 == "system" {print $3 " " $4}'```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/102.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/102.png">
 	
 ### 5.8 - LVM activation
 
 To check if LVM is active or not, we will use the ```lsblk``` command, which shows us information about all block devices (hard drives, SSDs, memories, etc) among all the information it provides. This command will print Yes or No. Basically, the condition we are looking for will be to count the number of lines in which "lvm" appears and if there are more than 0 we will print Yes, if there are 0 we will print No. ```if [ $(lsblk | grep lvm | wc -l) -gt 0 ];then echo yes; else echo no; fi```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/103.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/103.png">
 
 ### 5.9 - [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) connections
 
 To check the number of established TCP connections, we will use the ```ss``` command replacing the netstat. We will filter with the ```-ta``` flag so only TCP connections are shown. ```ss -ta | grep ESTAB | wc -l```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/104.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/104.png">
 
 ### 5.10 - Number of users
 
 We will use the ```users``` command which will show us the names of the users there are, we will put ```wc -w``` to count the number of words in the command output. ```users | wc -w```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/105.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/105.png">
 
 ### 5.11 - [IP adress](https://en.wikipedia.org/wiki/IP_address) & MAC
 
 To obtain the host address, we will use the ```hostname -I``` command and to obtain the MAC, we will use the ```ip link``` command which is used to show or modify the network interfaces. We will use the grep command to search for what we want and thus be able to print only what is requested. ```ip link | grep "link/ether" | awk '{print $2}'``` and in this way we will only print the MAC.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/106.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/106.png">
 	
 ### 5.12 - Number of commands executed with sudo
 
 To obtain the number of commands executed with sudo, we will use the ```journaclctl``` command, which is a tool that is responsible for collecting and managing the system logs. Next, we will put ```_COMM=sudo``` in order to filter the entries by specifying its path. In our case we put ```_COMM``` because it refers to an executable script. Once we have filtered the search and only the sudo logs appear, we still need to filter a bit more as when you start or close the root session it also appears in the log, so to finish filtering we will put a ```grep COMMAND``` and this will only show the command lines. Finally, we will put ```wc -l``` so that the lines are numbered. The entire command is as follows: ```journalctl _COMM=sudo | grep COMMAND | wc -l)```. To check that it works correctly, we can run the command in the terminal, put a command that includes sudo and run the command again and it should increase the number of sudo executions.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/107.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/107.png">
 
 ### 5.13 - Total result of the script
 
@@ -754,7 +753,7 @@ wall "	Architecture: $arch
 
 Save the file and test with the command ```sh monitoring.sh```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/108.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/108.png">
 </p>
 
 ## 6 - Crontab 
@@ -765,11 +764,11 @@ Save the file and test with the command ```sh monitoring.sh```.
 
 To configure crontab, we must edit the crontab file with the following command ```sudo crontab -u root -e```. We need to insert the password and make a choice for the text editor.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/109.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/109.png">
 
 We must add into the file the rule: the script must execute every 10 minutes ```*/10 * * * * sh /home/fcorvaro/monitoring.sh```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/110.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/110.png">
 
 Operation of each crontab parameter:
 
@@ -798,15 +797,15 @@ Operation of each crontab parameter:
 
 1 | Installation of Lighttpd packages. ```sudo apt install lighttpd```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/111.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/111.png">
 
 2 | Allow connections through port 80 with the command ```sudo ufw allow 80```. Check the status with ```sudo ufw status```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/112.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/112.png">
 
 3 | Add the rule that includes port 80 in virtual box settings. Little reminder how to add rules in port forwarding: Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/113.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/113.png">
 
 ### WordPress 
 
@@ -866,11 +865,11 @@ Reaload privilege tables now? [Y/N] → Y
 
 2 | Create a database for the WordPress. I will do all this with the command ```CREATE DATABASE wp_database;```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/114.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/114.png">
 
 3 | To make sure that the database for WordPress has been created we can view all existing databases with the command ```SHOW DATABASES;```.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/115.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/115.png">
 
 4 | Next we need to create a user inside the database. ```CREATE USER 'fcorvaro'@'localhost' IDENTIFIED BY '12345';```.
 
@@ -897,11 +896,11 @@ Reaload privilege tables now? [Y/N] → Y
 
 From
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/116.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/116.png">
 
 To (values that we have previously set when we created the database and the user so that WordPress).
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/117.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/117.png">
 
 4 | We enabled the fastcgi-php module in Lighttpd to improve the performance and speed of web applications on the server. ```sudo lighty-enable-mod fastcgi```
 
@@ -911,19 +910,19 @@ To (values that we have previously set when we created the database and the user
 
 7 | Once we have completed the previous steps we can go back to our browser and type ```localhost```. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/118.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/118.png">
 
 8 | We must fill in all the fields.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/119.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/119.png">
 
 9 | Click on ```Install WordPress``` and we will have finished the installation. You will see the next tab. Now WordPress can create the tables and dump all the data it needs to work in the database we have assigned to it.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/120.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/120.png">
 
 10 | If we access again to our localhost from the browser we can see our functional page.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/121.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/121.png">
 
 11 | If we want to access the admin panel to make changes to our site we will have to put in the browser ```localhost/wp-admin``` and log in with our account.
 
@@ -961,7 +960,7 @@ To (values that we have previously set when we created the database and the user
 
 ```Password: 123456```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/122.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/122.png">
 
 5 | We configure the firewall to allow connections through ports 8088 and 7080. We then add the rules in the port forwarding.
 
@@ -974,13 +973,13 @@ To (values that we have previously set when we created the database and the user
 Add the rule that includes port 7080 and 8088 in virtual box settings. Little reminder how to add rules in port forwarding: 
 Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/123.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/123.png">
 	
 6 | Completed the previous steps we can connect. We will put in the search engine of our browser ```localhost:7080``` (obviously with the VM online).
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/124.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/124.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/125.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/125.png">
 </p>
 	
 ## 8 - Signature.txt
@@ -989,21 +988,21 @@ Close your VM → Settings → Network → Advanced → Port forwarding → Add 
 
 To obtain the signature, we must shutdown the virtual machine saving the machine state. If you turn it on or modify something, the signature will change.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/126.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/126.png">
 
 The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. You can see the path in the settings -> storage. 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/127.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/127.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/128.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/128.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/129.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/129.png">
 
 **FINAL** | Run ```shasum Born2beroot.vdi``` and this will give us the signature. The result of this signature is what we will add and push into the intra folder of the school. It is very important not to reopen the machine since the signature will be modified. For corrections, remember to clone the machine (just copy the directory of born2beroot vm) so you can turn it on without fear of changing the signature.
 
 [shasum](https://ss64.com/osx/shasum.html) is a command that allows you to identify the integrity of a file using the SHA-1 hash check sum of a file.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/screenshots/130.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/130.png">
 	
 Now copy the signature into the intra folder ```vim signature.txt```.
 </p>
