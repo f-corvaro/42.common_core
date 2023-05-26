@@ -10,7 +10,7 @@
 
 0. [About](#0---about)
     
-1. [What's in it]#1---whats-in-it--libft-)
+1. [What's in it](#1---whats-in-it--libft-)
    
 2. [Type of files](#2---type-of-files)
 
