@@ -1,10 +1,10 @@
 # **LIBFT** [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://profile.intra.42.fr/users/fcorvaro)
 
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/libft.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft.png">
 
 ## Outcome
 
-[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/en.subject.pdf)
+[![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/en.subject.pdf)
 
 
 ## About
@@ -81,7 +81,7 @@ Like arrays, a linked list is a linear data structure. Linked list elements are 
 
 </p>
 
-<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/linked%20list%20example.png">
+<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/lle.png">
 
 </p>
 
@@ -205,7 +205,7 @@ This command will do the `fclean` and will do the make again.
 
 ## Evaluation
 <p align="justify">
-<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/moulinette_libft.png">
+<img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/moulinette_libft.png">
 
 Libft (with the bonus) will give to you 65 days for the blackhole. The repo was tested with some tester online.
 </p>
