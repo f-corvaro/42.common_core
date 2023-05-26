@@ -10,7 +10,7 @@
 
 0. [About](#0---about)
     
-1. [What's in it?](#1---what-s-in-it-)
+1. [What's in it?](#1---what-s-in-it--)
    
 2. [Type of files](#2---type-of-files)
 
@@ -20,9 +20,17 @@
     
 5. [Running Tests](#5---running-tests)
     
-6.
+6. [Evaluation](#6---evaluation)
 
-7.
+    6.1 [Tester](#61---tester)
+    
+    6.2 [Correction Sheet](#62---correction-sheet)
+    
+    6.3 [About this repo](63---correction-sheet)
+
+7. [Special Thanks](#7---special-thanks)
+    
+[LICENSE](#license)
   
 ## 0 - About
 <p align="justify">
