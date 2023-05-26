@@ -77,7 +77,7 @@
 	
 	7.2 [Additional service](#72---additional-service)
 	
-8. [Signaturetxt](#8---signature.txt)
+8. [Signature.txt](#8---signaturetxt)
 	
 9. [Theory](#9---theory)
 	
