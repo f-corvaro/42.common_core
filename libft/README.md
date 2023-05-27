@@ -2,8 +2,6 @@
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft.png">
 
-## Outcome
-
 [![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/en.subject.pdf)
 
 ### Index
