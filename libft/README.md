@@ -223,7 +223,7 @@ This command will do the `fclean` and will do the make again.
 ```bash
   make re
 ```
-
+<img align="center" alt="running test" width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/make.gif">
 </p>
 
 ## 6 - Evaluation
