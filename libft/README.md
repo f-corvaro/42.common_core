@@ -253,6 +253,11 @@ This command will do the `fclean` and will do the make again.
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
 If you want to support me:
 
+<a href="https://ko-fi.com/fcorvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+    
+<a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
+
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
