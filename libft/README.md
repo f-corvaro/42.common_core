@@ -6,7 +6,7 @@
 
 [![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/en.subject.pdf)
 
-## Index
+### Index
     
 [0 - About](#0---about)
     
