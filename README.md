@@ -1,5 +1,21 @@
 # <a href="https://42roma.it/"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42RomaLuiss.jpeg"></a>  **COMMON CORE - GUIDE**
 
+
+    
+- [A briefing](#a-briefing)
+- [00 Ring](#00-ring)
+	- [0️. libft  |--\>  |--\> (C - solo project)](#0️-libft---------c---solo-project)
+- [01 Ring](#01-ring)
+	- [1. born2beroot |--\>  |--\> (Virtual Machine  - solo project)](#1-born2beroot--------virtual-machine----solo-project)
+	- [2. ft\_printf |--\>  |--\> () ⚠️ **WORKING IN PROGRESS** ⚠️](#2-ft_printf---------️-working-in-progress-️)
+	- [3. get\_next\_line |--\>  |--\> () ⚠️ **WORKING IN PROGRESS** ⚠️](#3-get_next_line---------️-working-in-progress-️)
+- [02 Ring](#02-ring)
+- [Exams](#exams)
+	- [1. Exam 02 |--\>  |--\> (2 C exercises)](#1-exam-02--------2-c-exercises)
+- [Usefull commands for vim](#usefull-commands-for-vim)
+- [Support Me](#support-me)
+- [License](#license)
+
 ### A briefing
 
 <p align="justify">
