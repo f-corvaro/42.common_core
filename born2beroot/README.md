@@ -63,6 +63,7 @@
 	- [What is APPArmor?](#what-is-apparmor)
 	- [What is LVM?](#what-is-lvm)
 	- [9.3 - Correction Sheet](#93---correction-sheet)
+- [Support Me](#support-me)
 - [License](#license)
 
 ## 0 - _About_
@@ -1325,6 +1326,15 @@ flexible than conventional partitioning schemes for storing volumes.
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs4.png">
 
 </p>
+	
+## Support Me 
+ 
+I hope this guide helped you to understand this project, remember to ⭐ the repository.
+If you want to support me:
+
+<a href="https://ko-fi.com/fcorvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+    
+<a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
 	
 ## License
 
