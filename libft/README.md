@@ -232,6 +232,8 @@ This command will do the `fclean` and will do the make again.
     
 ### 6.2 - Correction Sheet
 
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft_cs.png">
+
 ### 6.3 - Moulinette Result
 
  <a href="https://projects.intra.42.fr/projects/42cursus-libft/projects_users/3049229">
