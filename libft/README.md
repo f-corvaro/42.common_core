@@ -30,6 +30,8 @@
     
 [7 - Special Thanks](#7---special-thanks)
     
+[Support Me](#support-me)
+    
 [License](#license)
   
 ## 0 - About
