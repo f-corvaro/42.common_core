@@ -1,8 +1,8 @@
 # <a href="https://42roma.it/"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42RomaLuiss.jpeg"></a>  **COMMON CORE - GUIDE**
 
-
+## Index
     
-- [A briefing](#a-briefing)
+- [Briefing](#briefing)
 - [00 Ring](#00-ring)
 	- [0️. libft  |--\>  |--\> (C - solo project)](#0️-libft---------c---solo-project)
 - [01 Ring](#01-ring)
@@ -16,7 +16,7 @@
 - [Support Me](#support-me)
 - [License](#license)
 
-### A briefing
+## Briefing
 
 <p align="justify">
  
