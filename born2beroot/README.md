@@ -2,14 +2,12 @@
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/born2beroot"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/born.png">
 
-## Outcome
-
 <p align="justify">
 	
 [![subject](https://img.shields.io/badge/subject-born2beroot-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/en.subject.pdf)
 </p>
 
-## Index
+### Index
 	
 - [Index](#index)
 - [0 - _About_](#0---about)
