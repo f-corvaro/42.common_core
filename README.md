@@ -1,6 +1,6 @@
 # <a href="https://42roma.it/"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42RomaLuiss.jpeg"></a>  **COMMON CORE - GUIDE**
 
-## Index
+### Index
     
 - [Briefing](#briefing)
 - [00 Ring](#00-ring)
