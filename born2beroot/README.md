@@ -75,11 +75,13 @@ Born2beRoot is an introduction to virtualization and system administration. The 
 <p align="justify">
     
 [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
+	
 </p>
   
 ## 2 - Installing the VM - virtual machine
 
 <p align="justify">
+	
 In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 1 | Open VirtualBox and click ```New```.
