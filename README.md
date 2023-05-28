@@ -1,5 +1,7 @@
 # <a href="https://42roma.it/"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42RomaLuiss.jpeg"></a>  **COMMON CORE - GUIDE**
 
+<br>
+
 ### Index
     
 - [Briefing](#briefing)
@@ -17,6 +19,8 @@
 - [Support Me](#support-me)
 - [License](#license)
 
+<br>
+
 ## Briefing
 
 <p align="justify">
@@ -28,6 +32,8 @@
 
 </p>
 
+<br>
+
 ## 00 Ring
 
 <p align="justify">
@@ -37,6 +43,8 @@
   ```BlackHole = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
 </p>
+
+<br>
 
 ## 01 Ring
 
@@ -59,11 +67,15 @@
 
 </p>
 
+<br>
+
 ## 02 Ring
 
 <p align="justify">
 
 </p>
+
+<br>
 
 ## Exams
 
@@ -75,9 +87,13 @@
 
 </p>
 
+<br>
+
 ## Holy Graph
 
 <a href="https://projects.intra.42.fr/projects/graph"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/HolyGraph.png"></a>
+
+<br>
 
 ## Usefull commands for vim
 
@@ -129,7 +145,9 @@ Vim is a usefull IDE that you use in the exams.
   colorscheme codedark
 ```
 </p>
-
+	
+<br>
+	
 ## Support Me 
  
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
@@ -139,6 +157,8 @@ If you want to support me:
     
 <a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
  
+<br>
+	
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
