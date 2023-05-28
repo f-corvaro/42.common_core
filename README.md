@@ -12,6 +12,7 @@
 - [02 Ring](#02-ring)
 - [Exams](#exams)
 	- [1. Exam 02](#1-exam-02--------2-c-exercises)
+- [Holy Graph](#holy-graph) 
 - [Usefull commands for vim](#usefull-commands-for-vim)
 - [Support Me](#support-me)
 - [License](#license)
@@ -26,10 +27,6 @@
   version of the project, it could change. Good coding!
 
 </p>
-
-## Holy Graph
-
-<a href="https://42roma.it/"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42RomaLuiss.jpeg"></a>
 
 ## 00 Ring
 
@@ -77,6 +74,10 @@
   ```BlackHole = 0 Days``` | ```Length = 60 Mins``` | ```NORMINETTE = OFF```
 
 </p>
+
+## Holy Graph
+
+<a href="https://projects.intra.42.fr/projects/graph"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/HolyGraph.png"></a>
 
 ## Usefull commands for vim
 
