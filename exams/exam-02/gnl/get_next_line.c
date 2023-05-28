@@ -5,11 +5,10 @@ char	*get_next_line(int fd)
 	int	i;
 	int	rd;
 	char	c;
-	char	*buffer;
+	char	*buffer = malloc(100000);
 
 	i = 0;
 	rd = 0;
-	*buffer = malloc(100000);
 
 	if (BUFFER_SIZE <= 0)
 		return (NULL);
