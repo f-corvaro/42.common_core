@@ -20,6 +20,37 @@ This exam has 2 random questions picked from each level below.
 There isn't norminette and you must use vim for this exam. The success of this exam doesn't give to you additional days for blackhole.
 </p>
 
+## Inter 
+
+```
+Assignment name  : inter
+Expected files   : inter.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings and displays, without doubles, the
+characters that appear in both strings, in the order they appear in the first
+one.
+
+The display will be followed by a \n.
+
+If the number of arguments is not 2, the program displays \n.
+```
+
+Examples:
+```
+./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+```
+```
+padinto$
+```
+  
+  
+  
+  
+  
+  
+  
 ## Exam Login Details
 
 <p align="justify">
