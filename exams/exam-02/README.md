@@ -92,6 +92,15 @@ After you git push, type ```grademe``` in the examshell for your project to be e
     <img src="https://skillicons.dev/icons?i=git,c,vim" />
   </a>
 </p>
+  
+## Support Me 
+ 
+I hope this guide helped you to understand this project, remember to ⭐ the repository.
+If you want to support me:
+
+<a href="https://ko-fi.com/fcorvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+    
+<a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
 
 ## License
 
