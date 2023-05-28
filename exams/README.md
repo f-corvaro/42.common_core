@@ -1,3 +1,18 @@
+# 42 Exams
+
+### Briefing
+
+The purpose of the exam is to test your knowledge without any kind of help and with lack of time.
+
+### Exams
+
+
+[Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) 
+> 2 C Questions
+
+<br>
+
+
 ## Exam Login Details
 
 <p align="justify">
@@ -63,3 +78,19 @@ When you are ready to sumbit your work, go into Rendu and push the folder you cr
 After you git push, type ```grademe``` in the examshell for your project to be evaluated.
 
 </p>
+  
+## Support Me 
+ 
+I hope this guide helped you to understand this project, remember to ⭐ the repository.
+If you want to support me:
+
+<a href="https://ko-fi.com/fcorvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+    
+<a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
+ 
+## License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
