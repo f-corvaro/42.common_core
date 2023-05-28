@@ -33,10 +33,10 @@ int	ft_printf(const char *format, ...)
 	
 	while (*format)
 	{
-		if ((*format == '%') && ((*(format + 1) == 's') || (*(format+1) == 'd') || (*(format + 1) == 'x')))
+		if ((*format == '%') && ((*(format + 1) == 's') || (*(format + 1) == 'd') || (*(format + 1) == 'x')))
 		{
 			format++;
-			if *(format == 's')
+			if (*format == 's')
 				p_s(va_arg(pointer, char *), &len);
 			else if (*format == 'd')
 				p_d((long long int)va_arg(pointer, int), 10, &len);
