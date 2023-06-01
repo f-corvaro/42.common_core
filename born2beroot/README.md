@@ -1328,13 +1328,24 @@ flexible than conventional partitioning schemes for storing volumes.
 </p>
 	
 ## Support Me 
- 
-I hope this guide helped you to understand this project, remember to ⭐ the repository.
-If you want to support me:
 
-<a href="https://ko-fi.com/fcorvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+<p align="justify"> 
+I hope this guide helped you to understand this project, remember to ⭐ the repository.
+If you want to support me:</p>
+
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
     
-<a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
+ 
+<br>
+    
+## Skills developed
+    
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,c,vim, vscode" />
+  </a>
+</p><br>
 	
 ## License
 
