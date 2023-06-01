@@ -28,6 +28,8 @@
     
 [7 - Special Thanks](#7---special-thanks)
     
+[8 - Skills developed](#7---skills-developed)
+    
 [Support Me](#support-me)
     
 [License](#license)
@@ -257,6 +259,14 @@ To run tests, run the following command: </p>
 [@MirkokriM]( https://github.com/MirkokriM ) <p align="justify"> for the gif idea.</p>
 <br>
 
+## 8 - Skills developed
+    
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,c,vim, vscode" />
+  </a>
+</p><br>
+ 
 ## Support Me 
 
 <p align="justify"> 
