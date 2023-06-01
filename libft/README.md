@@ -251,10 +251,8 @@ To run tests, run the following command: </p>
 
 ## 7 - Special Thanks
 
-<p align="justify"> 
-[@dieremy]( https://github.com/dieremy ) helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it.
-[@MirkokriM]( https://github.com/MirkokriM ) for the gif idea.
-</p>
+[@dieremy]( https://github.com/dieremy ) <p align="justify">  helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it. </p>
+[@MirkokriM]( https://github.com/MirkokriM ) <p align="justify"> for the gif idea.</p>
 <br>
 
 ## Support Me 
