@@ -65,6 +65,8 @@
 - [Skills Developed](#skills-developed)
 - [License](#license)
 
+<br>
+	
 ## 0 - _About_
   
 <p align="justify">
