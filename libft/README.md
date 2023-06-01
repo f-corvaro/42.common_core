@@ -28,10 +28,10 @@
     
 [7 - Special Thanks](#7---special-thanks)
     
-[8 - Skills developed](#7---skills-developed)
-    
 [Support Me](#support-me)
-    
+
+[Skills developed](#skills-developed)
+
 [License](#license)
 
 <br>
@@ -258,14 +258,6 @@ To run tests, run the following command: </p>
 [@dieremy]( https://github.com/dieremy ) <p align="justify">  helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it. </p>
 [@MirkokriM]( https://github.com/MirkokriM ) <p align="justify"> for the gif idea.</p>
 <br>
-
-## 8 - Skills developed
-    
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,c,vim, vscode" />
-  </a>
-</p><br>
  
 ## Support Me 
 
@@ -278,6 +270,14 @@ If you want to support me:</p>
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
  
 <br>
+    
+## Skills developed
+    
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,c,vim, vscode" />
+  </a>
+</p><br>
 
 ## License
 
