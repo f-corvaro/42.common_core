@@ -108,7 +108,7 @@ This statement will deallocate the memory previously allocated. C does not come 
 
 <p align="justify"> Like arrays, a linked list is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers. They include a series of connected nodes. Here, each node stores the data and the address of the next node. </p>
     
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/lle.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/lle.png">
 
 <p align="justify">
 Arrays can be used to store linear data of similar types, but arrays have some limitations: </p>
@@ -239,7 +239,7 @@ To run tests, run the following command: </p>
 
 ### 6.2 - Correction Sheet
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft_cs.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft_cs.png">
 
 ### 6.3 - Moulinette Result
 
