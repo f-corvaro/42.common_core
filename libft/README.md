@@ -239,7 +239,7 @@ To run tests, run the following command: </p>
 
 ### 6.2 - Correction Sheet
 
-< img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft_cs.png">
+<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft_cs.png">
 
 ### 6.3 - Moulinette Result
 
