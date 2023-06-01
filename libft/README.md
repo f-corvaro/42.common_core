@@ -235,7 +235,9 @@ To run tests, run the following command: </p>
 
 ### 6.1 - Tester
 
-<p align="justify"> </p>
+<p align="justify"> To test my project before to push into the intra, I used the: </p> 
+    
+[Supreme Tester](https://github.com/FranFrau/Supreme-Tester-Libft) of [@FranFrau]( https://github.com/FranFrau ) 
 
 ### 6.2 - Correction Sheet
 
