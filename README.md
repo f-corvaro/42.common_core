@@ -153,9 +153,9 @@ Vim is a usefull IDE that you use in the exams.
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
 If you want to support me:
 
-<a href="https://ko-fi.com/fcorvaro"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
     
-<a href="https://github.com/sponsors/f-corvaro"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
  
 <br>
 	
