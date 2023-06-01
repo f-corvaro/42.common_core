@@ -62,6 +62,7 @@
 	- [What is LVM?](#what-is-lvm)
 	- [9.3 - Correction Sheet](#93---correction-sheet)
 - [Support Me](#support-me)
+- [Skills Developed(#skills-developed)
 - [License](#license)
 
 ## 0 - _About_
