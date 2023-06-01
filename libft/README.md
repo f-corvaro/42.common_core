@@ -275,7 +275,7 @@ If you want to support me:</p>
     
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,c,vim, vscode" />
+    <img src="https://skillicons.dev/icons?i=git,c,vim,vscode" />
   </a>
 </p><br>
 
