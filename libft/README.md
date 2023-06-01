@@ -6,33 +6,20 @@
 
 ### Index
     
-[0 - About](#0---about)
-    
-[1 - What's in it?](#1---whats-in-it)
-    
-[2 - Type of files](#2---type-of-files)
-    
-[3 - Things "new" to understand](#3---things-new-to-understand)
-    
-[4 - Functions Index](#4---functions-index)
-    
-[5 - Running Tests](#5---running-tests)
-    
-[6 - Evaluation](#6---evaluation)
-  
-   - [6.1 - Tester](#61---tester)
-    
-   - [6.2 - Correction Sheet](#62---correction-sheet)
-    
-   - [6.3 - Moulinette Result](#63---moulinette-result)
-    
-[7 - Special Thanks](#7---special-thanks)
-    
-[Support Me](#support-me)
-
-[Skills developed](#skills-developed)
-
-[License](#license)
+- [0 - About](#0---about)
+- [1 - What's in it?](#1---whats-in-it)
+- [2 - Type of files](#2---type-of-files)
+- [3 - Things "new" to understand](#3---things-new-to-understand)
+- [4 - Functions Index](#4---functions-index)
+- [5 - Running Tests](#5---running-tests)
+- [6 - Evaluation](#6---evaluation)
+    - [6.1 - Tester](#61---tester)
+    - [6.2 - Correction Sheet](#62---correction-sheet)
+    - [6.3 - Moulinette Result](#63---moulinette-result)
+- [7 - Special Thanks](#7---special-thanks)
+- [Support Me](#support-me)
+- [Skills developed](#skills-developed)
+- [License](#license)
 
 <br>
     
