@@ -99,7 +99,7 @@ free(arr);
 ```
 <p align="justify">
 This statement will deallocate the memory previously allocated. C does not come with a garbage collector; as a result, memory not properly freed will continue to be allocated after the program is closed. malloc() is used for: </p>
-1. <p align="justify"> dynamic memory allocation and is useful when you don’t know the amount of memory needed during compile time; </p>
+1. <p align="justify"> Dynamic memory allocation and is useful when you don’t know the amount of memory needed during compile time; </p>
 2. <p align="justify"> Allocating memory allows objects to exist beyond the scope of the current block. </p>
 3. <p align="justify"> C passes by value instead of reference. Using malloc to assign memory, and then pass the pointer to another function, is more efficient than having the function recreate the structure. </p>
 
