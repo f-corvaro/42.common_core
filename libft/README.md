@@ -31,12 +31,15 @@
 [Support Me](#support-me)
     
 [License](#license)
-  
+
+<br>
+    
 ## 0 - About
 <p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. The purpose of the project is to re-code some libc functions and other common utility functions to be reused in the subsequent 42 projects. In this project there is norminette and moulinette. All explanation of the coding are into the code as a comments.
 </p>
+<br>
 
 ## 1 - What's in it?
 
@@ -47,6 +50,7 @@ There are 4 sections:
 3. **Bonus Functions:** <p align="justify">Functions that will be useful for linked list manipulation;</p>
 4. **Other:** <p align="justify"> makefile and libft.h.</p>
 
+<br>
 
 ## 2 - Type of files
 
@@ -75,7 +79,7 @@ The `.o` suffix is the object code. GCC and other compilers actually run through
 **.a - archive libraries:**<p align="justify">
 Archive libraries (.a) are statically linked. The library will remain unchanged unless the program is recompiled. This is the most straight forward way of using a library as the final result is a simple executable with no dependencies.
 </p>
-
+<br>
 
 ## 3 - Things "new" to understand
 
@@ -87,14 +91,14 @@ char    *arr;
 
 arr = (char *)malloc(sizeof(char) * 10)
 ```
-<p align="justify">
-This statement used malloc to set aside memory for an array of 10 char. As sizes can change between computers, it’s important to use the ```sizeof()``` function to calculate the size on the current computer. Any memory allocated during the program’s execution will need to be freed before the program closes. To free memory, we can use the ```free()``` function. </p>
+    
+<p align="justify"> This statement used malloc to set aside memory for an array of 10 char. As sizes can change between computers, it’s important to use the sizeof() function to calculate the size on the current computer. Any memory allocated during the program’s execution will need to be freed before the program closes. To free memory, we can use the free() function.</p> 
 
 ```
 free(arr);
 ```
 <p align="justify">
-This statement will deallocate the memory previously allocated. C does not come with a garbage collector; as a result, memory not properly freed will continue to be allocated after the program is closed. ```malloc()``` is used for: </p>
+This statement will deallocate the memory previously allocated. C does not come with a garbage collector; as a result, memory not properly freed will continue to be allocated after the program is closed. malloc() is used for: </p>
 1. <p align="justify"> dynamic memory allocation and is useful when you don’t know the amount of memory needed during compile time; </p>
 2. <p align="justify"> Allocating memory allows objects to exist beyond the scope of the current block. </p>
 3. <p align="justify"> C passes by value instead of reference. Using malloc to assign memory, and then pass the pointer to another function, is more efficient than having the function recreate the structure. </p>
@@ -159,6 +163,8 @@ struct Node {
 };
 ```
 
+<br>
+
 ## 4 - Functions Index
 
 <p align="center">
@@ -191,6 +197,7 @@ struct Node {
 | [ft_toupper.c](https://github.com/f-corvaro/42.common_core/blob/main/libft/libft/ft_toupper.c)  |
 
 </p>
+<br>
 
 ## 5 - Running Tests
 
@@ -222,6 +229,7 @@ To run tests, run the following command: </p>
 ```
  <a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img align="center" alt="running test" width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/make.gif">
 </p>
+<br>
 
 ## 6 - Evaluation
 
@@ -239,6 +247,7 @@ To run tests, run the following command: </p>
   <img align="center" img src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/moulinette_libft.png">
  </a>
 </p>
+<br>
 
 ## 7 - Special Thanks
 
@@ -246,6 +255,7 @@ To run tests, run the following command: </p>
 [@dieremy]( https://github.com/dieremy ) helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it.
 [@MirkokriM]( https://github.com/MirkokriM ) for the gif idea.
 </p>
+<br>
 
 ## Support Me 
 
@@ -264,3 +274,4 @@ If you want to support me:</p>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+<br>
