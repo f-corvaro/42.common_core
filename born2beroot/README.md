@@ -70,7 +70,8 @@
 <p align="justify">
 Born2beRoot is an introduction to virtualization and system administration. The purpose is to create a virtual machine which is a server implementing strict rules, and minimum required services. The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
 </p>
-
+<br>
+	
 ## 1 - Download the virtual machine ISO
 
 <p align="justify">
@@ -78,7 +79,8 @@ Born2beRoot is an introduction to virtualization and system administration. The 
 [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
 	
 </p>
-  
+<br>
+	
 ## 2 - Installing the VM - virtual machine
 
 <p align="justify">
@@ -129,7 +131,8 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
 </p>
-
+<br>
+	
 ## 3 - Installing Debian
 
 <p align="justify">
@@ -415,7 +418,8 @@ Choose the device for the bootloader installation ```/dev/sda```.
 Press ```Continue``` to finish the installation.
   
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/76.png">
-
+<br>
+	
 ## 4 - VM setup 
 
 ### Boot - When the system boot 
@@ -639,6 +643,7 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/95.png">
 </p>
+<br>
 	
 ## 5 - Script System Info
 	
@@ -815,7 +820,8 @@ Save the file and test with the command ```sh monitoring.sh```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/108.png">
 </p>
-
+<br>
+	
 ## 6 - Crontab 
 	
 <p align="justify">
@@ -844,7 +850,8 @@ Operation of each crontab parameter:
 
 - command -> Refers to the command or the absolute path of the script to be executed.
 </p>
-
+<br>
+	
 ## 7 - Bonus 
 
 ### 7.1 - Wordpress & services configuration 
@@ -1041,6 +1048,7 @@ Close your VM → Settings → Network → Advanced → Port forwarding → Add 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/125.png">
 </p>
+<br>
 	
 ## 8 - Signature.txt
 
@@ -1066,6 +1074,7 @@ The next step will be to locate ourselves in the path where we have the .vdi of 
 	
 Now copy the signature into the intra folder ```vim signature.txt```.
 </p>
+<br>
 	
 ## 9 - Theory
 
@@ -1327,6 +1336,7 @@ flexible than conventional partitioning schemes for storing volumes.
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs4.png">
 
 </p>
+<br>
 	
 ## Support Me 
 
@@ -1353,3 +1363,4 @@ If you want to support me:</p>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+<br>
