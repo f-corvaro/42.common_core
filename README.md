@@ -12,6 +12,8 @@
 - [02 Ring](#02-ring)
 - [Exams](#exams)
 - [Holy Graph](#holy-graph) 
+- [Resources](#resources)
+- [My 42 stats](#my-42-stats)
 - [Support Me](#support-me)
 - [License](#license)
 
