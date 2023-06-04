@@ -1,7 +1,22 @@
 # <a href="https://github.com/f-corvaro/42.common_core/tree/main"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
 ### Index
-
+- [Briefing](#briefing)
+- [Exams](#exams)
+	- [0. Exam 02](#0-exam-02--------2-c-exercises)
+- [Exam Login Details](#exam-login-details)
+	- [1. Login with the following:](#1-login-with-the-following)
+	- [2. In the terminal type:](#2-in-the-terminal-type)
+	- [3. Login with your 42 intra account](#3-login-with-your-42-intra-account)
+	- [4. In the terminal type:](#4-in-the-terminal-type)
+	- [5. Allow photo check](#5-allow-photo-check)
+	- [6. Access Rendu typing:](#6-access-rendu-typing)
+	- [7. In the Exam Shell, you have 3 commands:](#7-in-the-exam-shell-you-have-3-commands)
+	- [8. Open a new terminal:](#8-open-a-new-terminal)
+	- [9. Submit your project:](#9-submit-your-project)
+- [My 42 stats](#my-42-stats)
+- [Support Me](#support-me)
+- [License](#license)
 <br>
 
 ## Briefing
