@@ -8,7 +8,9 @@
   
 ## Exam details
 <p align="justify">
-This exam has 2 random questions picked from the first and second level. Each level give to you 50 points. To pass the exam you need 100 score. For information about exam login and other details, check [here](https://github.com/f-corvaro/42.common_core/tree/main/exams).
+This exam has 2 random questions picked from the first and second level. Each level give to you 50 points. To pass the exam you need 100 score. For information about exam login and other details, check: 
+  
+[here](https://github.com/f-corvaro/42.common_core/tree/main/exams)
 
 ### Level 1:
 
