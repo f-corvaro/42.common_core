@@ -7,7 +7,7 @@
 
 ## The beginning
 
-After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo).
+After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo). To
 
 ## Github utilities
 
@@ -20,6 +20,26 @@ After you passed the C Piscine, you will start the 42 Common Core. You will have
 [Badge 42](https://github.com/JaeSeoKim/badge42)
 
 [Badge 42](https://github.com/oakoudad/badge42)
+
+[Skills Icons](https://skillicons.dev)
+
+[Shields.io](https://shields.io/category/build)
+
+## 42 School
+
+[42 Evaluators](https://42evaluators.com/)
+
+[42 Network](https://www.42network.org/42-schools/)
+
+[42 Helpers](https://github.com/UmbertoSavoia/42helpers)
+
+## 42 Roma Luiss
+
+[Man 42 Roma Luiss](https://42romawiki.notion.site/Rules-ca552d69f6f8418f849badfb47afba0b#accc0596676a460283dafbe3d012f2a7)
+
+[moulinette](https://moulinette.42roma.it/)
+
+
 
 ## Usefull commands for vim
 
