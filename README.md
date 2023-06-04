@@ -77,7 +77,7 @@
 
 <p align="justify"> 
 	
-<a href="https://github.com/f-corvaro/42.common_core/tree/main"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a> 
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a> 
 	
 </p>
 	
