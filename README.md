@@ -89,6 +89,12 @@
 
 <br>
 
+## Resources
+
+<a href="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
+
+<br>
+
 ## My 42 stats
 	
 [![fcorvaro's 42 stats](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/stats?cursusId=21&coalitionId=125)](https://profile.intra.42.fr/users/fcorvaro)
