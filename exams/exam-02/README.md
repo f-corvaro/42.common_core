@@ -29,8 +29,9 @@ There isn't norminette and you must use vim for this exam. The success of this e
 </p>
 <br>
   
-## Inter 
+## Level 1 - inter
 
+### Subject:
 ```
 Assignment name  : inter
 Expected files   : inter.c
@@ -44,18 +45,126 @@ one.
 The display will be followed by a \n.
 
 If the number of arguments is not 2, the program displays \n.
-```
 
 Examples:
-```
-./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
-```
-```
+
+$>./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
 padinto$
+$>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6ewg4$
+$>./inter "nothing" "This sentence hides nothing" | cat -e
+nothig$
+$>./inter | cat -e
+$
 ```
   
+### Solution:
+
+[inter.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/inter/inter.c)
+  
+<br>
+  
+## Level 1 - union
+
+### Subject:
+```
+Assignment name  : union
+Expected files   : union.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings and displays, without doubles, the
+characters that appear in either one of the strings.
+
+The display will be in the order characters appear in the command line, and
+will be followed by a \n.
+
+If the number of arguments is not 2, the program displays \n.
+
+Example:
+
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6vewg4thras$
+$>./union "rien" "cette phrase ne cache rien" | cat -e
+rienct phas$
+$>./union | cat -e
+$
+$>
+$>./union "rien" | cat -e
+$
+$>
+```
+
 <br>
 
+## Level 1 - union
+
+### Subject:
+```
+Assignment name  : union
+Expected files   : union.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings and displays, without doubles, the
+characters that appear in either one of the strings.
+
+The display will be in the order characters appear in the command line, and
+will be followed by a \n.
+
+If the number of arguments is not 2, the program displays \n.
+
+Example:
+
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6vewg4thras$
+$>./union "rien" "cette phrase ne cache rien" | cat -e
+rienct phas$
+$>./union | cat -e
+$
+$>
+$>./union "rien" | cat -e
+$
+$>
+```
+
+## Level 1 - union
+
+### Subject:
+```
+Assignment name  : union
+Expected files   : union.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings and displays, without doubles, the
+characters that appear in either one of the strings.
+
+The display will be in the order characters appear in the command line, and
+will be followed by a \n.
+
+If the number of arguments is not 2, the program displays \n.
+
+Example:
+
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6vewg4thras$
+$>./union "rien" "cette phrase ne cache rien" | cat -e
+rienct phas$
+$>./union | cat -e
+$
+$>
+$>./union "rien" | cat -e
+$
+$>
+```
+  
 ## Exam skill required:
 <p align="center">
   <a href="https://skillicons.dev">
