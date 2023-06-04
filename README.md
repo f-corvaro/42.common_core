@@ -1,4 +1,5 @@
-# <a href="https://42roma.it/"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42common%20core%20gh.png"></a>
+# ![https://42roma.it/](https://github.com/f-corvaro/42.common_core/blob/main/.extra/42common%20core%20gh.png)
+
 
 <br>
 
