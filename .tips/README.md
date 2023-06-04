@@ -1,4 +1,4 @@
-# <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
+# <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
 
 ### Index
 
