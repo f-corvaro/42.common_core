@@ -103,6 +103,11 @@ After you git push, type ```grademe``` in the examshell for your project to be e
   
 <br>
 
+## My 42 stats
+	
+[![fcorvaro's 42 stats](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/stats?cursusId=21&coalitionId=125)](https://profile.intra.42.fr/users/fcorvaro)
+
+<br>
   
 ## Support Me 
 
