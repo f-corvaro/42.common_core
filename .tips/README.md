@@ -9,6 +9,18 @@
 
 After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo).
 
+## Github utilities
+
+[Readme profile generator](https://gprm.itsvg.in/)
+
+[Github profilinator](https://profilinator.rishav.dev/)
+
+[Github profile readme generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+
+[Badge 42](https://github.com/JaeSeoKim/badge42)
+
+[Badge 42](https://github.com/oakoudad/badge42)
+
 ## Usefull commands for vim
 
 <p align="justify">
