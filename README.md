@@ -4,14 +4,13 @@
     
 - [Briefing](#briefing)
 - [00 Ring](#00-ring)
-	- [0️. libft](#0️-libft---------c---solo-project)
+	- [0️. libft](#0️-libft--------c---solo-project)
 - [01 Ring](#01-ring)
 	- [1. born2beroot](#1-born2beroot--------virtual-machine----solo-project)
 	- [2. ft\_printf](#2-ft_printf---------️-working-in-progress-️)
 	- [3. get\_next\_line](#3-get_next_line---------️-working-in-progress-️)
 - [02 Ring](#02-ring)
 - [Exams](#exams)
-	- [1. Exam 02](#1-exam-02--------2-c-exercises)
 - [Holy Graph](#holy-graph) 
 - [Usefull commands for vim](#usefull-commands-for-vim)
 - [Support Me](#support-me)
@@ -36,7 +35,7 @@
 
 <p align="justify">
 
-### 0️. [libft ](https://github.com/f-corvaro/42.common_core/tree/main/libft) |--> [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://profile.intra.42.fr/users/fcorvaro) |--> (C - solo project)
+### 0️. [libft](https://github.com/f-corvaro/42.common_core/tree/main/libft) |--> [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://profile.intra.42.fr/users/fcorvaro) |--> (C - solo project)
 
   ```BlackHole = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
@@ -77,14 +76,13 @@
 
 ## Exams
 
-<p align="justify">
-
-### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) |--> [![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576)](https://profile.intra.42.fr/users/fcorvaro) |--> (2 C exercises)
-
-  ```BlackHole = 0 Days``` | ```Length = 60 Mins``` | ```NORMINETTE = OFF```
-
+<p align="justify"> 
+	
+To see the exams details --> 
+[CLICK HERE](https://github.com/f-corvaro/42.common_core/tree/main/exams) 
+	
 </p>
-
+	
 <br>
 
 ## Holy Graph
