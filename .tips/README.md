@@ -2,6 +2,13 @@
 
 ### Index
 
+- [The beginning](#the-beginning)
+- [Github utilities](#github-utilities)
+- [42 School](#42-school)
+- [42 Roma Luiss](#42-roma-luiss)
+- [Usefull commands for vim](#usefull-commands-for-vim)
+- [Support Me](#support-me)
+- [License](#license)
 
 <br>
 
