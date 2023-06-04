@@ -12,7 +12,6 @@
 - [02 Ring](#02-ring)
 - [Exams](#exams)
 - [Holy Graph](#holy-graph) 
-- [Usefull commands for vim](#usefull-commands-for-vim)
 - [Support Me](#support-me)
 - [License](#license)
 
