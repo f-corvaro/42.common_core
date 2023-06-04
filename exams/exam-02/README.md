@@ -3,6 +3,24 @@
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/exam02.png">
 
 ### Index
+- [Exam details](#exam-details)
+  - [Level 1:](#level-1)
+  - [Level 2:](#level-2)
+- [Level 1 - inter](#level-1---inter)
+  - [Subject:](#subject)
+  - [Solution:](#solution)
+- [Level 1 - union](#level-1---union)
+  - [Subject:](#subject-1)
+  - [Solution:](#solution-1)
+- [Level 2 - ft\_printf](#level-2---ft_printf)
+  - [Subject:](#subject-2)
+  - [Solution:](#solution-2)
+- [Level 2 - get\_next\_line](#level-2---get_next_line)
+  - [Subject:](#subject-3)
+  - [Solution:](#solution-3)
+- [Exam skill required:](#exam-skill-required)
+- [Support Me](#support-me)
+- [License](#license)
 
 <br>
   
