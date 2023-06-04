@@ -1,23 +1,25 @@
 # <a href="https://github.com/f-corvaro/42.common_core/tree/main"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
+### Index
+
+<br>
+
+## Briefing
+
+The purpose of the exam is to test your knowledge without any kind of help and with limited time.
+
+<br>
+
+## Exams
+
+
 <p align="justify">
 
 ### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) |--> [![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576)](https://profile.intra.42.fr/users/fcorvaro) |--> (2 C exercises)
 
-  ```BlackHole = 0 Days``` | ```Length = 60 Mins``` | ```NORMINETTE = OFF```
+  ```BlackHole = 0 Days``` | ```Length = 120 Mins``` | ```NORMINETTE = OFF```
 
 </p>
-
-
-### Briefing
-
-The purpose of the exam is to test your knowledge without any kind of help and with lack of time.
-
-### Exams
-
-
-[Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) 
-> 2 C Questions
 
 <br>
 
@@ -88,18 +90,25 @@ After you git push, type ```grademe``` in the examshell for your project to be e
 
 </p>
   
-## Support Me 
- 
-I hope this guide helped you to understand this project, remember to ⭐ the repository.
-If you want to support me:
+<br>
 
-<a href="https://ko-fi.com/fcorvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
+  
+## Support Me 
+
+<p align="justify"> 
+I hope this guide helped you to understand this project, remember to ⭐ the repository.
+If you want to support me:</p>
+
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
     
-<a href="https://github.com/sponsors/f-corvaro"><img width="200" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github%20(1).svg">
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
  
+<br>
+  
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
+  <br>
