@@ -7,7 +7,7 @@
 
 ## The beginning
 
-After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo). To
+After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo). 
 
 ## Github utilities
 
