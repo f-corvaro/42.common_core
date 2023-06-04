@@ -18,6 +18,7 @@ This exam has 2 random questions picked from the first and second level. Each le
 - inter
 - union
 ```
+I suggest to test the code compiling with the following flag: ```gcc -o name name.c``` so you can try the examples of the subject copying and pasting.
   
 ### Level 2:
 ```
@@ -105,11 +106,29 @@ $>
 
 ## Level 2 - ft_printf
 
+### Subject:
+```
+```
+  
+### Solution:
 
+[ft_printf.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/printf/ft_printf.c)
+ 
+<br>
 
 ## Level 2 - get_next_line
 
+### Subject:
+```
+```
+  
+### Solution:
 
+[get_next_line.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/gnl/get_next_line.c)
+
+[get_next_line.h](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/gnl/get_next_line.h)
+
+<br>
   
 ## Exam skill required:
 <p align="center">
