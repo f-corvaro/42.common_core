@@ -50,7 +50,7 @@ login -> exam
 password -> exam
 ```
 
-### 2. In the terminal type:
+### 2. To access at exam terminal, type into the terminal:
 
 ```
 kinit
@@ -63,7 +63,7 @@ login -> your 42 intra username (eg. fcorvaro)
 pasword -> your password
 ```
   
-### 4. In the terminal type:
+### 4. To access at the exam shell, type in the terminal:
 
 ```
 examshell
