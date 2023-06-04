@@ -25,8 +25,6 @@ I suggest to test the code compiling with the following flag: ```gcc -o name nam
 - Ft_Printf
 - Get_Next_Line
 ```
-  
-There isn't norminette and you must use vim for this exam. The success of this exam doesn't give to you additional days for blackhole.
 </p>
 <br>
   
