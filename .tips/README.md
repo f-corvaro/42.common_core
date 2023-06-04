@@ -1,3 +1,6 @@
+# <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
+
+
 ## Usefull commands for vim
 
 <p align="justify">
