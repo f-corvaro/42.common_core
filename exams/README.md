@@ -1,5 +1,14 @@
 # 42 Exams
 
+<p align="justify">
+
+### 1. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) |--> [![fcorvaro's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3077576)](https://profile.intra.42.fr/users/fcorvaro) |--> (2 C exercises)
+
+  ```BlackHole = 0 Days``` | ```Length = 60 Mins``` | ```NORMINETTE = OFF```
+
+</p>
+
+
 ### Briefing
 
 The purpose of the exam is to test your knowledge without any kind of help and with lack of time.
