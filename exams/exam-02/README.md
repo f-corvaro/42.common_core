@@ -105,7 +105,38 @@ $>
 ## Level 2 - ft_printf
 
 ### Subject:
+  
+(It's an old version of the subject, but the solution is for the newer version).
+  
 ```
+Assignment name  : ft_printf
+Expected files   : ft_printf.c
+Allowed functions: malloc, free, write, va_start, va_arg, va_copy, va_end
+--------------------------------------------------------------------------------
+
+Write a function named `ft_printf` that will mimic the real printf with the following constraints:
+
+- It will manage only the following conversions: s,d and x
+- It will manage the minimum field width. (we will never test with a field with of 0)
+- It will manage only the precison flag `.`.
+
+Your function must be declared as follows:
+
+int ft_printf(const char *, ... );
+
+Before you start we advise you to read the `man 3 printf` and the `man va_arg`.
+To test your program compare your results with the true printf.
+
+Exemples of the function output:
+
+call: ft_printf("%10.2s\n", "toto");
+out:        to$
+
+call: ft_printf("Magic %s is %5d", "number", 42);
+out:Magic number is    42%
+
+call: ft_printf("Hexadecimal for %d is %x\n", 42, 42);
+out:Hexadecimal for 42 is 2a$
 ```
   
 ### Solution:
@@ -117,7 +148,44 @@ $>
 ## Level 2 - get_next_line
 
 ### Subject:
+  
+(It's an old version of the subject, but the solution is for the newer version).
+  
 ```
+Assignment name  : get_next_line
+Expected files   : get_next_line.c get_next_line.h
+Allowed functions: read, free, malloc
+--------------------------------------------------------------------------------
+
+Write a function will store, in the parameter "line", a line that has been read from the file descriptor 0.
+
+Your function must be prototyped as follows: int get_next_line(char **line);
+
+Your function should be memory leak free.
+
+What we call a "line that has been read" is a succession of 0 to n characters that end with '\n' (ascii code 0x0a) or with End Of File (EOF).
+
+The string stored in the parameter "line" should not contained any '\n'.
+
+The parameter is the address of a pointer to a character that will be used to store the line read.
+
+The return value can be 1, 0 or -1 depending on whether a line has been read, when the reading has been completed (meaning read has returned 0), or if an error has happened respectively.
+
+When you've reached the End Of File, you must store the current buffer in "line". If the buffer is empty you must store an empty string in "line".
+
+When you've reached the End Of File, your function should keep 0 memory allocated with malloc except the last buffer that you should have stored in "line".
+
+What you've stored in "line" should be free-able.
+
+Calling your function get_next_line in a loop will therefore allow you to read the text available on a file descriptor one line at a time until the end of the text, no matter the size of either the text or one of its lines.
+
+Make sure that your function behaves well when it reads from a file, from the standard output, from a redirection etc.
+
+No call to another function will be done on the file descriptor between 2 calls of get_next_line.
+
+Finally we consider that get_next_line has an undefined behavior when reading from a binary file.
+
+You should use the test.sh to help you test your get_next_line.
 ```
   
 ### Solution:
