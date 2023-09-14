@@ -58,7 +58,7 @@ password -> exam
 kinit
 ```
   
-### 3. Login with your 42 intra account
+### 3. Login with your 42 intra account:
 
 ```
 login -> your 42 intra username (eg. fcorvaro)
@@ -71,7 +71,7 @@ pasword -> your password
 examshell
 ```
 
-### 5. Allow photo check
+### 5. Allow photo check:
 
 ```
 'yes'
@@ -114,7 +114,7 @@ When you are ready to sumbit your work, go into Rendu and push the folder you cr
 ```
 'git push'
 ```
-After you git push, type ```grademe``` in the examshell for your project to be evaluated.
+After you git push, type ```grademe``` in the examshell for your project to be evaluated
 
 </p>
   
@@ -129,7 +129,7 @@ After you git push, type ```grademe``` in the examshell for your project to be e
 ## Support Me 
 
 <p align="justify"> 
-I hope this guide helped you to understand this project, remember to ⭐ the repository.
+I hope this guide helped you to understand this project, remember to ⭐ the repository
 If you want to support me:</p>
 
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
