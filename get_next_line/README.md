@@ -4,7 +4,7 @@
 
 <p align="justify">
 
-old | new
+v10 | v12
 :-------------------------:|:-------------------------:
 [![subject-old](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject(new).pdf)
 
