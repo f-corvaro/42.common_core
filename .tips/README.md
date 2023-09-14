@@ -42,6 +42,8 @@ After you passed the C Piscine, you will start the 42 Common Core. You will have
 
 [42 Helpers](https://github.com/UmbertoSavoia/42helpers)
 
+[Official NORMINETTE v.](https://github.com/42School/norminette)
+
 ## 42 Roma Luiss
 
 [Man 42 Roma Luiss](https://42romawiki.notion.site/Rules-ca552d69f6f8418f849badfb47afba0b#accc0596676a460283dafbe3d012f2a7)
