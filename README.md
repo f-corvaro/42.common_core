@@ -4,9 +4,9 @@
     
 - [Briefing](#briefing)
 - [00 Ring](#00-ring)
-	- [0️. libft](#0️-libft--------c---solo-project)
+	- [0️. libft](#0️-libft-c---solo-project)
 - [01 Ring](#01-ring)
-	- [1. born2beroot](#1-born2beroot--------virtual-machine----solo-project)
+	- [1. born2beroot](#1-born2beroot-virtual-machine----solo-project)
 	- [2. ft\_printf](#2-ft_printf---------️-working-in-progress-️)
 	- [3. get\_next\_line](#3-get_next_line---------️-working-in-progress-️)
 - [02 Ring](#02-ring)
