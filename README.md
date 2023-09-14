@@ -103,7 +103,7 @@
 
 ## My 42 stats
 	
-[![fcorvaro's 42 stats](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/stats?cursusId=21&coalitionId=125)](https://profile.intra.42.fr/users/fcorvaro)
+[![fcorvaro's 42 stats](https://badge.mediaplus.ma/starryblue/fcorvaro?1337Badge=off&UM6P=off)](https://profile.intra.42.fr/users/fcorvaro)
 
 <br>
 
