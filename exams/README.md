@@ -3,7 +3,7 @@
 ### Index
 - [Briefing](#briefing)
 - [Exams](#exams)
-	- [0. Exam 02](#0-exam-02--------2-c-exercises)
+	- [0. Exam 02](#0-exam-02-2-c-exercises)
 - [Exam Login Details](#exam-login-details)
 	- [1. Login with the following:](#1-login-with-the-following)
 	- [2. In the terminal type:](#2-in-the-terminal-type)
