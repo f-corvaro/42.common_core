@@ -1,12 +1,12 @@
-# **GET_NEXT_LINE** [![fcorvaro's 42 get_next_line Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069522)](https://profile.intra.42.fr/users/fcorvaro) ⚠️ **WORKING IN PROGRESS** ⚠️
+# **GET_NEXT_LINE** 
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/get_next_line"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/get_next_line_intra.png">
 
-## Outcome
-
 <p align="justify">
 
-[![subject](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject.pdf)
+old | new
+:-------------------------:|:-------------------------:
+[![subject-old](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject.pdf)
 
 
 </p>
