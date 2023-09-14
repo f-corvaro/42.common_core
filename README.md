@@ -36,7 +36,9 @@
 
 <p align="justify">
 
-### 0️. [libft](https://github.com/f-corvaro/42.common_core/tree/main/libft) |--> [![fcorvaro's 42 Libft Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3049229)](https://profile.intra.42.fr/users/fcorvaro) |--> (C - solo project)
+### 0️. [libft](https://github.com/f-corvaro/42.common_core/tree/main/libft) (C - solo project)
+
+[![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
   ```BlackHole = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
@@ -48,7 +50,9 @@
 
 <p align="justify">
 
-### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) |--> [![fcorvaro's 42 Born2beroot Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069523)](https://profile.intra.42.fr/users/fcorvaro) |--> (Virtual Machine  - solo project)
+### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) (Virtual Machine  - solo project)
+
+[![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
   ```BlackHole = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
 
