@@ -21,7 +21,7 @@
 
 ## Briefing
 
-The purpose of the exam is to test your knowledge without any kind of help and with limited time. If you push the code and fail the exercise, you will receive a timeout that increase time after time. The timeout is made with the purpose of avoid too many tries.
+The purpose of the exam is to test your knowledge without any kind of help and with limited time. If you push the code and fail the exercise, you will receive a timeout that increase time after time. The timeout is made with the purpose of avoid too many tries
 
 <br>
 
