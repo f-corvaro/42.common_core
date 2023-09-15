@@ -41,7 +41,8 @@ The function will return the read line correctly or will return NULL if there is
 </p>
 
 **Option to add at compiler call:** <p align="justify">
--D BUFFER_SIZE=n. It will define the buffer size for read(). The project myst be able to compile with and without the additional flag used. You can choose the default value of your choice.
+```-D BUFFER_SIZE=n```
+It will define the buffer size for read(). The project myst be able to compile with and without the additional flag used. You can choose the default value of your choice.
 
 </p>
 
