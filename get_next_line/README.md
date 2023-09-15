@@ -93,7 +93,7 @@ If you want to support me:</p>
 
 ## Sources
 
-[![Static variable](https://www.geeksforgeeks.org/static-variables-in-c/)]
+![Static variable](https://www.geeksforgeeks.org/static-variables-in-c/)
 
 ## License
 
