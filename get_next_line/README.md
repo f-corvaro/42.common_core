@@ -12,9 +12,9 @@ v10 | v12
 </p>
 
 ## 0 - About
-<p align="justify">
-The purpose of the get_next_line function is to write a function that returns a line read from a file descriptor - fd. Is a very important function that will help us in the future, so we will adding this new one function to the our library. The concept to understand for this project is about the static variables. Is forbidden to use global variables, to use libft function and ```lseek()```. The function should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors. All heap allocated memory space must be properly freed when necessary. The repeated calls, e.g. using a loop, to our get_next_line function should let us read the text file pointed to the file descriptor, one line at a time
 
+<p align="justify"> 
+The purpose of the get_next_line function is to write a function that returns a line read from a file descriptor - fd. Is a very important function that will help us in the future, so we will adding this new one function to the our library. The concept to understand for this project is about the static variables. Is forbidden to use global variables, to use libft function and lseek(). The function should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors. All heap allocated memory space must be properly freed when necessary. The repeated calls, e.g. using a loop, to our get_next_line function should let us read the text file pointed to the file descriptor, one line at a time
 </p>
 
 <br>
