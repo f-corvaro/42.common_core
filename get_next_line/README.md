@@ -13,36 +13,37 @@ v10 | v12
 
 ## 0 - About
 <p align="justify">
-The purpose of the get_next_line function is to write a function that returns a line read from a file descriptor. Is a very important function that will help us in the future, so we will adding this new one function to the our library. The concept to understand for this project is about the static variables. Is forbidden to use global variables, to use libft function and lseek(). The function should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors. All heap allocated memory space must be properly freed when necessary. The repeated calls, e.g. using a loop, to our get_next_line function should let us read the text file pointed to the file descriptor, one line at a time
+The purpose of the get_next_line function is to write a function that returns a line read from a file descriptor - fd. Is a very important function that will help us in the future, so we will adding this new one function to the our library. The concept to understand for this project is about the static variables. Is forbidden to use global variables, to use libft function and ```lseek()```. The function should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors. All heap allocated memory space must be properly freed when necessary. The repeated calls, e.g. using a loop, to our get_next_line function should let us read the text file pointed to the file descriptor, one line at a time
 
 </p>
 
 <br>
 
 **Files to turn in it:** <p align="justify">
-get_next_line.c, get_next_line.h and get_next_line_utils.c (where we can add all the helper functions)
+```get_next_line.c, get_next_line.h and get_next_line_utils.c``` (where we can add all the helper functions)
 
 </p>
 
 
 **Prototype of the function:** <p align="justify">
-char *get_next_line(int fd); where fd is the file descriptor to read from
+```char *get_next_line(int fd)```;
+Where fd is the file descriptor to read from
 
 </p>
 
 **External functions allowed:** <p align="justify">
-free, malloc and read
+```free(), malloc(), read()```
 
 </p>
 
 **Expected return:** <p align="justify">
-The function will return the read line correctly or will return NULL if there is nothing to read, or an error occured. ***Please note*** that the returned line should include the terminating \n character, except if the end of file was reached and does not end with a \n character
+The function will return the read line correctly or will return ```NULL``` if there is nothing to read, or an error occured. ***Please note*** that the returned line should include the terminating ```\n``` character, except if the end of file was reached and does not end with a ```\n``` character
 
 </p>
 
 **Option to add at compiler call:** <p align="justify">
-```-D BUFFER_SIZE=n```
-It will define the buffer size for read(). The project myst be able to compile with and without the additional flag used. You can choose the default value of your choice.
+```-D BUFFER_SIZE=n```.
+It will define the buffer size for ```read()```. The project myst be able to compile with and without the additional flag used. You can choose the default value of your choice.
 
 </p>
 
