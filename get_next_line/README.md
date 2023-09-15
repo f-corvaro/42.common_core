@@ -52,10 +52,15 @@ It will define the buffer size for ```read()```. The project myst be able to com
 ## 1 - To figure out
 <p align="justify">
 
-0. **Memory layout of C programs:** typically is divided in these sections.
-Text segment  (i.e. instructions) -> Initialized data segment-> Uninitialized data segment  (bss) -> Heap -> Stack
+**Memory layout of C programs:** typically is divided in these sections.
 
-1. **Static variables:** have the properties of preserving their value after they are out of their scope and makes the variable retain its value among multiple calls. A static int variable remains in memory while the program is running. A normal variable is destroyed when a function call where the variable was declared is over (e.g. the static int is used to count the number of times a function is called). Static variables are allocated memory in the data segment, not the stack segment.
+Text segment  (i.e. instructions) -> Initialized data segment-> Uninitialized data segment  (bss) -> Heap -> Stack. 
+
+<img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/C-memory.png">
+
+<br>
+
+**Static variables:** have the properties of preserving their value after they are out of their scope and makes the variable retain its value among multiple calls. A static int variable remains in memory while the program is running. A normal variable is destroyed when a function call where the variable was declared is over (e.g. the static int is used to count the number of times a function is called). Static variables are allocated memory in the data segment, not the stack segment.
 </p>
 
 ## Support Me
