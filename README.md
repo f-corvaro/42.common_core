@@ -1,28 +1,30 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42cc_gh.png"></a>
 
 ### Index
-    
-- [Briefing](#briefing)
-- [00 Ring](#00-ring)
-	- [0️. libft](#0️-libft-c---solo-project)
-- [01 Ring](#01-ring)
-	- [1. born2beroot](#1-born2beroot-virtual-machine----solo-project)
-	- [2. ft\_printf](#2-ft_printf---------️-working-in-progress-️)
-	- [3. get\_next\_line](#3-get_next_line---------️-working-in-progress-️)
-- [02 Ring](#02-ring)
-- [Exams](#exams)
-- [Holy Graph](#holy-graph) 
-- [Resources](#resources)
-- [My 42 stats](#my-42-stats)
-- [Support Me](#support-me)
-- [License](#license)
+
+- [](#)
+    - [Index](#index)
+  - [Briefing](#briefing)
+  - [00 Ring](#00-ring)
+    - [0️. libft (C - solo project)](#0️-libft-c---solo-project)
+  - [01 Ring](#01-ring)
+    - [1. born2beroot (Virtual Machine  - solo project)](#1-born2beroot-virtual-machine----solo-project)
+    - [2. ft\_printf () ⚠️ **WORKING IN PROGRESS** ⚠️](#2-ft_printf--️-working-in-progress-️)
+    - [3. get\_next\_line (C - solo project) ⚠️ **WORKING IN PROGRESS** ⚠️](#3-get_next_line-c---solo-project-️-working-in-progress-️)
+  - [02 Ring](#02-ring)
+  - [Exams](#exams)
+  - [Holy Graph](#holy-graph)
+  - [Resources](#resources)
+  - [My 42 stats](#my-42-stats)
+  - [Support Me](#support-me)
+  - [License](#license)
 
 <br>
 
 ## Briefing
 
 <p align="justify">
- 
+
   Welcome in my journey at the 42 school. I create this repository to have a little diary about my coding
   experience and to give a little guide about the projects in 42 School. I hope this will help someone in future
   to understand the knowledge necessary to have done with success the projects. Watch out about the subject
@@ -61,7 +63,7 @@
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
 
-### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) () ⚠️ **WORKING IN PROGRESS** ⚠️
+### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project) ⚠️ **WORKING IN PROGRESS** ⚠️
 
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
@@ -81,12 +83,12 @@
 
 ## Exams
 
-<p align="justify"> 
-	
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a> 
-	
+<p align="justify">
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
+
 </p>
-	
+
 <br>
 
 ## Holy Graph
@@ -102,27 +104,27 @@
 <br>
 
 ## My 42 stats
-	
+
 [![fcorvaro's 42 stats](https://badge.mediaplus.ma/starryblue/fcorvaro?1337Badge=off&UM6P=off)](https://profile.intra.42.fr/users/fcorvaro)
 
 <br>
 
-## Support Me 
+## Support Me
 
-<p align="justify"> 
+<p align="justify">
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
 If you want to support me:</p>
 
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
-    
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
+
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
- 
+
 <br>
-	
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-	
+
 <br>
