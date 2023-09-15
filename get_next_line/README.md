@@ -114,7 +114,6 @@ If you want to support me:</p>
 
 1. [Static variable](https://www.geeksforgeeks.org/static-variables-in-c/)
 2. [C memory](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
-3. [File descriptor]()
 
 ## License
 
