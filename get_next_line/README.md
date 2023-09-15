@@ -54,9 +54,17 @@ It will define the buffer size for ```read()```. The project myst be able to com
 
 **Memory layout of C programs:** typically is divided in these sections.
 
-Text segment  (i.e. instructions) -> Initialized data segment-> Uninitialized data segment  (bss) -> Heap -> Stack. 
+Text segment  (i.e. instructions) -> Initialized data segment-> Uninitialized data segment  (bss) -> Heap -> Stack.
 
 <img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/C-memory.png">
+
+***Text Segment:*** Is one of the sections of a program in an object file or in memory, which contains executable instructions. As a memory region, a text segment may be placed below the heap or stack in order to prevent heaps and stack overflows from overwriting it. Usually, the text segment is sharable so that only a single copy needs to be in memory for frequently executed programs, such as text editors, the C compiler, the shells, and so on. Also, the text segment is often read-only, to prevent a program from accidentally modifying its instructions
+
+***Initialized Data Segment:*** A data segment is a portion of the virtual address space of a program, which contains the global variables and static variables that are initialized by the programmer.
+Note that, the data segment is not read-only, since the values of the variables can be altered at run time.
+This segment can be further classified into the initialized read-only area and the initialized read-write area.
+
+***Uninitialized Data Segment:*** called also the “bss” segment. Data in this segment is initialized by the kernel to arithmetic 0 before the program starts executing uninitialized data starts at the end of the data segment and contains all global variables and static variables that are initialized to zero or do not have explicit initialization in source code. For instance, a variable declared static int i; would be contained in the BSS segment. For instance, a global variable declared int j; would be contained in the BSS segment
 
 <br>
 
@@ -82,6 +90,10 @@ If you want to support me:</p>
     <img src="https://skillicons.dev/icons?i=git,c,vim,vscode" />
   </a>
 </p><br>
+
+## Sources
+
+[![Static variable](https://www.geeksforgeeks.org/static-variables-in-c/)]
 
 ## License
 
