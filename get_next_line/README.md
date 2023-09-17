@@ -85,6 +85,12 @@ The heap area begins at the end of the BSS segment and grows to larger addresses
 
 <br>
 
+## Into the code
+
+In this project it will be something new to use:
+
+<br>
+
 ## Evaluation
 
 ### Tester
