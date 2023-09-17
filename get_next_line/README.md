@@ -10,6 +10,11 @@ v10 | v12
 
 
 </p>
+<br>
+
+### Index
+
+<br>
 
 ## About
 
@@ -78,9 +83,13 @@ The heap area begins at the end of the BSS segment and grows to larger addresses
 **Static variables:** <p align="justify"> have the properties of preserving their value after they are out of their scope and makes the variable retain its value among multiple calls. A static int variable remains in memory while the program is running. A normal variable is destroyed when a function call where the variable was declared is over (e.g. the static int is used to count the number of times a function is called). Static variables are allocated memory in the data segment, not the stack segment. Static variables should not be declared inside a structure. The reason is C compiler requires the entire structure elements to be placed together that is why memory allocation for structure members should be contiguous. It is possible to declare structure inside the function (stack segment) or allocate memory dynamically(heap segment) or it can be even global (BSS or data segment). Whatever might be the case, all structure members should reside in the same memory segment because the value for the structure element is fetched by counting the offset of the element from the beginning address of the structure. Separating out one member alone to a data segment defeats the purpose of structure and it is possible to have an entire structure as static.
 </p>
 
+<br>
+
 ## Evaluation
 
 ### Tester
+
+<br>
 
 ### Correction sheet
 
@@ -89,6 +98,8 @@ The heap area begins at the end of the BSS segment and grows to larger addresses
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/cs2.png">
 
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/cs3.png">
+
+<br>
 
 ## Support Me
 
