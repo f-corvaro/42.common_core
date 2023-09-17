@@ -100,8 +100,6 @@ In this project it will be something new to use:
 `O_RDWR`: Opens the file in read-write mode
 `O_CREAT`: Creates the file if it does not already exist
 `O_TRUNC`: Truncates the file to zero bytes if it already exists
-4.
-
 
 </p>
 
