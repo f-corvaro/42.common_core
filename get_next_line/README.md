@@ -87,7 +87,21 @@ The heap area begins at the end of the BSS segment and grows to larger addresses
 
 ## Into the code
 
+<p align="justify">
+
 In this project it will be something new to use:
+1. `ssize_t` is used for a count of bytes or an error indication (-1). It is a signed integer type capable of storing values at least in the range [-1, SSIZE_MAX]
+2. `ssize_t read(int fd, void *buf, size_t count);` The function `read()` in C reads data from a file descriptor and stores it in a buffer. The function returns the number of bytes read, or -1 in case of an error. count is the maximum number of bytes reads
+3. `open()` function in C opens a file for reading, writing or both. It returns a file descriptor, which is a small, non-negative integer that is used to access the file. It return -1 if error occur. The syntax is `int open(const char *pathname, int flags);` where pathname is the path to the file to open. the flags are the file opening options. To combine different flags is used `|` operator
+`O_RDONLY`: Opens the file in read-only mode
+`O_WRONLY`: Opens the file in write-only mode
+`O_RDWR`: Opens the file in read-write mode
+`O_CREAT`: Creates the file if it does not already exist
+`O_TRUNC`: Truncates the file to zero bytes if it already exists
+4. 
+
+
+</p>
 
 <br>
 
