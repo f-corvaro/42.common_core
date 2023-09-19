@@ -124,17 +124,13 @@ In this project it will be something new to use:
 
 <p align="justify">
 
-The requirements of the bonus parts are to develop get_next_line() using only one static variable.
-
-In addition to the mandatory part files, you will turn in the 3 following
-files:
-• get_next_line_bonus.c
-• get_next_line_bonus.h
-• get_next_line_utils_bonus.c
+The requirements of the bonus parts are to develop `get_next_line()` using only one static variable. In addition to the mandatory part files, you will turn in the 3 following files: `get_next_line_bonus.c, get_next_line_bonus.h, get_next_line_utils_bonus.c`.
 The bonus part will only be assessed if the mandatory part is
 PERFECT. Perfect means the mandatory part has been integrally done
 and works without malfunctioning. If you have not passed ALL the
-mandatory requirements, your bonus part will not be evaluated at all.
+mandatory requirements, your bonus part will not be evaluated at all. The `get_next_line()` function can manage multiple fd at the same time. For example, if you can read from the file descriptors 3, 4 and 5, you should be
+able to read from a different fd per call without losing the reading thread of each
+file descriptor or returning a line from another fd.
 
 
 </p>
