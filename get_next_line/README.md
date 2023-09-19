@@ -105,6 +105,14 @@ In this project it will be something new to use:
 
 <br>
 
+## Bonus part
+
+<p align="justify">
+
+</p>
+
+<br>
+
 ## Evaluation
 
 ### Testing mandatory part
@@ -124,6 +132,13 @@ gcc -Wall -Werror -Wextra get_next_line.c get_next_line_utils.c && ./a.out
 </p>
 <br>
 
+### Testing bonus part
+
+<p align="justify">
+
+</p>
+
+<br>
 ### Correction sheet
 
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/cs1.png">
