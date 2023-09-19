@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 12:04:05 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/09/19 18:07:05 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/09/19 18:19:09 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,9 @@ char	*get_next_line(int fd)
 /* This function reads a line of text from a file descriptor and returns a new
 string containing the line of text.*/
 
-int	main(void)
+/*int	main(void)
 {
-	char		*s;
+	char	*s;
 	int		i;
 	int		fd1;
 	int		fd2;
@@ -72,4 +72,4 @@ int	main(void)
 	close(fd2);
 	close(fd3);
 	return (0);
-}
+}*/
