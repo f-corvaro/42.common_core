@@ -107,8 +107,21 @@ In this project it will be something new to use:
 
 ## Evaluation
 
-### Tester
+### Testing mandatory part
 
+<p align="justify">
+You only have to edit the get_next_line.c file and uncomment the main. The get_next_line function will read the `file.txt` file that I made. Then simply run this command (change "xx" with desired buffer size):
+
+```shell
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
+```
+
+But also try the code without the flag `-D BUFFER_SIZE=xx` because must works in both situation.
+
+```shell
+gcc -Wall -Werror -Wextra get_next_line.c get_next_line_utils.c && ./a.out
+```
+</p>
 <br>
 
 ### Correction sheet
