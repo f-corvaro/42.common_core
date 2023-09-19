@@ -100,7 +100,7 @@ In this project it will be something new to use:
 `O_RDWR`: Opens the file in read-write mode
 `O_CREAT`: Creates the file if it does not already exist
 `O_TRUNC`: Truncates the file to zero bytes if it already exists
-
+4. The `BUFFER_SIZE` is set to 1000 in `get_next_line.h` because it is a good compromise between memory usage and performance. A larger buffer size will allow the function to read more data at once, which can improve performance, but it will also use more memory. A smaller buffer size will use less memory, but it may also decrease performance. The value of 1000 is a good starting point for most cases. If you are finding that the function is not reading enough data at once, you can try increasing the BUFFER_SIZE. However, if you are finding that the function is using too much memory, you can try decreasing the `BUFFER_SIZE`. A buffer is a region of memory used to temporarily store data while it is being moved from one place to another. Buffers are typically used when there is a difference between the rate at which data is received and the rate at which it can be processed. For example, when you download a file from the internet, your computer will store the incoming data in a buffer until it has enough data to save it to disk. Similarly, when you watch a streaming video, your computer will buffer the video data so that it can continue to play smoothly even if the network connection is slow. The buffer size is the amount of memory that is allocated to the buffer. It is important to choose a buffer size that is large enough to store enough data to avoid interruptions, but not so large that it wastes memory
 </p>
 
 <br>
