@@ -1,22 +1,25 @@
 # <a href="https://github.com/f-corvaro/42.common_core/tree/main"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
 ### Index
-- [Briefing](#briefing)
-- [Exams](#exams)
-	- [0. Exam 02](#0-exam-02-2-c-exercises)
-- [Exam Login Details](#exam-login-details)
-	- [1. Login with the following:](#1-login-with-the-following)
-	- [2. In the terminal type:](#2-to-access-at-exam-terminal-type-into-the-terminal)
-	- [3. Login with your 42 intra account](#3-login-with-your-42-intra-account)
-	- [4. In the terminal type:](#4-to-access-at-the-exam-shell-type-in-the-terminal)
-	- [5. Allow photo check](#5-allow-photo-check)
-	- [6. Access Rendu typing:](#6-access-rendu-typing)
-	- [7. In the Exam Shell, you have 3 commands:](#7-in-the-exam-shell-you-have-3-commands)
-	- [8. Open a new terminal:](#8-open-a-new-terminal)
-	- [9. Submit your project:](#9-submit-your-project)
-- [My 42 stats](#my-42-stats)
-- [Support Me](#support-me)
-- [License](#license)
+- [](#)
+		- [Index](#index)
+	- [Briefing](#briefing)
+	- [Exams](#exams)
+		- [0. Exam 02 (2 C exercises)](#0-exam-02-2-c-exercises)
+	- [Exam Login Details](#exam-login-details)
+		- [1. Login with the following:](#1-login-with-the-following)
+		- [2. To access at exam terminal, type into the terminal:](#2-to-access-at-exam-terminal-type-into-the-terminal)
+		- [3. Login with your 42 intra account:](#3-login-with-your-42-intra-account)
+		- [4. To access at the exam shell, type in the terminal:](#4-to-access-at-the-exam-shell-type-in-the-terminal)
+		- [5. Allow photo check:](#5-allow-photo-check)
+		- [6. Access Rendu typing:](#6-access-rendu-typing)
+		- [7. In the Exam Shell, you have 3 commands:](#7-in-the-exam-shell-you-have-3-commands)
+		- [8. Open a new terminal:](#8-open-a-new-terminal)
+		- [9. Submit your project:](#9-submit-your-project)
+	- [My 42 stats](#my-42-stats)
+	- [Support Me](#support-me)
+	- [License](#license)
+
 <br>
 
 ## Briefing
@@ -57,14 +60,14 @@ password -> exam
 ```
 kinit
 ```
-  
+
 ### 3. Login with your 42 intra account:
 
 ```
 login -> your 42 intra username (eg. fcorvaro)
 pasword -> your password
 ```
-  
+
 ### 4. To access at the exam shell, type in the terminal:
 
 ```
@@ -76,7 +79,7 @@ examshell
 ```
 'yes'
 ```
-  
+
 ### 6. Access Rendu typing:
 
 ```
@@ -117,27 +120,27 @@ When you are ready to sumbit your work, go into Rendu and push the folder you cr
 After you git push, type ```grademe``` in the examshell for your project to be evaluated
 
 </p>
-  
+
 <br>
 
 ## My 42 stats
-	
+
 [![fcorvaro's 42 stats](https://badge.mediaplus.ma/starryblue/fcorvaro?1337Badge=off&UM6P=off)](https://profile.intra.42.fr/users/fcorvaro)
 
 <br>
-  
-## Support Me 
 
-<p align="justify"> 
+## Support Me
+
+<p align="justify">
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
 If you want to support me:</p>
 
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
-    
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
+
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
- 
+
 <br>
-  
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

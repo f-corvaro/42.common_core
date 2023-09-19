@@ -1,28 +1,31 @@
-# **LIBFT** 
+# **LIBFT**
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/libft.png">
 
 [![subject](https://img.shields.io/badge/subject-libft-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/en.subject.pdf)
 
 ### Index
-    
-- [0 - About](#0---about)
-- [1 - What's in it?](#1---whats-in-it)
-- [2 - Type of files](#2---type-of-files)
-- [3 - Things "new" to understand](#3---things-new-to-understand)
-- [4 - Functions Index](#4---functions-index)
-- [5 - Running Tests](#5---running-tests)
-- [6 - Evaluation](#6---evaluation)
+
+- [**LIBFT**](#libft)
+    - [Index](#index)
+  - [0 - About](#0---about)
+  - [1 - What's in it?](#1---whats-in-it)
+  - [2 - Type of files](#2---type-of-files)
+  - [3 - Things "new" to understand](#3---things-new-to-understand)
+  - [4 - Functions Index](#4---functions-index)
+  - [5 - Running Tests](#5---running-tests)
+  - [6 - Evaluation](#6---evaluation)
     - [6.1 - Tester](#61---tester)
     - [6.2 - Correction Sheet](#62---correction-sheet)
     - [6.3 - Moulinette Result](#63---moulinette-result)
-- [7 - Special Thanks](#7---special-thanks)
-- [Support Me](#support-me)
-- [Skills developed](#skills-developed)
-- [License](#license)
+  - [7 - Special Thanks](#7---special-thanks)
+  - [Support Me](#support-me)
+  - [Skills developed](#skills-developed)
+  - [License](#license)
+
 
 <br>
-    
+
 ## 0 - About
 <p align="justify">
 C programming can be very tedious when one doesn’t have access to the highly useful
@@ -46,10 +49,10 @@ There are 4 sections:
 **.c - source code file:**<p align="justify">
 Where all the "instruction" are written.</p>
 
-**.h - header:**<p align="justify"> 
+**.h - header:**<p align="justify">
 Useful because insteade of doing `#include <library.h>` for all c files, you will write only once in your header. In advance you can reuse the function you did in your library for other functions in your library. For example in `ft_bzero.c` I use the `ft_memset.c`. Obviousbly you need to add `#include <libft.h>` at the top of all your files .c.
 </p>
-    
+
 **makefile:**<p align="justify">
 Is a file where you compile your projects, instead of use an `int main` and `gcc` to compile, you will use this file. You have some commands to write in the console to compile (see below "Running Tests") that you write. A makefile consists of a set of dependencies and rules. A dependency has a target (a file to be created) and a set of source files upon which it is dependent. The rules describe how to create the target from the dependent files. Typically, the target is a single executable file. In this project we want to create a `.o` files. The makefile is read by the `make` command, which determines the target file or files that are to be made and then compares the dates and times of the source files to decide which rules need to be invoked to construct the target. Often, other intermediate targets have to be created before the final target can be made. The make command uses the makefile to determine the order in which the targets have to be made and the correct sequence of rules to invoke.
 </p>
@@ -80,8 +83,8 @@ char    *arr;
 
 arr = (char *)malloc(sizeof(char) * 10)
 ```
-    
-<p align="justify"> This statement used malloc to set aside memory for an array of 10 char. As sizes can change between computers, it’s important to use the sizeof() function to calculate the size on the current computer. Any memory allocated during the program’s execution will need to be freed before the program closes. To free memory, we can use the free() function.</p> 
+
+<p align="justify"> This statement used malloc to set aside memory for an array of 10 char. As sizes can change between computers, it’s important to use the sizeof() function to calculate the size on the current computer. Any memory allocated during the program’s execution will need to be freed before the program closes. To free memory, we can use the free() function.</p>
 
 ```
 free(arr);
@@ -96,13 +99,13 @@ This statement will deallocate the memory previously allocated. C does not come 
 **linked lists:**
 
 <p align="justify"> Like arrays, a linked list is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers. They include a series of connected nodes. Here, each node stores the data and the address of the next node. </p>
-    
+
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/libft"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/libft/.extra/lle.png">
 
 <p align="justify">
 Arrays can be used to store linear data of similar types, but arrays have some limitations: </p>
  </p>
-    
+
 1. <p align="justify"> The size of the arrays is fixed; </p>
 2. <p align="justify"> Insertion of a new element / Deletion of a existing element in an array of elements is expensive. </p>
 
@@ -133,11 +136,11 @@ Drawbacks of Linked Lists: </p>
 
 3. <p align="justify"> Circular Linked List – In this type of linked list, the last node of the linked list contains the link of the first/head node of the linked list in its next pointer. </p>
 
-4. <p align="justify"> Doubly Circular Linked List – A Doubly Circular linked list or a circular two-way linked list is a more complex type of linked list that contains a pointer to the next as well as the previous node in the sequence. The difference between the doubly linked and circular doubly list is the same as that between a singly linked list and a circular linked list. The circular doubly linked list does not contain null in the previous field of the first node. </p> 
+4. <p align="justify"> Doubly Circular Linked List – A Doubly Circular linked list or a circular two-way linked list is a more complex type of linked list that contains a pointer to the next as well as the previous node in the sequence. The difference between the doubly linked and circular doubly list is the same as that between a singly linked list and a circular linked list. The circular doubly linked list does not contain null in the previous field of the first node. </p>
 
-5. <p align="justify"> Header Linked List – A header linked list is a special type of linked list that contains a header node at the beginning of the list. </p> 
+5. <p align="justify"> Header Linked List – A header linked list is a special type of linked list that contains a header node at the beginning of the list. </p>
 
-<p align="justify"> The basic operations on linked list are deletion, insertion, search and display. A linked list is represented by a pointer to the first node of the linked list. The first node is called the head of the linked list. If the linked list is empty, then the value of the head points to NULL. Each node in a list consists of at least two parts: </p> 
+<p align="justify"> The basic operations on linked list are deletion, insertion, search and display. A linked list is represented by a pointer to the first node of the linked list. The first node is called the head of the linked list. If the linked list is empty, then the value of the head points to NULL. Each node in a list consists of at least two parts: </p>
 
 1. <p align="justify"> A Data Item (we can store integers, strings, or any type of data). </p>
 
@@ -212,7 +215,7 @@ To run tests, run the following command: </p>
 ```
 
 <p align="justify"> This command will do the `fclean` and will do the make again. </p>
- 
+
 ```bash
   make re
 ```
@@ -224,9 +227,9 @@ To run tests, run the following command: </p>
 
 ### 6.1 - Tester
 
-<p align="justify"> To test my project before to push into the intra, I used the: </p> 
-    
-[Supreme Tester](https://github.com/FranFrau/Supreme-Tester-Libft) of [@FranFrau]( https://github.com/FranFrau ) 
+<p align="justify"> To test my project before to push into the intra, I used the: </p>
+
+[Supreme Tester](https://github.com/FranFrau/Supreme-Tester-Libft) of [@FranFrau]( https://github.com/FranFrau )
 
 ### 6.2 - Correction Sheet
 
@@ -245,21 +248,21 @@ To run tests, run the following command: </p>
 [@dieremy]( https://github.com/dieremy ) <p align="justify">  helped me to test and resolve leaks in my functions. Furthermore, he introduced to me this project: explaining to me some functions and some theory about it. </p>
 [@MirkokriM]( https://github.com/MirkokriM ) <p align="justify"> for the gif idea.</p>
 <br>
- 
-## Support Me 
 
-<p align="justify"> 
+## Support Me
+
+<p align="justify">
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
 If you want to support me:</p>
 
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
-    
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
+
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
- 
+
 <br>
-    
+
 ## Skills developed
-    
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,c,vim,vscode" />
