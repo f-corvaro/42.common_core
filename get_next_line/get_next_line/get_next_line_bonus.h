@@ -6,12 +6,12 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 12:05:24 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/09/19 17:29:43 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/09/19 17:31:53 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include <stdio.h>
 # include <stddef.h>
