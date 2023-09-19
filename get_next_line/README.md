@@ -130,8 +130,7 @@ PERFECT. Perfect means the mandatory part has been integrally done
 and works without malfunctioning. If you have not passed ALL the
 mandatory requirements, your bonus part will not be evaluated at all. The `get_next_line()` function can manage multiple fd at the same time. For example, if you can read from the file descriptors 3, 4 and 5, you should be
 able to read from a different fd per call without losing the reading thread of each
-file descriptor or returning a line from another fd.
-
+file descriptor or returning a line from another fd. The `OPEN_MAX` macro is defined in the `<limits.h> header file and represents the maximum number of open files that a process can have.
 
 </p>
 
@@ -210,6 +209,76 @@ line [12]: dsaijkakowdwaline [13]: (null)line [14]: (null)==15214==
 ### Testing bonus part
 
 <p align="justify">
+
+You only have to edit the get_next_line_bonus.c file and uncomment the main. The get_next_line function will read the `file.txt, file2.txt, file3.txt` files that I made. Then simply run this command (change "xx" with desired buffer size):
+
+```shell
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line_bonus.c get_next_line_utils_bonus.c
+```
+
+But also try the code without the flag `-D BUFFER_SIZE=xx` because must works in both situation.
+
+To find leaks and error I used `Valgrid`.
+
+The syntax is:
+
+```shell
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s ./a.out
+```
+
+The output is:
+
+```shell
+==13441== Memcheck, a memory error detector
+==13441== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13441== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==13441== Command: ./a.out
+==13441==
+line [01]: /=∂/\/\[](_)§ /\/\@|V †|-|@ ̄| ̄/-/!570®1<|-\£1_`/ ¢@/\/\ε vv!7}{ ???
+line [01]: 2222222222222222
+line [01]: 333333333333333333333
+line [02]: ciao
+line [02]: 22
+line [02]: 33
+line [03]: come va
+line [03]: 22
+line [03]: 3
+line [04]: prova
+line [04]: 222222222222
+line [04]:
+line [05]: daje
+line [05]: 222222222222
+line [05]: 33333333333333333333333
+line [06]: 1234
+line [06]: 22222222222222
+line [06]: 333333333333
+line [07]: daje
+line [07]:
+line [07]: 33333333333333333
+line [08]: try again
+line [08]: 2222222222222
+line [08]: 33333333333
+line [09]:
+line [09]: 2222
+line [09]: 33333333333
+line [10]: uuuh
+line [10]: 222222222222222
+line [10]: 3333333
+line [11]: UANM
+line [11]: 2222
+line [11]: 333333
+line [12]: 1w3erw1312as
+line [12]: 222222
+line [12]: 3333
+line [13]: dsaijkakowdwaline [13]: 2222222222line [13]: 333line [14]: (null)line [14]: (null)line [14]: (null)==13441==
+==13441== HEAP SUMMARY:
+==13441==     in use at exit: 0 bytes in 0 blocks
+==13441==   total heap usage: 133 allocs, 133 frees, 46,037 bytes allocated
+==13441==
+==13441== All heap blocks were freed -- no leaks are possible
+==13441==
+==13441== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
 
 </p>
 

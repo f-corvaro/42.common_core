@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 12:05:24 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/09/19 17:33:26 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/09/19 17:53:41 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,4 +41,5 @@ char	*get_next_line(int fd);
 4 -> for malloc(), free()
 5 -> for ssize_t
 6 -> for O_RDONLY
+7 -> for OPEN_MAX
 */
