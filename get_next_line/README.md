@@ -24,6 +24,7 @@ v10 | v12
     - [Testing mandatory part](#testing-mandatory-part)
     - [Testing bonus part](#testing-bonus-part)
     - [Correction sheet](#correction-sheet)
+    - [Norminette Result](#norminette-result)
     - [Moulinette Result](#moulinette-result)
   - [Support Me](#support-me)
   - [Skills developed](#skills-developed)
@@ -129,9 +130,7 @@ The requirements of the bonus parts are to develop `get_next_line()` using only 
 The bonus part will only be assessed if the mandatory part is
 PERFECT. Perfect means the mandatory part has been integrally done
 and works without malfunctioning. If you have not passed ALL the
-mandatory requirements, your bonus part will not be evaluated at all. The `get_next_line()` function can manage multiple fd at the same time. For example, if you can read from the file descriptors 3, 4 and 5, you should be
-able to read from a different fd per call without losing the reading thread of each
-file descriptor or returning a line from another fd. The `OPEN_MAX` macro is defined in the `<limits.h> header file and represents the maximum number of open files that a process can have.
+mandatory requirements, your bonus part will not be evaluated at all. The `get_next_line()` function can manage multiple fd at the same time. For example, if you can read from the file descriptors 3, 4 and 5, you should be able to read from a different fd per call without losing the reading thread of each file descriptor or returning a line from another fd. `static char	*str[4096];` was choosen because the C standard requires that a compiler be able to process lines of at least 4096 characters. However, most modern compilers have no upper limit on the size of a line, other than the amount of available memory.
 
 </p>
 
@@ -293,6 +292,18 @@ line [13]: dsaijkakowdwaline [13]: 2222222222line [13]: 333line [14]: (null)line
 
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/cs3.png">
 
+<br>
+
+### Norminette Result
+
+```shell
+get_next_line.c: OK!
+get_next_line.h: OK!
+get_next_line_bonus.c: OK!
+get_next_line_utils_bonus.c: OK!
+get_next_line_utils.c: OK!
+get_next_line_bonus.h: OK!
+```
 <br>
 
 ### Moulinette Result
