@@ -10,7 +10,7 @@
   - [01 Ring](#01-ring)
     - [1. born2beroot (Virtual Machine  - solo project)](#1-born2beroot-virtual-machine----solo-project)
     - [2. ft\_printf () ⚠️ **WORKING IN PROGRESS** ⚠️](#2-ft_printf--️-working-in-progress-️)
-    - [3. get\_next\_line (C - solo project) ⚠️ **WORKING IN PROGRESS** ⚠️](#3-get_next_line-c---solo-project-️-working-in-progress-️)
+    - [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
   - [02 Ring](#02-ring)
   - [Exams](#exams)
   - [Holy Graph](#holy-graph)
@@ -18,6 +18,7 @@
   - [My 42 stats](#my-42-stats)
   - [Support Me](#support-me)
   - [License](#license)
+
 
 <br>
 
@@ -63,7 +64,7 @@
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
 
-### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project) ⚠️ **WORKING IN PROGRESS** ⚠️
+### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
 
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```

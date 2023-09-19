@@ -3,98 +3,100 @@
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/born2beroot"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/born.png">
 
 <p align="justify">
-	
+
 [![subject](https://img.shields.io/badge/subject-born2beroot-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/en.subject.pdf)
 </p>
 
 ### Index
-	
-- [Index](#index)
-- [0 - _About_](#0---about)
-- [1 - Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
-- [2 - Installing the VM - virtual machine](#2---installing-the-vm---virtual-machine)
-- [3 - Installing Debian](#3---installing-debian)
-- [4 - VM setup](#4---vm-setup)
-	- [Boot - When the system boot](#boot---when-the-system-boot)
-	- [Boot - The system will require the password of the encrypted disk](#boot---the-system-will-require-the-password-of-the-encrypted-disk)
-	- [Boot - The system will require the user and password that we created](#boot---the-system-will-require-the-user-and-password-that-we-created)
-	- [4.1 - Installing sudo \& configuration of user and groups](#41---installing-sudo--configuration-of-user-and-groups)
-	- [4.2 - Installing \& configuring SSH](#42---installing--configuring-ssh)
-	- [4.3 - Installing \& configuring UFW](#43---installing--configuring-ufw)
-	- [4.3 - Setting up the sudo policies](#43---setting-up-the-sudo-policies)
-	- [4.4 - Setting up a strong password policy](#44---setting-up-a-strong-password-policy)
-	- [4.5 - Connecting via SSH](#45---connecting-via-ssh)
-- [5 - Script System Info](#5---script-system-info)
-	- [5.1 - Architecture](#51---architecture)
-	- [5.2 - Physical Cores](#52---physical-cores)
-	- [5.3 - Virtual Cores](#53---virtual-cores)
-	- [5.4 - RAM](#54---ram)
-	- [5.5 - Disk memory](#55---disk-memory)
-	- [5.6 - CPU usage percentage](#56---cpu-usage-percentage)
-	- [5.7 - Last reboot](#57---last-reboot)
-	- [5.8 - LVM activation](#58---lvm-activation)
-	- [5.9 - TCP](#59---tcp)
-	- [5.10 - Number of users](#510---number-of-users)
-	- [5.11 - IP adress](#511---ip-adress)
-	- [5.12 - Number of commands executed with sudo](#512---number-of-commands-executed-with-sudo)
-	- [5.13 - Total result of the script](#513---total-result-of-the-script)
-- [6 - Crontab](#6---crontab)
-- [7 - Bonus](#7---bonus)
-	- [7.1 - Wordpress \& services configuration](#71---wordpress--services-configuration)
-	- [7.1.a - Lighttpd](#71a---lighttpd)
-	- [7.1.b - WordPress](#71b---wordpress)
-	- [7.1.c - Mariadb](#71c---mariadb)
-	- [7.1.d - Database](#71d---database)
-	- [7.1.e - PHP](#71e---php)
-	- [WordPress configuration](#wordpress-configuration)
-	- [7.2 - Additional service](#72---additional-service)
-	- [LiteSpeed](#litespeed)
-- [8 - Signature.txt](#8---signaturetxt)
-- [9 - Theory](#9---theory)
-	- [9.1 - How to correct - evaluator version](#91---how-to-correct---evaluator-version)
-	- [9.2 - Must to know](#92---must-to-know)
-	- [What is a virtual machine?](#what-is-a-virtual-machine)
-	- [Why did you choose Debian/CentOS?](#why-did-you-choose-debiancentos)
-	- [Basic differences between CentOS and Debian](#basic-differences-between-centos-and-debian)
-	- [What is the purpose of virtual machines?](#what-is-the-purpose-of-virtual-machines)
-	- [Differences between apt and aptitude](#differences-between-apt-and-aptitude)
-	- [What is APPArmor?](#what-is-apparmor)
-	- [What is LVM?](#what-is-lvm)
-	- [9.3 - Correction Sheet](#93---correction-sheet)
-- [Support Me](#support-me)
-- [Skills Developed](#skills-developed)
-- [License](#license)
+
+- [**BORN2BEROOT**](#born2beroot)
+		- [Index](#index)
+	- [0 - _About_](#0---about)
+	- [1 - Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
+	- [2 - Installing the VM - virtual machine](#2---installing-the-vm---virtual-machine)
+	- [3 - Installing Debian](#3---installing-debian)
+	- [4 - VM setup](#4---vm-setup)
+		- [Boot - When the system boot](#boot---when-the-system-boot)
+		- [Boot - The system will require the password of the encrypted disk](#boot---the-system-will-require-the-password-of-the-encrypted-disk)
+		- [Boot - The system will require the user and password that we created](#boot---the-system-will-require-the-user-and-password-that-we-created)
+		- [4.1 - Installing sudo \& configuration of user and groups](#41---installing-sudo--configuration-of-user-and-groups)
+		- [4.2 - Installing \& configuring SSH](#42---installing--configuring-ssh)
+		- [4.3 - Installing \& configuring UFW](#43---installing--configuring-ufw)
+		- [4.3 - Setting up the sudo policies](#43---setting-up-the-sudo-policies)
+		- [4.4 - Setting up a strong password policy](#44---setting-up-a-strong-password-policy)
+		- [4.5 - Connecting via SSH](#45---connecting-via-ssh)
+	- [5 - Script System Info](#5---script-system-info)
+		- [5.1 - Architecture](#51---architecture)
+		- [5.2 - Physical Cores](#52---physical-cores)
+		- [5.3 - Virtual Cores](#53---virtual-cores)
+		- [5.4 - RAM](#54---ram)
+		- [5.5 - Disk memory](#55---disk-memory)
+		- [5.6 - CPU usage percentage](#56---cpu-usage-percentage)
+		- [5.7 - Last reboot](#57---last-reboot)
+		- [5.8 - LVM activation](#58---lvm-activation)
+		- [5.9 - TCP](#59---tcp)
+		- [5.10 - Number of users](#510---number-of-users)
+		- [5.11 - IP adress](#511---ip-adress)
+		- [5.12 - Number of commands executed with sudo](#512---number-of-commands-executed-with-sudo)
+		- [5.13 - Total result of the script](#513---total-result-of-the-script)
+	- [6 - Crontab](#6---crontab)
+	- [7 - Bonus](#7---bonus)
+		- [7.1 - Wordpress \& services configuration](#71---wordpress--services-configuration)
+		- [7.1.a - Lighttpd](#71a---lighttpd)
+		- [7.1.b - WordPress](#71b---wordpress)
+		- [7.1.c - Mariadb](#71c---mariadb)
+		- [7.1.d - Database](#71d---database)
+		- [7.1.e - PHP](#71e---php)
+		- [WordPress configuration](#wordpress-configuration)
+		- [7.2 - Additional service](#72---additional-service)
+		- [LiteSpeed](#litespeed)
+	- [8 - Signature.txt](#8---signaturetxt)
+	- [9 - Theory](#9---theory)
+		- [9.1 - How to correct - evaluator version](#91---how-to-correct---evaluator-version)
+		- [9.2 - Must to know](#92---must-to-know)
+		- [What is a virtual machine?](#what-is-a-virtual-machine)
+		- [Why did you choose Debian/CentOS?](#why-did-you-choose-debiancentos)
+		- [Basic differences between CentOS and Debian](#basic-differences-between-centos-and-debian)
+		- [What is the purpose of virtual machines?](#what-is-the-purpose-of-virtual-machines)
+		- [Differences between apt and aptitude](#differences-between-apt-and-aptitude)
+		- [What is APPArmor?](#what-is-apparmor)
+		- [What is LVM?](#what-is-lvm)
+		- [9.3 - Correction Sheet](#93---correction-sheet)
+	- [Support Me](#support-me)
+	- [Skills developed](#skills-developed)
+	- [License](#license)
+
 
 <br>
-	
+
 ## 0 - _About_
-  
+
 <p align="justify">
 Born2beRoot is an introduction to virtualization and system administration. The purpose is to create a virtual machine which is a server implementing strict rules, and minimum required services. The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
 </p>
 <br>
-	
+
 ## 1 - Download the virtual machine ISO
 
 <p align="justify">
-    
+
 [Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
-	
+
 </p>
 <br>
-	
+
 ## 2 - Installing the VM - virtual machine
 
 <p align="justify">
-	
+
 In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 1 | Open VirtualBox and click ```New```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/1.png">
 
-2 | Choose a name for the machine and the folder which will locate it. 
-	
+2 | Choose a name for the machine and the folder which will locate it.
+
 **IMPORTANT:** Store the machine created inside the goinfre folder located in your cluster server. This will avoid the run out of memory space in your session and avoid that the installation will fail. (Ask your staff if you can't find it). Then click ```continue```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/2.png">
@@ -127,35 +129,35 @@ In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/9.png">
 
-10 | Select the ISO that we just downloaded and click ```Open```, then click on ```Ok```. 
+10 | Select the ISO that we just downloaded and click ```Open```, then click on ```Ok```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/10.png">
 
 11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
 </p>
 <br>
-	
+
 ## 3 - Installing Debian
 
 <p align="justify">
-	
+
 Choose your scale rate to get window bigger or smaller: (I prefer 300%)
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/11.png">
 
 The ```cmd``` key on your keyboard will help you to switch the capture of your mouse from vm to your system or viceversa.
-  
+
 **WARNING:** when you will switch from one to another, pay attention to change uppercase to lowercase or viceversa. This could be a common mistake that you wuold do and you would have problem with the input of the password, because the vm will remain at the old choice.
 
-1 | We will choose the version without graphic interface ```Install``` (is a mandatory part of the subject). 
- 
+1 | We will choose the version without graphic interface ```Install``` (is a mandatory part of the subject).
+
 To confirm something is used ```Enter key```.
-  
+
 The ```Arrow keys``` are used to move around.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/12.png">
 
-2 | Choose the language. Select ```English```.  
+2 | Choose the language. Select ```English```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/13.png">
 
@@ -192,9 +194,9 @@ The ```Arrow keys``` are used to move around.
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/21.png">
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/22.png">
-  
+
 11 | Set our new user password. I will use the same password. Just as before, you need to repeat the process.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/23.png">
 
 12 | Select ```Manual```. (Is required part for the bonus, so we can edit the partitions one by one)
@@ -206,169 +208,169 @@ The ```Arrow keys``` are used to move around.
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/25.png">
 
 14 |  Accept the confirmation message. Basically, it warns us that if there are already partitions on the device, they will be deleted and if we are sure to create a new empty partition.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/26.png">
 
 15 | Appears our partition table that is empty. Now we must configure it, for this we must select ```pri/log  32.2  GB FREE SPACE```
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/27.png">
-  
+
 16 | Create a new partition.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/28.png">
-  
+
 17 | I start with sda1, as the subject indicates, the size of the partition must be 500 megabytes.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/29.png">
-  
+
 18 | Choose the type of partition. We choose primary because it will be the partition where the operating system will be installed.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/30.png">
 
 + **Brief description of all types of [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning) :**
 
-* **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended. 
+* **Primary:** The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
 
 * **Extended:** It was designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
 
-- **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.  
+- **Logical:** It occupies a portion of the primary/extended partition or the whole of it, which has been formatted with a specific type of file system (in our case we will use ext4) and has been assigned a unit, so the operating system recognizes the logical partitions or its file system. There can be a maximum of 23 logical partitions in an extended partition, however, Linux (the OS we are currently working with), reduces it to 15, more than enough for this project.
 
 Check also **[GUID Partion Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
-	
+
 19 |   Select ```Beginning``` because we want that the new partition will be created at the beginning of the available space.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/31.png">
 
 20 |  It shows the details of the partition. We will modify the mount point as specified in the subject.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/32.png">
-  
+
 Choose ```/boot```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/33.png">
 
 Finish configuring the current partition.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/34.png">
-  
+
 21 | Completed the previous step, the partition should already appear. Now we must create a logical partition with all the available space on the disk, which has no mount point and is encrypted. To do this, select the free space where we want to create it.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/35.png">
-  
+
 22 | Create a new partition.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/36.png">
-  
+
 Select the maximum size.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/37.png">
-  
+
 Select the type of partition, logical in this case.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/38.png">
 
 Modify the mount point.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/39.png">
-  
+
 Choose the option ```Do not mount it```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/40.png">
-  
+
 Finish configuring the current partition.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/41.png">
-  
+
 23 | Configure encrypted volumes, so we can encrypt our partition.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/42.png">
-  
+
 Accept the confirmation message.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/43.png">
-  
+
 Create the encrypted volumes.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/44.png">
-  
+
 Select which partition we want to encrypt.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/45.png">
-  
+
 Finish configuring the current partition.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/46.png">
-  
+
 ```Finish``` because we don't want to create more encrypted volumes.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/47.png">
 
 Accept the confirmation message. It tells us that everything inside the partition will be encrypted and it should not take long to finish.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/48.png">
-  
+
 ```cancel``` it because there is nothing to encrypt (the partition is empty).
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/49.png">
-  
+
 Enter a password, this time it will be the encryption phrase.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/50.png">
-  
+
 24 | ```Configure the logical volume manager```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/51.png">
-  
+
 Accept the confirmation message as we agree to save the changes to the disk.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/52.png">
 
-```Create a new volume group```. 
-  
+```Create a new volume group```.
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/53.png">
-  
+
 Enter the name we want to give it: ```LVMGroup``` as indicated in the subject.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/54.png">
-  
+
 Select the partition where we want to create the group: ```sda5_crypt```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/55.png">
-  
-Create all the logical partitions as we requested from the subject. 
+
+Create all the logical partitions as we requested from the subject.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b.png">
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/56.png">
-  
+
 Choose the group where we want to create the logical partitions. We select the only one available (the one we created).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/57.png">
-  
-The order of creation of the logical units must be the same of the subject, so we will start with ```root``` and end with ```var-log```. 
-  
+
+The order of creation of the logical units must be the same of the subject, so we will start with ```root``` and end with ```var-log```.
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/58.png">
-  
+
 Size, as indicated in the subject, will be ```10g```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/59.png">
-  
+
 Repeat the process for all the seven logical volumes. Then continue with finish.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/60.png">
-  
+
 25 | Now we can see all our partitions and free space, all the logical partitions that we just created are already appearing. We must configure the mount point and the usage of these. Again we will go in order and select the first one that appears, which is ```home```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/61.png">
-  
+
 We can see the configuration of the partitions. We must choose a file system as it currently does not have one.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/62.png">
-	
+
 Choose the ```Ext4 file system``` in use as option, it is the most commonly used [file system](https://en.wikipedia.org/wiki/File_system) in Linux distributions.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/63.png">
-  
+
 Then select the [mount point](https://en.wikipedia.org/wiki/Mount_(computing)#MOUNT-POINT) as home.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/64.png">
@@ -376,7 +378,7 @@ Then select the [mount point](https://en.wikipedia.org/wiki/Mount_(computing)#MO
 And the first one is gone.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/65.png">
-  
+
 Now we need to repeat, to see what mount point I use and the use as, watch the image below that resume the final result:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/66.png">
@@ -386,67 +388,67 @@ Accept the message and the changes will be saved. Make sure that all of the part
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/67.png">
 
 Select the option ```No``` because we don't need additional packages.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/68.png">
-  
+
 Choose your Country.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/69.png">
-  
+
 Choose ```deb.debian.org```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/70.png">
 
 Leave this option empty and click ```Continue```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/71.png">
-  
+
  We selected the option ```No``` because we do not want that developers watch our statistics even though they are anonymous.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/72.png">
 
 Remove all the software options using the spacebar and press ```Continue```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/73.png">
-  
+
 Select ```Yes``` to install  [GRUB](https://es.wikipedia.org/wiki/GNU_GRUB) boot in the primary drive.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/74.png">
-  
+
 Choose the device for the bootloader installation ```/dev/sda```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/75.png">
-  
+
 Press ```Continue``` to finish the installation.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/76.png">
 <br>
-	
-## 4 - VM setup 
 
-### Boot - When the system boot 
-  
+## 4 - VM setup
+
+### Boot - When the system boot
+
 -> Select ```Debian GNU/Linux```.
 
-### Boot - The system will require the password of the encrypted disk 
-  
+### Boot - The system will require the password of the encrypted disk
+
 -> Write the encryptation password that previously we set. For me is ```Pw.20STNG!81```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/77.png">
 
-### Boot - The system will require the user and password that we created 
-  
+### Boot - The system will require the user and password that we created
+
 -> In my case the user is ```fcorvaro``` and the password is ```Pw.20STNG!81```.
-  
+
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/78.png">
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/79.png">
-  
-### 4.1 - Installing sudo & configuration of user and groups 
 
-1 | The beginning of the installation starts with changing user to root so we can install [sudo](https://en.wikipedia.org/wiki/Sudo). For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. 
-Write the command 
-  
+### 4.1 - Installing sudo & configuration of user and groups
+
+1 | The beginning of the installation starts with changing user to root so we can install [sudo](https://en.wikipedia.org/wiki/Sudo). For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files.
+Write the command
+
 ```
 $>apt-get update
 $>apt-get install vim
@@ -475,7 +477,7 @@ Verify whether user was successfully added to sudo group via:
 
 `sudo reboot` for changes to take effect, then log in and verify sudopowers via `sudo -v`.
 
-3 | Running root-privilege commands 
+3 | Running root-privilege commands
 
 Run root-privileged command via prefix ```sudo```.
 
@@ -487,7 +489,7 @@ Run root-privileged command via prefix ```sudo```.
 
 2 | Install the main tool for remote access with the SSH protocol, using OpenSSH. The packagerequired:
 
-```sudo apt install openssh-server``` 
+```sudo apt install openssh-server```
 
 Confirm writing ```y```, and wait for the installation time.
 
@@ -511,7 +513,7 @@ Confirm writing ```y```, and wait for the installation time.
 
 Save the changes and leave the file.
 
-5 | With the file ```/etc/ssh/ssh_config``` (not ```sshd_config```) we will do the same we do early. Edit the following line: 
+5 | With the file ```/etc/ssh/ssh_config``` (not ```sshd_config```) we will do the same we do early. Edit the following line:
 
 + ```#Port 22 -> Port 4242```
 
@@ -521,7 +523,7 @@ Save the changes and leave the file.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/85.png">
 
-### 4.3 - Installing & configuring UFW 
+### 4.3 - Installing & configuring UFW
 
 [UFW](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) is a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) which use the command line for setting up [iptables](https://en.wikipedia.org/wiki/Iptables) using a small number of easy commands.
 
@@ -531,7 +533,7 @@ Save the changes and leave the file.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/86.png">
 
-3 | We must allow our firewall to accept the connections (that will happens in the 4242 port). Use ```sudo ufw allow 4242```. 
+3 | We must allow our firewall to accept the connections (that will happens in the 4242 port). Use ```sudo ufw allow 4242```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/87.png">
 
@@ -539,7 +541,7 @@ Save the changes and leave the file.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/88.png">
 
-### 4.3 - Setting up the sudo policies 
+### 4.3 - Setting up the sudo policies
 
 1 | Create a file in ```/etc/sudoerd.d/```. The file will serve the purpouse of storing our sudo policy. Use: ```sudo touch /etc/sudoers.d/sudo_config```.
 
@@ -574,8 +576,8 @@ As it should be:
 * requiretty  -> [TTY](https://www.ibm.com/docs/en/aix/7.2?topic=t-tty-command) is required for security reason (subject).
 
 - secure_path	-> Folders that will be excluded of sudo
-	
-### 4.4 - Setting up a strong password policy 
+
+### 4.4 - Setting up a strong password policy
 
 1 | Edit the login.defs file.
 
@@ -597,7 +599,7 @@ As it should be:
 
 3 | Install the package ```sudo apt install libpam-pwquality``` , then write ```Y``` when is required. Wait till it finish.
 
-4 | Edit the file using ```sudo vim /etc/pam.d/common-password```. 
+4 | Edit the file using ```sudo vim /etc/pam.d/common-password```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/91.png">
 
@@ -612,9 +614,9 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 + minlen=10 -> The minimun characters a password must contain.
 
 **- sign, that's refering to minumum caracters. + sign it refer to maximum characters.**
-	
-* ucredit=-1 -> The password at least have to contain a capital letter. 
-	
+
+* ucredit=-1 -> The password at least have to contain a capital letter.
+
 * dcredit=-1 -> The password at least have to containt a digit.
 
 * lcredit=-1 -> The password at least have to contain a lowercase letter.
@@ -623,7 +625,7 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 
 * reject_username -> The password can not contain the username inside itself.
 
-* difok=7 -> The password it have to containt at least seven diferent characters from the last password used. 
+* difok=7 -> The password it have to containt at least seven diferent characters from the last password used.
 
 - enforce_for_root -> We will implement this password policy to root.
 
@@ -646,11 +648,11 @@ minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 e
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/95.png">
 </p>
 <br>
-	
+
 ## 5 - Script System Info
-	
+
 <p align="justify">
-	
+
 You need to pay attention to all things in this section. You will be asked how the script works during the evaluation.
 
 A **script** is a sequence of commands stored in a file that when executed will do the commands writed.
@@ -661,11 +663,11 @@ A **script** is a sequence of commands stored in a file that when executed will 
 To show the architecture of the OS, you can use the command ```uname -a``` ("-a" == "--all"). This command print information about the current machine and the OS running on it, except the hardware information and the CPU. ```uname -a``` print all available system information.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/96.png">
-  
+
 ### 5.2 - Physical Cores
 
-[Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit). 
-To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output. 
+[Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit).
+To show the number of physical cores use the file ```/proc/cpuinfo```, which give us information about the CPU: its type, brand, model, performance, etc. We will use ```grep "physical id" /proc/cpuinfo | wc -l``` with the command ```grep``` we are searching and matching into the file "physical id". With ```wc -l``` to count the line of the grep output.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/97.png">
 
@@ -675,19 +677,19 @@ To show the number of physical cores use the file ```/proc/cpuinfo```, which giv
 To show the number of virtual cores we use the file ```/proc/cpuinfo```, but in this case we will use the command ```grep processor /proc/cpuinfo | wc -l```. The usage is same as before instead of counting the lines of "physical id" we will do it with "processor". We do it this way for the same reason as before, the way of quantifying marks 0 if there is a processor.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/98.png">
-	
+
 ### 5.4 - RAM
 
 [RAM](https://en.wikipedia.org/wiki/Random-access_memory).
 To show the RAM memory use the command ```free``` to see at the moment information about the RAM (the amount used, the amount available, the amount reserved for other resources, etc). For more info use the command ```free --help```. We will use ```free --mega``` since that unit of measure appears in the subject.
-	
+
 We must filter our search because we do not need all the information that it provides. The first thing we need to show is the used memory, using the ```awk``` command, which processes data based on text files,  we can use the data that interests us from a file. We compare if the first word of a row is equal to "Mem:" we will print the third word of that row, which will be the used memory. The whole command together would be ```free --mega | awk '$1 == "Mem:" {print $3}'```. In the script the return value of this command will be assigned to a variable that will be concatenated with other variables so that everything is the same as specified in the subject.
 
 To obtain the total memory, we change the third one with the second one.
 ```free --mega | awk '$1 == "Mem:" {print $2}'```.
 
 For calculate the % of used memory. The differences between the code we wrote before and this one is the printing part. We are using ```%.2f``` so that only 2 decimals are shown. In printf to show a ```%``` you have to put ```%%```. The whole command ```free --mega | awk '$1 == "Mem:" {printf("(%.2f%%)\n", $3/$2*100)}'```.
-	
+
 To obtain the total memory, we change the third one with the second one.
 ```free --mega | awk '$1 == "Mem:" {print $2}'```.
 
@@ -696,9 +698,9 @@ For calculate the % of used memory. The differences between the code we wrote be
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/99.png">
 
 ### 5.5 - Disk memory
-	
+
 [Disk memory](https://en.wikipedia.org/wiki/Disk_storage).
-To view the occupied and available memory of the disk, we will use the ```df``` command ("disk filesystem"), it is used to get a complete summary of the use of disk space. As indicated in the subject, the used memory is shown in MB. We use the -m flag. Next, we will do a grep to only show us the lines that contain "/dev/" and then we will do another grep with the -v flag to exclude lines that contain "/boot". Finally, we will use the awk command and sum the value of the third word of each line to once all the lines are summed, print the final result of the sum. 
+To view the occupied and available memory of the disk, we will use the ```df``` command ("disk filesystem"), it is used to get a complete summary of the use of disk space. As indicated in the subject, the used memory is shown in MB. We use the -m flag. Next, we will do a grep to only show us the lines that contain "/dev/" and then we will do another grep with the -v flag to exclude lines that contain "/boot". Finally, we will use the awk command and sum the value of the third word of each line to once all the lines are summed, print the final result of the sum.
 ```df -m | grep "/dev/" | grep -v "/boot" | awk '{memory_use += $3} END {print memory_use}'```.
 
 To obtain the total space, the only differences will be that the values we will sum will be $2 instead of $3 and the other difference is that in the subject the total size appears in Gb, so as the result of the sum gives us the number in Mb we must transform it to Gb, for this we must divide the number by 1024 and remove the decimals.
@@ -711,17 +713,17 @@ We must show a percentage of the used memory. We combine the two previous comman
 
 ### 5.6 - CPU usage percentage
 
-To view the percentage of CPU usage, we will use the ```vmstat``` command, which shows system statistics, allowing us to obtain a general detail of the processes, memory usage, CPU activity, system status, etc. We could put no option but I will put an interval of seconds from 1 to 3. We will also use the ```tail -1``` command, which will allow us to produce the output only on the last line, so of the 3 generated, only the last one will be printed. We will only print word 15, which is the available memory usage. The entire command is as follows: ```vmstat 1 3| tail -1 | awk '{print$15}'```. 
+To view the percentage of CPU usage, we will use the ```vmstat``` command, which shows system statistics, allowing us to obtain a general detail of the processes, memory usage, CPU activity, system status, etc. We could put no option but I will put an interval of seconds from 1 to 3. We will also use the ```tail -1``` command, which will allow us to produce the output only on the last line, so of the 3 generated, only the last one will be printed. We will only print word 15, which is the available memory usage. The entire command is as follows: ```vmstat 1 3| tail -1 | awk '{print$15}'```.
 The result of this command is only part of the final result since there is still some operation to be done in the script for it to be correct. What should be done is to subtract the amount returned by our command from 100, the result of this operation will be printed with one decimal and a % at the end and the operation would be finished.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/101.png">
-	
+
 ### 5.7 - Last reboot
 
 To see the date and time of our last reboot, we will use the ```who``` command with the ```-b``` flag, as this flag will display the time of the last system boot on the screen. It shows us more information than we want, so we will filter it and only show what we are interested in, for this we will use the awk command and compare if the first word of a line is "system", the third word of that line will be printed on the screen, a space, and the fourth word. ```who -b | awk '$1 == "system" {print $3 " " $4}'```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/102.png">
-	
+
 ### 5.8 - LVM activation
 
 To check if LVM is active or not, we will use the ```lsblk``` command, which shows us information about all block devices (hard drives, SSDs, memories, etc) among all the information it provides. This command will print Yes or No. Basically, the condition we are looking for will be to count the number of lines in which "lvm" appears and if there are more than 0 we will print Yes, if there are 0 we will print No. ```if [ $(lsblk | grep lvm | wc -l) -gt 0 ];then echo yes; else echo no; fi```.
@@ -747,7 +749,7 @@ We will use the ```users``` command which will show us the names of the users th
 To obtain the host address, we will use the ```hostname -I``` command and to obtain the MAC, we will use the ```ip link``` command which is used to show or modify the network interfaces. We will use the grep command to search for what we want and thus be able to print only what is requested. ```ip link | grep "link/ether" | awk '{print $2}'``` and in this way we will only print the MAC.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/106.png">
-	
+
 ### 5.12 - Number of commands executed with sudo
 
 To obtain the number of commands executed with sudo, we will use the ```journaclctl``` command, which is a tool that is responsible for collecting and managing the system logs. Next, we will put ```_COMM=sudo``` in order to filter the entries by specifying its path. In our case we put ```_COMM``` because it refers to an executable script. Once we have filtered the search and only the sudo logs appear, we still need to filter a bit more as when you start or close the root session it also appears in the log, so to finish filtering we will put a ```grep COMMAND``` and this will only show the command lines. Finally, we will put ```wc -l``` so that the lines are numbered. The entire command is as follows: ```journalctl _COMM=sudo | grep COMMAND | wc -l)```. To check that it works correctly, we can run the command in the terminal, put a command that includes sudo and run the command again and it should increase the number of sudo executions.
@@ -818,14 +820,14 @@ wall "	Architecture: $arch
 	Sudo: $cmnd cmd"
 ```
 
-Save the file and test with the command ```sh monitoring.sh```. 
+Save the file and test with the command ```sh monitoring.sh```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/108.png">
 </p>
 <br>
-	
-## 6 - Crontab 
-	
+
+## 6 - Crontab
+
 <p align="justify">
 
 [Crontab](https://en.wikipedia.org/wiki/Cron) is a background process manager. The specified processes will be executed at the time you specify in the crontab file.
@@ -834,7 +836,7 @@ To configure crontab, we must edit the crontab file with the following command `
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/109.png">
 
-We must add into the file the rule: the script must execute every 10 minutes ```*/10 * * * * sh /home/fcorvaro/monitoring.sh```. 
+We must add into the file the rule: the script must execute every 10 minutes ```*/10 * * * * sh /home/fcorvaro/monitoring.sh```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/110.png">
 
@@ -853,22 +855,22 @@ Operation of each crontab parameter:
 - command -> Refers to the command or the absolute path of the script to be executed.
 </p>
 <br>
-	
-## 7 - Bonus 
 
-### 7.1 - Wordpress & services configuration 
+## 7 - Bonus
 
-### 7.1.a - Lighttpd 
-	
+### 7.1 - Wordpress & services configuration
+
+### 7.1.a - Lighttpd
+
 <p align="justify">
-	
+
 [Lighttpd](https://en.wikipedia.org/wiki/Lighttpd) is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a top priority because it consumes less CPU and RAM than other servers.
 
 1 | Installation of Lighttpd packages. ```sudo apt install lighttpd```
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/111.png">
 
-2 | Allow connections through port 80 with the command ```sudo ufw allow 80```. Check the status with ```sudo ufw status```. 
+2 | Allow connections through port 80 with the command ```sudo ufw allow 80```. Check the status with ```sudo ufw status```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/112.png">
 
@@ -876,7 +878,7 @@ Operation of each crontab parameter:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/113.png">
 
-### 7.1.b - WordPress 
+### 7.1.b - WordPress
 
 [Wordpress](https://en.wikipedia.org/wiki/WordPress) is a web content management system focused on the creation of any type of website.
 
@@ -900,7 +902,7 @@ Operation of each crontab parameter:
 
 ### 7.1.c - Mariadb
 
-[MariaDB](https://en.wikipedia.org/wiki/MariaDB) is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications. 
+[MariaDB](https://en.wikipedia.org/wiki/MariaDB) is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
 
 1 | Install the packages: ```sudo apt install mariadb-server```.
 
@@ -919,7 +921,7 @@ Reaload privilege tables now? [Y/N] → Y
 
 * Change the root password? ```N```. We do not want to change the root password. By default we have no password but in mariadb he is not really root as we must give him administrator permissions.
 
-* Remove anonymous users? ```Y```. By default when you install mariadb it has an anonymous user, which allows anyone to log into mariadb without having to create their own user account. This is designed for testing purposes and to make the installation smoother. When we leave the development environment and want to move to a production environment we must remove the anonymous users. 
+* Remove anonymous users? ```Y```. By default when you install mariadb it has an anonymous user, which allows anyone to log into mariadb without having to create their own user account. This is designed for testing purposes and to make the installation smoother. When we leave the development environment and want to move to a production environment we must remove the anonymous users.
 
 * Disallow root login remotely? ```Y```. Disabling root login remotely will prevent anyone from guessing the root password. We will only be able to connect to root from localhost.
 
@@ -977,7 +979,7 @@ To (values that we have previously set when we created the database and the user
 
 6 | We update and apply the changes in the configuration with the command ```sudo service lighttpd force-reload```.
 
-7 | Once we have completed the previous steps we can go back to our browser and type ```localhost```. 
+7 | Once we have completed the previous steps we can go back to our browser and type ```localhost```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/118.png">
 
@@ -995,13 +997,13 @@ To (values that we have previously set when we created the database and the user
 
 11 | If we want to access the admin panel to make changes to our site we will have to put in the browser ```localhost/wp-admin``` and log in with our account.
 
-12 | Once you have logged in, you can modify whatever you like. Customizing the page is optional, as it is not specified in the subject of this guide, we will not deal with it. 
-	
-### 7.2 - Additional service 
+12 | Once you have logged in, you can modify whatever you like. Customizing the page is optional, as it is not specified in the subject of this guide, we will not deal with it.
+
+### 7.2 - Additional service
 
 ### LiteSpeed
 
-[LiteSpeed](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server) is a proprietary web server software. 
+[LiteSpeed](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server) is a proprietary web server software.
 
 1 | Before installing any software, it is important to ensure that the system is up to date.
 
@@ -1039,11 +1041,11 @@ To (values that we have previously set when we created the database and the user
 
 ```sudo ufw reload```
 
-Add the rule that includes port 7080 and 8088 in virtual box settings. Little reminder how to add rules in port forwarding: 
+Add the rule that includes port 7080 and 8088 in virtual box settings. Little reminder how to add rules in port forwarding:
 Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/123.png">
-	
+
 6 | Completed the previous steps we can connect. We will put in the search engine of our browser ```localhost:7080``` (obviously with the VM online).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/124.png">
@@ -1051,7 +1053,7 @@ Close your VM → Settings → Network → Advanced → Port forwarding → Add 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/125.png">
 </p>
 <br>
-	
+
 ## 8 - Signature.txt
 
 <p align="justify">
@@ -1060,7 +1062,7 @@ To obtain the signature, we must shutdown the virtual machine saving the machine
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/126.png">
 
-The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. You can see the path in the settings -> storage. 
+The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. You can see the path in the settings -> storage.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/127.png">
 
@@ -1073,11 +1075,11 @@ The next step will be to locate ourselves in the path where we have the .vdi of 
 [shasum](https://ss64.com/osx/shasum.html) is a command that allows you to identify the integrity of a file using the SHA-1 hash check sum of a file.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/130.png">
-	
+
 Now copy the signature into the intra folder ```vim signature.txt```.
 </p>
 <br>
-	
+
 ## 9 - Theory
 
 <p align="justify">
@@ -1091,39 +1093,39 @@ Now copy the signature into the intra folder ```vim signature.txt```.
 2 | General instructions:
 
 + Check if the repo contains the ```signature.txt``` file.
-* Check the signature against the students “.vdi” file, make sure it’s identical. 
+* Check the signature against the students “.vdi” file, make sure it’s identical.
 - Clone VM || create a snapshot && open VM.
 
 3 | Mandatory Part (Questions for the student):
 
 > How does a virtual machine work and what is its purpose?
-	
+
 > The basic differences between CentOS and Debian?
-	
+
 > Their choice of operating system?
-	
+
 > If CentOS: what SELinux and DNF are.
-	
+
 > If Debian: the difference between aptitude, apt and what APPArmor is.
-	
+
 > During the defense, a script must display all information every 10 minutes. Its operation will be checked in detail later.
-	
+
 All explanations are satisfactory (else evaluation stops here)
 
 4 | Setup:
 
 + Ensure that the machine does not have a graphical environment at launch.
-	
+
 * Connect to VM as a created user (which isn’t a root)
-	
-* Ensure the password follows the required policy (2 days min, 7, 30 days max). 
-	
+
+* Ensure the password follows the required policy (2 days min, 7, 30 days max).
+
 ```sudo chage -l username```
-	
+
 * Evaluator checks UFW service is started.
-	
+
 ```sudo ufw status			//look for status: active```
-	
+
 * Evaluator checks SSH service is started.
 
 ```sudo systemctl status ssh```
@@ -1131,43 +1133,43 @@ All explanations are satisfactory (else evaluation stops here)
 - Evaluator checks the chosen operating system (Debian or CentOS).
 
 ```lsb_release -a || cat /etc/os-release```
-	
+
 5 | User:
 
 + The subject requests that a user with the login of the student being evaluated is present on the virtual machine. Check that it has been added and that it belongs to “sudo” and “user42” groups.
-	
+
 ```getent group sudo```
-	
+
 ```getent group user42```
-	
+
 6 | Password policy check:
-	
+
 + Create new user (e.g. user42).
-	
+
 ```sudo adduser new_username```
-	
+
 * Assign a password of your choice, respecting subject rules.
-	
+
 ```getent group sudo```
-	
+
 > Explanation from student explaining how to implement the password policy. Normally there should be one or two modified files. If there is any problem, the evaluation stops here.
 
 * With the new user, ask the student to create a group named “evaluating” and assign it to the new user.
 
 ```sudo groupadd evaluating```
-	
+
 ```sudo usermod -aG evaluating your_new_username```
-	
+
 * Check if the new user belongs to the “evaluating” group.
-	
+
 ```getent group evaluating```
-	
-> Ask the student to explain advantages of the password policy (beyond the fact that it is required for the project) 
+
+> Ask the student to explain advantages of the password policy (beyond the fact that it is required for the project)
 
 > Ask the student the advantages/disadvantages of the policy implementation.
 
 7 | Hostname and partitions:
-	
+
 + Check the hostname of the machine is correctly formatted as follows: login42 (login of the student being evaluated).
 
 ```hostnamectl```
@@ -1255,7 +1257,7 @@ Note:	If on restart, the hostname has not been updated, the evaluation stops her
 
 ```cd /usr/local/bin && vim monitoring.sh```
 
-* Ask: 
+* Ask:
 
 > what is “cron”?
 
@@ -1280,10 +1282,10 @@ sudo crontab -u root -e
 ```
 
 ### 9.2 - Must to know
-	
+
 ### What is a virtual machine?
 
-A [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine) is software that simulates a computer system and can run programs as if it were a real computer. It allows the creation of multiple simulated environments or dedicated resources from a single physical hardware system. 
+A [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine) is software that simulates a computer system and can run programs as if it were a real computer. It allows the creation of multiple simulated environments or dedicated resources from a single physical hardware system.
 
 ### Why did you choose Debian/CentOS?
 
@@ -1301,10 +1303,10 @@ v.1 | v.2
 
 Their purpose is to provide a hardware platform and operating system independent execution environment, which hides the details of the underlying system and allows a program to always run the same way on any platform.
 
-### Differences between apt and aptitude 
+### Differences between apt and aptitude
 
-Aptitude It offers a command-line and text-based front-end for package management. It doesn't come by default, so you need to install it with the `apt` command. Aptitude offers the possibility to manage your packages through command lines and also from a visual interface directly 
-on your terminal. You can perform the main actions like installing, updating, and deleting your packages. it also offers sub-commands to manage your packages as apt but some people prefer the visual interface as it's easy to use.. APT is a lower-level package manager and aptitude 
+Aptitude It offers a command-line and text-based front-end for package management. It doesn't come by default, so you need to install it with the `apt` command. Aptitude offers the possibility to manage your packages through command lines and also from a visual interface directly
+on your terminal. You can perform the main actions like installing, updating, and deleting your packages. it also offers sub-commands to manage your packages as apt but some people prefer the visual interface as it's easy to use.. APT is a lower-level package manager and aptitude
 is a high-level package manager. Another big difference is the functionality offered by both tools. Aptitude offers better functionality compared to apt-get.Both are able to provide the necessary means to perform package management.
 If you consider only the command-line interfaces of each, they are quite similar. There are a few differences that we can list:
 
@@ -1324,10 +1326,10 @@ On the other hand, aptitude with its interface is more user-friendly as it offer
 
 ### What is LVM?
 
-[LVM](https://en.wikipedia.org/wiki/Logical_volume_management#:~:text=In%20computer%20storage%2C%20logical%20volume,partitioning%20schemes%20to%20store%20volumes.) is a logical volume manager. It provides a method for allocating space on mass storage devices, which is more 
+[LVM](https://en.wikipedia.org/wiki/Logical_volume_management#:~:text=In%20computer%20storage%2C%20logical%20volume,partitioning%20schemes%20to%20store%20volumes.) is a logical volume manager. It provides a method for allocating space on mass storage devices, which is more
 flexible than conventional partitioning schemes for storing volumes.
 
-### 9.3 - Correction Sheet 
+### 9.3 - Correction Sheet
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/born2beroot/.extra/b2b_cs1.png">
 
@@ -1339,27 +1341,27 @@ flexible than conventional partitioning schemes for storing volumes.
 
 </p>
 <br>
-	
-## Support Me 
 
-<p align="justify"> 
+## Support Me
+
+<p align="justify">
 I hope this guide helped you to understand this project, remember to ⭐ the repository.
 If you want to support me:</p>
 
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">   
-    
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
+
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
- 
+
 <br>
-    
+
 ## Skills developed
-    
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,linux,wordpress" />
   </a>
 </p><br>
-	
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
