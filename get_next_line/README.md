@@ -14,6 +14,21 @@ v10 | v12
 
 ### Index
 
+- [**GET\_NEXT\_LINE**](#get_next_line)
+    - [Index](#index)
+  - [About](#about)
+  - [To figure out](#to-figure-out)
+  - [Into the code](#into-the-code)
+  - [Bonus part](#bonus-part)
+  - [Evaluation](#evaluation)
+    - [Testing mandatory part](#testing-mandatory-part)
+    - [Testing bonus part](#testing-bonus-part)
+    - [Correction sheet](#correction-sheet)
+  - [Support Me](#support-me)
+  - [Skills developed](#skills-developed)
+  - [Sources](#sources)
+  - [License](#license)
+
 <br>
 
 ## About
@@ -108,6 +123,19 @@ In this project it will be something new to use:
 ## Bonus part
 
 <p align="justify">
+
+The requirements of the bonus parts are to develop get_next_line() using only one static variable.
+
+In addition to the mandatory part files, you will turn in the 3 following
+files:
+• get_next_line_bonus.c
+• get_next_line_bonus.h
+• get_next_line_utils_bonus.c
+The bonus part will only be assessed if the mandatory part is
+PERFECT. Perfect means the mandatory part has been integrally done
+and works without malfunctioning. If you have not passed ALL the
+mandatory requirements, your bonus part will not be evaluated at all.
+
 
 </p>
 
