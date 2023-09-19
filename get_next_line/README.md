@@ -129,6 +129,57 @@ But also try the code without the flag `-D BUFFER_SIZE=xx` because must works in
 ```shell
 gcc -Wall -Werror -Wextra get_next_line.c get_next_line_utils.c && ./a.out
 ```
+
+To find leaks and error I used `Valgrid`. First step is the installation:
+
+```shell
+sudo apt install valgrind  # Ubuntu, Debian, etc.
+sudo yum install valgrind  # RHEL, CentOS, Fedora, etc.
+sudo pacman -Syu valgrind  # Arch, Manjaro, Garuda, etc.
+sudo pkg ins valgrind      # FreeBSD
+```
+
+The syntax is:
+```shell
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s ./a.out
+```
+
+The flags are:
+1. `--leak-check=full`: "each individual leak will be shown in detail"
+2. `--show-leak-kinds=all`: Show all of "definite, indirect, possible, reachable" leak kinds in the "full" report
+3. `--track-origins=yes`: Favor useful output over speed. This tracks the origins of uninitialized values, which could be very useful for memory errors. Consider turning off if Valgrind is unacceptably slow
+4. `-s`: for the list of detected and suppressed errors
+5. ADDITIONAL `--log-file`: Write to a file. Useful when output exceeds terminal space
+
+The output is:
+
+```shell
+==15214== Memcheck, a memory error detector
+==15214== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15214== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==15214== Command: ./a.out
+==15214==
+line [01]: ciao
+line [02]: come va
+line [03]: prova
+line [04]: daje
+line [05]: 1234
+line [06]: daje
+line [07]: try again
+line [08]:
+line [09]: uuuh
+line [10]: UANM
+line [11]: 1w3erw1312as
+line [12]: dsaijkakowdwaline [13]: (null)line [14]: (null)==15214==
+==15214== HEAP SUMMARY:
+==15214==     in use at exit: 0 bytes in 0 blocks
+==15214==   total heap usage: 125 allocs, 125 frees, 1,653 bytes allocated
+==15214==
+==15214== All heap blocks were freed -- no leaks are possible
+==15214==
+==15214== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
+
 </p>
 <br>
 
