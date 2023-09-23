@@ -309,7 +309,7 @@ make b # launch bonus tests
 make a # launch mandatory tests + bonus tests
 ```
 
-Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux
+Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux (e.g. `valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s make m`)
 
 #### Output should be: 
 
