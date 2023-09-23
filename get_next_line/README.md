@@ -304,9 +304,9 @@ git clone git@github.com:Tripouille/gnlTester.git
 4. Run the test with: 
 
 ```shell 
-make m // launch mandatory tests
-make b // launch bonus tests
-make a // launch mandatory tests + bonus tests
+make m # launch mandatory tests
+make b # launch bonus tests
+make a # launch mandatory tests + bonus tests
 ```
 
 Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux
