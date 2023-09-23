@@ -285,7 +285,7 @@ line [13]: dsaijkakowdwaline [13]: 2222222222line [13]: 333line [14]: (null)line
 
 <br>
 
-### Tester 
+### Tester
 
 <p align="justify">
 
@@ -295,25 +295,21 @@ I used the [gnlTester](https://github.com/Tripouille/gnlTester) made by [Tripoui
 
 2. Use the command `git clone` and clone the folder into your `get_next_line` folder
 
-```shell 
+```shell
 git clone git@github.com:Tripouille/gnlTester.git
 ```
 
 3. Then `cd gnlTester`
 
-4. Run the test with: 
+4. Run the test with:
 
-```shell 
+```shell
 make m # launch mandatory tests
 make b # launch bonus tests
 make a # launch mandatory tests + bonus tests
 ```
 
-Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux (e.g. `valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s make m`)
-
-#### Output should be: 
-
-
+Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux (e.g. `valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s make m`). The tester, for me, worked only in 42. Pay attetion, the tester is NOT the assolute truth, just a second check to the previosly done.
 
 </p>
 
@@ -343,6 +339,8 @@ get_next_line_bonus.h: OK!
 <br>
 
 ### Moulinette Result
+
+<a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/Moulinette_gnl.png">
 
 <br>
 
