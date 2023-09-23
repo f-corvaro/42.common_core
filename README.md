@@ -9,7 +9,7 @@
     - [0️. libft (C - solo project)](#0️-libft-c---solo-project)
   - [01 Ring](#01-ring)
     - [1. born2beroot (Virtual Machine  - solo project)](#1-born2beroot-virtual-machine----solo-project)
-    - [2. ft\_printf () ⚠️ **WORKING IN PROGRESS** ⚠️](#2-ft_printf--️-working-in-progress-️)
+    - [2. ft\_printf (C - solo project)](#2-ft_printf-c---solo-project)
     - [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
   - [02 Ring](#02-ring)
   - [Exams](#exams)
@@ -59,7 +59,7 @@
 
   ```BlackHole = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
 
-### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) () ⚠️ **WORKING IN PROGRESS** ⚠️
+### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) (C - solo project)
 
   ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
