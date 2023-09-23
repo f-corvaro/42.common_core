@@ -15,7 +15,7 @@ v9 | v10
 ### Index
 
 - [**FT\_PRINTF**](#ft_printf)
-		- [Index](#index)
+	- [Index](#index)
 	- [About](#about)
 	- [Evaluation](#evaluation)
 		- [Norminette Result](#norminette-result)
