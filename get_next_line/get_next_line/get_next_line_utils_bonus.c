@@ -6,11 +6,15 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 12:05:21 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/09/19 17:34:57 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/09/23 17:34:36 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
+
+/*to find char c into str. This function returns a pointer to the first
+occurrence of a character in a string, or NULL if the character is not found.
+Used to find '\n' in the line to read.*/
 
 char	*ft_strchr(char *str, int c)
 {
@@ -29,9 +33,9 @@ char	*ft_strchr(char *str, int c)
 	}
 	return (0);
 }
-/*to find char c into str. This function returns a pointer to the first
-occurrence of a character in a string, or NULL if the character is not found.
-Used to find '\n' in the line to read.*/
+
+/*This function joins two strings together and returns a new string containing
+the combined strings.*/
 
 char	*ft_strjoin(char *str1, char *str2)
 {
@@ -60,8 +64,14 @@ char	*ft_strjoin(char *str1, char *str2)
 	free(str1);
 	return (out);
 }
-/*This function joins two strings together and returns a new string containing
-the combined strings.*/
+
+/*This function reads a line of text from a file descriptor
+and returns a string containing the line of text.
+ssize_t signed size.
+read(int fd, void *buf, size_t count) will return the
+ssize_t of byte read from file descriptor:
+-1 for error or the number of byte. count is the maximum
+size of bytes read*/
 
 char	*ft_line_allocation(int fd, char *str)
 {
@@ -86,13 +96,9 @@ char	*ft_line_allocation(int fd, char *str)
 	free(buff);
 	return (str);
 }
-/*This function reads a line of text from a file descriptor
-and returns a string containing the line of text.
-ssize_t signed size.
-read(int fd, void *buf, size_t count) will return the
-ssize_t of byte read from file descriptor:
--1 for error or the number of byte. count is the maximum
-size of bytes read*/
+
+/*This function extracts the next line of text from a string and returns
+a new string containing the next line of text.*/
 
 char	*ft_next_line(char *str)
 {
@@ -122,8 +128,8 @@ char	*ft_next_line(char *str)
 	return (new);
 }
 
-/*This function extracts the next line of text from a string and returns
-a new string containing the next line of text.*/
+/*This function removes the next line of text from a string
+and returns a new string containing the remaining text*/
 
 char	*ft_rem_line(char *line)
 {
@@ -150,5 +156,3 @@ char	*ft_rem_line(char *line)
 	free(line);
 	return (str);
 }
-/*This function removes the next line of text from a string
-and returns a new string containing the remaining text*/
