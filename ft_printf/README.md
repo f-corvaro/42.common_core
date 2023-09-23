@@ -1,16 +1,74 @@
-# **FT_PRINTF** [![fcorvaro's 42 ft_printf Score](https://badge42.vercel.app/api/v2/clftrr31n000608jvhnng5zld/project/3069521)](https://profile.intra.42.fr/users/fcorvaro) ⚠️ **WORKING IN PROGRESS** ⚠️
+# **FT_PRINTF**
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_intra.png">
 
-## Outcome
-
 <p align="justify">
 
-[![subject](https://img.shields.io/badge/subject-ft_printf-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject.pdf)
+v9 | v10
+:-------------------------:|:-------------------------:
+[![subject-old](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject(new).pdf)
 
 
 </p>
+<br>
 
+### Index
+
+- [**FT\_PRINTF**](#ft_printf)
+		- [Index](#index)
+	- [About](#about)
+	- [Evaluation](#evaluation)
+		- [Norminette Result](#norminette-result)
+		- [Moulinette Result](#moulinette-result)
+	- [Support Me](#support-me)
+	- [Skills developed](#skills-developed)
+	- [Sources](#sources)
+	- [License](#license)
+
+<br>
+
+## About
+
+<p align="justify">
+
+</p>
+
+<br>
+
+## Evaluation
+
+</p>
+<br>
+
+### Norminette Result
+
+<br>
+
+### Moulinette Result
+
+<br>
+
+## Support Me
+
+<p align="justify">
+I hope this guide helped you to understand this project, remember to ⭐ the repository.
+If you want to support me:</p>
+
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
+
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
+
+<br>
+
+## Skills developed
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,c,vim,vscode" />
+  </a>
+</p><br>
+
+## Sources
 
 ## License
 
