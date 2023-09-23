@@ -10,7 +10,7 @@
 ### Index
 
 - [**BORN2BEROOT**](#born2beroot)
-		- [Index](#index)
+	- [Index](#index)
 	- [0 - _About_](#0---about)
 	- [1 - Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
 	- [2 - Installing the VM - virtual machine](#2---installing-the-vm---virtual-machine)
