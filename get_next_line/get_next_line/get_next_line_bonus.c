@@ -6,11 +6,14 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 12:04:05 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/09/19 18:19:09 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/09/23 17:28:22 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
+
+/*This function returns the lenght of the str. Used to discover the lenght of
+the line to read*/
 
 size_t	ft_len(char *str)
 {
@@ -23,8 +26,9 @@ size_t	ft_len(char *str)
 		i++;
 	return (i);
 }
-/*This function returns the lenght of the str. Used to discover the lenght of
-the line to read*/
+
+/* This function reads a line of text from a file descriptor and returns a new
+string containing the line of text.*/
 
 char	*get_next_line(int fd)
 {
@@ -40,8 +44,6 @@ char	*get_next_line(int fd)
 	str[fd] = ft_rem_line(str[fd]);
 	return (out);
 }
-/* This function reads a line of text from a file descriptor and returns a new
-string containing the line of text.*/
 
 /*int	main(void)
 {
