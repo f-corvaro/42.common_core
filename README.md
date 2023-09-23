@@ -66,9 +66,10 @@
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
 
-  ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
+  ```BlackHole = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
   ON```
 
+[![fcorvaro's 42 get_next_line Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 </p>
 
