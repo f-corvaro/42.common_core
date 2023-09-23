@@ -284,6 +284,45 @@ line [13]: dsaijkakowdwaline [13]: 2222222222line [13]: 333line [14]: (null)line
 
 <br>
 
+### Tester 
+
+<p align="justify">
+
+I used the [gnlTester](https://github.com/Tripouille/gnlTester) made by [Tripouille](https://github.com/Tripouille). It is very easy to use:
+
+1. Make sure that you are in the path of the folder `get_next_line`
+
+e.g. ```~/fcorvaro/Desktop/get_next_line```
+
+2. Use the command
+
+```shell 
+git clone git@github.com:Tripouille/gnlTester.git
+```
+
+and clone the folder into your `get_next_line` folder
+
+3. Then `cd gnlTester`
+
+4. Run the test with: 
+
+```shell 
+make m // launch mandatory tests
+make b // launch bonus tests
+make a // launch mandatory tests + bonus tests
+```
+
+Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux
+
+#### Output should be: 
+
+
+
+</p>
+
+<br>
+
+
 ### Correction sheet
 
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/cs1.png">
