@@ -340,7 +340,7 @@ get_next_line_bonus.h: OK!
 
 ### Moulinette Result
 
-<a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/Moulinette_gnl.png">
+<a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/Moulinette_gnl.png">
 
 <br>
 
