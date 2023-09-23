@@ -23,6 +23,7 @@ v10 | v12
   - [Evaluation](#evaluation)
     - [Testing mandatory part](#testing-mandatory-part)
     - [Testing bonus part](#testing-bonus-part)
+    - [Tester](#tester)
     - [Correction sheet](#correction-sheet)
     - [Norminette Result](#norminette-result)
     - [Moulinette Result](#moulinette-result)
@@ -113,7 +114,7 @@ In this project it will be something new to use:
 2. `ssize_t read(int fd, void *buf, size_t count);` The function `read()` in C reads data from a file descriptor and stores it in a buffer. The function returns the number of bytes read, or -1 in case of an error. count is the maximum number of bytes reads
 3. `open()` function in C opens a file for reading, writing or both. It returns a file descriptor, which is a small, non-negative integer that is used to access the file. It return -1 if error occur. The syntax is `int open(const char *pathname, int flags);` where pathname is the path to the file to open. the flags are the file opening options. To combine different flags is used `|` operator
 `O_RDONLY`: Opens the file in read-only mode
-`O_WRONLY`: Opens the file in write-only mode
+`O_WRONLY`: Opens the file in write-only modn change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linuxe
 `O_RDWR`: Opens the file in read-write mode
 `O_CREAT`: Creates the file if it does not already exist
 `O_TRUNC`: Truncates the file to zero bytes if it already exists
@@ -290,17 +291,13 @@ line [13]: dsaijkakowdwaline [13]: 2222222222line [13]: 333line [14]: (null)line
 
 I used the [gnlTester](https://github.com/Tripouille/gnlTester) made by [Tripouille](https://github.com/Tripouille). It is very easy to use:
 
-1. Make sure that you are in the path of the folder `get_next_line`
+1. Make sure that you are in the path of the folder `get_next_line` (e.g. ```~/fcorvaro/Desktop/get_next_line```)
 
-e.g. ```~/fcorvaro/Desktop/get_next_line```
-
-2. Use the command
+2. Use the command `git clone` and clone the folder into your `get_next_line` folder
 
 ```shell 
 git clone git@github.com:Tripouille/gnlTester.git
 ```
-
-and clone the folder into your `get_next_line` folder
 
 3. Then `cd gnlTester`
 
