@@ -8,7 +8,7 @@ v9 | v10
 :-------------------------:|:-------------------------:
 [![subject-old](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject(new).pdf)
 
---> This guide is made for the subject v10 <--
+--> This guide is made for the subject v10, there aren't differences between the two subjects <--
 
 </p>
 <br>
@@ -16,7 +16,7 @@ v9 | v10
 ### Index
 
 - [**FT\_PRINTF**](#ft_printf)
-	- [Index](#index)
+		- [Index](#index)
 	- [About](#about)
 	- [Evaluation](#evaluation)
 		- [Norminette Result](#norminette-result)
@@ -32,7 +32,97 @@ v9 | v10
 
 <p align="justify">
 
+This assignment is made with the purpose of write a library that contains ft_printf(), a function that will mimic the original printf() from libc. When the assignment is successfully completed, you can add this function to your libft, which you can use in the future projects. An in-depth study is about the variadic functions.
+
+<p>
+
+**Some rules to keep in mind:** <p align="justify">
+• This project must be written in C
+
+• Must be written in accordance with the Norm
+
+• The function should not quit unexpectedly (segmentation fault, bus error, double free, etc) apart from undefined behaviors
+
+• All heap allocated memory space must be properly freed when necessary. No leaks allowed
+
+• The Makefile to submit must compile the source files with the flags -Wall -Werror -Wextra and using cc compiler. The Makefile must not relink
+
+• The libft is allowed in this project, you must copy its sources and its associated Makefile in a libft folder. CAPISCI MAKEFILE CHE INTENDE
+
+<p>
+
+**Requirements:** <p align="justify">
+• Don’t implement the buffer management of the original printf()
+
+• Your function has to handle the following conversions: ```cspdiuxX%```
+
+• Your function will be compared against the original printf()
+
+• You must use the command ar to create your library. Using the libtool command is forbidden
+
+• Your libftprintf.a has to be created at the root of your repository
+
+You have to implement the following conversions:
+
+• ```%c``` Prints a single character
+
+• ```%s``` Prints a string (as defined by the common C convention)
+
+• ```%p``` The void * pointer argument has to be printed in hexadecimal format
+
+• ```%d``` Prints a decimal (base 10) number
+
+• ```%i``` Prints an integer in base 10
+
+• ```%u``` Prints an unsigned decimal (base 10) number
+
+• ```%x``` Prints a number in hexadecimal (base 16) lowercase format
+
+• ```%X``` Prints a number in hexadecimal (base 16) uppercase format
+
+• ```%%``` Prints a percent sign
+
+<p>
+
+**Program name:** <p align="justify">
+```libftprintf.a```
+
 </p>
+
+**Files to turn in it:** <p align="justify">
+```Makefile, *.h, */*.h, *.c, */*.c```
+
+</p>
+
+**Makefile rules:** <p align="justify">
+```NAME, all, clean, fclean, re```
+
+</p>
+
+**External functions allowed:** <p align="justify">
+```malloc, free, write, va_start, va_arg, va_copy, va_end```
+
+</p>
+
+**The prototype of ft_printf() is:** <p align="justify">
+```int	ft_printf(const char *, ...);```.
+
+</p>
+
+<br>
+
+## Bonus Part
+
+<p align="justify">
+
+You don't have to do all the bonuses.
+
+**Bonus list:** <p align="justify">
+
+• Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.
+
+• Manage all the following flags: ’# +’ (Yes, one of them is a space)
+<p>
 
 <br>
 
