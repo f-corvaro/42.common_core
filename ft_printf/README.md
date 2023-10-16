@@ -8,6 +8,7 @@ v9 | v10
 :-------------------------:|:-------------------------:
 [![subject-old](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/en.subject(new).pdf)
 
+--> This guide is made for the subject v10 <--
 
 </p>
 <br>
