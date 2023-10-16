@@ -18,9 +18,11 @@ v9 | v10
 - [**FT\_PRINTF**](#ft_printf)
 		- [Index](#index)
 	- [About](#about)
+	- [Bonus Part](#bonus-part)
 	- [Evaluation](#evaluation)
 		- [Norminette Result](#norminette-result)
 		- [Moulinette Result](#moulinette-result)
+		- [Treasure hunt](#treasure-hunt)
 	- [Support Me](#support-me)
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
@@ -142,6 +144,35 @@ You don't have to do all the bonuses.
 <br>
 
 ### Moulinette Result
+
+<br>
+
+### Treasure hunt
+
+The code
+
+```
+++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>.>---.++++++++++++.++.+++
++++.--.<<++.>>------.------------.+++++++++++++.<<.>>++++++.------------
+.-------. +++++++++++++++++++.<<.>>----------------.+++++.+++++++++.---
+----------.--.+ ++++++++++++++++.--------.+++++++++++++.<<.>>----------
+-------------.+++.+++ ++++.---.----.+++++++++++++++++.---------------
+--.-.<<.>>+++++.+++++.<<.>-------...
+```
+
+is made for the trasure hunt. The code is in Python and it is a program that prints the following text:
+
+```
+Treasure hunt!
+
+The next stop is:
+
+**In a hidden place,
+where the wind blows strong.**
+
+Good luck!
+```
+To dnecipher the code, you need to use a Python interpreter
 
 <br>
 
