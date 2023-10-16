@@ -149,6 +149,8 @@ You don't have to do all the bonuses.
 
 ### Treasure hunt
 
+<p align="justify">
+
 The code
 
 ```
@@ -174,6 +176,7 @@ Good luck!
 ```
 To decipher the code, you need to use a Python interpreter
 
+</p>
 <br>
 
 ## Support Me

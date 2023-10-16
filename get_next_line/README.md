@@ -28,6 +28,7 @@ v10 | v12
     - [Correction sheet](#correction-sheet)
     - [Norminette Result](#norminette-result)
     - [Moulinette Result](#moulinette-result)
+    - [Treasure hunt](#treasure-hunt)
   - [Support Me](#support-me)
   - [Skills developed](#skills-developed)
   - [Sources](#sources)
@@ -344,6 +345,29 @@ get_next_line_bonus.h: OK!
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line"><img src="https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/Moulinette_gnl.png">
 
 <br>
+
+### Treasure hunt
+
+<p align="justify">
+
+The code
+
+```
+/=∂/\/\[](_)§ /\/\@|V †|-|@¯|¯ /-/!570®1<|-\£1_`/ ¢@/\/\ε vv!7}{ ???
+```
+
+is made for the trasure hunt. The code you provided is in ASCII art, a type of digital art that uses ASCII characters to create images. The code represents an image of a tree with a bird's nest.
+
+```
+  / /)
+ * / /
+    ~~
+    ~~
+```
+
+</p>
+<br>
+
 
 ## Support Me
 
