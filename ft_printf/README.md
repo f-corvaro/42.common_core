@@ -22,7 +22,7 @@ v9 | v10
 	- [Evaluation](#evaluation)
 		- [Norminette Result](#norminette-result)
 		- [Moulinette Result](#moulinette-result)
-		- [Treasure hunt](#treasure-hunt)
+	- [Treasure hunt](#treasure-hunt)
 	- [Support Me](#support-me)
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
@@ -147,7 +147,7 @@ You don't have to do all the bonuses.
 
 <br>
 
-### Treasure hunt
+## Treasure hunt
 
 <p align="justify">
 

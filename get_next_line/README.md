@@ -28,7 +28,7 @@ v10 | v12
     - [Correction sheet](#correction-sheet)
     - [Norminette Result](#norminette-result)
     - [Moulinette Result](#moulinette-result)
-    - [Treasure hunt](#treasure-hunt)
+  - [Treasure hunt](#treasure-hunt)
   - [Support Me](#support-me)
   - [Skills developed](#skills-developed)
   - [Sources](#sources)
@@ -347,7 +347,7 @@ get_next_line_bonus.h: OK!
 
 <br>
 
-### Treasure hunt
+## Treasure hunt
 
 <p align="justify">
 
