@@ -35,6 +35,7 @@ v9 | v10
 This assignment is made with the purpose of write a library that contains ft_printf(), a function that will mimic the original printf() from libc. When the assignment is successfully completed, you can add this function to your libft, which you can use in the future projects. An in-depth study is about the variadic functions.
 
 <p>
+<br>
 
 **Some rules to keep in mind:** <p align="justify">
 • This project must be written in C
@@ -50,6 +51,7 @@ This assignment is made with the purpose of write a library that contains ft_pri
 • The libft is allowed in this project, you must copy its sources and its associated Makefile in a libft folder. CAPISCI MAKEFILE CHE INTENDE
 
 <p>
+<br>
 
 **Requirements:** <p align="justify">
 • Don’t implement the buffer management of the original printf()
@@ -83,32 +85,36 @@ You have to implement the following conversions:
 • ```%%``` Prints a percent sign
 
 <p>
+<br>
 
 **Program name:** <p align="justify">
 ```libftprintf.a```
 
 </p>
+<br>
 
 **Files to turn in it:** <p align="justify">
 ```Makefile, *.h, */*.h, *.c, */*.c```
 
 </p>
+<br>
 
 **Makefile rules:** <p align="justify">
 ```NAME, all, clean, fclean, re```
 
 </p>
+<br>
 
 **External functions allowed:** <p align="justify">
 ```malloc, free, write, va_start, va_arg, va_copy, va_end```
 
 </p>
+<br>
 
 **The prototype of ft_printf() is:** <p align="justify">
 ```int	ft_printf(const char *, ...);```.
 
 </p>
-
 <br>
 
 ## Bonus Part
@@ -122,8 +128,8 @@ You don't have to do all the bonuses.
 • Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.
 
 • Manage all the following flags: ’# +’ (Yes, one of them is a space)
-<p>
 
+<p>
 <br>
 
 ## Evaluation
