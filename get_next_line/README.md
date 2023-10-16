@@ -8,6 +8,7 @@ v10 | v12
 :-------------------------:|:-------------------------:
 [![subject-old](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/en.subject(new).pdf)
 
+--> This guide is made for the subject v12, there aren't differences between the two subjects <--
 
 </p>
 <br>
