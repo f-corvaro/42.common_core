@@ -104,22 +104,13 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 ## Author
 
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
 <p align="center">
-  <a href="https://profile.intra.42.fr/users/fcorvaro">
-    <img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100">
-<p align="center">
-<a href="mailto:fcorvaro@student.42roma.it">
-	<kbd>Email</kbd>
-</a>
-<a href="https://github.com/f-corvaro">
-	<kbd>Github</kbd>
-</a>
-<a href="https://www.linkedin.com/in/f-corvaro/">
-	<kbd>Linkedin</kbd>
-</a>
-<a href="https://42born2code.slack.com/team/U050L8XAFLK">
-	<kbd>Slack</kbd>
-</a>
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
 <hr/>
 
 <br>
