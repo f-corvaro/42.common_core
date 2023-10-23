@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/22 18:31:34 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/10/23 12:40:57 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/10/23 12:48:00 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,8 +66,8 @@ $(LIBFT): $(LIBFT_PATH)
 #It matches any file name that ends in .o.
 #prerequisite pattern file c into the folder.
 #-c flag tells the compiler to not to link the object file
-#with any other object files or libraries. So, it means that
-#
+#with any other object files or libraries.
+#-o is a flag for the name of .o files.
 
 clean:
 			@$(MAKE) clean -C $(LIBFT_PATH)
