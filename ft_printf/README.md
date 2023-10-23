@@ -183,6 +183,10 @@ To see my [->| Makefile |<-](https://github.com/f-corvaro/42.common_core/blob/ma
 
 ## Evaluation
 
+### Correction sheet
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs1.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs2.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs3.png">
 </p>
 <br>
 
