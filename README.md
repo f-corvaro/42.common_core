@@ -25,10 +25,7 @@
 
 <p align="justify">
 
-  Welcome in my journey at the 42 school. I create this repository to have a little diary about my coding
-  experience and to give a little guide about the projects in 42 School. I hope this will help someone in future
-  to understand the knowledge necessary to have done with success the projects. Watch out about the subject
-  version of the project, it could change. Good coding!
+Welcome to my journey at the 42 School. I created this repository to keep a little diary about my coding experience and to give a little guide to the projects at 42 School. I hope this will help someone in the future understand the knowledge necessary to have done the projects. Watch out for the subject version of the project, it could change. Good coding!
 
 </p>
 
