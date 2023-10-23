@@ -226,7 +226,7 @@ where the wind blows strong.**
 
 Good luck!
 ```
-To decipher the code, you need to use a Python interpreter
+To decipher the code, you need to use a Python interpreter.
 
 </p>
 <br>
