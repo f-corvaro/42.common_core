@@ -182,7 +182,13 @@ To see my [->| Makefile |<-](https://github.com/f-corvaro/42.common_core/blob/ma
 <p>
 <br>
 
+## Running Tests
+
 ## Evaluation
+
+### Testing mandatory part
+### Testing bonus part
+### Tester
 
 ### Correction sheet
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs1.png">
