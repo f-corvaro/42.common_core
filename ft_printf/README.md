@@ -159,11 +159,11 @@ The rule ```.PHONY``` is used to identify ***false targets***, that represent a 
 
 <p align="justify">
 
-```@$(AR)``` the @ is used in Makefiles to suppress the output of a command (so it will not be displayed in the terminal).
+```@$(AR)``` the ```@``` is used in Makefiles to suppress the output of a command (so it will not be displayed in the terminal).
 
 <p align="justify">
 
-```@$(MAKE) -C $(LIBFT_PATH)```. The -C flag is used to specify the directory in which the make command should be executed.
+```@$(MAKE) -C $(LIBFT_PATH)```. The ```-C``` flag is used to specify the directory in which the make command should be executed.
 
 ```
 %.o: 		$(FT_PRINTF)/%.c
