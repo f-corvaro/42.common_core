@@ -19,6 +19,8 @@ v9 | v10
 		- [Index](#index)
 	- [About](#about)
 	- [Bonus Part](#bonus-part)
+	- [What I need to know?](#what-i-need-to-know)
+		- [Makefile: ](#makefile-)
 	- [Evaluation](#evaluation)
 		- [Norminette Result](#norminette-result)
 		- [Moulinette Result](#moulinette-result)
@@ -27,6 +29,7 @@ v9 | v10
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
 	- [License](#license)
+
 
 
 <br>
