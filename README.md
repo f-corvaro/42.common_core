@@ -15,7 +15,7 @@
   - [Exams](#exams)
   - [Holy Graph](#holy-graph)
   - [Resources](#resources)
-  - [My 42 stats](#my-42-stats)
+  - [Author](#author)
   - [Support Me](#support-me)
   - [License](#license)
 
@@ -101,16 +101,36 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 <br>
 
-## My 42 stats
+## Author
 
-[![fcorvaro's 42 stats](https://badge.mediaplus.ma/starryblue/fcorvaro?1337Badge=off&UM6P=off)](https://profile.intra.42.fr/users/fcorvaro)
+<p align="center">
+  <a href="https://profile.intra.42.fr/users/fcorvaro">
+    <img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100">
+  </a>
+
+<p align="center">
+<a href="mailto:fcorvaro@student.42roma.it">
+  <kbd>Email</kbd>
+  •
+<a href="https://github.com/f-corvaro">
+  <kbd>Github</kbd>
+  •
+<a href="https://www.linkedin.com/in/f-corvaro/">
+  <kbd>Linkedin</kbd>
+  •
+<a href="https://42born2code.slack.com/team/U050L8XAFLK">
+  <kbd>Slack</kbd>
+</a>
+<hr/>
+
+<br>
 
 <br>
 
 ## Support Me
 
 <p align="justify">
-I hope this guide helped you to understand this project, remember to ⭐ the repository.
+I hope this guide helped you understand this project. Remember to ⭐ the repository.
 If you want to support me:</p>
 
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
@@ -120,6 +140,11 @@ If you want to support me:</p>
 <br>
 
 ## License
+<p align="center">
+<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
+<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License"></a>
+<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
+
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
