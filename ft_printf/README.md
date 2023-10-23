@@ -144,7 +144,6 @@ This project is the "first one" that grants an understandjng of the utility of t
 <p>
 
 **How it works? | Syntax of Makefile:** <p align="justify">
-
 The ***comments*** are made with one hash (#), it is a good norm to divide the parts of the Makefile with ***commented titles***. We are using Makefile to create ```libftprintf.a```, ***archive libraries*** that are statically linked, so changes mean recompiling. The brackets ```()``` are used to group commands together. Instead, ```{}```are used to define variables. The ```ar rcs``` is GNU command wich is used to create and manage archives with his own flags.
 
 ```
@@ -154,9 +153,15 @@ The ***comments*** are made with one hash (#), it is a good norm to divide the p
 #s tells ar to create an index of the archive members.
 ```
 
+<p align="justify">
+
 The rule ```.PHONY``` is used to identify ***false targets***, that represent a group of commands or actions. To create a false target, you need to declare it as a target in your Makefile.
 
+<p align="justify">
+
 ```@$(AR)``` the @ is used in Makefiles to suppress the output of a command (so it will not be displayed in the terminal).
+
+<p align="justify">
 
 ```@$(MAKE) -C $(LIBFT_PATH)```. The -C flag is used to specify the directory in which the make command should be executed.
 
@@ -164,6 +169,8 @@ The rule ```.PHONY``` is used to identify ***false targets***, that represent a 
 %.o: 		$(FT_PRINTF)/%.c
 				@$(CC) $(CFLAGS) -c $< -o $@
 ```
+<p align="justify">
+
 The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite needed (.c files into FT_PRINTF directory). ``` -c```  flag tells the compiler to not to link the object file with any other object files or libraries. So, it means that the compiler will only create an object file from the source file. ``` -o``` flag tells the name of the object file to create (that is the same of .c file name, but will be .o).
 
 
