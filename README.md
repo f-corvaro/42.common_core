@@ -3,21 +3,22 @@
 ### Index
 
 - [](#)
-    - [Index](#index)
-  - [Briefing](#briefing)
-  - [00 Ring](#00-ring)
-    - [0️. libft (C - solo project)](#0️-libft-c---solo-project)
-  - [01 Ring](#01-ring)
-    - [1. born2beroot (Virtual Machine  - solo project)](#1-born2beroot-virtual-machine----solo-project)
-    - [2. ft\_printf (C - solo project)](#2-ft_printf-c---solo-project)
-    - [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
-  - [02 Ring](#02-ring)
-  - [Exams](#exams)
-  - [Holy Graph](#holy-graph)
-  - [Resources](#resources)
-  - [Author](#author)
-  - [Support Me](#support-me)
-  - [License](#license)
+		- [Index](#index)
+	- [Briefing](#briefing)
+	- [00 Ring](#00-ring)
+		- [0️. libft (C - solo project)](#0️-libft-c---solo-project)
+	- [01 Ring](#01-ring)
+		- [1. born2beroot (Virtual Machine  - solo project)](#1-born2beroot-virtual-machine----solo-project)
+		- [2. ft\_printf (C - solo project)](#2-ft_printf-c---solo-project)
+		- [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
+	- [02 Ring](#02-ring)
+	- [Exams](#exams)
+	- [Holy Graph](#holy-graph)
+	- [Resources](#resources)
+	- [Author](#author)
+	- [Support Me](#support-me)
+	- [License](#license)
+
 
 <br>
 
@@ -106,18 +107,12 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 <p align="center">
   <a href="https://profile.intra.42.fr/users/fcorvaro">
     <img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100">
-  </a>
-
 <p align="center">
 <a href="mailto:fcorvaro@student.42roma.it">
-  <kbd>Email</kbd>
-  •
-<a href="https://github.com/f-corvaro">
+  <kbd>Email</kbd><a href="https://github.com/f-corvaro">
   <kbd>Github</kbd>
-  •
 <a href="https://www.linkedin.com/in/f-corvaro/">
   <kbd>Linkedin</kbd>
-  •
 <a href="https://42born2code.slack.com/team/U050L8XAFLK">
   <kbd>Slack</kbd>
 </a>
@@ -133,9 +128,10 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 I hope this guide helped you understand this project. Remember to ⭐ the repository.
 If you want to support me:</p>
 
+<p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg">
-
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg">
+</a>
 
 <br>
 
