@@ -1,6 +1,5 @@
 # <a href="https://github.com/f-corvaro/42.common_core/tree/main"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
-### Index
 - [](#)
 		- [Index](#index)
 	- [Briefing](#briefing)
@@ -16,7 +15,7 @@
 		- [7. In the Exam Shell, you have 3 commands:](#7-in-the-exam-shell-you-have-3-commands)
 		- [8. Open a new terminal:](#8-open-a-new-terminal)
 		- [9. Submit your project:](#9-submit-your-project)
-	- [My 42 stats](#my-42-stats)
+	- [Author](#author)
 	- [Support Me](#support-me)
 	- [License](#license)
 
