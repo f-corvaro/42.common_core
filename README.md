@@ -115,8 +115,6 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 <br>
 
-<br>
-
 ## Support Me
 
 <p align="justify">

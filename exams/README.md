@@ -123,9 +123,16 @@ After you git push, type ```grademe``` in the examshell for your project to be e
 
 <br>
 
-## My 42 stats
+## Author
 
-[![fcorvaro's 42 stats](https://badge.mediaplus.ma/starryblue/fcorvaro?1337Badge=off&UM6P=off)](https://profile.intra.42.fr/users/fcorvaro)
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
+<p align="center">
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
+<hr/>
 
 <br>
 
