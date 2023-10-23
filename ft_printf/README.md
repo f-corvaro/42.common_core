@@ -177,7 +177,7 @@ The rule ```.PHONY``` is used to identify ***false targets***, that represent a 
 The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite needed (.c files into FT_PRINTF directory). ``` -c```  flag tells the compiler to not to link the object file with any other object files or libraries. So, it means that the compiler will only create an object file from the source file. ``` -o``` flag tells the name of the object file to create (that is the same of .c file name, but will be .o).
 
 
-To see my [<table><tr><td>Makefile</td></tr></table>](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile) .
+To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile).
 
 <p>
 <br>
