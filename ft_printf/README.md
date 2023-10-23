@@ -141,7 +141,6 @@ You don't have to do all the bonuses. You can choose between:
 <br>
 
 ## What I need to know?
-
 ### Makefile: <p align="justify">
 This project is the "first one" that grants an understandjng of the utility of the Makefile and how to use it correctly. So, you must understand the syntax and how it works. Personally, I implemented the libft project, so I will have a good start for the next projects. I made two directories, one for libft (with .c, .h and Makefile files/file) and one for ft_printf (with .c and .h files/file). A ***Makefile*** is a special file that contains instructions on how to build a software project. It is used by the ```make``` utility to automate the build process. This file consists of a set of rules, each of which specifies how to build a particular target. A target can be anything from a binary executable file to a library to a documentation file.
 <p>
@@ -178,6 +177,7 @@ The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite n
 
 
 To see my [->| Makefile |<-](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile) .
+
 <p>
 <br>
 
