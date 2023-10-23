@@ -6,14 +6,12 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/22 18:31:34 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/10/22 22:43:36 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/10/23 12:40:57 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # ------------  PROJECT  ----------------------------------------------------- #
 NAME = libftprintf.a
-#comments in Makefile are with 1 hash.
-#.a = archive libraries are statically linked, so changes meaning recompile.
 
 # ------------  FILEPATHS  --------------------------------------------------- #
 LIBFT = ./libft/libft.a
@@ -27,7 +25,6 @@ FT_PRINTF = ./ft_printf
 SRCS_FT_PRINTF = ft_printf.c ft_printf_utils.c
 
 OBJS_FT_PRINTF = $(SRCS_FT_PRINTF:.c=.o)
-#The right syntax is with the brackets ().
 #() are used to group commands together.
 #{} are used to define variables.
 
@@ -56,8 +53,8 @@ all: $(NAME)
 $(NAME): $(LIBFT) $(OBJS_FT_PRINTF)
 		$(CP) $(LIBFT) $(NAME)
 		@$(AR) $(NAME) $(OBJS_FT_PRINTF)
-#The rule is saying that to create the target file, make should use
-#theLIBClinker to link together the object files inOBJS.
+#This rule is saying that to create the target file, make should use
+#theLIBFTlinker to link together the object files in OBJS_FT_PRINTF.
 
 $(LIBFT): $(LIBFT_PATH)
 		@$(MAKE) -C $(LIBFT_PATH)
@@ -66,18 +63,21 @@ $(LIBFT): $(LIBFT_PATH)
 
 %.o: 		$(FT_PRINTF)/%.c
 				@$(CC) $(CFLAGS) -c $< -o $@
-#%.o: This is the target pattern.
 #It matches any file name that ends in .o.
-#prerequisite pattern file c into the folder
-#-c: This tells the compiler to compile the
-#source file but not to link it with any other files.
+#prerequisite pattern file c into the folder.
+#-c flag tells the compiler to not to link the object file
+#with any other object files or libraries. So, it means that
+#
+
 clean:
 			@$(MAKE) clean -C $(LIBFT_PATH)
 			@$(RM) $(OBJS_FT_PRINTF)
+#Clean is used to remove .o files of libft and ft_printf.
 
 fclean:		clean
 				@$(MAKE) fclean -C $(LIBFT_PATH))
 				@$(RM) $(NAME)
+#fclean will do the same of clean, but remove the .a files.
 
 re : fclean all
-#re rule do fclean and compile again
+#re rule do fclean and compile again.

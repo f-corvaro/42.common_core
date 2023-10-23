@@ -35,7 +35,7 @@ v9 | v10
 
 <p align="justify">
 
-This assignment is made with the purpose of write a library that contains ft_printf(), a function that will mimic the original printf() from libc. When the assignment is successfully completed, you can add this function to your libft, which you can use in the future projects. An in-depth study is about the variadic functions.
+This assignment is made with the purpose of write a library that contains ft_printf(), a function that will mimic the original printf() from libc. I will use the libft library with the purpose of recreate my own library for the next projects. An in-depth study is about the variadic functions.
 
 <p>
 <br>
@@ -99,10 +99,12 @@ You have to implement the following conversions:
 **Files to turn in it:** <p align="justify">
 ```Makefile, *.h, */*.h, *.c, */*.c```
 
+So you can create your own directory with the name you prefer, and the same is true for the .h and .c files that can be stored in a directory.
+
 </p>
 <br>
 
-**Makefile rules:** <p align="justify">
+**Makefile rules required:** <p align="justify">
 ```NAME, all, clean, fclean, re```
 
 </p>
@@ -124,14 +126,49 @@ You have to implement the following conversions:
 
 <p align="justify">
 
-You don't have to do all the bonuses.
+You don't have to do all the bonuses. You can choose between:
 
 **Bonus list:** <p align="justify">
 
 • Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.
 
-• Manage all the following flags: ’# +’ (Yes, one of them is a space)
+• Manage all the following flags: ’# +’ (Yes, one of them is a space).
 
+<p>
+<br>
+
+## What I need to know?
+
+### Makefile: <p align="justify">
+
+This project is the "first one" that grants an understandjng of the utility of the Makefile and how to use it correctly. So, you must understand the syntax and how it works. Personally, I implemented the libft project, so I will have a good start for the next projects. I made two directories, one for libft (with .c, .h and Makefile files/file) and one for ft_printf (with .c and .h files/file). A ***Makefile*** is a special file that contains instructions on how to build a software project. It is used by the ```make``` utility to automate the build process. This file consists of a set of rules, each of which specifies how to build a particular target. A target can be anything from a binary executable file to a library to a documentation file.
+<p>
+
+**How it works? | Syntax of Makefile:** <p align="justify">
+
+The ***comments*** are made with one hash (#), it is a good norm to divide the parts of the Makefile with ***commented titles***. We are using Makefile to create ```libftprintf.a```, ***archive libraries*** that are statically linked, so changes mean recompiling. The brackets ```()``` are used to group commands together. Instead, ```{}```are used to define variables. The ```ar rcs``` is GNU command wich is used to create and manage archives with his own flags.
+
+```
+#r tells ar to replace any existing members of the archive with the specified
+#object files.
+#c tells ar to create the archive if it doesn't exist.
+#s tells ar to create an index of the archive members.
+```
+
+The rule ```.PHONY``` is used to identify ***false targets***, that represent a group of commands or actions. To create a false target, you need to declare it as a target in your Makefile.
+
+```@$(AR)``` the @ is used in Makefiles to suppress the output of a command (so it will not be displayed in the terminal).
+
+```@$(MAKE) -C $(LIBFT_PATH)```. The -C flag is used to specify the directory in which the make command should be executed.
+
+```
+%.o: 		$(FT_PRINTF)/%.c
+				@$(CC) $(CFLAGS) -c $< -o $@
+```
+The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite needed (.c files into FT_PRINTF directory). ``` -c```  flag tells the compiler to not to link the object file with any other object files or libraries. So, it means that the compiler will only create an object file from the source file. ``` -o``` flag tells the name of the object file to create (that is the same of .c file name, but will be .o).
+
+
+To see my [->| Makefile |<-](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile) .
 <p>
 <br>
 
