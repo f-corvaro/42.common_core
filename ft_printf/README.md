@@ -188,7 +188,7 @@ To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_pr
 
 ### How to handle variable argument list?
 
-The variable argument list are handled thanksfully to a variadic functions. These functions can take a variable number of argument, this is done by using the ellipsis (...) operator in the function declaration (for us is ft_printf()). To call a variadic function, you must use the ```va_start(), va_arg(), and va_end()``` macros. These macros are defined in the ```<stdarg.h>``` header file. The ```va_start()``` macro must be called first, before any calls to ```va_arg()```. It initializes a variable of type ```va_list``` to point to the first argument in the variable argument list. The ```va_arg()``` macro is used to retrieve the next argument from the variable argument list. It takes two arguments:
+The variable argument list are handled thanksfully to a **variadic functions**. These functions can take a variable number of argument, this is done by using the ellipsis (...) operator in the function declaration (for us is ft_printf()). To call a variadic function, you must use the ```va_start(), va_arg(), and va_end()``` macros. These macros are defined in the ```<stdarg.h>``` header file. The ```va_start()``` macro must be called first, before any calls to ```va_arg()```. It initializes a variable of type ```va_list``` to point to the first argument in the variable argument list. The ```va_arg()``` macro is used to retrieve the next argument from the variable argument list. It takes two arguments:
 
 1. A pointer to a va_list variable.
 
