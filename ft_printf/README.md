@@ -180,8 +180,7 @@ To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_pr
 
 <br>
 
-### How to handle variable argument list?
-
+### How to handle variable argument list? <p align="justify">
 The variable argument list is handled thankfully to a **variadic functions**. These functions can take a variable number of argument, this is done by using the ellipsis (...) operator in the function declaration (for us is ft_printf()). To call a variadic function, you must use the ```va_start(), va_arg(), and va_end()``` macros. These macros are defined in the ```<stdarg.h>``` header file. The ```va_start()``` macro must be called first, before any calls to ```va_arg()```. It initializes a variable of type ```va_list``` to point to the first argument in the variable argument list. The ```va_arg()``` macro is used to retrieve the next argument from the variable argument list. It takes two arguments:
 
 1. A pointer to a va_list variable.
@@ -196,10 +195,12 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 - Make sure to call ```va_copy()``` after ```va_start()``` and before any calls to ```va_arg()```.
 - Make sure to call ```va_end()``` on all ```va_list``` variables, even if you are using ```va_copy()```.
 - Do not call ```va_copy()``` on a ```va_list``` variable that has already been initialized with ```va_end()```.
-
 <p>
 <br>
 
+### printf:
+
+[https://github.com/f-corvaro/42.common_core/tree/main/ft_printf/.extra/printf.png](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf)
 ## Running Tests
 
 ## Evaluation
@@ -280,6 +281,8 @@ If you want to support me:</p>
 - [Variadic Functions 1](https://www.ibm.com/docs/en/i/7.3?topic=lf-va-arg-va-copy-va-end-va-start-handle-variable-argument-list)
 - [Variadic Functions 2](https://www.geeksforgeeks.org/variadic-functions-in-c/)
 - [Makefile](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction)
+- [printf](https://en.wikipedia.org/wiki/Printf)
+-
 <br>
 
 ## License
