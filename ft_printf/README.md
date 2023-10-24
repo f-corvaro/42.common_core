@@ -55,7 +55,7 @@ This assignment is made with the purpose of write a library that contains ft_pri
 
 • The Makefile to submit must compile the source files with the flags -Wall -Werror -Wextra and using cc compiler. The Makefile must not relink
 
-• The libft is allowed in this project, you must copy its sources and its associated Makefile in a libft folder. CAPISCI MAKEFILE CHE INTENDE
+• The libft is allowed in this project, you must copy its sources and its associated Makefile in a libft folder.
 
 <p>
 <br>
@@ -111,6 +111,8 @@ So you can create your own directory with the name you prefer, and the same is t
 **Makefile rules required:** <p align="justify">
 ```NAME, all, clean, fclean, re```
 
+The same rules were followed for the libft project.
+
 </p>
 <br>
 
@@ -122,6 +124,8 @@ So you can create your own directory with the name you prefer, and the same is t
 
 **The prototype of ft_printf() is:** <p align="justify">
 ```int	ft_printf(const char *, ...);```.
+
+Basically, how does it works? ```ft_printf()``` takes two arguments: The first one is a string that specifies how the output should be formatted. Second one is a variable number of arguments, which are the values that will be formatted and printed (so, how the real one function works).
 
 </p>
 <br>
@@ -179,6 +183,10 @@ The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite n
 
 
 To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile).
+
+
+### How to handle variable argument list?
+
 
 <p>
 <br>
