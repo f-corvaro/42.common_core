@@ -211,6 +211,23 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 
 <p align="justify">
 
+Printf return an integer that rappresents the lenght of the data printed. You can test it:
+```C
+int	main(void)
+{
+	#include <stdio.h>
+
+	int	i;
+
+	i = 0;
+	i = printf("%s\n", "try");
+	printf ("%d\n", i);
+
+
+	return(0);
+}
+```
+
 
 </p>
 <br>
