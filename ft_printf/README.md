@@ -184,8 +184,10 @@ The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite n
 
 To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile).
 
+<br>
 
 ### How to handle variable argument list?
+
 
 
 <p>
