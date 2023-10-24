@@ -207,7 +207,7 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 
 ### printf:
 
-[![printf](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/printf.png)](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf)
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img align="left" width=60% src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/printf.png">
 
 <p align="justify">
 
