@@ -143,10 +143,9 @@ You don't have to do all the bonuses. You can choose between:
 
 ## What I need to know?
 
-### Makefile:
-
-<p align="justify">This project is the "first one" that grants an understandjng of the utility of the Makefile and how to use it correctly. So, you must understand the syntax and how it works. Personally, I implemented the libft project, so I will have a good start for the next projects. I made two directories, one for libft (with .c, .h and Makefile files/file) and one for ft_printf (with .c and .h files/file). A ***Makefile*** is a special file that contains instructions on how to build a software project. It is used by the ```make``` utility to automate the build process. This file consists of a set of rules, each of which specifies how to build a particular target. A target can be anything from a binary executable file to a library to a documentation file.
-<p>
+### Makefile:<p align="justify">
+This project is the "first one" that grants an understandjng of the utility of the Makefile and how to use it correctly. So, you must understand the syntax and how it works. Personally, I implemented the libft project, so I will have a good start for the next projects. I made two directories, one for libft (with .c, .h and Makefile files/file) and one for ft_printf (with .c and .h files/file). A ***Makefile*** is a special file that contains instructions on how to build a software project. It is used by the ```make``` utility to automate the build process. This file consists of a set of rules, each of which specifies how to build a particular target. A target can be anything from a binary executable file to a library to a documentation file.
+</p>
 
 **How it works? | Syntax of Makefile:** <p align="justify">
 The ***comments*** are made with one hash (#), it is a good norm to divide the parts of the Makefile with ***commented titles***. We are using Makefile to create ```libftprintf.a```, ***archive libraries*** that are statically linked, so changes mean recompiling. The brackets ```()``` are used to group commands together. Instead, ```{}```are used to define variables. The ```ar rcs``` is GNU command wich is used to create and manage archives with his own flags.
