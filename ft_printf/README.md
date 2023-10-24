@@ -73,23 +73,17 @@ This assignment is made with the purpose of write a library that contains ft_pri
 
 You have to implement the following conversions:
 
-• ```%c``` Prints a single character
-
-• ```%s``` Prints a string (as defined by the common C convention)
-
-• ```%p``` The void * pointer argument has to be printed in hexadecimal format
-
-• ```%d``` Prints a decimal (base 10) number
-
-• ```%i``` Prints an integer in base 10
-
-• ```%u``` Prints an unsigned decimal (base 10) number
-
-• ```%x``` Prints a number in hexadecimal (base 16) lowercase format
-
-• ```%X``` Prints a number in hexadecimal (base 16) uppercase format
-
-• ```%%``` Prints a percent sign
+| Format specifier | Data type |
+| ---------------- | --------- |
+| ```%c``` | Character |
+| ```%s``` | String |
+| ```%p``` | Pointer |
+| ```%d``` | Signed integer |
+| ```%i``` | Signed integer |
+| ```%u``` | Unsigned integer |
+| ```%x``` | Hexadecimal integer (lowercase) |
+| ```%X``` | Hexadecimal integer (uppercase) |
+| ```%%``` | Percent sign |
 
 <p>
 <br>
