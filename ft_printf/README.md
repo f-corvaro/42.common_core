@@ -195,12 +195,19 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 - Make sure to call ```va_copy()``` after ```va_start()``` and before any calls to ```va_arg()```.
 - Make sure to call ```va_end()``` on all ```va_list``` variables, even if you are using ```va_copy()```.
 - Do not call ```va_copy()``` on a ```va_list``` variable that has already been initialized with ```va_end()```.
-<p>
+</p>
 <br>
 
 ### printf:
 
 [https://github.com/f-corvaro/42.common_core/tree/main/ft_printf/.extra/printf.png](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf)
+
+<p align="justify">
+
+
+</p>
+<br>
+
 ## Running Tests
 
 ## Evaluation
