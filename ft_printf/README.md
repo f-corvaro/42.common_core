@@ -20,8 +20,14 @@ v9 | v10
 	- [About](#about)
 	- [Bonus Part](#bonus-part)
 	- [What I need to know?](#what-i-need-to-know)
-		- [Makefile: ](#makefile-)
+		- [Makefile:](#makefile)
+		- [How to handle variable argument list? ](#how-to-handle-variable-argument-list-)
+		- [printf:](#printf)
+	- [Running Tests](#running-tests)
 	- [Evaluation](#evaluation)
+		- [Testing mandatory part](#testing-mandatory-part)
+		- [Testing bonus part](#testing-bonus-part)
+		- [Tester](#tester)
 		- [Correction sheet](#correction-sheet)
 		- [Norminette Result](#norminette-result)
 		- [Moulinette Result](#moulinette-result)
@@ -30,6 +36,7 @@ v9 | v10
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
 	- [License](#license)
+
 
 
 
@@ -200,7 +207,7 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 
 ### printf:
 
-[![https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/printf.png](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf)]
+[![printf](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/printf.png)](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf)
 
 <p align="justify">
 
