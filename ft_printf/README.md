@@ -211,7 +211,7 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 
 <p align="justify">
 
-Printf return an integer that rappresents the lenght of the data printed. You can test it:
+Printf return an integer value that represents the total number of characters successfully printed to the standard output. If there is an error during the printing process, a negative value is returned. You can test it:
 ```C
 int	main(void)
 {
