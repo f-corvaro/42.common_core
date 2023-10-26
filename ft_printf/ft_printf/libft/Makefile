@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/30 15:10:03 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/04/18 10:07:50 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/10/26 18:26:58 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ SRCS = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 		ft_putstr_fd.c ft_split.c ft_strchr.c ft_strdup.c ft_striteri.c \
 		ft_strjoin.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strmapi.c \
 		ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_strtrim.c ft_substr.c \
-		ft_tolower.c ft_toupper.c
+		ft_tolower.c ft_toupper.c ft_putchar_len.c ft_putstr_len.c
 
 SRCS_B = ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c ft_lstiter.c \
 			 ft_lstlast.c ft_lstmap.c ft_lstnew.c  ft_lstsize.c

@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf_utils.c                                  :+:      :+:    :+:   */
+/*   ft_putstr_len.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/22 19:04:14 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/10/26 18:19:26 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/10/26 18:27:29 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/10/26 18:28:55 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
-int	ft_putchar_len(int c)
-{
-	write (1, &c, 1);
-	return (1);
-}
-/*This function is a putchar that returns an int (the value printed)*/
-
-int	ft_putstr_len(char *str)
+size_t	ft_putstr_len(char *str)
 {
 	if (!str)
 	{
@@ -27,6 +20,6 @@ int	ft_putstr_len(char *str)
 		return (6);
 	}
 	write (1, str, ft_strlen(str));
-	return (len);
+	return (ft_strlen(str));
 }
 /*This function is a putstr that returns an int (the value printed)*/
