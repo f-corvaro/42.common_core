@@ -228,6 +228,7 @@ int	main(void)
 }
 ```
 
+I added 2 functions to libft, I will use it in ft_printf, you can check here: [ft_putchar_len.c](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/libft/ft_putchar_len.c) & [ft_putstr_len.c](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/libft/ft_putstr_len.c). Obviously, you need to implement these two functions to Makefile and libft.h.
 
 </p>
 <br>
