@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/30 14:37:33 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/10/26 18:29:32 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/10/26 18:57:42 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void	*ft_memset(void *dest, int ch, size_t len);
 
 void	ft_putchar_fd(char c, int fd);
 
-size_t	ft_putchar_len(int c);
+int		ft_putchar_len(int c);
 
 void	ft_putendl_fd(char const *s, int fd);
 
@@ -81,7 +81,7 @@ void	ft_putnbr_fd(int n, int fd);
 
 void	ft_putstr_fd(char const *s, int fd);
 
-size_t	ft_putstr_len(char *str);
+int		ft_putstr_len(char *str);
 
 char	**ft_split(char const *s, char c);
 
