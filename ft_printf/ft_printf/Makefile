@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/22 18:31:34 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/10/23 12:48:00 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/10/29 23:22:24 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,8 @@ FT_PRINTF = ./ft_printf
 #Rule to identify the location of ft_printf sources.
 
 # ------------  SOURCE FILES  ------------------------------------------------ #
-SRCS_FT_PRINTF = ft_printf.c ft_printf_utils.c
+SRCS_FT_PRINTF = ft_hexadecimal.c ft_pointer.c ft_printf.c ft_unsigned.c \
+					ft_utils.c
 
 OBJS_FT_PRINTF = $(SRCS_FT_PRINTF:.c=.o)
 #() are used to group commands together.
@@ -45,7 +46,7 @@ CP = cp
 #copy.
 
 # ------------  RULES  ------------------------------------------------------- #
-.PHONY : all clean fclean re
+.PHONY : all clean fclean re bonus
 #.PHONY is used to identify false targets
 
 all: $(NAME)
@@ -75,9 +76,11 @@ clean:
 #Clean is used to remove .o files of libft and ft_printf.
 
 fclean:		clean
-				@$(MAKE) fclean -C $(LIBFT_PATH))
+				@$(MAKE) fclean -C $(LIBFT_PATH)
 				@$(RM) $(NAME)
 #fclean will do the same of clean, but remove the .a files.
 
 re : fclean all
 #re rule do fclean and compile again.
+
+bonus:		all

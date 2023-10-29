@@ -82,14 +82,14 @@ You have to implement the following conversions:
 
 | Format specifier | Data type |
 | ---------------- | --------- |
-| ```%c``` | Character |
-| ```%s``` | String |
-| ```%p``` | Pointer |
-| ```%d``` | Signed integer |
-| ```%i``` | Signed integer |
-| ```%u``` | Unsigned integer |
-| ```%x``` | Hexadecimal integer (lowercase) |
-| ```%X``` | Hexadecimal integer (uppercase) |
+| ```%c``` | single character |
+| ```%s``` | string |
+| ```%p``` | The void * pointer argument has to be printed in hexadecimal format |
+| ```%d``` | decimal (base 10) number |
+| ```%i``` | integer in base 10 |
+| ```%u``` | unsigned decimal (base 10) number |
+| ```%x``` | number in hexadecimal (base 16) lowercase format |
+| ```%X``` | number in hexadecimal (base 16) uppercase format |
 | ```%%``` | Percent sign |
 
 <p>
@@ -142,6 +142,22 @@ You don't have to do all the bonuses. You can choose between:
 • Manage any combination of the following flags: ’-0.’ and the field minimum width under all conversions.
 
 • Manage all the following flags: ’# +’ (Yes, one of them is a space).
+
+| Format specifier | Data type |
+| ---------------- | --------- |
+| ```%0``` | When the 'width' option is specified, prepends zeros for numeric types. (The default prepends spaces).
+For example, printf("%4X",3) produces    3, while printf("%04X",3) produces 0003. |
+| ```%-``` | Left-align the output of this placeholder. (The default is to right-align the output.) |
+| ```%.``` | The void * pointer argument has to be printed in hexadecimal format |
+
+| Format specifier | Data type |
+| ```%(space)``` | Prepends a space for positive signed-numeric types. positive =  , negative = -. This flag is ignored if the + flag exists.
+(The default doesn't prepend anything in front of positive numbers.) |
+| ```%#``` | Alternate form:
+For g and G types, trailing zeros are not removed.
+For f, F, e, E, g, G types, the output always contains a decimal point.
+For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero numbers. |
+| ```%+``` | show always the sign of the number (is hidden for positive numbers to default) |
 
 <p>
 <br>
@@ -227,8 +243,6 @@ int	main(void)
 	return(0);
 }
 ```
-
-I added 2 functions to libft, I will use it in ft_printf, you can check here: [ft_putchar_len.c](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/libft/ft_putchar_len.c) & [ft_putstr_len.c](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/libft/ft_putstr_len.c). Obviously, you need to implement these two functions to Makefile and libft.h.
 
 </p>
 <br>

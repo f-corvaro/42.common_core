@@ -6,34 +6,79 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 19:04:07 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/10/24 19:50:31 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2023/10/29 23:17:43 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_printf(const char *format, ...)
+int	ft_printf_spec(va_list args, const char spec)
 {
-	va_list	list;
-	size_t	i;
-	int		len;
+	if (spec == 'c')
+		return (ft_putchar_len(va_arg(args, int)));
+	else if (spec == 's')
+		return (ft_putstr_len(va_arg(args, char *)));
+	else if (spec == 'p')
+		return (ft_pointer(va_arg(args, unsigned long long)));
+	else if (spec == 'd' || spec == 'i')
+		return (ft_putnumb_len(va_arg(args, int)));
+	else if (spec == 'u')
+		return (ft_unsigned(va_arg(args, unsigned int)));
+	else if (spec == 'x' || spec == 'X')
+		return (ft_hex(va_arg(args, unsigned int), spec));
+	else if (spec == '%')
+		return (ft_putchar_len('%'));
+	return (0);
+}
+/*spec = specifier. */
 
-	if (!format)
+int	ft_printf(const char *spec, ...)
+{
+	va_list		args;
+	size_t		i;
+	int			len;
+
+	if (!spec)
 		return (-1);
 	i = 0;
 	len = 0;
-	va_start(list, format);
-	while (format[i])
+	va_start(args, spec);
+	while (spec[i])
 	{
-		if (format[i] == '%')
+		if (spec[i] == '%')
 		{
-			len +=  /*ft_printf_arg(args, format[i + 1])*/;
+			len += ft_printf_spec(args, spec[i + 1]);
 			i++;
 		}
 		else
-			len += /*ft_putchar(format[i])*/;
+			len += ft_putchar_len(spec[i]);
 		i++;
 	}
-	va_end(list);
-	return(len);
+	va_end(args);
+	return (len);
 }
+
+/*int	ft_printf(const char *spec, ...)
+{
+	va_list		args;
+	int			len;
+
+	if (!spec)
+		return (-1);
+	i = 0;
+	len = 0;
+	va_start(args, spec);
+	while (*spec)
+	{
+		if (*spec == '%')
+		{
+			len += ft_printf_spec(args, *(++spec));
+			*spec++;
+		}
+		else
+			len += ft_putchar_len(*spec);
+		*spec++;
+	}
+	va_end(args);
+	return (len);
+}*/
