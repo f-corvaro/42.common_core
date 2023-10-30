@@ -247,7 +247,7 @@ int	main(void)
 
 <p align="justify">
 
-To test this project, you need to create a ```main.c``` file, you can find [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). Then you need to run ```make all```, and then compile ```gcc main.c libftprintf.a```. And run the ```a.out``` file.
+To test this project, you need to create a ```main.c``` file, you can find a little example [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). Then you need to run ```make all```, and then compile ```gcc main.c libftprintf.a```. And run the ```a.out``` file.
 
 </p>
 
