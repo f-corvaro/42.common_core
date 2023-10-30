@@ -247,7 +247,7 @@ int	main(void)
 
 <p align="justify">
 
-To test this project, you need to create a ```main.c``` file, you can find [here](). Then you need to run ```make all```, and then compile ```gcc main.c printflibft.a```. And run the ```a.out``` file.
+To test this project, you need to create a ```main.c``` file, you can find [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). Then you need to run ```make all```, and then compile ```gcc main.c printflibft.a```. And run the ```a.out``` file.
 
 </p>
 
@@ -380,7 +380,7 @@ If you want to support me:</p>
 - [Variadic Functions 2](https://www.geeksforgeeks.org/variadic-functions-in-c/)
 - [Makefile](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction)
 - [printf](https://en.wikipedia.org/wiki/Printf)
--
+- [static library](https://dev.to/iamkhalil42/all-you-need-to-know-about-c-static-libraries-1o0b)
 <br>
 
 ## License
