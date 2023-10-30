@@ -57,7 +57,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) (C - solo project)
 
-  ```BlackHole days (without bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (without bonus) =  Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
 
