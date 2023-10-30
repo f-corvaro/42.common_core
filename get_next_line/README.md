@@ -314,7 +314,7 @@ make a # launch mandatory tests + bonus tests
 
 Keep in mind that you can change the timeout value in Makefile. For rigorous test you should run all tests with valgrid using Linux (e.g. `valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s make m`). The tester, for me, worked only in 42. Pay attetion, the tester is NOT the assolute truth, just a second check to the previosly done.
 
-The output should be: [output.txt](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/output.txt")
+The output should be: [output.txt](https://github.com/f-corvaro/42.common_core/blob/main/get_next_line/.extra/output.txt)
 
 </p>
 
