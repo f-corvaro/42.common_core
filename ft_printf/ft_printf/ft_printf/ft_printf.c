@@ -57,28 +57,3 @@ int	ft_printf(const char *spec, ...)
 	va_end(args);
 	return (len);
 }
-
-/*int	ft_printf(const char *spec, ...)
-{
-	va_list		args;
-	int			len;
-
-	if (!spec)
-		return (-1);
-	i = 0;
-	len = 0;
-	va_start(args, spec);
-	while (*spec)
-	{
-		if (*spec == '%')
-		{
-			len += ft_printf_spec(args, *(++spec));
-			*spec++;
-		}
-		else
-			len += ft_putchar_len(*spec);
-		*spec++;
-	}
-	va_end(args);
-	return (len);
-}*/

@@ -17,7 +17,6 @@
 # include <stdarg.h>
 # include "../libft/libft.h"
 
-
 /* ------------  FUNCTIONS  ------------------------------------------------- */
 
 int			ft_putchar_len(char c);
@@ -34,6 +33,5 @@ int			ft_pointer(unsigned long long ptr);
 int			ft_unlen(unsigned int str);
 char		*ft_utoa(unsigned int num);
 int			ft_unsigned(unsigned int num);
-
 
 #endif
