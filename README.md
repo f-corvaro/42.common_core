@@ -40,8 +40,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
-  ON```
+  ```BlackHole days (with bonus) = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 </p>
 
 <br>
@@ -54,17 +53,15 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
+  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) (C - solo project)
 
-  ```BlackHole =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
-  ON```
+  ```BlackHole days (without bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
 
-  ```BlackHole = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE =
-  ON```
+  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 [![fcorvaro's 42 get_next_line Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
