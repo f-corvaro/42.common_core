@@ -309,8 +309,8 @@ category: mix
 ## Evaluation
 
 ### Correction sheet
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/eval_10-2023">
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/eval_10-2023(2)">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/eval_10-2023.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/eval_10-2023(2).png">
 </p>
 <br>
 
