@@ -146,12 +146,12 @@ For example, printf("%4X",3) produces    3, while printf("%04X",3) produces 0003
 | ```%-``` | Left-align the output of this placeholder. (The default is to right-align the output.) |
 | ```%.``` | The void * pointer argument has to be printed in hexadecimal format |
 
-
 | Format specifier | Data type |
-| ```%(space)``` | Prepends a space for positive signed-numeric types. positive =  , negative = -. This flag is ignored if the + flag exists.
-(The default doesn't prepend anything in front of positive numbers.) |
-| ```%#``` | Alternate form: 1. For g and G types, trailing zeros are not removed. 2. For f, F, e, E, g, G types, the output always contains a decimal point. 3. For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero numbers. |
+| ---------------- | --------- |
+| ```%(space)``` | Prepends a space for positive signed-numeric types. positive =  , negative = -. This flag is ignored if the + flag exists. (The default doesn't prepend anything in front of positive numbers.) |
+| ```%#``` | For g and G types, trailing zeros are not removed. For f, F, e, E, g, G types, the output always contains a decimal point. For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero numbers. |
 | ```%+``` | show always the sign of the number (is hidden for positive numbers to default) |
+
 
 <p>
 <br>
