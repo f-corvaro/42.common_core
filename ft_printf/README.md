@@ -247,24 +247,25 @@ int	main(void)
 
 <p align="justify">
 
+To test this project, you need to create a ```main.c``` file, you can find [here](). Then you need to run ```make all```, and then compile ```gcc main.c printflibft.a```. And run the ```a.out``` file.
+
 </p>
 
 ### Tester
 
-c
-I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille). 
+I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille). **It's very important to test the project in Ubuntu and macOS, the tester could have different results (as succeeded to me, and I failed the project first time).**
 
 The command ```valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s``` is usefull to have a detailed overview of leaks. That's the output:
 
 ```shell
 #the command to run
-e4r11p3% valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s make m 
+e4r11p3% valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s make m
 #the output
 ==78927== Memcheck, a memory error detector
 ==78927== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==78927== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
 ==78927== Command: make m
-==78927== 
+==78927==
 Already up to date.
 make[1]: Entering directory '/nfs/homes/fcorvaro/Desktop/print'
 make[2]: Entering directory '/nfs/homes/fcorvaro/Desktop/print/libft'
@@ -273,34 +274,33 @@ make[2]: Leaving directory '/nfs/homes/fcorvaro/Desktop/print/libft'
 make[1]: Leaving directory '/nfs/homes/fcorvaro/Desktop/print'
 [Mandatory]
 category: c
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK
 category: s
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK
 category: p
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK
 category: d
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK
 category: i
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK
 category: u
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK
 category: x
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 30.OK 31.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 30.OK 31.OK
 category: X
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 30.OK 31.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.OK 25.OK 26.OK 27.OK 28.OK 29.OK 30.OK 31.OK
 category: %
-1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK
 category: mix
-1.OK 
+1.OK
 ==78927== LEAK SUMMARY:
 ==78927==    definitely lost: 0 bytes in 0 blocks
 ==78927==    indirectly lost: 0 bytes in 0 blocks
 ==78927==      possibly lost: 0 bytes in 0 blocks
 ==78927==    still reachable: 160,031 bytes in 1,702 blocks
 ==78927==         suppressed: 0 bytes in 0 blocks
-==78927== 
+==78927==
 ==78927== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-
 ```
 
 </p>
@@ -309,9 +309,8 @@ category: mix
 ## Evaluation
 
 ### Correction sheet
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs1.png">
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs2.png">
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs3.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/eval_10-2023">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/eval_10-2023(2)">
 </p>
 <br>
 
