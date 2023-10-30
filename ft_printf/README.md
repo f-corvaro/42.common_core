@@ -24,10 +24,9 @@ v9 | v10
 		- [How to handle variable argument list? ](#how-to-handle-variable-argument-list-)
 		- [printf:](#printf)
 	- [Running Tests](#running-tests)
+		- [Tester:](#tester)
 	- [Evaluation](#evaluation)
 		- [Testing mandatory part](#testing-mandatory-part)
-		- [Testing bonus part](#testing-bonus-part)
-		- [Tester](#tester)
 		- [Correction sheet](#correction-sheet)
 		- [Norminette Result](#norminette-result)
 		- [Moulinette Result](#moulinette-result)
@@ -36,9 +35,6 @@ v9 | v10
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
 	- [License](#license)
-
-
-
 
 <br>
 
@@ -252,7 +248,9 @@ int	main(void)
 ### Tester:
 
 <p align="justify">
-I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille) with the command ```valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s``` to have a detailed overview of leaks. That's the output:
+I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille). 
+
+The command ```valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s``` is usefull to have a detailed overview of leaks. That's the output:
 
 ```shell
 #the command to run
@@ -307,8 +305,6 @@ category: mix
 ## Evaluation
 
 ### Testing mandatory part
-### Testing bonus part
-### Tester
 
 ### Correction sheet
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs1.png">
