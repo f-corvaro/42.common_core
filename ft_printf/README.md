@@ -20,13 +20,13 @@ v9 | v10
 	- [About](#about)
 	- [Bonus Part](#bonus-part)
 	- [What I need to know?](#what-i-need-to-know)
-		- [Makefile:](#makefile)
+		- [Makefile](#makefile)
 		- [How to handle variable argument list? ](#how-to-handle-variable-argument-list-)
-		- [printf:](#printf)
+		- [printf](#printf)
 	- [Running Tests](#running-tests)
-		- [Tester:](#tester)
-	- [Evaluation](#evaluation)
 		- [Testing mandatory part](#testing-mandatory-part)
+		- [Tester](#tester)
+	- [Evaluation](#evaluation)
 		- [Correction sheet](#correction-sheet)
 		- [Norminette Result](#norminette-result)
 		- [Moulinette Result](#moulinette-result)
@@ -160,7 +160,7 @@ For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero nu
 
 ## What I need to know?
 
-### Makefile:<p align="justify">
+### Makefile<p align="justify">
 This project is the "first one" that grants an understandjng of the utility of the Makefile and how to use it correctly. So, you must understand the syntax and how it works. Personally, I implemented the libft project, so I will have a good start for the next projects. I made two directories, one for libft (with .c, .h and Makefile files/file) and one for ft_printf (with .c and .h files/file). A ***Makefile*** is a special file that contains instructions on how to build a software project. It is used by the ```make``` utility to automate the build process. This file consists of a set of rules, each of which specifies how to build a particular target. A target can be anything from a binary executable file to a library to a documentation file.
 </p>
 
@@ -217,7 +217,7 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 </p>
 <br>
 
-### printf:
+### printf
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width=60% src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/printf.png">
 
@@ -245,9 +245,15 @@ int	main(void)
 
 ## Running Tests
 
-### Tester:
+### Testing mandatory part
 
 <p align="justify">
+
+</p>
+
+### Tester
+
+c
 I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille). 
 
 The command ```valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s``` is usefull to have a detailed overview of leaks. That's the output:
@@ -303,8 +309,6 @@ category: mix
 
 
 ## Evaluation
-
-### Testing mandatory part
 
 ### Correction sheet
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/ft_printf_cs1.png">
