@@ -35,7 +35,7 @@ int	ft_putptr(unsigned long long ptr)
 	else
 	{
 		if (ptr <= 9)
-			ft_putchar_len(ptr + 48);
+			ft_putchar_len(ptr + '0');
 		else
 			ft_putchar_len(ptr - 10 + 'a');
 	}

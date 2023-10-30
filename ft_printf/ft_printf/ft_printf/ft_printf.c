@@ -40,9 +40,9 @@ int	ft_printf(const char *spec, ...)
 
 	if (!spec)
 		return (-1);
+	va_start(args, spec);
 	i = 0;
 	len = 0;
-	va_start(args, spec);
 	while (spec[i])
 	{
 		if (spec[i] == '%')

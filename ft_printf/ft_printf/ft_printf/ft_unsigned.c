@@ -20,7 +20,7 @@ int	ft_unlen(unsigned int str)
 	while (str != 0)
 	{
 		len++;
-		str /= 10;
+		str = str / 10;
 	}
 	return (len);
 }
@@ -37,7 +37,7 @@ char	*ft_utoa(unsigned int num)
 	str[len] = '\0';
 	while (num != 0)
 	{
-		str[len - 1] = num % 10 + 48;
+		str[len - 1] = num % 10 + '0';
 		num = num / 10;
 		len--;
 	}
