@@ -265,7 +265,7 @@ There are 3 length sub-specifiers:
 
 <p align="justify">
 
-To test this project, you need to create a ```main.c``` file, you can find a little example [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). Then you need to run ```make all```, and then compile:
+To test this project, you need to create a ```main.c``` file, you can find a little example [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). I tested only this specifier because I had problems with this, you can implement all test you want. Then you need to run ```make all```, and then compile:
 
 •	**macOS:** ```gcc main.c libftprintf.a```. And run the ```a.out``` file.
 	The output is:
