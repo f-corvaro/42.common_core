@@ -57,6 +57,8 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) (C - solo project)
 
+
+
   ```BlackHole days (without bonus) =  Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
@@ -72,6 +74,30 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 ## 02 Ring
 
 <p align="justify">
+
+You must do your choice between:
+• pipex or minitalk
+• FdF or so_long or fract-ol
+
+From here, you don't have MOULINETTE. All the projects will be evaluated from peers.
+
+### 1. [FdF](https://github.com/f-corvaro/42.common_core/tree/main/02-FdF) (C  - solo project)
+
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 2. [pipex](https://github.com/f-corvaro/42.common_core/tree/main/02-pipex) (C - solo project)
+
+
+
+  ```BlackHole days (without bonus) =  Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 3. [push_swap](https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap) (C - solo project)
+
+  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+
 
 </p>
 
