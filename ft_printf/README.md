@@ -10,6 +10,8 @@ v9 | v10
 
 <table><tr><td>This guide is made for the subject v10, there aren't differences between the two subjects</td></tr></table>
 
+**WARNING:** *Before to push, you need to check where moulinette will be executed. There is a difference of length and information printed return of printf, and it depends on macOS or Ubuntu system.*
+
 </p>
 <br>
 
@@ -193,7 +195,7 @@ The rule ```.PHONY``` is used to identify ***false targets***, that represent a 
 The ```%.o:``` is the target pattern. The first row rappresent a pre-requisite needed (.c files into FT_PRINTF directory). ``` -c```  flag tells the compiler to not to link the object file with any other object files or libraries. So, it means that the compiler will only create an object file from the source file. ``` -o``` flag tells the name of the object file to create (that is the same of .c file name, but will be .o).
 
 
-To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf/Makefile).
+To see my [Makefile](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/ft_printf_macOS/Makefile).
 
 <br>
 
@@ -212,12 +214,14 @@ If you forget to call ```va_end()```, you can cause the program to crash. The ``
 - Make sure to call ```va_copy()``` after ```va_start()``` and before any calls to ```va_arg()```.
 - Make sure to call ```va_end()``` on all ```va_list``` variables, even if you are using ```va_copy()```.
 - Do not call ```va_copy()``` on a ```va_list``` variable that has already been initialized with ```va_end()```.
+
+An in-depth example:
+The ```va_list	args;``` macro is used to declare a variable that will hold the list of arguments passed to the function. The norm provides the name of the variable, and it is called: args. The ```va_start(args, spec);``` macro is used to initialize the ```va_list``` variable, so the first variable is the ```va_list``` variable, and the second one must be a non variadic argument. In this case, spec is a ```const char *spec```. The ```va_arg``` macro is used to retrieve the next argument from the ```va_list```. Could be imagined as a ring chain. The syntax is ```va_arg(args, unsigned int)```, so you need to specify the va_list variable and the type of the argument retrieved. The ```va_end``` macro must be called to clean up the ```va_list``` variable after all arguments have been retrieved.
+
 </p>
 <br>
 
 ### printf
-
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/ft_printf"><img width=60% src="https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/.extra/printf.png">
 
 <p align="justify">
 
@@ -238,6 +242,20 @@ int	main(void)
 }
 ```
 
+**Syntax:** ```%[flags][width][.precision][length]specifier```
+
+0. % Is used before the specifier and we must.
+1. Specifier: It is the character that denotes the type of data.
+2. Width: It is the sub-specifier that denotes the minimum number of characters that will be printed. If the number of characters is less than the specified width, the white space will be used to fill the remaining characters’ places. But if the number of characters is greater than the specified width, all the characters will be still printed without cutting off any.
+3. Precision: Precision subspecifier meaning differs for different format specifiers it is being used with. For Integral data(d, i, u, o, x, X): Specifies the minimum number of digits to be printed. But unlike the width sub-specifier, instead of white spaces, this sub-specifier adds leading zeroes to the number. If the number has more digits than the precision, the number is printed as it is. For Float or Double Data(f, e, a, A): Specifies the number of digits to be printed after the decimal point. For String (s): Specifies the length of the string to be printed.
+4. Length: Specifies the length of the data type in the memory. It is used in correspondence with data type modifiers.
+
+There are 3 length sub-specifiers:
+
+	h: With short int and unsigned short int
+	l: With long int and unsigned long int.
+	L: With long double
+
 </p>
 <br>
 
@@ -247,13 +265,30 @@ int	main(void)
 
 <p align="justify">
 
-To test this project, you need to create a ```main.c``` file, you can find a little example [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). Then you need to run ```make all```, and then compile ```gcc main.c libftprintf.a```. And run the ```a.out``` file.
+To test this project, you need to create a ```main.c``` file, you can find a little example [here](https://github.com/f-corvaro/42.common_core/blob/main/ft_printf/main.c). Then you need to run ```make all```, and then compile:
+
+•	**macOS:** ```gcc main.c libftprintf.a```. And run the ```a.out``` file.
+	The output is:
+
+```shell
+e4r4p2% ./a.out
+ 0x0 0x0 real: 9
+ 0x0 0x0 fake: 9
+```
+
+•	**Ubuntu:** ```gcc -c main.c```, then ```gcc main.o libftprintf.a```. The output should be:
+
+```shell
+e4r4p2% ./a.out
+(nil) (nil) real: 13
+(nil) (nil) fake: 13
+```
 
 </p>
 
 ### Tester
 
-I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille). **It's very important to test the project in Ubuntu and macOS, the tester could have different results (as succeeded to me, and I failed the project first time).**
+I've used the [printfTester](https://github.com/Tripouille/printfTester) of [Tripouille](https://github.com/Tripouille). **It's very important to test the project in Ubuntu and/or macOS, the tester has different results.**
 
 The command ```valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s``` is usefull to have a detailed overview of leaks. That's the output:
 
@@ -378,8 +413,10 @@ If you want to support me:</p>
 
 - [Variadic Functions 1](https://www.ibm.com/docs/en/i/7.3?topic=lf-va-arg-va-copy-va-end-va-start-handle-variable-argument-list)
 - [Variadic Functions 2](https://www.geeksforgeeks.org/variadic-functions-in-c/)
+- [Variadic Functions 3](https://onepunchcoder.medium.com/variadic-functions-explained-fd3b4ab6fd84)
 - [Makefile](https://www.gnu.org/software/make/manual/make.html#Rule-Introduction)
-- [printf](https://en.wikipedia.org/wiki/Printf)
+- [printf 1](https://en.wikipedia.org/wiki/Printf)
+- [printf 2](https://www.geeksforgeeks.org/printf-in-c/)
 - [static library](https://dev.to/iamkhalil42/all-you-need-to-know-about-c-static-libraries-1o0b)
 <br>
 
