@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 20:08:04 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/10/31 09:19:29 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/02/18 09:47:04 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/04/16 17:20:48 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./ft_printf/ft_printf.h"
-#include <stdio.h>
+#include "libft.h"
 
-int	main(void)
+void	ft_bzero(void *dest, size_t len)
 {
-	printf("real: %d\n", printf(" %p %p ", 0, 0));
-	ft_printf("fake: %d\n", ft_printf(" %p %p ", 0, 0));
-	return (0);
+	ft_memset(dest, 0, len);
 }
+
+/*void	*ft_memset(void *dest, int ch, size_t len)
+This function does the same thing of the memset, but ch is 0 now.*/

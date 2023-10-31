@@ -1,21 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 20:08:04 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/10/31 09:19:29 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/04/12 20:07:00 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/04/12 20:07:12 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./ft_printf/ft_printf.h"
-#include <stdio.h>
+#include "libft.h"
 
-int	main(void)
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	printf("real: %d\n", printf(" %p %p ", 0, 0));
-	ft_printf("fake: %d\n", ft_printf(" %p %p ", 0, 0));
-	return (0);
+	t_list	*new;
+	t_list	*temp;
+
+	if (!f || !lst)
+		return (NULL);
+	new = NULL;
+	while (lst)
+	{
+		temp = ft_lstnew(f(lst->content));
+		if (!temp)
+		{
+			ft_lstclear(&temp, del);
+			return (NULL);
+		}
+		ft_lstadd_back(&new, temp);
+		lst = lst->next;
+	}
+	return (new);
 }

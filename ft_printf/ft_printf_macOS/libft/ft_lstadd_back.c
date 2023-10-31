@@ -1,21 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/30 20:08:04 by fcorvaro          #+#    #+#             */
-/*   Updated: 2023/10/31 09:19:29 by fcorvaro         ###   ########.fr       */
+/*   Created: 2023/04/12 19:58:34 by fcorvaro          #+#    #+#             */
+/*   Updated: 2023/04/12 20:01:33 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./ft_printf/ft_printf.h"
-#include <stdio.h>
+#include "libft.h"
 
-int	main(void)
+void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	printf("real: %d\n", printf(" %p %p ", 0, 0));
-	ft_printf("fake: %d\n", ft_printf(" %p %p ", 0, 0));
-	return (0);
+	t_list	*node;
+
+	if (*lst)
+	{
+		node = *lst;
+		while (node->next)
+			node = node->next;
+		node->next = new;
+	}
+	else
+		*lst = new;
 }
