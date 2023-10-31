@@ -49,10 +49,10 @@ int	ft_pointer(unsigned long long ptr)
 	len = 0;
 	if (ptr == 0)
 	{
-		len += write (1, "(nil)", 5);
+		len += ft_putstr_len("(nil)");
 		return (len);
 	}
-	len = write (1, "0x", 2);
+	len = ft_putstr_len ("0x");
 	len += ft_putptr(ptr);
 	return (len);
 }
