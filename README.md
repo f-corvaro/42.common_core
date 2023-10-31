@@ -76,7 +76,9 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 <p align="justify">
 
 You must do your choice between:
+
 • pipex or minitalk
+
 • FdF or so_long or fract-ol
 
 From here, you don't have MOULINETTE. All the projects will be evaluated from peers.
