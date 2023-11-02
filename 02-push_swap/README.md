@@ -97,7 +97,7 @@ a, the smallest number being at the top.
 • If no parameters are specified, the program must not display anything and give the
 prompt back.
 
-• In case of error, it must display "Error" followed by a ’\n’ on the standard error.
+• In case of error, it must display ```"Error"``` followed by a ```’\n’``` on the standard error.
 Errors include for example: some arguments aren’t integers, some arguments are
 bigger than an integer (MAXINT) and/or there are duplicates.
 
