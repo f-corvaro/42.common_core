@@ -89,7 +89,7 @@ Libft authorized, and:
 
 • The first argument should be at the top of the stack.
 
-• Instructions must be separated by a ’\n’ and nothing else.
+• Instructions must be separated by a ```\n``` and nothing else.
 
 • The program must display the smallest list of instructions possible to sort the stack
 a, the smallest number being at the top.
