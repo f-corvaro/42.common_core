@@ -38,7 +38,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 <p align="justify">
 
-### 0️. [libft](https://github.com/f-corvaro/42.common_core/tree/main/libft) (C - solo project)
+### 0️. [libft](https://github.com/f-corvaro/42.common_core/tree/main/00-libft) (C - solo project)
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
@@ -51,19 +51,19 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 <p align="justify">
 
-### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/born2beroot) (Virtual Machine  - solo project)
+### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot) (Virtual Machine  - solo project)
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
   ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
 
-### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) (C - solo project)
+### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/01-ft_printf) (C - solo project)
 
 [![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
   ```BlackHole days (without bonus) = 18 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
-### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
+### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/01-get_next_line) (C - solo project)
 
   ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
