@@ -351,9 +351,66 @@ category: mix
 
 ### Norminette Result
 
+```shell
+ft_printf/ft_printf.h: OK!
+ft_printf/ft_unsigned.c: OK!
+ft_printf/ft_pointer.c: OK!
+ft_printf/ft_printf.c: OK!
+ft_printf/ft_utils.c: OK!
+ft_printf/ft_hexadecimal.c: OK!
+libft/ft_substr.c: OK!
+libft/ft_isascii.c: OK!
+libft/ft_lstadd_front.c: OK!
+libft/ft_lstmap.c: OK!
+libft/ft_memcpy.c: OK!
+libft/ft_split.c: OK!
+libft/ft_memset.c: OK!
+libft/ft_putstr_fd.c: OK!
+libft/ft_itoa.c: OK!
+libft/ft_isdigit.c: OK!
+libft/ft_lstclear.c: OK!
+libft/ft_strncmp.c: OK!
+libft/ft_putchar_fd.c: OK!
+libft/ft_toupper.c: OK!
+libft/ft_isalnum.c: OK!
+libft/ft_calloc.c: OK!
+libft/ft_strjoin.c: OK!
+libft/ft_strnstr.c: OK!
+libft/libft.h: OK!
+libft/ft_memchr.c: OK!
+libft/ft_strtrim.c: OK!
+libft/ft_isprint.c: OK!
+libft/ft_strlcpy.c: OK!
+libft/ft_lstnew.c: OK!
+libft/ft_bzero.c: OK!
+libft/ft_strchr.c: OK!
+libft/ft_lstiter.c: OK!
+libft/ft_strrchr.c: OK!
+libft/ft_strmapi.c: OK!
+libft/ft_memmove.c: OK!
+libft/ft_isalpha.c: OK!
+libft/ft_putendl_fd.c: OK!
+libft/ft_lstdelone.c: OK!
+libft/ft_putnbr_fd.c: OK!
+libft/ft_lstsize.c: OK!
+libft/ft_atoi.c: OK!
+libft/ft_striteri.c: OK!
+libft/ft_memcmp.c: OK!
+libft/ft_lstlast.c: OK!
+libft/ft_strdup.c: OK!
+libft/ft_strlen.c: OK!
+libft/ft_strlcat.c: OK!
+libft/ft_tolower.c: OK!
+libft/ft_lstadd_back.c: OK!
+```
+
 <br>
 
 ### Moulinette Result
+
+```
+test_spdxiucpercent: 8/8 correct functions | bonus_one: 0/3 correct functions | bonus_two: 0/3 correct functions
+```
 
 <br>
 
