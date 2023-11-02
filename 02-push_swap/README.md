@@ -113,6 +113,11 @@
 
 <p align="justify">
 
+The subject give the string
+
+```file.bfe:VABB7yO9xm7xWXROeASsmsgnY0o0sDMJev7zFHhwQS8mvM8V5xQQp
+Lc6cDCFXDWTiFzZ2H9skYkiJ/DpQtnM/uZ0```
+
 The file.bfe is a Base64 encoded string. Base64 encoding is a way of converting binary data into a string of ASCII characters. This is often used to encode images, videos, and other types of files so that they can be transmitted over the internet or stored in text files.
 
 To decode the Base64, I used the following Python code:
