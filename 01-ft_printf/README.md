@@ -6,7 +6,7 @@
 
 v9 | v10
 :-------------------------:|:-------------------------:
-[![subject-old](https://img.shields.io/badge/subject-ft_printf-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-ft_printf-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/en.subject(new).pdf)
+[![subject-old](https://img.shields.io/badge/subject-ft_printf_v09-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/en.subject.pdf) | [![subject-new](https://img.shields.io/badge/subject-ft_printf_v10-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/en.subject(new).pdf)
 
 <table><tr><td>This guide is made for the subject v10, there aren't differences between the two subjects</td></tr></table>
 
