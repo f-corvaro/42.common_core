@@ -113,6 +113,28 @@
 
 <p align="justify">
 
+The file.bfe is a Base64 encoded string. Base64 encoding is a way of converting binary data into a string of ASCII characters. This is often used to encode images, videos, and other types of files so that they can be transmitted over the internet or stored in text files.
+
+To decode the Base64, I used the following Python code:
+
+```py
+import base64
+
+encoded_string = "VABB7yO9xm7xWXROeASsmsgnY0o0sDMJev7zFHhwQS8mvM8V5xQQpLc6cDCFXDWTiFzZ2H9skYkiJ/DpQtnM/uZ0"
+
+decoded_bytes = base64.b64decode(encoded_string)
+
+with open("decoded_file.txt", "wb") as f:
+    f.write(decoded_bytes)
+```
+
+This code decoded the Base 64 string and wrote the decoded bytes to a file named decoded_file.txt.
+
+The decoded file contains a single line of text, which is shown below:
+
+```
+This is a test file.
+```
 
 </p>
 <br>
