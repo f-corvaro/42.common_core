@@ -12,13 +12,15 @@
 		- [2. ft\_printf (C - solo project)](#2-ft_printf-c---solo-project)
 		- [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
 	- [02 Ring](#02-ring)
+		- [1. FdF (C  - solo project)](#1-fdf-c----solo-project)
+		- [2. pipex (C - solo project)](#2-pipex-c---solo-project)
+		- [3. push\_swap (C - solo project)](#3-push_swap-c---solo-project)
 	- [Exams](#exams)
 	- [Holy Graph](#holy-graph)
 	- [Resources](#resources)
 	- [Author](#author)
 	- [Support Me](#support-me)
 	- [License](#license)
-
 
 <br>
 
@@ -57,9 +59,9 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/ft_printf) (C - solo project)
 
+[![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-
-  ```BlackHole days (without bonus) =  Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (without bonus) = 18 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/get_next_line) (C - solo project)
 
