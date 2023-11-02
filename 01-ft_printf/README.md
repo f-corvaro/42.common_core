@@ -409,7 +409,7 @@ libft/ft_lstadd_back.c: OK!
 
 ### Moulinette Result
 
-[![Moulinette result]https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/moulinette.png](https://projects.intra.42.fr/projects/42cursus-ft_printf/projects_users/3069521)
+<a href="https://projects.intra.42.fr/projects/42cursus-ft_printf/projects_users/3069521"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/moulinette.png">
 
 <br>
 
