@@ -79,9 +79,9 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 From here, you don't have MOULINETTE. All the projects will be evaluated from peers. You must do your choice between:
 
-• [```pipex```] or [```minitalk```]
+• [```pipex```](https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/en.subject.pdf) or [```minitalk```](https://github.com/f-corvaro/42.common_core/.extra/.othersubject/minitalk.pdf)
 
-• [```FdF```] or [```so_long```] or [```fract-ol```]
+• [```FdF```](https://github.com/f-corvaro/42.common_core/blob/main/02-FdF/.extra/en.subject.pdf) or [```so_long```](https://github.com/f-corvaro/42.common_core/.extra/.othersubject/so_long.pdf) or [```fract-ol```](https://github.com/f-corvaro/42.common_core/.extra/.othersubject/fract-ol.pdf)
 
 ### 1. [FdF](https://github.com/f-corvaro/42.common_core/tree/main/02-FdF) (C  - solo project)
 

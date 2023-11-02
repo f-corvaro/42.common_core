@@ -4,7 +4,7 @@
 
 <p align="justify">
 
-[![subject](https://img.shields.io/badge/subject-get_next_line-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/en.subject.pdf)
+[![subject](https://img.shields.io/badge/subject-push_swap-blueviolet)](https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/en.subject.pdf)
 
 </p>
 <br>
