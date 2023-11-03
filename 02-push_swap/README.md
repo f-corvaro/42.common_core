@@ -153,6 +153,43 @@ Are provided two programms named checker: one developed for linux and one for ma
 
 <p align="justify">
 
+**What does analysis of algorithms mean in Computer science?**
+
+The analysis of algorithms is the process of finding the computational complexity of algorithms, which means the amount of time, storage, or other resources needed to execute them. It is an important part of computer science, as it allows us to compare different algorithms and choose the most efficient one for a given problem.
+
+There are two main ways to analyze algorithms:
+
+• ***Asymptotic analysis:*** considers the behavior of an algorithm as the size of the input grows to infinity. It is the most common type of algorithm analysis, and it uses asymptotic notations such as big O, big Omega, and big Theta to express the algorithm's time and space complexity. In the binary search, it is said to run in a number of steps proportional to the logarithm of the size n of the sorted list being searched, or in O(log n), colloquially "in logarithmic time".
+
+• ***Empirical analysis:*** measures the actual performance of an algorithm on a specific set of inputs. It is less common than asymptotic analysis, but it can be useful for comparing different implementations of the same algorithm or for optimizing an algorithm for a specific problem.
+
+
+Here are some of the key factors that are considered when analyzing algorithms:
+
+• ***Time complexity:*** The amount of time required by an algorithm to execute as a function of the size of the input.
+
+• ***Space complexity:*** The amount of memory required by an algorithm to execute as a function of the size of the input.
+
+• ***Accuracy:*** How accurately the algorithm solves the problem.
+
+• ***Robustness:*** How well the algorithm handles unexpected inputs or errors.
+
+• ***Parallelizability:*** Whether the algorithm can be parallelized to improve its performance.
+
+The program's runtime is directly proportional to its input size. Doubling the input size doubles the runtime; quadrupling the input size quadruples the run-time; and so forth. The time complexity of the linear search algorithm is O(n), where n is the number of elements in the array.
+
+**What is a stack?**
+
+**What is a binary search?**
+
+
+
+
+
+
+<p>
+<br>
+
 ## Running Tests
 
 ### Testing mandatory part
@@ -248,6 +285,17 @@ If you want to support me:</p>
 
 ## Sources
 
+- [Analysis of algorithms](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
+
+- [Stack]()
+
+- [Push_swap](https://medium.com/@jamierobertdawson/push-swap-the-least-amount-of-moves-with-two-stacks-d1e76a71789a)
+
+- [Linked Lists](https://www.learn-c.org/en/Linked_lists)
+
+- [sorting](https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add)
+
+- [pivot_quick_sort](https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3)
 
 <br>
 
