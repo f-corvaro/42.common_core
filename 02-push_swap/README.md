@@ -127,6 +127,10 @@ rra (reverse rotate a): | Shift down all elements of stack a by 1. The last elem
 rrb (reverse rotate b): | Shift down all elements of stack b by 1. The last element becomes the first one.
 rrr : | rra and rrb at the same time
 
+## Example <p align="justify">
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/example.png">
+
 <p>
 <br>
 
