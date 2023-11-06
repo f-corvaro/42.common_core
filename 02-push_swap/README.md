@@ -279,7 +279,7 @@ We would continue this process, comparing each element to the element before it 
 
 2. ***Shell Sort:***
 
-<img src="https://www.crio.do/blog/content/images/2021/12/Shell-Sort.gif">
+<img src="https://i.gzn.jp/img/2014/05/01/sorting/quiqsort.gif">
 
 Shell sort is a sorting algorithm that is based on the insertion sort algorithm. Shell sort is a highly efficient algorithm, and is often faster than insertion sort for large arrays. Shell sort works by repeatedly sorting the array using a smaller gap between elements. The gap is initially set to a large value, and is then reduced by half on each iteration. The algorithm terminates when the gap is reduced to 1. At each iteration, the algorithm compares each element to the element at the gap distance. If the current element is less than the element at the gap distance, the two elements are swapped. The algorithm then moves on to the next element. The worst-case time complexity of shell sort is O(n^2), but the average-case time complexity is O(n log^2 n). This means that shell sort is typically faster than insertion sort for large arrays. Shell sort is often used in embedded systems and other applications where memory is limited. It is also used in more complex sorting algorithms, such as quicksort and merge sort.
 
@@ -301,7 +301,7 @@ We would then repeat the process with a gap of 1. This time, we would compare ea
 
 ```[1, 2, 3, 4, 5]```
 
-1. ***Bubble Sort:***
+3. ***Bubble Sort:***
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607">
 
@@ -366,7 +366,7 @@ The pivot element (3) is now in its correct position in the sorted array. The tw
 
 The quicksort algorithm will recursively sort the two subarrays until the entire array is sorted. After the algorithm terminates, the array will be sorted in ascending order.
 
-6. ***Heapsort:***
+5. ***Heapsort:***
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif">
 
@@ -413,35 +413,34 @@ Compilers
 Graphics processing units (GPUs)
 
 
-7. ***Revised Bubble Sort:***
+6. ***Revised Bubble Sort:***
 
 
-8. ***Selection Sort:***
-
-
-
-9.  ***Insertion Sort:***
+7. ***Selection Sort:***
 
 
 
-10. ***Merge Sort:***
+8.  ***Insertion Sort:***
 
 
 
-11. ***Counting Sort:***
-
-
-12. ***Radix Sort:***
-
-
-13. ***Bucket Sort:***
+9. ***Merge Sort:***
 
 
 
-14. ***Comb Sort:***
+10. ***Counting Sort:***
 
 
-15. ***Turk algorithm:***
+11. ***Radix Sort:***
+
+
+12. ***Bucket Sort:***
+
+
+13. ***Comb Sort:***
+
+
+14. ***Turk algorithm:***
 
 
 
