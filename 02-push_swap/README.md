@@ -195,8 +195,6 @@ Here are some of the key factors that are considered when analyzing algorithms:
 
 The program's runtime is directly proportional to its input size. Doubling the input size doubles the runtime; quadrupling the input size quadruples the run-time; and so forth. The time complexity of the linear search algorithm is O(n), where n is the number of elements in the array.
 
-**
-
 </p>
 
 **What is a stack?**
