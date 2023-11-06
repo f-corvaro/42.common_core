@@ -13,7 +13,10 @@
 
 - [**PUSH SWAP**](#push-swap)
 		- [Index](#index)
+	- [Folder Structure](#folder-structure)
 	- [About](#about)
+	- [The rules ](#the-rules-)
+	- [Resources Given ](#resources-given-)
 	- [Bonus Part](#bonus-part)
 	- [What I need to know?](#what-i-need-to-know)
 	- [Running Tests](#running-tests)
@@ -26,6 +29,15 @@
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
 	- [License](#license)
+
+
+<br>
+
+## Folder Structure
+
+<p align="justify">
+
+
 
 <br>
 
@@ -250,20 +262,199 @@ Basically, sorting algorithms are ways to organize an array of items from smalle
 
 Straight insertion sort is a simple sorting algorithm that works by repeatedly inserting an element into a sorted sequence. It is a stable algorithm, meaning that it preserves the original order of equal elements in the input array. Straight insertion sort is a simple and efficient algorithm for sorting small arrays. However, it is not as efficient for sorting large arrays. The worst-case time complexity of straight insertion sort is O(n^2), which means that the sorting time increases quadratically with the size of the input array. Straight insertion sort is often used in embedded systems and other applications where memory is limited. It is also used in sorting algorithms that are more complex, such as merge sort and quicksort.
 
+***Example***
+Consider the following unsorted array:
+
+```[5, 3, 2, 1, 4]```
+
+To sort this array using straight insertion sort, we would start at the second element, which is 3. We would compare 3 to the element before it, which is 5. Since 3 is less than 5, we would swap the two elements.
+
+```[3, 5, 2, 1, 4]```
+
+We would then move on to the next element, which is 2. We would compare 2 to the element before it, which is 3. Since 2 is less than 3, we would swap the two elements.
+
+```[2, 3, 5, 1, 4]```
+
+We would continue this process, comparing each element to the element before it and swapping them if necessary. After sorting the entire array, we would have the following sorted array:
+
+```[1, 2, 3, 4, 5]```
+
 2. ***Shell Sort:***
 
-<a href="https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right."><img src="https://lamfo-unb.github.io/img/Sorting-algorithms/Shell_Sort_Algorithm.gif">
+<a href="https://www.crio.do/blog/top-10-sorting-algorithms/"><img src="https://www.crio.do/blog/content/images/2021/12/Shell-Sort.gif">
+
+Shell sort is a sorting algorithm that is based on the insertion sort algorithm. Shell sort is a highly efficient algorithm, and is often faster than insertion sort for large arrays. Shell sort works by repeatedly sorting the array using a smaller gap between elements. The gap is initially set to a large value, and is then reduced by half on each iteration. The algorithm terminates when the gap is reduced to 1. At each iteration, the algorithm compares each element to the element at the gap distance. If the current element is less than the element at the gap distance, the two elements are swapped. The algorithm then moves on to the next element. The worst-case time complexity of shell sort is O(n^2), but the average-case time complexity is O(n log^2 n). This means that shell sort is typically faster than insertion sort for large arrays. Shell sort is often used in embedded systems and other applications where memory is limited. It is also used in more complex sorting algorithms, such as quicksort and merge sort.
+
+***Example***
+
+Consider the following unsorted array:
+
+```[5, 3, 2, 1, 4]```
+
+To sort this array using shell sort, we would start with a gap of 2. We would then compare the first element (5) to the element at the gap distance (2). Since 5 is greater than 2, the two elements are not swapped. We would then move on to the next element (3).
+
+We would compare the second element (3) to the element at the gap distance (5). Since 3 is less than 5, the two elements are swapped.
+
+We would continue this process, comparing each element to the element at the gap distance and swapping them if necessary. After sorting the entire array with a gap of 2, we would have the following array:
+
+```[3, 5, 1, 2, 4]```
+
+We would then repeat the process with a gap of 1. This time, we would compare each element to the element next to it and swap them if necessary. After sorting the entire array with a gap of 1, we would have the following sorted array:
+
+```[1, 2, 3, 4, 5]```
+
+3. ***Bubble Sort:***
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607">
+
+Bubble sort is a simple sorting algorithm that repeatedly compares adjacent elements of an array and swaps them if they are in the wrong order. It is called bubble sort because the smaller elements gradually "bubble" to the top of the array, while the larger elements "sink" to the bottom. The worst-case time complexity of bubble sort is O(n^2), but the average-case time complexity is O(n^2). This means that bubble sort is typically not a very efficient sorting algorithm, especially for large arrays. Bubble sort is a simple algorithm that is easy to understand and implement. It is often used in educational settings to teach students about the basics of sorting algorithms. It is also sometimes used in embedded systems and other applications where memory is limited and efficiency is not a top priority.
+
+***Example***
+
+Consider the following unsorted array:
+
+```[5, 3, 2, 1, 4]```
+
+To sort this array using bubble sort, we would start at the beginning of the array and compare the first two elements (5 and 3). Since 5 is greater than 3, we would swap the two elements.
+
+```[3, 5, 2, 1, 4]```
+
+We would then compare the second and third elements (3 and 2). Since 3 is greater than 2, we would swap the two elements.
+
+```[2, 3, 5, 1, 4]```
+
+We would continue this process, comparing adjacent elements and swapping them if necessary. After sorting the entire array, we would have the following sorted array:
+
+```[1, 2, 3, 4, 5]```
+
+4. ***Quicksort:***
+
+<img src="https://i.imgur.com/fo1Yw1j.gif">
+
+Quicksort is a divide-and-conquer sorting algorithm. It works by recursively partitioning the array around a pivot element, and then sorting the two subarrays created by the partition. This algorithm works as follows:
+
+• Choose a pivot element from the array. ([pivot](https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3))
+
+•Partition the array around the pivot element, such that all elements smaller than the pivot are placed to the left of the pivot, and all elements larger than the pivot are placed to the right of the pivot.
+
+•Recursively sort the two subarrays created by the partition.
+
+The partition step is the key to the quicksort algorithm. It is what makes quicksort so efficient. There are many different ways to partition an array, but one common approach is to use the Lomuto partition scheme.
+
+The Lomuto partition scheme works as follows:
+
+1. Initialize two pointers, i and j.
+2. Set i to the first element of the array and j to the last element of the array.
+3. While i is less than j:
+	• If the element at index i is less than or equal to the pivot element, swap the elements at indices i and j and increment i.
+	• Otherwise, decrement j.
+4. Swap the pivot element with the element at index i.
+
+After the partition step, the pivot element will be in its correct position in the sorted array. The two subarrays created by the partition will also be unsorted. The quicksort algorithm then recursively sorts the two subarrays. The worst-case time complexity of quicksort is O(n^2), but the average-case time complexity is O(n log n). This makes quicksort one of the most efficient sorting algorithms available. Quicksort is a widely used sorting algorithm. It is used in many different applications, including: Operating systems, Databases, Compilers and Graphics processing units (GPUs).
+
+***Example***
+
+Consider the following unsorted array:
+
+```[5, 3, 2, 1, 4]```
+
+To sort this array using quicksort, we would first choose a pivot element. We can choose any element in the array, but it is often best to choose a median element. In this case, we will choose the middle element, which is 3.
+
+We would then partition the array around the pivot element. We can use the Lomuto partition scheme to do this. After the partition step, the array will look as follows:
+
+```[2, 1, 3, 5, 4]```
+
+The pivot element (3) is now in its correct position in the sorted array. The two subarrays created by the partition are also unsorted. The quicksort algorithm will now recursively sort the two subarrays.
+
+The quicksort algorithm will recursively sort the two subarrays until the entire array is sorted. After the algorithm terminates, the array will be sorted in ascending order.
+
+6. ***Heapsort:***
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif">
+
+Heapsort is a sorting algorithm that uses a heap data structure to sort an array. A heap is a complete binary tree where each parent node is greater than or equal to its child nodes.
+The heapsort algorithm works as follows:
+
+• Build a heap from the input array.
+• Repeatedly remove the root element of the heap (which is the largest element) and place it at the end of the sorted array.
+• Restore the heap property by replacing the removed root element with the largest of its child nodes.
+• Repeat steps 2 and 3 until the heap is empty.
+
+Example
+Consider the following unsorted array:
+
+[5, 3, 2, 1, 4]
+To sort this array using heapsort, we would first build a heap from the array. The heap would look as follows:
+
+5
+/ \
+3 2
+/ \
+1 4
+We would then repeatedly remove the root element of the heap and place it at the end of the sorted array. After the first iteration, the sorted array would look as follows:
+
+[4, 3, 2, 1, 5]
+We would then restore the heap property by replacing the removed root element with the largest of its child nodes. The heap would then look as follows:
+
+4
+/ \
+2 3
+/ \
+5 1
+We would repeat this process until the heap is empty. After the last iteration, the sorted array would look as follows:
+
+[1, 2, 3, 4, 5]
+
+The worst-case time complexity of heapsort is O(n log n), and the average-case time complexity is also O(n log n). This makes heapsort one of the most efficient sorting algorithms available.
+
+Heapsort is a widely used sorting algorithm. It is used in many different applications, including:
+
+Operating systems
+Databases
+Compilers
+Graphics processing units (GPUs)
+
+
+7. ***Revised Bubble Sort:***
+
+
+8. ***Selection Sort:***
 
 
 
-3. ***Shell Sort:***
-4. ***Shell Sort:***
-5. ***Shell Sort:***
-6. ***Shell Sort:***
-7. ***Shell Sort:***
-8. ***Shell Sort:***
-9. ***Shell Sort:***
-10. ***Shell Sort:***
+9.  ***Insertion Sort:***
+
+
+
+10. ***Merge Sort:***
+
+
+
+11. ***Counting Sort:***
+
+
+12. ***Radix Sort:***
+
+
+13. ***Bucket Sort:***
+
+
+
+14. ***Comb Sort:***
+
+
+15. ***Turk algorithm:***
+
+
+
+
+
+<a href="https://www.crio.do/blog/top-10-sorting-algorithms/"><img src="https://www.crio.do/blog/content/images/2022/01/Top-10-Sorting-Algorithms-You-Need-To-Know.png">
+
+
+
+
+
 <br>
 
 ## Running Tests
@@ -279,6 +470,8 @@ Straight insertion sort is a simple sorting algorithm that works by repeatedly i
 
 
 ## Evaluation
+
+Test the notable cases: 0, 1, 3, 5, 50, 100, 250, 500 and iterate many times to understand the efficiency.
 
 ### Correction sheet
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/.cs/cs1.png">
@@ -373,7 +566,9 @@ If you want to support me:</p>
 
 - [sorting](https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add)
 
-- [Sorting algorithms](https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right.)
+- [Sorting algorithms 1](https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right.)
+
+- [Sorting algorithms 2](https://www.crio.do/blog/top-10-sorting-algorithms/)
 
 - [pivot_quick_sort](https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3)
 
