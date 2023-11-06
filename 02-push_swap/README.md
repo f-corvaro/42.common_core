@@ -281,7 +281,7 @@ We would continue this process, comparing each element to the element before it 
 
 2. ***Shell Sort:***
 
-<a href="https://www.crio.do/blog/top-10-sorting-algorithms/"><img src="https://www.crio.do/blog/content/images/2021/12/Shell-Sort.gif">
+<img src="https://www.crio.do/blog/content/images/2021/12/Shell-Sort.gif">
 
 Shell sort is a sorting algorithm that is based on the insertion sort algorithm. Shell sort is a highly efficient algorithm, and is often faster than insertion sort for large arrays. Shell sort works by repeatedly sorting the array using a smaller gap between elements. The gap is initially set to a large value, and is then reduced by half on each iteration. The algorithm terminates when the gap is reduced to 1. At each iteration, the algorithm compares each element to the element at the gap distance. If the current element is less than the element at the gap distance, the two elements are swapped. The algorithm then moves on to the next element. The worst-case time complexity of shell sort is O(n^2), but the average-case time complexity is O(n log^2 n). This means that shell sort is typically faster than insertion sort for large arrays. Shell sort is often used in embedded systems and other applications where memory is limited. It is also used in more complex sorting algorithms, such as quicksort and merge sort.
 
@@ -303,7 +303,7 @@ We would then repeat the process with a gap of 1. This time, we would compare ea
 
 ```[1, 2, 3, 4, 5]```
 
-3. ***Bubble Sort:***
+1. ***Bubble Sort:***
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607">
 
