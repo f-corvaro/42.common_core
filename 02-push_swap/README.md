@@ -213,6 +213,32 @@ Binary search, also known as half-interval search, logarithmic search, or binary
 
 </p>
 
+**Which are the differences between stable and unstable algorithm?**
+<p align="justify">
+
+A stable sorting algorithm is one that preserves the relative order of equal elements in the input sequence. An unstable sorting algorithm is one that does not preserve the relative order of equal elements. In other words, if you have a list of elements with duplicate values, and you sort the list using a stable sorting algorithm, the duplicate values will remain in the same order relative to each other after the sort. However, if you sort the list using an unstable sorting algorithm, the duplicate values may be rearranged in any order. Stability is important in some cases, such as when sorting a list of key-value pairs, where the key is the sort key and the value is some other data associated with the key. For example, you might have a list of employee names and their salaries, where the name is the sort key and the salary is the value. If you sort this list using a stable sorting algorithm, the employees with the same name will remain in the same order after the sort. This can be useful for maintaining the original order of the data.
+
+Examples of stable sorting algorithms:
+
+•Merge sort
+
+•Insertion sort
+
+•Bubble sort
+
+•Binary tree sort
+
+Examples of unstable sorting algorithms:
+
+•Quicksort
+
+•Heap sort
+
+•Selection sort
+
+
+</p>
+
 **What are sorting algorithms?**
 <p align="justify">
 
@@ -222,6 +248,22 @@ Basically, sorting algorithms are ways to organize an array of items from smalle
 
 <a href="https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right."><img src="https://lamfo-unb.github.io/img/Sorting-algorithms/Insertion-sort-example-300px.gif">
 
+Straight insertion sort is a simple sorting algorithm that works by repeatedly inserting an element into a sorted sequence. It is a stable algorithm, meaning that it preserves the original order of equal elements in the input array. Straight insertion sort is a simple and efficient algorithm for sorting small arrays. However, it is not as efficient for sorting large arrays. The worst-case time complexity of straight insertion sort is O(n^2), which means that the sorting time increases quadratically with the size of the input array. Straight insertion sort is often used in embedded systems and other applications where memory is limited. It is also used in sorting algorithms that are more complex, such as merge sort and quicksort.
+
+2. ***Shell Sort:***
+
+<a href="https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right."><img src="https://lamfo-unb.github.io/img/Sorting-algorithms/Shell_Sort_Algorithm.gif">
+
+
+
+3. ***Shell Sort:***
+4. ***Shell Sort:***
+5. ***Shell Sort:***
+6. ***Shell Sort:***
+7. ***Shell Sort:***
+8. ***Shell Sort:***
+9. ***Shell Sort:***
+10. ***Shell Sort:***
 <br>
 
 ## Running Tests
