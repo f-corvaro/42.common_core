@@ -220,7 +220,7 @@ Basically, sorting algorithms are ways to organize an array of items from smalle
 
 1. ***Straight Insertion Sort:***
 
-<a href="https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right."><img width="650" src="https://lamfo-unb.github.io/img/Sorting-algorithms/Insertion-sort-example-300px.gif">
+<a href="https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right."><src="https://lamfo-unb.github.io/img/Sorting-algorithms/Insertion-sort-example-300px.gif">
 
 <br>
 
