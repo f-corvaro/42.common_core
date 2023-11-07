@@ -17,6 +17,7 @@ v10 | v12
 
 - [**GET\_NEXT\_LINE**](#get_next_line)
     - [Index](#index)
+  - [Folder Structure](#folder-structure)
   - [About](#about)
   - [To figure out](#to-figure-out)
   - [Into the code](#into-the-code)
@@ -36,6 +37,29 @@ v10 | v12
 
 
 <br>
+
+## Folder Structure
+
+<p align="justify">
+
+```
+.
+├── 01-get_next_line
+│   ├── get_next_line
+│   │   ├── file.txt
+│   │   ├── file2.txt
+│   │   ├── file3.txt
+│   │   ├── get_next_line_bonus.c
+│   │   ├── get_next_line_bonus.h
+│   │   ├── get_next_line_utils_bonus.c
+│   │   ├── get_next_line_utils.c
+│   │   ├── get_next_line.c
+│   │   └── get_next_line.h
+│   └── README.md
+```
+
+<br>
+
 
 ## About
 
