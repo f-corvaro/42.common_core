@@ -391,14 +391,18 @@ Heapsort is a sorting algorithm that uses a heap data structure to sort an array
 • Restore the heap property by replacing the removed root element with the largest of its child nodes.
 • Repeat steps 2 and 3 until the heap is empty.
 
-Example
+
+The worst-case time complexity of heapsort is O(n log n), and the average-case time complexity is also O(n log n). This makes heapsort one of the most efficient sorting algorithms available.
+
+***Example***
+
 Consider the following unsorted array:
 
 ```[5, 3, 2, 1, 4]```
 To sort this array using heapsort, we would first build a heap from the array. The heap would look as follows:
 
 ```
-5
+ 5
 / \
 3 2
 / \
@@ -408,10 +412,11 @@ To sort this array using heapsort, we would first build a heap from the array. T
 We would then repeatedly remove the root element of the heap and place it at the end of the sorted array. After the first iteration, the sorted array would look as follows:
 
 ```[4, 3, 2, 1, 5]```
+
 We would then restore the heap property by replacing the removed root element with the largest of its child nodes. The heap would then look as follows:
 
 ```
-4
+ 4
 / \
 2 3
 / \
@@ -422,51 +427,88 @@ We would repeat this process until the heap is empty. After the last iteration, 
 
 ```[1, 2, 3, 4, 5]```
 
-The worst-case time complexity of heapsort is O(n log n), and the average-case time complexity is also O(n log n). This makes heapsort one of the most efficient sorting algorithms available.
-
-Heapsort is a widely used sorting algorithm. It is used in many different applications, including:
-
-Operating systems
-Databases
-Compilers
-Graphics processing units (GPUs)
-
 <br>
 
 6. ***Revised Bubble Sort:***
+
+Revised Bubble Sort is a modified version of the Bubble Sort algorithm that improves its performance by using a flag variable to track whether any swaps were made during a pass through the array. If no swaps were made, then the array is already sorted and the algorithm can terminate early.
+
+The Revised Bubble Sort algorithm works as follows:
+
+Initialize a flag variable, swapped, to False.
+
+Iterate over the array, comparing each adjacent pair of elements.
+
+If the current element is greater than the next element, swap the two elements and set the swapped flag to True.
+
+If the swapped flag is False after the entire array has been traversed, then the array is already sorted and the algorithm can terminate.
+
+Otherwise, repeat steps 2-4 until the array is sorted.
 
 <br>
 
 7. ***Selection Sort:***
 
+Selection sort is a simple sorting algorithm that works by repeatedly selecting the smallest (or largest) element from an unsorted list and placing it at the beginning (or end) of the list. This process continues until the entire list is sorted. Selection sort is an in-place algorithm, meaning that it sorts the list in place without requiring any additional memory. It is also a comparison-based algorithm, meaning that it compares pairs of elements in the list to determine which element is smaller (or larger).
+
 <br>
 
 8.  ***Insertion Sort:***
+
+Insertion sort is a simple sorting algorithm that works by building the final sorted array one item at a time. It starts with an empty sorted array and then iterates over the unsorted array, inserting each element into the sorted array at the correct position. Insertion sort works by comparing the current element to the elements in the sorted array, starting from the end of the array and working backwards. If the current element is smaller than the element at the current position in the sorted array, then the current element is inserted into the sorted array at that position. Otherwise, the current element is skipped. Insertion sort is a stable sorting algorithm, meaning that it preserves the original order of elements with equal keys. It is also a relatively simple algorithm to implement, making it a good choice for small lists. However, insertion sort can be inefficient for large lists, as it needs to compare each element in the list to every other element in the list. In the worst case, insertion sort has a time complexity of O(n^2).
 
 <br>
 
 9. ***Merge Sort:***
 
-<br>
-
-10. ***Counting Sort:***
+Merge Sort is a divide-and-conquer algorithm that sorts an array by recursively dividing it into two halves, sorting each half, and then merging the two sorted halves back together. The merging step is the key to the Merge Sort algorithm. It works by comparing the elements of the two sorted halves and inserting the smaller element into the output array. The process continues until all of the elements from the two sorted halves have been merged into the output array. Merge Sort is a very efficient sorting algorithm, with a time complexity of O(n log n) in the worst case. It is also a stable sorting algorithm, which means that it preserves the original order of elements with equal keys. Merge Sort is a versatile sorting algorithm that can be used to sort arrays of any size. It is also a good choice for sorting arrays that contain elements with equal keys.
 
 <br>
 
-11. ***Radix Sort:***
+10.   ***Counting Sort:***
+
+
+Counting Sort is a non-comparison sorting algorithm that works by counting the number of occurrences of each element in the input array. It then creates an output array and places each element in the output array at the position corresponding to its count. Counting Sort is very efficient for sorting arrays with a limited range of values. Counting Sort is a very efficient sorting algorithm for arrays with a limited range of values. However, it is not as efficient for arrays with a large range of values.
 
 <br>
 
-12. ***Bucket Sort:***
+11.   ***Radix Sort:***
+
+Radix sort is a non-comparison sorting algorithm that works by repeatedly grouping elements together based on their digits, starting from the least significant digit. It is a very efficient sorting algorithm for integers, and can also be used to sort strings.
+
+Here is a high-level overview of the Radix Sort algorithm:
+
+1. Group the elements together based on their least significant digit.
+2. Recursively sort each group of elements.
+3. Repeat steps 1 and 2 until the elements are sorted.
+4. The grouping step is the key to the Radix Sort algorithm. It can be implemented using a variety of methods, such as counting sort or bucket sort.
+
+Radix Sort is a very efficient sorting algorithm, with a time complexity of O(dn) in the worst case, where d is the number of digits in the largest element in the array. It is also a stable sorting algorithm.
+
 
 <br>
 
-13. ***Comb Sort:***
+12.  ***Bucket Sort:***
+
+Bucket sort, also known as bin sort, is a sorting algorithm that works by dividing the input array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm or by recursively applying the bucket sort algorithm. Bucket sort is most efficient when the input array is uniformly distributed. In this case, each bucket will have an approximately equal number of elements, and the sorting algorithm can be applied to each bucket efficiently. The distribution of elements into the buckets can be implemented using a variety of methods, such as hashing or counting. The sorting of each bucket can be implemented using any sorting algorithm, such as insertion sort or merge sort. Bucket Sort is a versatile sorting algorithm that can be used to sort arrays of any size. It is a good choice for sorting arrays with a uniform distribution, or arrays that contain elements with a large range of values.
 
 <br>
 
-14. ***Turk algorithm:***
+13.  ***Comb Sort:***
 
+Comb sort is a relatively simple sorting algorithm that is based on bubble sort. It works by repeatedly comparing elements that are a certain distance apart, known as the gap. The gap starts at a large value and is gradually reduced until it reaches 1. At each step, comb sort compares adjacent elements and swaps them if they are in the wrong order. The gap is then reduced by a certain factor, such as 1.3 or 1.5. This process continues until the gap is 1, at which point the array is sorted. Comb sort is a more efficient sorting algorithm than bubble sort because it is able to compare elements that are further apart, which can lead to larger swaps. This can help to reduce the number of iterations required to sort the array. Comb sort is a good choice for sorting small arrays, or arrays that are already nearly sorted.
+
+<br>
+
+14.  ***Turk algorithm:***
+
+This algorithm works by pushing everything from STACK_A to STACK_B in descending order. The final result is the automatically sorted stack.
+
+
+
+
+
+merge sort, radix sort,
 
 <br>
 
