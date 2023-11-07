@@ -170,6 +170,8 @@ Are provided two programms named checker: one developed for linux and one for ma
 
 An algorithm is just a term for a set of instructions of what a program should do, and how it should do it.
 
+<br>
+
 **What does analysis of algorithms mean in Computer science?**
 
 The analysis of algorithms is the process of finding the computational complexity of algorithms, which means the amount of time, storage, or other resources needed to execute them. It is an important part of computer science, as it allows us to compare different algorithms and choose the most efficient one for a given problem.
@@ -196,6 +198,7 @@ Here are some of the key factors that are considered when analyzing algorithms:
 The program's runtime is directly proportional to its input size. Doubling the input size doubles the runtime; quadrupling the input size quadruples the run-time; and so forth. The time complexity of the linear search algorithm is O(n), where n is the number of elements in the array.
 
 </p>
+<br>
 
 **What is a stack?**
 <p align="justify">
@@ -215,6 +218,7 @@ Considered as a linear data structure, or more abstractly a sequential collectio
 For example, A stack is needed to implement depth-first search (is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking. Extra memory, usually a stack, is needed to keep track of the nodes discovered so far along a specified branch which helps in backtracking of the graph).
 
 </p>
+<br>
 
 **What is a binary search?**
 <p align="justify">
@@ -222,6 +226,7 @@ For example, A stack is needed to implement depth-first search (is an algorithm 
 Binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array. Binary search runs in logarithmic time in the worst case, making O(log(n)) comparisons, where n is the number of elements in the array. Binary search is faster than linear search except for small arrays. However, the array must be sorted first to be able to apply binary search. There are specialized data structures designed for fast searching, such as hash tables, that can be searched more efficiently than binary search. However, binary search can be used to solve a wider range of problems, such as finding the next-smallest or next-largest element in the array relative to the target even if it is absent from the array.
 
 </p>
+<br>
 
 **Which are the differences between stable and unstable algorithm?**
 <p align="justify">
@@ -248,6 +253,7 @@ Examples of unstable sorting algorithms:
 
 
 </p>
+<br>
 
 **What are sorting algorithms?**
 <p align="justify">
@@ -277,6 +283,8 @@ We would continue this process, comparing each element to the element before it 
 
 ```[1, 2, 3, 4, 5]```
 
+<br>
+
 2. ***Shell Sort:***
 
 <img src="https://i.gzn.jp/img/2014/05/01/sorting/quiqsort.gif">
@@ -301,6 +309,8 @@ We would then repeat the process with a gap of 1. This time, we would compare ea
 
 ```[1, 2, 3, 4, 5]```
 
+<br>
+
 3. ***Bubble Sort:***
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607">
@@ -324,6 +334,8 @@ We would then compare the second and third elements (3 and 2). Since 3 is greate
 We would continue this process, comparing adjacent elements and swapping them if necessary. After sorting the entire array, we would have the following sorted array:
 
 ```[1, 2, 3, 4, 5]```
+
+<br>
 
 4. ***Quicksort:***
 
@@ -365,6 +377,8 @@ We would then partition the array around the pivot element. We can use the Lomut
 The pivot element (3) is now in its correct position in the sorted array. The two subarrays created by the partition are also unsorted. The quicksort algorithm will now recursively sort the two subarrays.
 
 The quicksort algorithm will recursively sort the two subarrays until the entire array is sorted. After the algorithm terminates, the array will be sorted in ascending order.
+
+<br>
 
 5. ***Heapsort:***
 
@@ -417,38 +431,44 @@ Databases
 Compilers
 Graphics processing units (GPUs)
 
+<br>
 
 6. ***Revised Bubble Sort:***
 
+<br>
 
 7. ***Selection Sort:***
 
-
+<br>
 
 8.  ***Insertion Sort:***
 
-
+<br>
 
 9. ***Merge Sort:***
 
-
+<br>
 
 10. ***Counting Sort:***
 
+<br>
 
 11. ***Radix Sort:***
 
+<br>
 
 12. ***Bucket Sort:***
 
+<br>
 
 13. ***Comb Sort:***
 
+<br>
 
 14. ***Turk algorithm:***
 
 
-
+<br>
 
 
 <a href="https://www.crio.do/blog/top-10-sorting-algorithms/"><img src="https://www.crio.do/blog/content/images/2022/01/Top-10-Sorting-Algorithms-You-Need-To-Know.png">
