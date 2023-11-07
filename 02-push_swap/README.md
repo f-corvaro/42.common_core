@@ -370,8 +370,7 @@ The quicksort algorithm will recursively sort the two subarrays until the entire
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif">
 
-Heapsort is a sorting algorithm that uses a heap data structure to sort an array. A heap is a complete binary tree where each parent node is greater than or equal to its child nodes.
-The heapsort algorithm works as follows:
+Heapsort is a sorting algorithm that uses a heap data structure to sort an array. A heap is a complete binary tree where each parent node is greater than or equal to its child nodes. The heapsort algorithm works as follows:
 
 • Build a heap from the input array.
 • Repeatedly remove the root element of the heap (which is the largest element) and place it at the end of the sorted array.
@@ -381,27 +380,33 @@ The heapsort algorithm works as follows:
 Example
 Consider the following unsorted array:
 
-[5, 3, 2, 1, 4]
+```[5, 3, 2, 1, 4]```
 To sort this array using heapsort, we would first build a heap from the array. The heap would look as follows:
 
+```
 5
 / \
 3 2
 / \
 1 4
+```
+
 We would then repeatedly remove the root element of the heap and place it at the end of the sorted array. After the first iteration, the sorted array would look as follows:
 
-[4, 3, 2, 1, 5]
+```[4, 3, 2, 1, 5]```
 We would then restore the heap property by replacing the removed root element with the largest of its child nodes. The heap would then look as follows:
 
+```
 4
 / \
 2 3
 / \
 5 1
+```
+
 We would repeat this process until the heap is empty. After the last iteration, the sorted array would look as follows:
 
-[1, 2, 3, 4, 5]
+```[1, 2, 3, 4, 5]```
 
 The worst-case time complexity of heapsort is O(n log n), and the average-case time complexity is also O(n log n). This makes heapsort one of the most efficient sorting algorithms available.
 
@@ -455,6 +460,33 @@ Graphics processing units (GPUs)
 <br>
 
 ## Running Tests
+
+### Graphical User Interface
+
+<p align="justify">
+
+If you noticed this error, during the installation launched with the command ```pip3 install push_swap_gui```.
+
+```shell
+    ERROR: Command errored out with exit status 1:
+     command: /usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-amjzzxzo/pyttk/setup.py'"'"'; __file__='"'"'/tmp/pip-install-amjzzxzo/pyttk/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-install-amjzzxzo/pyttk/pip-egg-info
+         cwd: /tmp/pip-install-amjzzxzo/pyttk/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-amjzzxzo/pyttk/setup.py", line 2, in <module>
+        import ttk
+      File "/tmp/pip-install-amjzzxzo/pyttk/ttk.py", line 36, in <module>
+        import tkinter as Tkinter
+    ModuleNotFoundError: No module named 'tkinter'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+```
+
+You need to install Tkinter module:
+apt-get download python3.6-tk
+
+
 
 ### Testing mandatory part
 
