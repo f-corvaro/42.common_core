@@ -202,19 +202,11 @@ rrr : | rra and rrb at the same time
 <p>
 <br>
 
-## Resources Given <p align="justify">
+## Resources Given
+
+<p align="justify">
 
 Are provided two programms named checker: one developed for linux and one for mac. You can download it from [here](https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/resources_given)
-
-<br>
-
-**How do I use these?** <p align="justify">
-
-```
-$ ARG='4 0 1 3 2'; ./push_swap $ARG | ./checker $ARG
-
-OK
-```
 
 <p>
 <br>
