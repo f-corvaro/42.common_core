@@ -19,7 +19,9 @@
 
 After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo). Other rewards claimable with 42 login:
 [Lucidchart](https://www.lucidchart.com/pages/)
-[Jet Brains](https://www.jetbrains.com/community/education/#students)
+[Jet Brains](https://www.jetbrains.com/community/education/#students).
+
+I suggest installing [oh-my-zsh](https://ohmyz.sh/#install) for your terminal.
 
 ## Github utilities
 
