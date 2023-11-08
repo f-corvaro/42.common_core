@@ -20,6 +20,7 @@
 	- [Bonus Part](#bonus-part)
 	- [What I need to know?](#what-i-need-to-know)
 	- [Running Tests](#running-tests)
+		- [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
 		- [Testing mandatory part](#testing-mandatory-part)
 	- [Evaluation](#evaluation)
 		- [Correction sheet](#correction-sheet)
@@ -29,6 +30,7 @@
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
 	- [License](#license)
+
 
 
 <br>
@@ -45,7 +47,7 @@
 
 <p align="justify">
 
-The purpose of this project is to write a program named ```push_swap``` that takes as an argument the stack a formatted as a list of integers. So, this project will make you sort data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed you’ll have to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
+The purpose of this project is to write a program named ```push_swap``` that takes as an argument the stack a formatted as a list of integers. The purpose of this project is to sort the list of integers stored in stack A using a limited set of instructions and another stack called B. To score the maximum you need to use the lowest possible number of actions, is setted a maximum number of moves. There are many ways to manipulate this stack implementing different algorithms.
 
 <p>
 <br>
@@ -59,7 +61,7 @@ free, etc) apart from undefined behaviors.
 
 • All heap allocated memory space must be properly freed when necessary.
 
-• You must submit a Makefile which will compile your source files to the required output with the flags -Wall, -Wextra and -Werror, use cc, and your Makefile must not relink. And the Makefile must at least contain the rules ```$(NAME), all, clean, fclean and re (bonus if you want to completed)```.
+• You must submit a Makefile which will compile your source files to the required output with the flags -Wall, -Wextra and -Werror, use cc, and your Makefile must not relink. And the Makefile must at least contain the rules ```$(NAME), all, clean, fclean and re (bonus if you want maximum score)```.
 
 • If your project allows you to use your libft, you must copy its sources and its
 associated Makefile in a libft folder with its associated Makefile. Your project’s
@@ -72,12 +74,12 @@ Makefile must compile the library by using its Makefile, then compile the projec
 
 **Program name:** <p align="justify">
 
-```push_swap```
+```push_swap``` Which has as arguments a stack A (a list of integers).
 
-</p>p: The least amount of moves with two stacks
+</p>
 <br>
 
-**Files to turn in it:** <p align="justify">
+**Files to turn in:** <p align="justify">
 
 ```Makefile, *.h, *.c```
 
@@ -97,6 +99,29 @@ Libft authorized, and:
 </p>
 <br>
 
+**Goal:** <p align="justify">
+
+The goal is to sort the stack with the lowest possible number of operations. During the evaluation process, the number of instructions found by your program will be compared against a limit:
+
+```
+required: sort   3 numbers with <=     3 operations
+required: sort   5 numbers with <=    12 operations
+scored:   sort 100 numbers with <=   700 operations   max score
+                                     900 operations
+                                    1100 operations
+                                    1300 operations
+                                    1500 operations   min score
+scored:   sort 500 numbers with <=  5500 operations   max score
+                                    7000 operations
+                                    8500 operations
+                                   10000 operations
+                                   11500 operations   min score
+```
+
+<p>
+<br>
+
+
 **Requirements:** <p align="justify">
 
 • The first argument should be at the top of the stack.
@@ -113,9 +138,38 @@ prompt back.
 Errors include for example: some arguments aren’t integers, some arguments are
 bigger than an integer (MAXINT) and/or there are duplicates.
 
-• During the evaluation process, the number of instructions found by your program will be compared against a limit: the maximum number of operations tolerated. If your
-program either displays a longer list or if the numbers aren’t sorted properly, your
-grade will be 0.
+<br>
+
+***Examples:***
+
+```shell
+$>./push_swap 2 1 3 6 5 8
+sa
+pb
+pb
+pb
+sa
+pa
+pa
+pa
+$>./push_swap 0 one 2 3
+Error
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+6
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_OS $ARG
+OK
+$>
+```
+
+If the program checker_OS displays "KO", it means that your push_swap came up
+with a list of instructions that doesn’t sort the numbers.
+
+Where the command ARG="4 67 3 87 23" initializes a variable and assigns the string "4 67 3 87 23" to it. The string contains a sequence of space-separated numbers: 4, 67, 3, 87, and 23. These numbers represent the unsorted list of integers that will be passed to the push_swap program. The ARG variable acts as a placeholder for the unsorted list of integers. It's used later in the command to pass the list to the push_swap program.
+
+
+The push_swap program takes the unsorted list of integers as input and processes it using its sorting algorithm. It generates a list of instructions that describe the steps required to sort the list.
+
+So, a pipe ```|``` is used to connect the output of the push_swap program to the input of the ```wc -l``` command. Each instruction generated from push_swap program represents a separate line. The word count command with the flag -l counts the number of lines in its input, so it will count the number of instructions generated by the push_swap program.
 
 
 <p>
@@ -139,6 +193,8 @@ rra (reverse rotate a): | Shift down all elements of stack a by 1. The last elem
 rrb (reverse rotate b): | Shift down all elements of stack b by 1. The last element becomes the first one.
 rrr : | rra and rrb at the same time
 
+<br>
+
 **Example** <p align="justify">
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img width="450" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/example.png">
@@ -149,6 +205,16 @@ rrr : | rra and rrb at the same time
 ## Resources Given <p align="justify">
 
 Are provided two programms named checker: one developed for linux and one for mac. You can download it from [here](https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/resources_given)
+
+<br>
+
+**How do I use these?** <p align="justify">
+
+```
+$ ARG='4 0 1 3 2'; ./push_swap $ARG | ./checker $ARG
+
+OK
+```
 
 <p>
 <br>
@@ -161,7 +227,7 @@ Are provided two programms named checker: one developed for linux and one for ma
 <p>
 <br>
 
-## What I need to know?
+## What do I need to know?
 
 <p align="justify">
 
@@ -523,11 +589,13 @@ merge sort, radix sort,
 
 ## Running Tests
 
-### Graphical User Interface
+### Graphical User Interface - GUI (Usefull for testing purposes)
 
 <p align="justify">
 
-If you noticed this error, during the installation launched with the command ```pip3 install push_swap_gui```.
+I visualized my stacks with this [push-swap-gui 1.1](https://pypi.org/project/push-swap-gui/) wrote in Python. This is a python3 package added to PyPI. To run this, you need to run in the terminal the command: ```pip3 install push_swap_gui```.
+
+If you noticed an error like this:
 
 ```shell
     ERROR: Command errored out with exit status 1:
@@ -545,12 +613,14 @@ If you noticed this error, during the installation launched with the command ```
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
 ```
 
-You need to install Tkinter module:
-apt-get download python3.6-tk
+You need to install Tkinter, which is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. To install this on Linux, run the command:
+```sudo apt-get install python3-tk```.
+
+Then, move to your push_swap folder, compile your code and launch the application ```push_swap_gui```. You need to select a range of numbers (remember that 0 counts as 1) and generate stack A. You need to uncheck the square flag and select the path of your push_swap. After that, you must calculate the number of moves and click on the play button to view the visualizer's moves (remember that you can control the speed).
 
 
 
-### Testing mandatory part
+### Testing
 
 <p align="justify">
 
@@ -663,6 +733,9 @@ If you want to support me:</p>
 
 - [pivot_quick_sort](https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3)
 
+- [Push Swap — A journey to find most efficient sorting algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
+
+- [Fastest Push_Swap Algorithm](https://zainab-dnaya.medium.com/fastest-push-swap-algorithm-2f510028602b)
 <br>
 
 ## License
