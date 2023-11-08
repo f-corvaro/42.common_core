@@ -16,12 +16,12 @@
 	- [Folder Structure](#folder-structure)
 	- [About](#about)
 	- [The rules ](#the-rules-)
-	- [Resources Given ](#resources-given-)
+	- [Resources Given](#resources-given)
 	- [Bonus Part](#bonus-part)
-	- [What I need to know?](#what-i-need-to-know)
+	- [What do I need to know?](#what-do-i-need-to-know)
 	- [Running Tests](#running-tests)
 		- [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
-		- [Testing mandatory part](#testing-mandatory-part)
+		- [Testing](#testing)
 	- [Evaluation](#evaluation)
 		- [Correction sheet](#correction-sheet)
 		- [Norminette Result](#norminette-result)
@@ -30,6 +30,7 @@
 	- [Skills developed](#skills-developed)
 	- [Sources](#sources)
 	- [License](#license)
+
 
 
 
@@ -52,7 +53,9 @@ The purpose of this project is to write a program named ```push_swap``` that tak
 <p>
 <br>
 
-**Some rules to keep in mind:** <p align="justify">
+**Some rules to keep in mind:**
+
+<p align="justify">
 
 • Your project must be written in C (in accordance with the Norm).
 
@@ -72,21 +75,27 @@ Makefile must compile the library by using its Makefile, then compile the projec
 <p>
 <br>
 
-**Program name:** <p align="justify">
+**Program name:**
+
+<p align="justify">
 
 ```push_swap``` Which has as arguments a stack A (a list of integers).
 
 </p>
 <br>
 
-**Files to turn in:** <p align="justify">
+**Files to turn in:**
+
+<p align="justify">
 
 ```Makefile, *.h, *.c```
 
 </p>
 <br>
 
-**External functs. allowed:** <p align="justify">
+**External functs. allowed:**
+
+<p align="justify">
 
 Libft authorized, and:
 
@@ -99,7 +108,9 @@ Libft authorized, and:
 </p>
 <br>
 
-**Goal:** <p align="justify">
+**Goal:**
+
+<p align="justify">
 
 The goal is to sort the stack with the lowest possible number of operations. During the evaluation process, the number of instructions found by your program will be compared against a limit:
 
@@ -122,7 +133,9 @@ scored:   sort 500 numbers with <=  5500 operations   max score
 <br>
 
 
-**Requirements:** <p align="justify">
+**Requirements:**
+
+<p align="justify">
 
 • The first argument should be at the top of the stack.
 
@@ -175,7 +188,9 @@ So, a pipe ```|``` is used to connect the output of the push_swap program to the
 <p>
 <br>
 
-## The rules <p align="justify">
+## The rules
+
+<p align="justify">
 
 You have 2 stacks named a and b. The stack a contains a random amount of negative and/or positive numbers which cannot be duplicated, instead the stack b is empty. The goal is to sort in ascending order numbers into stack a. To do this, you have the following operations at your disposal:
 
@@ -195,7 +210,9 @@ rrr : | rra and rrb at the same time
 
 <br>
 
-**Example** <p align="justify">
+**Example**
+
+<p align="justify">
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img width="450" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/example.png">
 
@@ -215,8 +232,79 @@ Are provided two programms named checker: one developed for linux and one for ma
 
 <p align="justify">
 
+The request of the bonus is regarding the checker, in particular is requested to create your own checker. This checker takes as an argument the stack A formatted as a list of integers. The first argument should be at the top of the stack (be careful
+about the order). If no argument is given, it stops and displays nothing. It will then wait and read instructions on the standard input, each instruction will
+be followed by ’\n’. Once all the instructions have been read, the program has to
+execute them on the stack received as an argument. What does it do?
+
+•If after executing those instructions, the stack a is actually sorted and the stack b
+is empty, then the program must display "OK" followed by a ’\n’ on the standard
+output.
+
+•In every other case, it must display "KO" followed by a ’\n’ on the standard output.
+
+•In case of error, you must display "Error" followed by a ’\n’ on the standard er-
+ror. Errors include for example: some arguments are not integers, some arguments
+are bigger than an integer, there are duplicates, an instruction doesn’t exist and/or
+is incorrectly formatted.
+
+```shell
+$>./checker 3 2 1 0
+rra
+pb
+sa
+rra
+pa
+OK
+$>./checker 3 2 1 0
+sa
+rra
+pb
+KO
+$>./checker 3 2 one 0
+Error
+$>./checker "" 1
+Error
+$>
+```
+
+You DO NOT have to reproduce the exact same behavior as the provided
+binary. It is mandatory to manage errors but it is up to you to
+decide how you want to parse the arguments.
 
 <p>
+
+**Program name:**
+
+<p align="justify">
+
+```checker``` Which has as arguments a stack A (a list of integers).
+
+<p>
+<br>
+
+**Files to turn in:**
+
+<p align="justify">
+
+```*.h, *.c```
+
+</p>
+<br>
+
+**External functs. allowed:**
+
+<p align="justify">
+
+Libft authorized, and:
+
+```
+1. read, write, malloc, free, exit
+
+2. ft_printf and any equivalent YOU coded
+```
+
+</p>
 <br>
 
 ## What do I need to know?
@@ -224,6 +312,7 @@ Are provided two programms named checker: one developed for linux and one for ma
 <p align="justify">
 
 **What is an algorithm?**
+
 <p align="justify">
 
 An algorithm is just a term for a set of instructions of what a program should do, and how it should do it.
@@ -259,6 +348,7 @@ The program's runtime is directly proportional to its input size. Doubling the i
 <br>
 
 **What is a stack?**
+
 <p align="justify">
 
 A stack is an abstract data type that serves as a collection of elements, with two main operations:
@@ -279,6 +369,7 @@ For example, A stack is needed to implement depth-first search (is an algorithm 
 <br>
 
 **What is a binary search?**
+
 <p align="justify">
 
 Binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array. Binary search runs in logarithmic time in the worst case, making O(log(n)) comparisons, where n is the number of elements in the array. Binary search is faster than linear search except for small arrays. However, the array must be sorted first to be able to apply binary search. There are specialized data structures designed for fast searching, such as hash tables, that can be searched more efficiently than binary search. However, binary search can be used to solve a wider range of problems, such as finding the next-smallest or next-largest element in the array relative to the target even if it is absent from the array.
@@ -287,6 +378,7 @@ Binary search, also known as half-interval search, logarithmic search, or binary
 <br>
 
 **Which are the differences between stable and unstable algorithm?**
+
 <p align="justify">
 
 A stable sorting algorithm is one that preserves the relative order of equal elements in the input sequence. An unstable sorting algorithm is one that does not preserve the relative order of equal elements. In other words, if you have a list of elements with duplicate values, and you sort the list using a stable sorting algorithm, the duplicate values will remain in the same order relative to each other after the sort. However, if you sort the list using an unstable sorting algorithm, the duplicate values may be rearranged in any order. Stability is important in some cases, such as when sorting a list of key-value pairs, where the key is the sort key and the value is some other data associated with the key. For example, you might have a list of employee names and their salaries, where the name is the sort key and the salary is the value. If you sort this list using a stable sorting algorithm, the employees with the same name will remain in the same order after the sort. This can be useful for maintaining the original order of the data.
@@ -314,6 +406,7 @@ Examples of unstable sorting algorithms:
 <br>
 
 **What are sorting algorithms?**
+
 <p align="justify">
 
 Basically, sorting algorithms are ways to organize an array of items from smallest to largest. To analize the algorithm complexity and efficiency is needed to understand the Big O notation (O(n)). The most common algorithms for sorting are:
@@ -624,7 +717,7 @@ Then, move to your push_swap folder, compile your code and launch the applicatio
 
 ## Evaluation
 
-Test the notable cases: 0, 1, 3, 5, 50, 100, 250, 500 and iterate many times to understand the efficiency.
+Test the notable cases: 0, 1, 3, 5, 50, 100, 250 and 500 and iterate many times to understand the efficiency.
 
 ### Correction sheet
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/.cs/cs1.png">
