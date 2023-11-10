@@ -12,24 +12,26 @@
 ### Index
 
 - [**PUSH SWAP**](#push-swap)
-		- [Index](#index)
-	- [Folder Structure](#folder-structure)
-	- [About](#about)
-	- [The rules ](#the-rules-)
-	- [Resources Given](#resources-given)
-	- [Bonus Part](#bonus-part)
-	- [What do I need to know?](#what-do-i-need-to-know)
-	- [Running Tests](#running-tests)
-		- [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
-		- [Testing](#testing)
-	- [Evaluation](#evaluation)
-		- [Correction sheet](#correction-sheet)
-		- [Norminette Result](#norminette-result)
-	- [Treasure hunt](#treasure-hunt)
-	- [Support Me](#support-me)
-	- [Skills developed](#skills-developed)
-	- [Sources](#sources)
-	- [License](#license)
+    - [Index](#index)
+  - [Folder Structure](#folder-structure)
+  - [About](#about)
+  - [The rules](#the-rules)
+  - [Resources Given](#resources-given)
+  - [Bonus Part](#bonus-part)
+  - [What do I need to know?](#what-do-i-need-to-know)
+  - [How can I organize the "first real hard project"?](#how-can-i-organize-the-first-real-hard-project)
+  - [Running Tests](#running-tests)
+    - [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
+    - [Testing](#testing)
+  - [Evaluation](#evaluation)
+    - [Correction sheet](#correction-sheet)
+    - [Norminette Result](#norminette-result)
+  - [Treasure hunt](#treasure-hunt)
+  - [Support Me](#support-me)
+  - [Skills developed](#skills-developed)
+  - [Sources](#sources)
+  - [License](#license)
+
 
 
 
@@ -144,12 +146,10 @@ scored:   sort 500 numbers with <=  5500 operations   max score
 • The program must display the smallest list of instructions possible to sort the stack
 a, the smallest number being at the top.
 
-• If no parameters are specified, the program must not display anything and give the
-prompt back.
+• If no parameters are specified, the program must not display anything and give the prompt back.
 
 • In case of error, it must display ```"Error"``` followed by a ```’\n’``` on the standard error.
-Errors include for example: some arguments aren’t integers, some arguments are
-bigger than an integer (MAXINT) and/or there are duplicates.
+Errors include for example: some arguments aren’t integers, some arguments are bigger than an integer (MAXINT) and/or there are duplicates.
 
 <br>
 
@@ -243,9 +243,7 @@ output.
 
 •In every other case, it must display "KO" followed by a ’\n’ on the standard output.
 
-•In case of error, you must display "Error" followed by a ’\n’ on the standard er-
-ror. Errors include for example: some arguments are not integers, some arguments
-are bigger than an integer, there are duplicates, an instruction doesn’t exist and/or
+•In case of error, you must display "Error" followed by a ’\n’ on the standard error. Errors include for example: some arguments are not integers, some arguments are bigger than an integer, there are duplicates, an instruction doesn’t exist and/or
 is incorrectly formatted.
 
 ```shell
@@ -651,15 +649,16 @@ Comb sort is a relatively simple sorting algorithm that is based on bubble sort.
 
 <br>
 
-14.  ***Turk algorithm:***
+14.  ***Mechanical Turk algorithm:***
 
-This algorithm works by pushing everything from STACK_A to STACK_B in descending order. The final result is the automatically sorted stack.
+This MTurk algorithm allows programmers to think about algorithmic tasks as simple straight-line imperative programs, where calls to MTurk appear as ordinary function calls.
+
+The Turk algorithm consists of two main components:
+
+- Forks: A fork allows a programmer to split the execution of a program into two parallel paths. Each path can then call MTurk to perform some task, and the results of the two paths can then be recombined.
 
 
-
-
-
-merge sort, radix sort,
+- Joins: A join ensures that a series of forks have all finished before continuing execution.
 
 <br>
 
@@ -667,10 +666,15 @@ merge sort, radix sort,
 <a href="https://www.crio.do/blog/top-10-sorting-algorithms/"><img src="https://www.crio.do/blog/content/images/2022/01/Top-10-Sorting-Algorithms-You-Need-To-Know.png">
 
 
-
-
-
 <br>
+
+## How can I organize the "first real hard project"?
+
+<p align="justify">
+
+Firstly, you need to understand what this program should do. You need to study all the theory that you need and understand which algorithm you want to implement in your code. Secondly, you need to do a pattern to understand how to divide this project into many smaller ones. So, don't panic. I will show you my organization pattern:
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/push_swap.png">
 
 ## Running Tests
 
