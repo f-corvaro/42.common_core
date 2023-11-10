@@ -674,7 +674,7 @@ The Turk algorithm consists of two main components:
 
 Firstly, you need to understand what this program should do. You need to study all the theory that you need and understand which algorithm you want to implement in your code. Secondly, you need to do a pattern to understand how to divide this project into many smaller ones. So, don't panic. I will show you my organization pattern:
 
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/Push_Swap.png">
+<a href="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/Push_Swap.png"><img src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/Push_Swap.png">
 
 ## Running Tests
 
