@@ -248,32 +248,14 @@ struct Node {
 ## 5 - Running Tests
 
 <p align="justify">
-To run tests, run the following command: </p>
-
-<p align="justify"> This command is used to run the makefile with the rules and dependencies that we develop. In this project make will compile and give to us `.o` files from `.c` sources. </p>
+To run tests use ```make``` command. To get an overview of all make commands run:
 
 ```bash
-  make
+make info
 ```
 
-<p align="justify"> This command will remove all `.o` files from our directory. </p>
-
-```bash
-  make clean
-```
-
-<p align="justify"> This command will remove all `.o` files from our directory and remove the `.a` file. </p>
-
-```bash
-  make fclean
-```
-
-<p align="justify"> This command will do the `fclean` and will do the make again. </p>
-
-```bash
-  make re
-```
  <a href="https://github.com/f-corvaro/42.common_core/tree/main/00-libft"><img align="center" alt="running test" width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/00-libft/.extra/make.gif">
+ 
 </p>
 <br>
 

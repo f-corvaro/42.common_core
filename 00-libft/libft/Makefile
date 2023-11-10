@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/30 15:10:03 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/11/10 17:44:13 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/11/10 17:50:17 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -67,15 +67,15 @@ fclean: clean
 re : fclean all
 
 #declare the .PHONY is used to explicitly declare false targets.
-.PHONY : all clean fclean re bonus usage
+.PHONY : all clean fclean re bonus info
 
-usage:
-	@echo "	fcorvaro's libft: make [usage | all | bonus | clean | fclean | re]"
+info:
+	@echo "	fcorvaro's libft: make [info | all | bonus | clean | fclean | re]"
 	@echo
 	@echo "	libft build targets"
 	@echo "		all: compile the library"
 	@echo "		bonus: compile the library with bonus"
 	@echo "		clean: remove object files"
 	@echo "		fclean: remove object files and archive library"
+	@echo "		info: displays informations"
 	@echo "		re: fclean and all						"
-	@echo "		usage: displays informations"
