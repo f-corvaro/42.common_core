@@ -6,7 +6,7 @@
 #    By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/30 15:10:03 by fcorvaro          #+#    #+#              #
-#    Updated: 2023/04/18 10:07:50 by fcorvaro         ###   ########.fr        #
+#    Updated: 2023/11/10 17:44:13 by fcorvaro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ NAME = libft.a
 #being added * Write an object-file index into the archive, or update an existing
 #one, even if noother change is made to the archive.
 #ar s on an archive is equivalent to running ranlib on it.
-LIBC = ar rcs
+AR = ar rcs
 #CC is my compiler, that are called macro
 CC = cc
 # RM is remove forced
@@ -49,14 +49,14 @@ OBJS_B = ${SRCS_B:.c=.o}
 #means "the first prerequisite" - the first thing after the : in the line above.
 .c.o:
 		${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
-#this command mean take the OBJS and put into the NAME with the commands of LIBC
+#this command mean take the OBJS and put into the NAME with the commands of AR
 ${NAME}: ${OBJS}
-		${LIBC} ${NAME} ${OBJS}
+		${AR} ${NAME} ${OBJS}
 
 all: ${NAME}
 #for the bonus part
 bonus:	${NAME} ${OBJS_B}
-	${LIBC} ${NAME} ${OBJS_B}
+	${AR} ${NAME} ${OBJS_B}
 #The clean will remove all .o files
 clean:
 	${RM} ${OBJS} ${OBJS_B}
@@ -67,4 +67,15 @@ fclean: clean
 re : fclean all
 
 #declare the .PHONY is used to explicitly declare false targets.
-.PHONY : all clean fclean re
+.PHONY : all clean fclean re bonus usage
+
+usage:
+	@echo "	fcorvaro's libft: make [usage | all | bonus | clean | fclean | re]"
+	@echo
+	@echo "	libft build targets"
+	@echo "		all: compile the library"
+	@echo "		bonus: compile the library with bonus"
+	@echo "		clean: remove object files"
+	@echo "		fclean: remove object files and archive library"
+	@echo "		re: fclean and all						"
+	@echo "		usage: displays informations"
