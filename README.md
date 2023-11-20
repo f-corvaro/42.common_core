@@ -61,7 +61,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 [![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole days (without bonus) = 18 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 25 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/01-get_next_line) (C - solo project)
 
