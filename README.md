@@ -42,7 +42,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole days (with bonus) = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 65 Days``` | ```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
 </p>
 
 <br>
@@ -55,17 +55,17 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1```
+  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1``` | ```Tester available```
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/01-ft_printf) (C - solo project)
 
 [![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole days (with bonus) = 25 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 25 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/01-get_next_line) (C - solo project)
 
-  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
 
 [![fcorvaro's 42 get_next_line Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
