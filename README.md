@@ -143,7 +143,7 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 ## Support Me
 
 <p align="justify">
-I hope this guide helped you understand this project. Remember to ⭐ the repository.
+Remember to ⭐ the repository.
 If you want to support me:</p>
 
 <p align="center">
