@@ -10,7 +10,7 @@ v9 | v10
 
 <table><tr><td>This guide is made for the subject v10, there aren't differences between the two subjects</td></tr></table>
 
-**WARNING:** *Before to push, you need to check where moulinette will be executed. There is a difference of length and information printed return of printf, and it depends on macOS or Ubuntu system.*
+**WARNING:** *Before the push, you need to check where the moulinette will be executed. There is a difference in length and information printed in the return of printf, and it depends on the macOS or Ubuntu system. If you choose  ft_printf_100, you need to check where moulinette runs. Otherwise, if you choose ft_printf_125, there are two macro conditions that will validate your project with 125 in both systems.*
 
 </p>
 <br>
@@ -48,116 +48,42 @@ v9 | v10
 ```
 .
 ├── 01-ft_printf
-│   ├── ft_printf_macOS
-│   │   ├── ft_printf
-│   │   │   ├── ft_hexadecimal.c
-│   │   │   ├── ft_pointer.c
-│   │   │   ├── ft_printf.c
-│   │   │   ├── ft_printf.h
-│   │   │   ├── ft_unsigned.c
-│   │   │   └── ft_utils.c
-│   │   ├── libft
-│   │   │   ├── ft_atoi.c
-│   │   │   ├── ft_bzero.c
-│   │   │   ├── ft_calloc.c
-│   │   │   ├── ft_isalnum.c
-│   │   │   ├── ft_isalpha.c
-│   │   │   ├── ft_isascii.c
-│   │   │   ├── ft_isdigit.c
-│   │   │   ├── ft_isprint.c
-│   │   │   ├── ft_itoa.c
-│   │   │   ├── ft_lstadd_back.c
-│   │   │   ├── ft_lstadd_front.c
-│   │   │   ├── ft_lstclear.c
-│   │   │   ├── ft_lstdelone.c
-│   │   │   ├── ft_lstiter.c
-│   │   │   ├── ft_lstlast.c
-│   │   │   ├── ft_lstmap.c
-│   │   │   ├── ft_lstnew.c
-│   │   │   ├── ft_lstsize.c
-│   │   │   ├── ft_memchr.c
-│   │   │   ├── ft_memcmp.c
-│   │   │   ├── ft_memcpy.c
-│   │   │   ├── ft_memmove.c
-│   │   │   ├── ft_memset.c
-│   │   │   ├── ft_putchar_fd.c
-│   │   │   ├── ft_putendl_fd.c
-│   │   │   ├── ft_putnbr_fd.c
-│   │   │   ├── ft_putstr_fd.c
-│   │   │   ├── ft_split.c
-│   │   │   ├── ft_strchr.c
-│   │   │   ├── ft_strdup.c
-│   │   │   ├── ft_striteri.c
-│   │   │   ├── ft_strjoin.c
-│   │   │   ├── ft_strlcat.c
-│   │   │   ├── ft_strlcpy.c
-│   │   │   ├── ft_strlen.c
-│   │   │   ├── ft_strmapi.c
-│   │   │   ├── ft_strncmp.c
-│   │   │   ├── ft_strnstr.c
-│   │   │   ├── ft_strrchr.c
-│   │   │   ├── ft_strtrim.c
-│   │   │   ├── ft_substr.c
-│   │   │   ├── ft_tolower.c
-│   │   │   ├── ft_toupper.c
-│   │   │   ├── libft.h
-│   │   │   └── Makefile
-│   │   └── Makefile
-│   ├── ft_printf_ubuntu
-│   │   ├── ft_printf
-│   │   │   ├── ft_hexadecimal.c
-│   │   │   ├── ft_pointer.c
-│   │   │   ├── ft_printf.c
-│   │   │   ├── ft_printf.h
-│   │   │   ├── ft_unsigned.c
-│   │   │   └── ft_utils.c
-│   │   ├── libft
-│   │   │   ├── ft_atoi.c
-│   │   │   ├── ft_bzero.c
-│   │   │   ├── ft_calloc.c
-│   │   │   ├── ft_isalnum.c
-│   │   │   ├── ft_isalpha.c
-│   │   │   ├── ft_isascii.c
-│   │   │   ├── ft_isdigit.c
-│   │   │   ├── ft_isprint.c
-│   │   │   ├── ft_itoa.c
-│   │   │   ├── ft_lstadd_back.c
-│   │   │   ├── ft_lstadd_front.c
-│   │   │   ├── ft_lstclear.c
-│   │   │   ├── ft_lstdelone.c
-│   │   │   ├── ft_lstiter.c
-│   │   │   ├── ft_lstlast.c
-│   │   │   ├── ft_lstmap.c
-│   │   │   ├── ft_lstnew.c
-│   │   │   ├── ft_lstsize.c
-│   │   │   ├── ft_memchr.c
-│   │   │   ├── ft_memcmp.c
-│   │   │   ├── ft_memcpy.c
-│   │   │   ├── ft_memmove.c
-│   │   │   ├── ft_memset.c
-│   │   │   ├── ft_putchar_fd.c
-│   │   │   ├── ft_putendl_fd.c
-│   │   │   ├── ft_putnbr_fd.c
-│   │   │   ├── ft_putstr_fd.c
-│   │   │   ├── ft_split.c
-│   │   │   ├── ft_strchr.c
-│   │   │   ├── ft_strdup.c
-│   │   │   ├── ft_striteri.c
-│   │   │   ├── ft_strjoin.c
-│   │   │   ├── ft_strlcat.c
-│   │   │   ├── ft_strlcpy.c
-│   │   │   ├── ft_strlen.c
-│   │   │   ├── ft_strmapi.c
-│   │   │   ├── ft_strncmp.c
-│   │   │   ├── ft_strnstr.c
-│   │   │   ├── ft_strrchr.c
-│   │   │   ├── ft_strtrim.c
-│   │   │   ├── ft_substr.c
-│   │   │   ├── ft_tolower.c
-│   │   │   ├── ft_toupper.c
-│   │   │   ├── libft.h
-│   │   │   └── Makefile
-│   │   └── Makefile
+│   ├── ft_printf
+│   │   ├── ft_printf_100
+│   │   │   ├── ft_printf_macOS
+│   │   │   │   ├── ft_printf
+│   │   │   │   │   ├── ft_hexadecimal.c
+│   │   │   │   │   ├── ft_pointer.c
+│   │   │   │   │   ├── ft_printf.c
+│   │   │   │   │   ├── ft_printf.h
+│   │   │   │   │   ├── ft_unsigned.c
+│   │   │   │   │   └── ft_utils.c
+│   │   │   │   ├── libft
+│   │   │   └── ft_printf_ubuntu
+│   │   │       ├── ft_printf
+│   │   │       │   ├── ft_hexadecimal.c
+│   │   │       │   ├── ft_pointer.c
+│   │   │       │   ├── ft_printf.c
+│   │   │       │   ├── ft_printf.h
+│   │   │       │   ├── ft_unsigned.c
+│   │   │       │   └── ft_utils.c
+│   │   │       ├── libft
+│   │   │       └── Makefile
+│   │   └── ft_printf_125
+│   │       ├── include
+│   │       │   └── ft_printf.h
+│   │       ├── libft
+│   │       │   ├── include
+│   │       │   ├── srcs
+│   │       │   └── Makefile
+│   │       ├── srcs
+│   │       │   ├── ft_format.c
+│   │       │   ├── ft_parse_and_handle_funcs.c
+│   │       │   ├── ft_printf_funcs.c
+│   │       │   ├── ft_printf.c
+│   │       │   ├── ft_ptr.c
+│   │       │   └── ft_utility_funcs.c
+│   │       └── Makefile
 │   ├── main.c
 │   └── README.md
 ```
@@ -166,7 +92,7 @@ v9 | v10
 
 <p align="justify">
 
-This assignment is made with the purpose of write a library that contains ft_printf(), a function that will mimic the original printf() from libc. I will use the libft library with the purpose of recreate my own library for the next projects. An in-depth study is about the variadic functions.
+This assignment is made with the purpose of write a library that contains ft_printf(), a function that will mimic the original printf() from libc. I will use the libft library with the purpose of recreate my own library for the next projects. An in-depth study is about the variadic functions. Furthermore, you need to understand how to include a static library in another.
 
 <p>
 <br>
@@ -474,56 +400,7 @@ category: mix
 ### Norminette Result
 
 ```shell
-ft_printf/ft_printf.h: OK!
-ft_printf/ft_unsigned.c: OK!
-ft_printf/ft_pointer.c: OK!
-ft_printf/ft_printf.c: OK!
-ft_printf/ft_utils.c: OK!
-ft_printf/ft_hexadecimal.c: OK!
-libft/ft_substr.c: OK!
-libft/ft_isascii.c: OK!
-libft/ft_lstadd_front.c: OK!
-libft/ft_lstmap.c: OK!
-libft/ft_memcpy.c: OK!
-libft/ft_split.c: OK!
-libft/ft_memset.c: OK!
-libft/ft_putstr_fd.c: OK!
-libft/ft_itoa.c: OK!
-libft/ft_isdigit.c: OK!
-libft/ft_lstclear.c: OK!
-libft/ft_strncmp.c: OK!
-libft/ft_putchar_fd.c: OK!
-libft/ft_toupper.c: OK!
-libft/ft_isalnum.c: OK!
-libft/ft_calloc.c: OK!
-libft/ft_strjoin.c: OK!
-libft/ft_strnstr.c: OK!
-libft/libft.h: OK!
-libft/ft_memchr.c: OK!
-libft/ft_strtrim.c: OK!
-libft/ft_isprint.c: OK!
-libft/ft_strlcpy.c: OK!
-libft/ft_lstnew.c: OK!
-libft/ft_bzero.c: OK!
-libft/ft_strchr.c: OK!
-libft/ft_lstiter.c: OK!
-libft/ft_strrchr.c: OK!
-libft/ft_strmapi.c: OK!
-libft/ft_memmove.c: OK!
-libft/ft_isalpha.c: OK!
-libft/ft_putendl_fd.c: OK!
-libft/ft_lstdelone.c: OK!
-libft/ft_putnbr_fd.c: OK!
-libft/ft_lstsize.c: OK!
-libft/ft_atoi.c: OK!
-libft/ft_striteri.c: OK!
-libft/ft_memcmp.c: OK!
-libft/ft_lstlast.c: OK!
-libft/ft_strdup.c: OK!
-libft/ft_strlen.c: OK!
-libft/ft_strlcat.c: OK!
-libft/ft_tolower.c: OK!
-libft/ft_lstadd_back.c: OK!
+OK!
 ```
 
 <br>
