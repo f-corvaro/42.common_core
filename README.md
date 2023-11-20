@@ -77,7 +77,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 <p align="justify">
 
-From here, you don't have MOULINETTE. All the projects will be evaluated from peers. You must do your choice between:
+From here, you don't have MOULINETTE. All the projects will be evaluated by peers. You must make your choice between:
 
 • [```pipex```](https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/en.subject.pdf) or [```minitalk```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/minitalk.pdf)
 
