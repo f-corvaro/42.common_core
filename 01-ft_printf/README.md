@@ -407,7 +407,15 @@ OK!
 
 ### Moulinette Result
 
+<p align="justify">
+
+I made this project three times, the first one I failed because I did only the mandatory part and I worked on an Ubuntu system, so I failed for the condition void pointer. The second time I fixed the problem, I received a 100.
+
 <a href="https://projects.intra.42.fr/projects/42cursus-ft_printf/projects_users/3069521"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/01-ft_printf/.extra/moulinette.png">
+
+The third time I made the bonus part, I got a 125. You can check it out on my intra page.
+
+</p>
 
 <br>
 
