@@ -59,7 +59,7 @@ Welcome to my journey at the 42 School. I created this repository to keep a litt
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/01-ft_printf) (C - solo project)
 
-[![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
+[![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
   ```BlackHole days (without bonus) = 18 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
