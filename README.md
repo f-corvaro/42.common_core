@@ -56,7 +56,7 @@ I handled the various projects done in 42 school. I hope you enjoy it. Good codi
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project give to evaluators 2 points evaluation, but you spent 1``` | ```Tester available```
+  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project gives to evaluators 2 points evaluation, but you spent 1``` | ```Tester available```
 
 ### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/01-ft_printf) (C - solo project)
 
