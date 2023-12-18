@@ -399,7 +399,7 @@ is made for the trasure hunt. The code you provided is in ASCII art, a type of d
 ## Support Me
 
 <p align="justify">
-I hope this guide helped you understand this project. Remember to ⭐ the repository.
+Remember to ⭐ the repository.
 If you want to support me:</p>
 
 <p align="center">
