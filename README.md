@@ -28,7 +28,8 @@
 
 <p align="justify">
 
-Welcome to my journey at the 42 School. I created this repository to keep a little diary about my coding experience and to give a little guide to the projects at 42 School. I hope this will help someone in the future understand the knowledge necessary to have done the projects. Watch out for the subject version of the project, it could change. Good coding!
+Welcome! This repository contains other sub-repo, one for each project, where you can find how
+I handled the various projects done in 42 school. I hope you enjoy it. Good coding!
 
 </p>
 
