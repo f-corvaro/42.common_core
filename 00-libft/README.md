@@ -27,7 +27,9 @@
 
 ## 0 - About
 <p align="justify">
-The journey in 42 Schools starts from here, this is the first project you face it. The purpose of the project is to re-code some libc functions and other common utility functions and include in an archive library, that it will be very helpful for the future projects. This repository contains my first work, without comments, you can find my new updated version [here](https://github.com/f-corvaro/my_static_C_library) . In this project there is norminette and Moulinette, so you will be checked from peers and Moulinette.
+The journey in 42 Schools starts from here, this is the first project you face it. The purpose of the project is to re-code some libc functions and other common utility functions and include in an archive library, that it will be very helpful for the future projects. This repository contains my first work, without comments, you can find my new updated version
+[here](https://github.com/f-corvaro/my_static_C_library).
+In this project there is norminette and Moulinette, so you will be checked from peers and Moulinette.
 
 </p>
 <br>
