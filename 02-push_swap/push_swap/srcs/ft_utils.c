@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/17 21:23:09 by fcorvaro          #+#    #+#             */
-/*   Updated: 2024/01/19 14:03:38 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2024/01/19 14:16:23 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,9 @@ int	ft_atoi_val(const char *str)
 	{
 		if (!ft_isdigit(*str))
 			ft_print_error();
-		res = res * 10 + sign * (*str++ - 48);
+		res = res * 10 + (*str++) - 48;
 	}
-	if (res > INT_MAX || res < INT_MIN)
+	if ((res * sign) > INT_MAX || (res * sign) < INT_MIN)
 		ft_print_error();
 	return (res * sign);
 }
