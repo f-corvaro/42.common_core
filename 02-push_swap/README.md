@@ -21,17 +21,18 @@
   - [What do I need to know?](#what-do-i-need-to-know)
   - [How can I organize the "first real hard project"?](#how-can-i-organize-the-first-real-hard-project)
   - [Running Tests](#running-tests)
-    - [Leaks](#leaks)
+    - [Leaks test](#leaks-test)
     - [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
+      - [How to use?](#how-to-use)
     - [Testing](#testing)
   - [Evaluation](#evaluation)
     - [Correction sheet](#correction-sheet)
-    - [Norminette Result](#norminette-result)
   - [Treasure hunt](#treasure-hunt)
   - [Support Me](#support-me)
   - [Skills developed](#skills-developed)
   - [Sources](#sources)
   - [License](#license)
+
 
 
 <br>
@@ -256,7 +257,7 @@ rrr : | rra and rrb at the same time
 
 <p align="justify">
 
-Are provided two programms named checker: one developed for linux and one for mac. You can download it from [here](https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/resources_given)
+Are provided two programms named checker: one developed for linux and one for mac. You can download it from [here](https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/resources_given). To use correctly the executables, you need to modify the permissions of these. Run ```chmod 777 "name of the executable"```.
 
 <p>
 <br>
@@ -472,7 +473,7 @@ print(' '.join(map(str, numbers)))
 
 used on this [website](https://www.online-python.com/).
 
-### Leaks
+### Leaks test
 
 To check is the memory is freed correctly, so to check if there are some leaks, run this tests:
 
@@ -485,7 +486,7 @@ MacOS: ```leaks -atExit -- ./your_program```
 
 <p align="justify">
 
-I visualized my stacks with this [push-swap-gui 1.1](https://pypi.org/project/push-swap-gui/) wrote in Python. This is a python3 package added to PyPI. To run this, you need to run in the terminal the command: ```pip3 install push_swap_gui```.
+I visualized my stacks with this [push-swap-gui 1.1](https://pypi.org/project/push-swap-gui/) wrote in Python. This is a python3 package added to PyPI. To run this, you need to run in the terminal the command: ```push_swap_gui``` in your push_swap folder. Before to use you need to install if you don't have it. ```pip3 install push_swap_gui```.
 
 If you noticed an error like this:
 
@@ -508,14 +509,20 @@ ERROR: Command errored out with exit status 1: python setup.py egg_info Check th
 You need to install Tkinter, which is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit. To install this on Linux, run the command:
 ```sudo apt-get install python3-tk```.
 
-Then, move to your push_swap folder, compile your code and launch the application ```push_swap_gui```. You need to select a range of numbers (remember that 0 counts as 1) and generate stack A. You need to uncheck the square flag and select the path of your push_swap. After that, you must calculate the number of moves and click on the play button to view the visualizer's moves (remember that you can control the speed).
+#### How to use?
 
-
+You need to select a range of numbers (remember that 0 counts as 1) and generate stack A. You need to uncheck the square flag and select the path of your push_swap. After that, you must calculate the number of moves and click on the play button to view the visualizer's moves (remember that you can control the speed).
 
 ### Testing
 
 <p align="justify">
 
+1. Run ```norminette -R CheckForbiddenSourceHeader``` into the push_swap dir to get a norm check of your work.
+2. Tests about the command requested with make.
+3. Leaks tests.
+4. Errors management.
+5. Push_swap tests.
+6. Checker tests.
 
 </p>
 
@@ -543,12 +550,6 @@ Test the notable cases: 0, 1, 3, 5, 50, 100, 250 and 500 and iterate many times 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/.cs/cs7.png">
 </p>
 <br>
-
-### Norminette Result
-
-
-<br>
-
 
 ## Treasure hunt
 
