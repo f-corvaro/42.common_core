@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/16 21:46:57 by fcorvaro          #+#    #+#             */
-/*   Updated: 2024/01/18 18:10:31 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2024/01/19 17:45:22 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ void	ft_pb(t_SortingDetails *data, int f)
 	}
 	data->len_b++;
 	data->stack_b[0] = data->stack_a[0];
-	while (i < data->len_a)
+	while (i < data->len_a - 1)
 	{
 		data->stack_a[i] = data->stack_a[i + 1];
 		i++;
