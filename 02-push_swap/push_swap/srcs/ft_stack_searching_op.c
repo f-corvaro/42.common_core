@@ -6,7 +6,7 @@
 /*   By: fcorvaro <fcorvaro@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/18 12:09:26 by fcorvaro          #+#    #+#             */
-/*   Updated: 2024/01/18 23:35:25 by fcorvaro         ###   ########.fr       */
+/*   Updated: 2024/01/19 18:02:12 by fcorvaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	ft_find_largest_in_b(t_SortingDetails *data, int i)
 	while (j < data->len_b)
 	{
 		if (data->stack_b[j] > data->stack_a[i]
-			&& (data->stack_b[j] > data->stack_b[idx] || idx == -1))
+			&& (idx == -1 || data->stack_b[j] > data->stack_b[idx]))
 			idx = j;
 		j++;
 	}
