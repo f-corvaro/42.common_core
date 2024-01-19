@@ -25,6 +25,7 @@
     - [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
       - [How to use?](#how-to-use)
     - [Testing](#testing)
+    - [Tester](#tester)
   - [Evaluation](#evaluation)
     - [Correction sheet](#correction-sheet)
   - [Treasure hunt](#treasure-hunt)
@@ -523,6 +524,10 @@ You need to select a range of numbers (remember that 0 counts as 1) and generate
 4. Errors management.
 5. Push_swap tests.
 6. Checker tests.
+
+### Tester
+
+[Push_Swap Tester](git@github.com:Aldisti/push_swap-tester.git) of [Aldisti](https://github.com/Aldisti).
 
 </p>
 
