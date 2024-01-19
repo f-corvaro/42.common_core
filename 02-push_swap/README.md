@@ -33,16 +33,48 @@
   - [License](#license)
 
 
-
-
-
 <br>
 
 ## Folder Structure
 
 <p align="justify">
 
-
+```
+.
+├── push_swap
+│   ├── include
+│   │   └── push_swap.h
+│   ├── lib
+│   ├── srcs
+│   │   ├── ft_error_handling.c
+│   │   ├── ft_free.c
+│   │   ├── ft_id_stack_a.c
+│   │   ├── ft_id_stack_b.c
+│   │   ├── ft_init_op.c
+│   │   ├── ft_input_preparation.c
+│   │   ├── ft_op_p.c
+│   │   ├── ft_op_r.c
+│   │   ├── ft_op_rr.c
+│   │   ├── ft_op_s.c
+│   │   ├── ft_stack_calc_a.c
+│   │   ├── ft_stack_calc_b.c
+│   │   ├── ft_stack_calc.c
+│   │   ├── ft_stack_half_opa.c
+│   │   ├── ft_stack_half_opb.c
+│   │   ├── ft_stack_op.c
+│   │   ├── ft_stack_searching_op.c
+│   │   ├── ft_stack_sorting.c
+│   │   ├── ft_utils.c
+│   │   └── main.c
+│   ├── srcs_b
+│   │   ├── ft_checker.c
+│   │   └── main.c
+│   └── Makefile
+├── resources_given
+│   ├── checker_linux
+│   └── checker_Mac
+└── README.md
+```
 
 <br>
 
@@ -408,260 +440,6 @@ Examples of unstable sorting algorithms:
 <p align="justify">
 
 Basically, sorting algorithms are ways to organize an array of items from smallest to largest. To analize the algorithm complexity and efficiency is needed to understand the Big O notation (O(n)). The most common algorithms for sorting are:
-
-1. ***Straight Insertion Sort:***
-
-<a href="https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/#:~:text=%2B1%5D%20%3D%20temp-,Quicksort,greater%20numbers%20on%20the%20right."><img src="https://lamfo-unb.github.io/img/Sorting-algorithms/Insertion-sort-example-300px.gif">
-
-Straight insertion sort is a simple sorting algorithm that works by repeatedly inserting an element into a sorted sequence. It is a stable algorithm, meaning that it preserves the original order of equal elements in the input array. Straight insertion sort is a simple and efficient algorithm for sorting small arrays. However, it is not as efficient for sorting large arrays. The worst-case time complexity of straight insertion sort is O(n^2), which means that the sorting time increases quadratically with the size of the input array. Straight insertion sort is often used in embedded systems and other applications where memory is limited. It is also used in sorting algorithms that are more complex, such as merge sort and quicksort.
-
-***Example***
-Consider the following unsorted array:
-
-```[5, 3, 2, 1, 4]```
-
-To sort this array using straight insertion sort, we would start at the second element, which is 3. We would compare 3 to the element before it, which is 5. Since 3 is less than 5, we would swap the two elements.
-
-```[3, 5, 2, 1, 4]```
-
-We would then move on to the next element, which is 2. We would compare 2 to the element before it, which is 3. Since 2 is less than 3, we would swap the two elements.
-
-```[2, 3, 5, 1, 4]```
-
-We would continue this process, comparing each element to the element before it and swapping them if necessary. After sorting the entire array, we would have the following sorted array:
-
-```[1, 2, 3, 4, 5]```
-
-<br>
-
-2. ***Shell Sort:***
-
-<img src="https://i.gzn.jp/img/2014/05/01/sorting/quiqsort.gif">
-
-Shell sort is a sorting algorithm that is based on the insertion sort algorithm. Shell sort is a highly efficient algorithm, and is often faster than insertion sort for large arrays. Shell sort works by repeatedly sorting the array using a smaller gap between elements. The gap is initially set to a large value, and is then reduced by half on each iteration. The algorithm terminates when the gap is reduced to 1. At each iteration, the algorithm compares each element to the element at the gap distance. If the current element is less than the element at the gap distance, the two elements are swapped. The algorithm then moves on to the next element. The worst-case time complexity of shell sort is O(n^2), but the average-case time complexity is O(n log^2 n). This means that shell sort is typically faster than insertion sort for large arrays. Shell sort is often used in embedded systems and other applications where memory is limited. It is also used in more complex sorting algorithms, such as quicksort and merge sort.
-
-***Example***
-
-Consider the following unsorted array:
-
-```[5, 3, 2, 1, 4]```
-
-To sort this array using shell sort, we would start with a gap of 2. We would then compare the first element (5) to the element at the gap distance (2). Since 5 is greater than 2, the two elements are not swapped. We would then move on to the next element (3).
-
-We would compare the second element (3) to the element at the gap distance (5). Since 3 is less than 5, the two elements are swapped.
-
-We would continue this process, comparing each element to the element at the gap distance and swapping them if necessary. After sorting the entire array with a gap of 2, we would have the following array:
-
-```[3, 5, 1, 2, 4]```
-
-We would then repeat the process with a gap of 1. This time, we would compare each element to the element next to it and swap them if necessary. After sorting the entire array with a gap of 1, we would have the following sorted array:
-
-```[1, 2, 3, 4, 5]```
-
-<br>
-
-3. ***Bubble Sort:***
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607">
-
-Bubble sort is a simple sorting algorithm that repeatedly compares adjacent elements of an array and swaps them if they are in the wrong order. It is called bubble sort because the smaller elements gradually "bubble" to the top of the array, while the larger elements "sink" to the bottom. The worst-case time complexity of bubble sort is O(n^2), but the average-case time complexity is O(n^2). This means that bubble sort is typically not a very efficient sorting algorithm, especially for large arrays. Bubble sort is a simple algorithm that is easy to understand and implement. It is often used in educational settings to teach students about the basics of sorting algorithms. It is also sometimes used in embedded systems and other applications where memory is limited and efficiency is not a top priority.
-
-***Example***
-
-Consider the following unsorted array:
-
-```[5, 3, 2, 1, 4]```
-
-To sort this array using bubble sort, we would start at the beginning of the array and compare the first two elements (5 and 3). Since 5 is greater than 3, we would swap the two elements.
-
-```[3, 5, 2, 1, 4]```
-
-We would then compare the second and third elements (3 and 2). Since 3 is greater than 2, we would swap the two elements.
-
-```[2, 3, 5, 1, 4]```
-
-We would continue this process, comparing adjacent elements and swapping them if necessary. After sorting the entire array, we would have the following sorted array:
-
-```[1, 2, 3, 4, 5]```
-
-<br>
-
-4. ***Quicksort:***
-
-<img src="https://i.imgur.com/fo1Yw1j.gif">
-
-Quicksort is a divide-and-conquer sorting algorithm. It works by recursively partitioning the array around a pivot element, and then sorting the two subarrays created by the partition. This algorithm works as follows:
-
-• Choose a pivot element from the array. ([pivot](https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3))
-
-•Partition the array around the pivot element, such that all elements smaller than the pivot are placed to the left of the pivot, and all elements larger than the pivot are placed to the right of the pivot.
-
-•Recursively sort the two subarrays created by the partition.
-
-The partition step is the key to the quicksort algorithm. It is what makes quicksort so efficient. There are many different ways to partition an array, but one common approach is to use the Lomuto partition scheme.
-
-The Lomuto partition scheme works as follows:
-
-1. Initialize two pointers, i and j.
-2. Set i to the first element of the array and j to the last element of the array.
-3. While i is less than j:
-	• If the element at index i is less than or equal to the pivot element, swap the elements at indices i and j and increment i.
-	• Otherwise, decrement j.
-4. Swap the pivot element with the element at index i.
-
-After the partition step, the pivot element will be in its correct position in the sorted array. The two subarrays created by the partition will also be unsorted. The quicksort algorithm then recursively sorts the two subarrays. The worst-case time complexity of quicksort is O(n^2), but the average-case time complexity is O(n log n). This makes quicksort one of the most efficient sorting algorithms available. Quicksort is a widely used sorting algorithm. It is used in many different applications, including: Operating systems, Databases, Compilers and Graphics processing units (GPUs).
-
-***Example***
-
-Consider the following unsorted array:
-
-```[5, 3, 2, 1, 4]```
-
-To sort this array using quicksort, we would first choose a pivot element. We can choose any element in the array, but it is often best to choose a median element. In this case, we will choose the middle element, which is 3.
-
-We would then partition the array around the pivot element. We can use the Lomuto partition scheme to do this. After the partition step, the array will look as follows:
-
-```[2, 1, 3, 5, 4]```
-
-The pivot element (3) is now in its correct position in the sorted array. The two subarrays created by the partition are also unsorted. The quicksort algorithm will now recursively sort the two subarrays.
-
-The quicksort algorithm will recursively sort the two subarrays until the entire array is sorted. After the algorithm terminates, the array will be sorted in ascending order.
-
-<br>
-
-5. ***Heapsort:***
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif">
-
-Heapsort is a sorting algorithm that uses a heap data structure to sort an array. A heap is a complete binary tree where each parent node is greater than or equal to its child nodes. The heapsort algorithm works as follows:
-
-• Build a heap from the input array.
-• Repeatedly remove the root element of the heap (which is the largest element) and place it at the end of the sorted array.
-• Restore the heap property by replacing the removed root element with the largest of its child nodes.
-• Repeat steps 2 and 3 until the heap is empty.
-
-
-The worst-case time complexity of heapsort is O(n log n), and the average-case time complexity is also O(n log n). This makes heapsort one of the most efficient sorting algorithms available.
-
-***Example***
-
-Consider the following unsorted array:
-
-```[5, 3, 2, 1, 4]```
-To sort this array using heapsort, we would first build a heap from the array. The heap would look as follows:
-
-```
- 5
-/ \
-3 2
-/ \
-1 4
-```
-
-We would then repeatedly remove the root element of the heap and place it at the end of the sorted array. After the first iteration, the sorted array would look as follows:
-
-```[4, 3, 2, 1, 5]```
-
-We would then restore the heap property by replacing the removed root element with the largest of its child nodes. The heap would then look as follows:
-
-```
- 4
-/ \
-2 3
-/ \
-5 1
-```
-
-We would repeat this process until the heap is empty. After the last iteration, the sorted array would look as follows:
-
-```[1, 2, 3, 4, 5]```
-
-<br>
-
-6. ***Revised Bubble Sort:***
-
-Revised Bubble Sort is a modified version of the Bubble Sort algorithm that improves its performance by using a flag variable to track whether any swaps were made during a pass through the array. If no swaps were made, then the array is already sorted and the algorithm can terminate early.
-
-The Revised Bubble Sort algorithm works as follows:
-
-Initialize a flag variable, swapped, to False.
-
-Iterate over the array, comparing each adjacent pair of elements.
-
-If the current element is greater than the next element, swap the two elements and set the swapped flag to True.
-
-If the swapped flag is False after the entire array has been traversed, then the array is already sorted and the algorithm can terminate.
-
-Otherwise, repeat steps 2-4 until the array is sorted.
-
-<br>
-
-7. ***Selection Sort:***
-
-Selection sort is a simple sorting algorithm that works by repeatedly selecting the smallest (or largest) element from an unsorted list and placing it at the beginning (or end) of the list. This process continues until the entire list is sorted. Selection sort is an in-place algorithm, meaning that it sorts the list in place without requiring any additional memory. It is also a comparison-based algorithm, meaning that it compares pairs of elements in the list to determine which element is smaller (or larger).
-
-<br>
-
-8.  ***Insertion Sort:***
-
-Insertion sort is a simple sorting algorithm that works by building the final sorted array one item at a time. It starts with an empty sorted array and then iterates over the unsorted array, inserting each element into the sorted array at the correct position. Insertion sort works by comparing the current element to the elements in the sorted array, starting from the end of the array and working backwards. If the current element is smaller than the element at the current position in the sorted array, then the current element is inserted into the sorted array at that position. Otherwise, the current element is skipped. Insertion sort is a stable sorting algorithm, meaning that it preserves the original order of elements with equal keys. It is also a relatively simple algorithm to implement, making it a good choice for small lists. However, insertion sort can be inefficient for large lists, as it needs to compare each element in the list to every other element in the list. In the worst case, insertion sort has a time complexity of O(n^2).
-
-<br>
-
-9. ***Merge Sort:***
-
-Merge Sort is a divide-and-conquer algorithm that sorts an array by recursively dividing it into two halves, sorting each half, and then merging the two sorted halves back together. The merging step is the key to the Merge Sort algorithm. It works by comparing the elements of the two sorted halves and inserting the smaller element into the output array. The process continues until all of the elements from the two sorted halves have been merged into the output array. Merge Sort is a very efficient sorting algorithm, with a time complexity of O(n log n) in the worst case. It is also a stable sorting algorithm, which means that it preserves the original order of elements with equal keys. Merge Sort is a versatile sorting algorithm that can be used to sort arrays of any size. It is also a good choice for sorting arrays that contain elements with equal keys.
-
-<br>
-
-10.   ***Counting Sort:***
-
-
-Counting Sort is a non-comparison sorting algorithm that works by counting the number of occurrences of each element in the input array. It then creates an output array and places each element in the output array at the position corresponding to its count. Counting Sort is very efficient for sorting arrays with a limited range of values. Counting Sort is a very efficient sorting algorithm for arrays with a limited range of values. However, it is not as efficient for arrays with a large range of values.
-
-<br>
-
-11.   ***Radix Sort:***
-
-Radix sort is a non-comparison sorting algorithm that works by repeatedly grouping elements together based on their digits, starting from the least significant digit. It is a very efficient sorting algorithm for integers, and can also be used to sort strings.
-
-Here is a high-level overview of the Radix Sort algorithm:
-
-1. Group the elements together based on their least significant digit.
-2. Recursively sort each group of elements.
-3. Repeat steps 1 and 2 until the elements are sorted.
-4. The grouping step is the key to the Radix Sort algorithm. It can be implemented using a variety of methods, such as counting sort or bucket sort.
-
-Radix Sort is a very efficient sorting algorithm, with a time complexity of O(dn) in the worst case, where d is the number of digits in the largest element in the array. It is also a stable sorting algorithm.
-
-
-<br>
-
-12.  ***Bucket Sort:***
-
-Bucket sort, also known as bin sort, is a sorting algorithm that works by dividing the input array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm or by recursively applying the bucket sort algorithm. Bucket sort is most efficient when the input array is uniformly distributed. In this case, each bucket will have an approximately equal number of elements, and the sorting algorithm can be applied to each bucket efficiently. The distribution of elements into the buckets can be implemented using a variety of methods, such as hashing or counting. The sorting of each bucket can be implemented using any sorting algorithm, such as insertion sort or merge sort. Bucket Sort is a versatile sorting algorithm that can be used to sort arrays of any size. It is a good choice for sorting arrays with a uniform distribution, or arrays that contain elements with a large range of values.
-
-<br>
-
-13.  ***Comb Sort:***
-
-Comb sort is a relatively simple sorting algorithm that is based on bubble sort. It works by repeatedly comparing elements that are a certain distance apart, known as the gap. The gap starts at a large value and is gradually reduced until it reaches 1. At each step, comb sort compares adjacent elements and swaps them if they are in the wrong order. The gap is then reduced by a certain factor, such as 1.3 or 1.5. This process continues until the gap is 1, at which point the array is sorted. Comb sort is a more efficient sorting algorithm than bubble sort because it is able to compare elements that are further apart, which can lead to larger swaps. This can help to reduce the number of iterations required to sort the array. Comb sort is a good choice for sorting small arrays, or arrays that are already nearly sorted.
-
-<br>
-
-14.  ***Mechanical Turk algorithm:***
-
-This MTurk algorithm allows programmers to think about algorithmic tasks as simple straight-line imperative programs, where calls to MTurk appear as ordinary function calls.
-
-The Turk algorithm consists of two main components:
-
-- Forks: A fork allows a programmer to split the execution of a program into two parallel paths. Each path can then call MTurk to perform some task, and the results of the two paths can then be recombined.
-
-
-- Joins: A join ensures that a series of forks have all finished before continuing execution.
-
-<br>
-
 
 <a href="https://www.crio.do/blog/top-10-sorting-algorithms/"><img src="https://www.crio.do/blog/content/images/2022/01/Top-10-Sorting-Algorithms-You-Need-To-Know.png">
 
