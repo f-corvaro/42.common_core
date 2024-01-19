@@ -527,7 +527,7 @@ You need to select a range of numbers (remember that 0 counts as 1) and generate
 
 ### Tester
 
-[Push_Swap_Tester](git@github.com:Aldisti/push_swap-tester.git) of [Aldisti](https://github.com/Aldisti).
+[Push_Swap Tester](https://github.com/Aldisti/push_swap-tester) of [Aldisti](https://github.com/Aldisti).
 
 </p>
 
