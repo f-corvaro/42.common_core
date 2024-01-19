@@ -54,7 +54,7 @@ I handled the various projects done in 42 school. I hope you enjoy it. Good codi
 
 ### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot) (Virtual Machine  - solo project)
 
-[![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
+[![fcorvaro's 42 Born2beroot Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
   ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project gives to evaluators 2 points evaluation, but you spent 1``` | ```Tester available```
 
@@ -100,6 +100,7 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
   ```BlackHole days (with bonus) = 37 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
+[![fcorvaro's 42 Push_Swap Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 
 </p>
