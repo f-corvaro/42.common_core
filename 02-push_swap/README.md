@@ -21,6 +21,7 @@
   - [What do I need to know?](#what-do-i-need-to-know)
   - [How can I organize the "first real hard project"?](#how-can-i-organize-the-first-real-hard-project)
   - [Running Tests](#running-tests)
+    - [Leaks](#leaks)
     - [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
     - [Testing](#testing)
   - [Evaluation](#evaluation)
@@ -455,6 +456,30 @@ Firstly, you need to understand what this program should do. You need to study a
 <a href="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/Push_Swap.png"><img src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/Push_Swap.png">
 
 ## Running Tests
+
+<p align="justify">
+
+My project is based on brute force sorting algorithm. I have done mandatory and bonus part, I have implemented for all functions a comment that explains what does it do.
+I have tested my project with several tests and the result is that my Push_Swap is under the maximum number of moves allowed.
+To generate a set of random numbers I have used this python script:
+
+```py
+import random
+numbers = random.sample(range(-1000, 1000), 500)
+random.shuffle(numbers)
+print(' '.join(map(str, numbers)))
+```
+
+used on this [website](https://www.online-python.com/).
+
+### Leaks
+
+To check is the memory is freed correctly, so to check if there are some leaks, run this tests:
+
+Ubuntu: ```valgrind --leak-check=full ./your_program```
+
+MacOS: ```leaks -atExit -- ./your_program```
+
 
 ### Graphical User Interface - GUI (Usefull for testing purposes)
 
