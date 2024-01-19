@@ -98,7 +98,7 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
 ### 3. [push_swap](https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap) (C - solo project)
 
-  ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 37 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 
 
