@@ -24,6 +24,7 @@
     - [Leaks test](#leaks-test)
     - [Graphical User Interface - GUI (Usefull for testing purposes)](#graphical-user-interface---gui-usefull-for-testing-purposes)
       - [How to use?](#how-to-use)
+      - [My Push\_Swap](#my-push_swap)
     - [Testing](#testing)
     - [Tester](#tester)
   - [Evaluation](#evaluation)
@@ -513,6 +514,10 @@ You need to install Tkinter, which is the standard GUI library for Python. Pytho
 #### How to use?
 
 You need to select a range of numbers (remember that 0 counts as 1) and generate stack A. You need to uncheck the square flag and select the path of your push_swap. After that, you must calculate the number of moves and click on the play button to view the visualizer's moves (remember that you can control the speed).
+
+#### My Push_Swap
+
+ <a href="https://github.com/f-corvaro/42.common_core/tree/main/00-libft"><img align="center" alt="running test" width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/00-libft/.extra/make.gif">
 
 ### Testing
 
