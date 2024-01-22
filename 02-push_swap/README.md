@@ -517,7 +517,7 @@ You need to select a range of numbers (remember that 0 counts as 1) and generate
 
 #### My Push_Swap
 
- <a href="https://github.com/f-corvaro/42.common_core/tree/main/00-libft"><img align="center" alt="running test" width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/00-libft/.extra/make.gif">
+ <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-push_swap"><img align="center" alt="running test" width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-push_swap/.extra/visualizer_my_ps.gif">
 
 ### Testing
 
