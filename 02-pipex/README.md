@@ -11,6 +11,19 @@
 
 ### Index
 
+- [**PIPEX**](#pipex)
+		- [Index](#index)
+	- [Folder Structure](#folder-structure)
+	- [About](#about)
+		- [Mandatory part](#mandatory-part)
+	- [The rules](#the-rules)
+	- [Bonus Part](#bonus-part)
+	- [Evaluation](#evaluation)
+		- [Correction sheet](#correction-sheet)
+	- [Support Me](#support-me)
+	- [Skills developed](#skills-developed)
+	- [Sources](#sources)
+	- [License](#license)
 
 
 <br>
@@ -152,10 +165,6 @@ $> ./pipex here_doc LIMITER cmd cmd1 file
 
 Should behave like: ```cmd << LIMITER | cmd1 >> file```
 <p>
-
-## What do I need to know?
-
-<p align="justify">
 
 ## Evaluation
 
