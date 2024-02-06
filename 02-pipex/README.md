@@ -1,6 +1,6 @@
 # **PIPEX**
 
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/pipex.png">
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/pipex.png" width="200" height="180">
 
 <p align="justify">
 
