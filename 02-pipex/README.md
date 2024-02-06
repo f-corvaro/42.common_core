@@ -28,7 +28,9 @@
 
 <p align="justify">
 
-The purpose of this project is
+This project aims to create a program in C that mimics the Unix pipeline mechanism, specifically the `|` (pipe) operator. The pipe operator in Unix/Linux is used to chain multiple commands together, where the output of one command serves as input to the next.
+
+In the context of this project, you'll be expected to create a program that can take two commands as input, execute the first command, capture its output, and then provide that output as input to the second command.
 
 <p>
 <br>
@@ -55,10 +57,19 @@ Makefile must compile the library by using its Makefile, then compile the projec
 <p>
 <br>
 
+### Mandatory part
+
 **Program name:**
 
 <p align="justify">
 
+```pipex``` Which has as arguments 4 elements:
+
+```file1 cmd1 cmd2 file2```
+
+• file1 and file2 -> file names.
+
+• cmd1 and cmd2 -> shell commands with their parameters.
 
 </p>
 <br>
@@ -67,6 +78,7 @@ Makefile must compile the library by using its Makefile, then compile the projec
 
 <p align="justify">
 
+```Makefile, *.h, *.c```
 
 </p>
 <br>
@@ -78,31 +90,35 @@ Makefile must compile the library by using its Makefile, then compile the projec
 Libft authorized, and:
 
 ```
-1. read, write, malloc, free, exit
+1. open, close, read, write,
+malloc, free, perror,
+strerror, access, dup, dup2,
+execve, exit, fork, pipe,
+unlink, wait, waitpid
 
-2. ft_printf and any equivalent YOU coded
+1. ft_printf and any equivalent YOU coded
 ```
 
 </p>
 <br>
 
-**Goal:**
-
-<p align="justify">
-
-
-<p>
-<br>
-
-
-**Requirements:**
-
-<p align="justify">
-
-
-<br>
-
 ***Examples:***
+
+```shell
+$> < file1 cmd1 | cmd2 > file2
+```
+
+```shell
+$> ./pipex infile "ls -l" "wc -l" outfile
+```
+
+Should behave like: ```< infile ls -l | wc -l > outfile```
+
+```shell
+$> ./pipex infile "grep a1" "wc -w" outfile
+```
+
+Should behave like: ```< infile grep a1 | wc -w > outfile```
 
 <p>
 <br>
@@ -111,6 +127,7 @@ Libft authorized, and:
 
 <p align="justify">
 
+The program should handle the errors like the shell command.
 
 <br>
 
@@ -118,36 +135,38 @@ Libft authorized, and:
 
 <p align="justify">
 
+The bonus part requires to handle multiple pipes, as this example:
 
+```shell
+$> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2
+```
+
+Should behave like: ```< file1 cmd1 | cmd2 | cmd3 ... | cmdn > file2```
+
+
+Furthermore, the program needs to support ```«``` and ```»``` when the first parameter is ```"here_doc"```. An example is:
+
+```shell
+$> ./pipex here_doc LIMITER cmd cmd1 file
+```
+
+Should behave like: ```cmd << LIMITER | cmd1 >> file```
 <p>
 
-**Program name:**
+## High-level "code" explaination:
 
 <p align="justify">
 
+The pipex program should look like:
+
+1. Parse the input to identify the two commands.
+2. Execute the first command using a system call (like `fork()` and `exec()`).
+3. Capture the output of the first command. This will likely involve redirecting the standard output (stdout) of the first command to a pipe.
+4. Provide the captured output as input to the second command. This will likely involve redirecting the standard input (stdin) of the second command to read from the pipe.
+5. Execute the second command.
+6. Capture the output of the second command and display it to the user.
 
 <p>
-<br>
-
-**Files to turn in:**
-
-</p>
-<br>
-
-**External functs. allowed:**
-
-<p align="justify">
-
-Libft authorized, and:
-
-```
-1. read, write, malloc, free, exit
-
-2. ft_printf and any equivalent YOU coded
-```
-
-</p>
-<br>
 
 ## What do I need to know?
 
