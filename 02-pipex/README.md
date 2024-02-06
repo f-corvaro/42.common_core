@@ -188,6 +188,23 @@ If you want to support me:</p>
 
 ## Sources
 
+- [Visualization of a fork call in C](https://www.youtube.com/watch?v=QD9YKSg3wCc&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv).
+
+- [Calling fork multiple times](https://www.youtube.com/watch?v=94URLRsjqMQ&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=2).
+
+- [Practical use case for fork and pipe in C](https://www.youtube.com/watch?v=6u_iPGVkfZ4&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=4).
+
+- [Simulating the pipe "|" operator in C](https://www.youtube.com/watch?v=6xbLgZpOBi8&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=5).
+
+- [Communicating between processes (using pipes) in C](https://www.youtube.com/watch?v=Mqb2dVRe0uo&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=6).
+
+- [Introduction to FIFOs (aka named pipes) in C](https://www.youtube.com/watch?v=2hba3etpoJg&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=7).
+
+- [8 Design Patterns EVERY Developer Should Know](https://www.youtube.com/watch?v=tAuRQs_d9F8&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=8).
+
+- [fd, dup()/dup2() system call tutorial](https://www.youtube.com/watch?v=EqndHT606Tw&list=PLK4FY1IoDcHG-jUt93Cl7n7XLQDZ0q7Tv&index=9).
+
+- []().
 <br>
 
 ## License
