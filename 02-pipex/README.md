@@ -153,21 +153,6 @@ $> ./pipex here_doc LIMITER cmd cmd1 file
 Should behave like: ```cmd << LIMITER | cmd1 >> file```
 <p>
 
-## High-level "code" explaination:
-
-<p align="justify">
-
-The pipex program should look like:
-
-1. Parse the input to identify the two commands.
-2. Execute the first command using a system call (like `fork()` and `exec()`).
-3. Capture the output of the first command. This will likely involve redirecting the standard output (stdout) of the first command to a pipe.
-4. Provide the captured output as input to the second command. This will likely involve redirecting the standard input (stdin) of the second command to read from the pipe.
-5. Execute the second command.
-6. Capture the output of the second command and display it to the user.
-
-<p>
-
 ## What do I need to know?
 
 <p align="justify">
