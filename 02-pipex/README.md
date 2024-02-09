@@ -180,7 +180,9 @@ Should behave like: ```cmd << LIMITER | cmd1 >> file```
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex4.png">
 
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex5.png">
 
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex6.png">
 
 </p>
 <br>
