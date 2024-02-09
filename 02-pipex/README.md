@@ -172,6 +172,16 @@ Should behave like: ```cmd << LIMITER | cmd1 >> file```
 
 ### Correction sheet
 
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex1.png">
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex2.png">
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex3.png">
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/02-pipex"><img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/.cs/pipex4.png">
+
+
+
 </p>
 <br>
 
