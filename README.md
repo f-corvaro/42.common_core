@@ -90,13 +90,13 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
 • [```FdF```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/FDF.pdf) or [```so_long```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/so_long.pdf) or [```fract-ol```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/fract-ol.pdf)
 
-### 1. [FdF](https://github.com/f-corvaro/42.common_core/tree/main/02-FdF) (C  - solo project)
+### 1. [FdF](https://github.com/f-corvaro/FDF) (C  - solo project)
 
 
 
   ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
-### 2. [pipex](https://github.com/f-corvaro/42.common_core/tree/main/02-pipex) (C - solo project)
+### 2. [pipex](https://github.com/f-corvaro/PIPEX) (C - solo project)
 
 
 
