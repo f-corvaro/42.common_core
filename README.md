@@ -70,7 +70,7 @@ I handled the various projects. I hope you enjoy it. Good coding!
 
   ```BlackHole days (with bonus) = 25 Days``` | ```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
 
-### 3. [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/01-get_next_line) (C - solo project)
+### 3. [get_next_line](https://github.com/f-corvaro/GET_NEXT_LINE) (C - solo project)
 
   ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
 
