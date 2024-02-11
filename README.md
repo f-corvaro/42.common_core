@@ -86,9 +86,9 @@ I handled the various projects. I hope you enjoy it. Good coding!
 
 From here, you don't have MOULINETTE. All the projects will be evaluated by peers. You must make your choice between:
 
-• [```pipex```](https://github.com/f-corvaro/42.common_core/blob/main/02-pipex/.extra/en.subject.pdf) or [```minitalk```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/minitalk.pdf)
+• [```pipex```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/pipex.pdf) or [```minitalk```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/minitalk.pdf)
 
-• [```FdF```](https://github.com/f-corvaro/42.common_core/blob/main/02-FdF/.extra/en.subject.pdf) or [```so_long```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/so_long.pdf) or [```fract-ol```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/fract-ol.pdf)
+• [```FdF```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/FDF.pdf) or [```so_long```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/so_long.pdf) or [```fract-ol```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/fract-ol.pdf)
 
 ### 1. [FdF](https://github.com/f-corvaro/42.common_core/tree/main/02-FdF) (C  - solo project)
 
