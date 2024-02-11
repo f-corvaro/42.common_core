@@ -4,7 +4,7 @@
 	<b><i>"Embarking on the Common Core journey at 42 is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
 </p>
 <p align="center" style="text-decoration: none;">
-    <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=yellow" /></a>
+    <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=black" /></a>
 </p>
 
 <div align="center">
