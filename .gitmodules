@@ -1,0 +1,3 @@
+[submodule "00-libft/LIBFT"]
+	path = 00-libft/LIBFT
+	url = https://github.com/f-corvaro/LIBFT
