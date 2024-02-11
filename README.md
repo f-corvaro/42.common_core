@@ -64,7 +64,7 @@ I handled the various projects. I hope you enjoy it. Good coding!
 
   ```BlackHole days (with bonus) = 30 Days``` | ```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project gives to evaluators 2 points evaluation, but you spent 1``` | ```Tester available```
 
-### 2. [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/01-ft_printf) (C - solo project)
+### 2. [ft_printf](https://github.com/f-corvaro/FT_PRINTF) (C - solo project)
 
 [![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
