@@ -1,5 +1,14 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/f-corvaro/blob/main/42cc.gif"></a>
 
+<p align="center">
+	<b><i>"Embarking on the Common Core journey at 42 is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
+</p>
+<p align="center" style="text-decoration: none;">
+    <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=yellow" /></a>
+</p>
+
+<div align="center">
+
 ### Index
 
 - [](#)
@@ -18,18 +27,18 @@
 	- [Exams](#exams)
 	- [Holy Graph](#holy-graph)
 	- [Resources](#resources)
-	- [Author](#author)
 	- [Support Me](#support-me)
 	- [License](#license)
+    - [Author](#author)
 
-<br>
+</div>
 
 ## Briefing
 
 <p align="justify">
 
-Welcome! This repository contains other sub-repo, one for each project, where you can find how
-I handled the various projects done in 42 school. I hope you enjoy it. Good coding!
+Welcome! This repository contains the links for my repositories that containing the projects made in 42. You can see my improvements into the code and how
+I handled the various projects. I hope you enjoy it. Good coding!
 
 </p>
 
@@ -39,7 +48,7 @@ I handled the various projects done in 42 school. I hope you enjoy it. Good codi
 
 <p align="justify">
 
-### 0️. [libft](https://github.com/f-corvaro/42.common_core/tree/main/00-libft) (C - solo project)
+### 0️. [libft](https://github.com/f-corvaro/LIBFT) (C - solo project)
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
