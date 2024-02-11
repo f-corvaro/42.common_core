@@ -1,7 +1,7 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/f-corvaro/blob/main/42cc.gif"></a>
 
 <p align="center">
-	<b><i>"Embarking on the Common Core journey at 42 is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
+	<b><i>"Embarking on the Common Core journey at 42 School is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
 </p>
 <p align="center" style="text-decoration: none;">
     <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=black" /></a>
