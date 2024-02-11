@@ -7,31 +7,28 @@
     <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=black" /></a>
 </p>
 
-<div align="center">
+<h3 align="center">Index</h3>
 
-### Index
-
-- [](#)
-		- [Index](#index)
-	- [Briefing](#briefing)
-	- [00 Ring](#00-ring)
-		- [0️. libft (C - solo project)](#0️-libft-c---solo-project)
-	- [01 Ring](#01-ring)
-		- [1. born2beroot (Virtual Machine  - solo project)](#1-born2beroot-virtual-machine----solo-project)
-		- [2. ft\_printf (C - solo project)](#2-ft_printf-c---solo-project)
-		- [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
-	- [02 Ring](#02-ring)
-		- [1. FdF (C  - solo project)](#1-fdf-c----solo-project)
-		- [2. pipex (C - solo project)](#2-pipex-c---solo-project)
-		- [3. push\_swap (C - solo project)](#3-push_swap-c---solo-project)
-	- [Exams](#exams)
-	- [Holy Graph](#holy-graph)
-	- [Resources](#resources)
-	- [Support Me](#support-me)
-	- [License](#license)
-    - [Author](#author)
-
-</div>
+<p align="center">
+  <a href="#index">Index</a><br>
+  <a href="#briefing">Briefing</a><br>
+  <a href="#00-ring">00 Ring</a><br>
+  <a href="#0️-libft-c---solo-project">0️. libft (C - solo project)</a><br>
+  <a href="#01-ring">01 Ring</a><br>
+  <a href="#1-born2beroot-virtual-machine----solo-project">1. born2beroot (Virtual Machine  - solo project)</a><br>
+  <a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
+  <a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
+  <a href="#02-ring">02 Ring</a><br>
+  <a href="#1-fdf-c----solo-project">1. FdF (C  - solo project)</a><br>
+  <a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
+  <a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
+  <a href="#exams">Exams</a><br>
+  <a href="#holy-graph">Holy Graph</a><br>
+  <a href="#resources">Resources</a><br>
+  <a href="#support-me">Support Me</a><br>
+  <a href="#license">License</a><br>
+  <a href="#author">Author</a>
+</p>
 
 ## Briefing
 
@@ -138,19 +135,6 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
 <br>
 
-## Author
-
-<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
-<p align="center">
-<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
-<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
-<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
-<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
-
-<hr/>
-
-<br>
-
 ## Support Me
 
 <p align="justify">
@@ -170,3 +154,14 @@ If you want to support me:</p>
 <a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
 
 <br>
+
+## Author
+
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
+<p align="center">
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
+<hr/>
