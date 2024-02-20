@@ -100,7 +100,7 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
 [![fcorvaro's 42 Pipex Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-  ```BlackHole days (without bonus) = 19 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 19 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [push_swap](https://github.com/f-corvaro/PUSH_SWAP) (C - solo project)
 
