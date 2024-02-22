@@ -26,7 +26,6 @@
   <a href="#holy-graph">Holy Graph</a><br>
   <a href="#resources">Resources</a><br>
   <a href="#support-me">Support Me</a><br>
-  <a href="#license">License</a><br>
   <a href="#author">Author</a>
 </p>
 
@@ -144,14 +143,6 @@ If you want to support me:</p>
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
-
-<br>
-
-## License
-<p align="center">
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License"></a>
-<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
 
 <br>
 
