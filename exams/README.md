@@ -36,7 +36,19 @@ The purpose of the exam is to test your knowledge without any kind of help and w
 
 [![fcorvaro's 42 Exam Rank 02 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```BlackHole = 0 Days``` | ```Length = 120 Mins``` | ```NORMINETTE = OFF```
+```BlackHole = 0 Days``` | ```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
+</p>
+
+<br>
+
+<p align="justify">
+
+### 1. [Exam 03](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03) (1 C exercises)
+
+
+
+```BlackHole = 0 Days``` | ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
 </p>
 
