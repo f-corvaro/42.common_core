@@ -5,6 +5,7 @@
 	- [Briefing](#briefing)
 	- [Exams](#exams)
 		- [0. Exam 02 (2 C exercises)](#0-exam-02-2-c-exercises)
+        - [1. Exam 03 (1 C exercises)](#1-exam-03-1-c-exercises)
 	- [Exam Login Details](#exam-login-details)
 		- [1. Login with the following:](#1-login-with-the-following)
 		- [2. To access at exam terminal, type into the terminal:](#2-to-access-at-exam-terminal-type-into-the-terminal)
