@@ -19,10 +19,12 @@
   <a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
   <a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
   <a href="#02-ring">02 Ring</a><br>
-  <a href="#03-ring">03 Ring</a><br>
   <a href="#1-fdf-c----solo-project">1. FdF (C  - solo project)</a><br>
   <a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
   <a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
+  <a href="#03-ring">03 Ring</a><br>
+  <a href="#1-philosophers-c---solo-project">1. Philosophers (C - solo project)</a><br>
+  <a href="#2-minishell-c---duo-project">2. minishell (C - duo project)</a><br>
   <a href="#exams">Exams</a><br>
   <a href="#holy-graph">Holy Graph</a><br>
   <a href="#resources">Resources</a><br>
