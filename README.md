@@ -19,6 +19,7 @@
   <a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
   <a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
   <a href="#02-ring">02 Ring</a><br>
+  <a href="#03-ring">03 Ring</a><br>
   <a href="#1-fdf-c----solo-project">1. FdF (C  - solo project)</a><br>
   <a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
   <a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
@@ -91,9 +92,9 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
 ### 1. [FdF](https://github.com/f-corvaro/FDF) (C  - solo project)
 
+[![fcorvaro's 42 FdF Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-
-  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+  ```BlackHole days (with bonus) = 15 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 ### 2. [pipex](https://github.com/f-corvaro/PIPEX) (C - solo project)
 
@@ -106,6 +107,27 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
   ```BlackHole days (with bonus) = 37 Days``` | ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 [![fcorvaro's 42 Push_Swap Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
+
+
+</p>
+
+<br>
+
+## 03 Ring
+
+<p align="justify">
+
+### 1. [Philosophers](https://github.com/f-corvaro/PHILOSOPHERS) (C  - solo project)
+
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 2. [minishell](https://github.com/f-corvaro/MINISHELL) (C - duo project)
+
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 
 </p>
