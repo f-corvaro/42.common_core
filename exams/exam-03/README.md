@@ -16,7 +16,7 @@
 ## Exam details
 <p align="justify">
 
-This exam includes one random question, which could be related to either [ft_printf]() or [get_next_line](). For information about exam login procedures and other details, please visit the following link:
+This exam includes one random question, which could be related to either [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/ft_printf) or [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/gnl). For information about exam login procedures and other details, please visit the following link:
 
 [here](https://github.com/f-corvaro/42.common_core/tree/main/exams)
 
