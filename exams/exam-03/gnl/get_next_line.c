@@ -63,7 +63,7 @@ char	*ft_strjoin(char *s1, const char *s2, size_t len)
 		return (NULL);
 	len1 = ft_strlen(s1);
 	len2 = len;
-	join = ((char *)malloc(len1 + len2 + 1) * sizeof(char));
+	join = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 	if (!join)
 		return (NULL);
 	ft_strlcpy(join, s1, len1 + 1);
