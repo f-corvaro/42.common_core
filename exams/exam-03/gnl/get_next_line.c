@@ -1,16 +1,33 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: f-corvaro <f-corvaro@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/23 13:14:44 by f-corvaro         #+#    #+#             */
-/*   Updated: 2024/03/23 13:22:04 by f-corvaro        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "get_next_line.h"
+
+size_t	ft_strlen(const char *str)
+{
+	size_t	l;
+
+	l = 0;
+	while (str[l])
+		l++;
+	return (l);
+}
+
+size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size)
+{
+	size_t	i;
+	size_t	src_size;
+
+	i = 0;
+	src_size = ft_strlen(src);
+	if (dest_size > 0)
+	{
+		while (i < src_size && i < dest_size - 1)
+		{
+			dest[i] = src[i];
+			i++;
+		}
+		dest[i] = '\0';
+	}
+	return (src_size);
+}
 
 char	*ft_strchr(char *s, int c)
 {
@@ -23,64 +40,35 @@ char	*ft_strchr(char *s, int c)
 	return (NULL);
 }
 
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
-
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
-{
-	size_t	srcsize;
-	size_t	i;
-
-	srcsize = ft_strlen(src);
-	i = 0;
-	if (dstsize > 0)
-	{
-		while (i < srcsize && i < dstsize - 1)
-		{
-			dst[i] = src[i];
-			i++;
-		}
-		dst[i] = '\0';
-	}
-	return (srcsize);
-}
-
 char	*ft_strdup(const char *src)
 {
-	char	*dst;
 	size_t	len;
+	char	*dest;
 
 	len = ft_strlen(src) + 1;
-	dst = malloc(len);
-	if (dst == NULL)
+	dest = malloc(len);
+	if (dest == NULL)
 		return (NULL);
-	ft_strlcpy(dst, src, len);
-	return (dst);
+	ft_strlcpy(dest, src, len);
+	return (dest);
 }
 
-char	*ft_strjoin(char *s1, char const *s2, size_t len)
+char	*ft_strjoin(char *s1, const char *s2, size_t len)
 {
-	size_t	s1_len;
-	size_t	s2_len;
+	size_t	len1;
+	size_t	len2;
 	char	*join;
 
 	if (!s1 || !s2)
 		return (NULL);
-	s1_len = ft_strlen(s1);
-	s2_len = len;
-	join = (char *)malloc((s1_len + s2_len + 1) * sizeof(char));
+	len1 = ft_strlen(s1);
+	len2 = len;
+	join = ((char *)malloc(len1 + len2 + 1) * sizeof(char));
 	if (!join)
 		return (NULL);
-	ft_strlcpy(join, s1, s1_len + 1);
-	ft_strlcpy((join + s1_len), s2, s2_len + 1);
-	free(s1);
+	ft_strlcpy(join, s1, len1 + 1);
+	ft_strlcpy((join + len1), s2, len2 + 1);
+	free (s1);
 	return (join);
 }
 
@@ -88,23 +76,23 @@ char	*get_next_line(int fd)
 {
 	static char	buf[BUFFER_SIZE + 1];
 	char		*line;
-	char		*newline;
-	int			countread;
-	int			to_copy;
+	char		*nline;
+	int		to_copy;
+	int		count_read;
 
 	line = ft_strdup(buf);
-	while (!(ft_strchr(line, '\n')) && (countread = read(fd, buf, BUFFER_SIZE)) > 0)
+	while (!(ft_strchr(line, '\n')) && (count_read = read(fd, buf, BUFFER_SIZE)) > 0)
 	{
-		buf[countread] = '\0';
-		line = ft_strjoin(line, buf, countread);
+		buf[count_read] = '\0';
+		line = ft_strjoin(line, buf, count_read);
 	}
 	if (ft_strlen(line) == 0)
 		return (free(line), NULL);
-	newline = ft_strchr(line, '\n');
-	if (newline != NULL)
+	nline = ft_strchr(line, '\n');
+	if (nline != NULL)
 	{
-		to_copy = newline - line + 1;
-		ft_strlcpy(buf, newline + 1, BUFFER_SIZE + 1);
+		to_copy = nline - line + 1;
+		ft_strlcpy(buf, nline + 1, BUFFER_SIZE + 1);
 	}
 	else
 	{
