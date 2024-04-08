@@ -1,10 +1,6 @@
-<h1 align="center">BORN2BEROOT</h1>
-
-<p align="center">
-  <a href="https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot">
+<h1 align="center"><a href="https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot">
     <img src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/born.png">
-  </a>
-</p>
+  </a></h1>
 
 <p align="center">
 	<b><i>"BORN2BEROOT is a project that immerses students in system administration, focusing on system and network basics, server services, and strict access policies."</i></b><br>
