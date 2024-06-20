@@ -1,6 +1,6 @@
 ## 1 Excepted File
 
-:one: ft_printf.c
+ft_printf.c
 
 ## Allowed Functions
 ```

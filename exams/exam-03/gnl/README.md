@@ -1,8 +1,6 @@
 ## 2 Excepted Files
 
-:one: get_next_line.c 
-
-:two: get_next_line.h
+get_next_line.c, get_next_line.h
 
 ## Allowed Functions
 

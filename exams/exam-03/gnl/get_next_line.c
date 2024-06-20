@@ -1,34 +1,5 @@
 #include "get_next_line.h"
 
-size_t	ft_strlen(const char *str)
-{
-	size_t	l;
-
-	l = 0;
-	while (str[l])
-		l++;
-	return (l);
-}
-
-size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size)
-{
-	size_t	i;
-	size_t	src_size;
-
-	i = 0;
-	src_size = ft_strlen(src);
-	if (dest_size > 0)
-	{
-		while (i < src_size && i < dest_size - 1)
-		{
-			dest[i] = src[i];
-			i++;
-		}
-		dest[i] = '\0';
-	}
-	return (src_size);
-}
-
 char	*ft_strchr(char *s, int c)
 {
 	while (*s)
@@ -40,35 +11,44 @@ char	*ft_strchr(char *s, int c)
 	return (NULL);
 }
 
+size_t	ft_strlen(const char *s)
+{
+	size_t	i = 0;
+	
+	while (s[i])
+		i++;
+	return (i);
+}
+
+void	ft_strcpy(char *dest, const char *src)
+{
+	while (*src)	
+		*dest++ = *src++;
+	*dest = '\0';
+}
+
 char	*ft_strdup(const char *src)
 {
-	size_t	len;
-	char	*dest;
-
-	len = ft_strlen(src) + 1;
-	dest = malloc(len);
-	if (dest == NULL)
+	size_t	len = ft_strlen(src) + 1;
+	char	*dest = malloc(len);
+	
+	if (!dest)
 		return (NULL);
-	ft_strlcpy(dest, src, len);
+	ft_strcpy(dest, src);
 	return (dest);
 }
 
-char	*ft_strjoin(char *s1, const char *s2, size_t len)
+char	*ft_strjoin(char *s1, char const *s2)
 {
-	size_t	len1;
-	size_t	len2;
-	char	*join;
+	size_t	s1_len = ft_strlen(s1);
+	size_t	s2_len = ft_strlen(s2);
+	char	*join = malloc((s1_len + s2_len + 1));
 
-	if (!s1 || !s2)
+	if (!s1 || !s2 || !join)
 		return (NULL);
-	len1 = ft_strlen(s1);
-	len2 = len;
-	join = (char *)malloc((len1 + len2 + 1) * sizeof(char));
-	if (!join)
-		return (NULL);
-	ft_strlcpy(join, s1, len1 + 1);
-	ft_strlcpy((join + len1), s2, len2 + 1);
-	free (s1);
+	ft_strcpy(join, s1);
+	ft_strcpy((join + s1_len), s2);
+	free(s1);
 	return (join);
 }
 
@@ -76,29 +56,47 @@ char	*get_next_line(int fd)
 {
 	static char	buf[BUFFER_SIZE + 1];
 	char		*line;
-	char		*nline;
-	int		to_copy;
-	int		count_read;
+	char		*newline;
+	int			countread;
+	int			to_copy;
 
 	line = ft_strdup(buf);
-	while (!(ft_strchr(line, '\n')) && (count_read = read(fd, buf, BUFFER_SIZE)) > 0)
+	while (!(newline = ft_strchr(line, '\n')) && (countread = read(fd, buf, BUFFER_SIZE)))
 	{
-		buf[count_read] = '\0';
-		line = ft_strjoin(line, buf, count_read);
+		buf[countread] = '\0';
+		line = ft_strjoin(line, buf);
 	}
 	if (ft_strlen(line) == 0)
 		return (free(line), NULL);
-	nline = ft_strchr(line, '\n');
-	if (nline != NULL)
+
+	if (newline != NULL)
 	{
-		to_copy = nline - line + 1;
-		ft_strlcpy(buf, nline + 1, BUFFER_SIZE + 1);
+		to_copy = newline - line + 1;
+		ft_strcpy(buf, newline + 1);
 	}
 	else
 	{
 		to_copy = ft_strlen(line);
-		ft_strlcpy(buf, "", BUFFER_SIZE + 1);
+		buf[0] = '\0';
 	}
 	line[to_copy] = '\0';
 	return (line);
 }
+
+/* created for testing purposes*/
+/*
+int main(void)
+{
+	int		fd;
+	char	*line;
+
+	fd = open("test.txt", 00);
+	while ((line = get_next_line(fd)))
+	{
+		printf("%s", line);
+		free(line);
+	}
+	close(fd);
+	return (0);
+}
+*/
