@@ -4,55 +4,118 @@
   <b><i>"Embarking on the Common Core journey at 42 School is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
 </p>
 <p align="center" style="text-decoration: none;">
-  <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=black" /></a>
+  <a href="https://github.com/f-corvaro/42.common_core"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
 </p>
 
 <h3 align="center">Index</h3>
+
+- [](#)
+  - [Overview](#overview)
+  - [Milestone 0](#milestone-0)
+    - [1. libft (C - solo project)](#1-libft-c---solo-project)
+  - [Milestone 1](#milestone-1)
+    - [1. born2beroot (Virtual Machine - solo project)](#1-born2beroot-virtual-machine---solo-project)
+    - [2. ft\_printf (C - solo project)](#2-ft_printf-c---solo-project)
+    - [3. get\_next\_line (C - solo project)](#3-get_next_line-c---solo-project)
+  - [Milestone 2](#milestone-2)
+    - [0. exam rank 02 (C)](#0-exam-rank-02-c)
+      - [Project Choices 1](#project-choices-1)
+      - [Why I Chose `FdF` Over `so_long` and `fract-ol`](#why-i-chose-fdf-over-so_long-and-fract-ol)
+      - [Project Choices 2](#project-choices-2)
+      - [Why I Chose `pipex` Over `minitalk`](#why-i-chose-pipex-over-minitalk)
+    - [1. FdF (C - solo project)](#1-fdf-c---solo-project)
+    - [2. pipex (C - solo project)](#2-pipex-c---solo-project)
+    - [3. push\_swap (C - solo project)](#3-push_swap-c---solo-project)
+  - [Milestone 3](#milestone-3)
+    - [0. exam rank 03 (C)](#0-exam-rank-03-c)
+    - [1. Philosophers (C - solo project)](#1-philosophers-c---solo-project)
+    - [2. minishell (C - duo project)](#2-minishell-c---duo-project)
+  - [Milestone 4](#milestone-4)
+    - [0. exam rank 04 (C)](#0-exam-rank-04-c)
+      - [Project Choices 3](#project-choices-3)
+      - [Why I Chose `cub3D` Over `miniRT`](#why-i-chose-cub3d-over-minirt)
+    - [1. cub3D (C - duo project)](#1-cub3d-c---duo-project)
+    - [2. NetPractice (C - solo project)](#2-netpractice-c---solo-project)
+    - [3. CPP00 (C++ - single project)](#3-cpp00-c---single-project)
+    - [4. CPP01 (C++ - single project)](#4-cpp01-c---single-project)
+    - [4. CPP02 (C++ - single project)](#4-cpp02-c---single-project)
+    - [5. CPP03 (C++ - single project)](#5-cpp03-c---single-project)
+    - [6. CPP04 (C++ - single project)](#6-cpp04-c---single-project)
+  - [Milestone 5](#milestone-5)
+    - [0. exam rank 05 (C++)](#0-exam-rank-05-c)
+    - [1. CPP05 (C++ - single project)](#1-cpp05-c---single-project)
+    - [2. CPP06 (C++ - single project)](#2-cpp06-c---single-project)
+    - [3. CPP07 (C++ - single project)](#3-cpp07-c---single-project)
+    - [4. CPP08 (C++ - single project)](#4-cpp08-c---single-project)
+    - [5. CPP09 (C++ - single project)](#5-cpp09-c---single-project)
+    - [6. Inception ()](#6-inception-)
+      - [Project Choices 4](#project-choices-4)
+      - [Why I Chose `idk` Over `idk2`](#why-i-chose-idk-over-idk2)
+    - [7. webserv ()](#7-webserv-)
+  - [Milestone 6](#milestone-6)
+    - [0. exam rank 06 ()](#0-exam-rank-06-)
+    - [1. ft\_trascendence ()](#1-ft_trascendence-)
+  - [Exams](#exams)
+  - [Holygraph](#holygraph)
+      - [Common Core](#common-core)
+      - [Mastery](#mastery)
+      - [Alumni Status](#alumni-status)
+  - [Resources](#resources)
+  - [Support Me](#support-me)
+  - [Author](#author)
+
 
 <p align="center">
 <a href="#overview">Overview</a><br>
 <a href="#milestone-0">Milestone 0</a><br>
 <a href="#1-libft-c---solo-project">1. libft (C - solo project)</a><br>
 <a href="#milestone-1">Milestone 1</a><br>
-<a href="#1-born2beroot-virtual-machine----solo-project">1. born2beroot (Virtual Machine  - solo project)</a><br>
+<a href="#1-born2beroot-virtual-machine---solo-project">1. born2beroot (Virtual Machine - solo project)</a><br>
 <a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
 <a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
 <a href="#milestone-2">Milestone 2</a><br>
-<a href="#0-exam-rank-02">0. exam rank 02</a><br>
-<a href="#project-choices">Project Choices</a><br>
+<a href="#0-exam-rank-02-c">0. exam rank 02 (C)</a><br>
+<a href="#project-choices-1">Project Choices 1</a><br>
 <a href="#why-i-chose-fdf-over-so_long-and-fract-ol">Why I Chose `FdF` Over `so_long` and `fract-ol`</a><br>
+<a href="#project-choices-2">Project Choices 2</a><br>
 <a href="#why-i-chose-pipex-over-minitalk">Why I Chose `pipex` Over `minitalk`</a><br>
-<a href="#1-fdf-c----solo-project">1. FdF (C  - solo project)</a><br>
+<a href="#1-fdf-c---solo-project">1. FdF (C - solo project)</a><br>
 <a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
 <a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
 <a href="#milestone-3">Milestone 3</a><br>
-<a href="#0-exam-rank-03">0. exam rank 03</a><br>
-<a href="#1-philosophers-c----solo-project">1. Philosophers (C  - solo project)</a><br>
+<a href="#0-exam-rank-03-c">0. exam rank 03 (C)</a><br>
+<a href="#1-philosophers-c---solo-project">1. Philosophers (C - solo project)</a><br>
 <a href="#2-minishell-c---duo-project">2. minishell (C - duo project)</a><br>
-<a href="#3-cub3d-c---duo-project">3. cub3d (C - duo project)</a><br>
 <a href="#milestone-4">Milestone 4</a><br>
-<a href="#0-exam-rank-04">0. exam rank 04</a><br>
-<a href="#1-cub3d-c---duo-project">1. cub3d (C - duo project)</a><br>
-<a href="#2-netpractice-c----solo-project">2. NetPractice (C  - solo project)</a><br>
+<a href="#0-exam-rank-04-c">0. exam rank 04 (C)</a><br>
+<a href="#project-choices-3">Project Choices 3</a><br>
+<a href="#why-i-chose-cub3d-over-minirt">Why I Chose `cub3D` Over `miniRT`</a><br>
+<a href="#1-cub3d-c---duo-project">1. cub3D (C - duo project)</a><br>
+<a href="#2-netpractice-c---solo-project">2. NetPractice (C - solo project)</a><br>
 <a href="#3-cpp00-c---single-project">3. CPP00 (C++ - single project)</a><br>
 <a href="#4-cpp01-c---single-project">4. CPP01 (C++ - single project)</a><br>
-<a href="#5-cpp02-c---single-project">5. CPP02 (C++ - single project)</a><br>
-<a href="#6-cpp03-c---single-project">6. CPP03 (C++ - single project)</a><br>
-<a href="#7-cpp04-c---single-project">7. CPP04 (C++ - single project)</a><br>
+<a href="#4-cpp02-c---single-project">4. CPP02 (C++ - single project)</a><br>
+<a href="#5-cpp03-c---single-project">5. CPP03 (C++ - single project)</a><br>
+<a href="#6-cpp04-c---single-project">6. CPP04 (C++ - single project)</a><br>
 <a href="#milestone-5">Milestone 5</a><br>
-<a href="#0-exam-rank-05">0. exam rank 05</a><br>
+<a href="#0-exam-rank-05-c">0. exam rank 05 (C++)</a><br>
 <a href="#1-cpp05-c---single-project">1. CPP05 (C++ - single project)</a><br>
 <a href="#2-cpp06-c---single-project">2. CPP06 (C++ - single project)</a><br>
 <a href="#3-cpp07-c---single-project">3. CPP07 (C++ - single project)</a><br>
 <a href="#4-cpp08-c---single-project">4. CPP08 (C++ - single project)</a><br>
 <a href="#5-cpp09-c---single-project">5. CPP09 (C++ - single project)</a><br>
 <a href="#6-inception-">6. Inception ()</a><br>
+<a href="#project-choices-4">Project Choices 4</a><br>
+<a href="#why-i-chose-idk-over-idk2">Why I Chose `idk` Over `idk2`</a><br>
 <a href="#7-webserv-">7. webserv ()</a><br>
 <a href="#milestone-6">Milestone 6</a><br>
-<a href="#0-exam-rank-06">0. exam rank 06</a><br>
+<a href="#0-exam-rank-06-">0. exam rank 06 ()</a><br>
 <a href="#1-ft_trascendence-">1. ft_trascendence ()</a><br>
 <a href="#exams">Exams</a><br>
-<a href="#holy-graph">Holy Graph</a><br>
+<a href="#holygraph">Holygraph</a><br>
+<a href="#common-core">Common Core</a><br>
+<a href="#mastery">Mastery</a><br>
+<a href="#alumni-status">Alumni Status</a><br>
 <a href="#resources">Resources</a><br>
 <a href="#support-me">Support Me</a><br>
 <a href="#author">Author</a><br>
@@ -270,6 +333,16 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ```Evaluation Length =  Mins``` | ```3 Peers```
 
+#### Project Choices 4
+
+• [```webserv```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/webserv.pdf) or [```miniRT```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/ft_irc.pdf)
+
+#### Why I Chose `idk` Over `idk2`
+
+- **webserv**: 
+
+- **ft_irc**: 
+
 ### 7. [webserv](https://github.com/f-corvaro/webserv) ()
 
 ```Evaluation Length =  Mins``` | ```3 Peers```
@@ -294,15 +367,46 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 <p align="justify">
 
+For more information about the exams, click the image below:
+
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
 </p>
 <br>
 
-## Holy Graph
+## Holygraph 
+
+<p align="justify">
+
+The Holygraph is a visual representation of a student's progress through the 42 School curriculum. It tracks achievements and milestones within the Common Core and Mastery phases. The Holygraph serves as a motivational tool and a roadmap for students, illustrating their journey through the 42 School curriculum and highlighting their progress and achievements.
+
+</p>
 
 <a href="https://projects.intra.42.fr/projects/graph"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/HolyGraph.png"></a>
 
+#### Common Core
+
+<p align="justify">
+
+The Common Core is the foundational phase of the 42 School curriculum, designed to build essential programming skills and knowledge. This phase can take up to a maximum of 24 months to complete. During this time, students work on a variety of projects that cover topics such as algorithms, data structures, computer graphics, and more. The goal is to develop a strong understanding of software engineering principles and practical coding experience. Additionally, students have the option to use up to 3 freeze periods, totaling 180 days, to handle personal issues without affecting their progress.
+
+</p>
+
+#### Mastery
+
+<p align="justify">
+
+After completing the Common Core, students enter the Mastery phase, where they can specialize in areas of interest and work on more advanced projects. This phase allows students to deepen their expertise and prepare for professional careers in software development. To avoid automatic conversion to alumni status, students must complete at least one project every 8 months. Additionally, after 5 years in the Mastery phase, students will automatically achieve alumni status.
+
+</p>
+
+#### Alumni Status
+
+<p align="justify">
+
+Upon successful completion of the Common Core, students have the opportunity to achieve alumni status. This status recognizes their accomplishments and signifies that they have met the rigorous standards set by 42 School. Alumni status opens up various opportunities, including access to a network of professionals, potential job placements, and continued learning resources.
+
+</p>
 <br>
 
 ## Resources
