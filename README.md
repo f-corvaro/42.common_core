@@ -10,26 +10,49 @@
 <h3 align="center">Index</h3>
 
 <p align="center">
-  <a href="#index">Index</a><br>
-  <a href="#briefing">Briefing</a><br>
-  <a href="#00-ring">00 Ring</a><br>
-  <a href="#0️-libft-c---solo-project">0️. libft (C - solo project)</a><br>
-  <a href="#01-ring">01 Ring</a><br>
-  <a href="#1-born2beroot-virtual-machine----solo-project">1. born2beroot (Virtual Machine  - solo project)</a><br>
-  <a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
-  <a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
-  <a href="#02-ring">02 Ring</a><br>
-  <a href="#1-fdf-c----solo-project">1. FdF (C  - solo project)</a><br>
-  <a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
-  <a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
-  <a href="#03-ring">03 Ring</a><br>
-  <a href="#1-philosophers-c---solo-project">1. Philosophers (C - solo project)</a><br>
-  <a href="#2-minishell-c---duo-project">2. minishell (C - duo project)</a><br>
-  <a href="#exams">Exams</a><br>
-  <a href="#holy-graph">Holy Graph</a><br>
-  <a href="#resources">Resources</a><br>
-  <a href="#support-me">Support Me</a><br>
-  <a href="#author">Author</a>
+<a href="#">Index</a><br>
+<a href="#briefing">Briefing</a><br>
+<a href="#milestone-0">Milestone 0</a><br>
+<a href="#1-libft-c---solo-project">1. libft (C - solo project)</a><br>
+<a href="#milestone-1">Milestone 1</a><br>
+<a href="#1-born2beroot-virtual-machine----solo-project">1. born2beroot (Virtual Machine - solo project)</a><br>
+<a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
+<a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
+<a href="#milestone-2">Milestone 2</a><br>
+<a href="#e-exam-rank-02">e. exam rank 02</a><br>
+<a href="#1-fdf-c----solo-project">1. FdF (C - solo project)</a><br>
+<a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
+<a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
+<a href="#milestone-3">Milestone 3</a><br>
+<a href="#e-exam-rank-03">e. exam rank 03</a><br>
+<a href="#1-philosophers-c----solo-project">1. Philosophers (C - solo project)</a><br>
+<a href="#2-minishell-c---duo-project">2. minishell (C - duo project)</a><br>
+<a href="#milestone-4">Milestone 4</a><br>
+<a href="#e-exam-rank-04">e. exam rank 04</a><br>
+<a href="#1-cub3d-c---duo-project">1. cub3d (C - duo project)</a><br>
+<a href="#2-netpractice-c----solo-project">2. NetPractice (C - solo project)</a><br>
+<a href="#3-cpp00-c---single-project">3. CPP00 (C++ - single project)</a><br>
+<a href="#4-cpp01-c---single-project">4. CPP01 (C++ - single project)</a><br>
+<a href="#4-cpp02-c---single-project">4. CPP02 (C++ - single project)</a><br>
+<a href="#5-cpp03-c---single-project">5. CPP03 (C++ - single project)</a><br>
+<a href="#6-cpp04-c---single-project">6. CPP04 (C++ - single project)</a><br>
+<a href="#milestone-5">Milestone 5</a><br>
+<a href="#e-exam-rank-05">e. exam rank 05</a><br>
+<a href="#1-cpp05-c---single-project">1. CPP05 (C++ - single project)</a><br>
+<a href="#2-cpp06-c---single-project">2. CPP06 (C++ - single project)</a><br>
+<a href="#3-cpp07-c---single-project">3. CPP07 (C++ - single project)</a><br>
+<a href="#4-cpp08-c---single-project">4. CPP08 (C++ - single project)</a><br>
+<a href="#5-cpp09-c---single-project">5. CPP09 (C++ - single project)</a><br>
+<a href="#6-inception-">6. Inception ()</a><br>
+<a href="#7-webserv-">7. webserv ()</a><br>
+<a href="#milestone-6">Milestone 6</a><br>
+<a href="#e-exam-rank-06">e. exam rank 06</a><br>
+<a href="#1-ft_trascendence-">1. ft_trascendence ()</a><br>
+<a href="#exams">Exams</a><br>
+<a href="#holy-graph">Holy Graph</a><br>
+<a href="#resources">Resources</a><br>
+<a href="#support-me">Support Me</a><br>
+<a href="#author">Author</a><br>
 </p>
 
 ## Briefing
@@ -43,11 +66,11 @@ I handled the various projects. I hope you enjoy it. Good coding!
 
 <br>
 
-## 00 Ring
+## Milestone 0
 
 <p align="justify">
 
-### 0️. [libft](https://github.com/f-corvaro/LIBFT) (C - solo project)
+### 1. [libft](https://github.com/f-corvaro/LIBFT) (C - solo project)
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
@@ -56,7 +79,7 @@ I handled the various projects. I hope you enjoy it. Good coding!
 
 <br>
 
-## 01 Ring
+## Milestone 1
 
 <p align="justify">
 
@@ -82,9 +105,13 @@ I handled the various projects. I hope you enjoy it. Good coding!
 
 <br>
 
-## 02 Ring
+## Milestone 2
 
 <p align="justify">
+
+### e. [exam rank 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02)
+
+[![fcorvaro's 42 Exam Rank 02 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 From here, you don't have MOULINETTE. All the projects will be evaluated by peers. You must make your choice between:
 
@@ -115,9 +142,13 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
 <br>
 
-## 03 Ring
+## Milestone 3
 
 <p align="justify">
+
+### e. [exam rank 03](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03)
+
+[![fcorvaro's 42 Exam Rank 03 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ### 1. [Philosophers](https://github.com/f-corvaro/PHILOSOPHERS) (C  - solo project)
 
@@ -131,6 +162,116 @@ From here, you don't have MOULINETTE. All the projects will be evaluated by peer
 
   ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
+
+</p>
+
+<br>
+
+## Milestone 4
+
+<p align="justify">
+
+### e. [exam rank 04](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-04)
+
+[![fcorvaro's 42 Exam Rank 04 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
+
+### 1. [cub3d](https://github.com/f-corvaro/CUB3D) (C - duo project)
+
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 2. [NetPractice](https://github.com/f-corvaro/NETPRACTICE) (C  - solo project)
+
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+
+</p>
+
+<br>
+
+## Milestone 5
+
+<p align="justify">
+
+### e. [exam rank 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05)
+
+### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 6. [Inception](https://github.com/f-corvaro/Inception) ()
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+### 7. [webserv](https://github.com/f-corvaro/webserv) ()
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+</p>
+
+<br>
+
+## Milestone 6
+
+<p align="justify">
+
+### e. [exam rank 06](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-06)
+
+### 1. [ft_trascendence](https://github.com/f-corvaro/ft_trascendence) ()
+
+
+  ```BlackHole days (with bonus) =  Days``` | ```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 </p>
 
