@@ -216,6 +216,8 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 ### 1. [cub3D](https://github.com/f-corvaro/CUB3D) (C - duo project)
 
+[![fcorvaro's 42 cub3D Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
+
 ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 In Milestone 4, `cub3D` is the final project that requires adherence to the Norminette coding standard.
