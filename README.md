@@ -1,10 +1,10 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42cc_gh.png"></a>
 
 <p align="center">
-	<b><i>"Embarking on the Common Core journey at 42 School is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
+  <b><i>"Embarking on the Common Core journey at 42 School is like setting sail into the vast ocean of coding - it's challenging and unpredictable, but with every line of code, we navigate closer to the treasure of knowledge and expertise."</i></b><br>
 </p>
 <p align="center" style="text-decoration: none;">
-    <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=black" /></a>
+  <a href="https://github.com/f-corvaro/LIBFT"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/LIBFT?color=black" /></a>
 </p>
 
 <h3 align="center">Index</h3>
@@ -81,7 +81,7 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 [![fcorvaro's 42 Libft Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
+```Evaluation Length = 15 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 </p>
 <br>
@@ -90,21 +90,23 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 <p align="justify">
 
-### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot) (Virtual Machine  - solo project)
+### 1. [born2beroot](https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot) (Virtual Machine - solo project)
 
 [![fcorvaro's 42 Born2beroot Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` | ```This project provides evaluators with a 2-point evaluation system, but you only utilized 1 point.``` | ```Tester available```
+```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` 
+
+**note:** This project provides evaluators with a 2-point evaluation system, but you only utilized 1 point.
 
 ### 2. [ft_printf](https://github.com/f-corvaro/FT_PRINTF) (C - solo project)
 
 [![fcorvaro's 42 ft_printf Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
+```Evaluation Length = 30 Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 ### 3. [get_next_line](https://github.com/f-corvaro/GET_NEXT_LINE) (C - solo project)
 
-```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON``` | ```Tester available```
+```Evaluation Length = 15/30  Mins``` | ```Moulinette and 3 Peers``` | ```NORMINETTE = ON```
 
 [![fcorvaro's 42 get_next_line Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
@@ -115,13 +117,13 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 <p align="justify">
 
-### 0. [exam rank 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02)
+### 0. [exam rank 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) (C)
 
 [![fcorvaro's 42 Exam Rank 02 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 From this point onward, the MOULINETTE automated evaluation system is no longer available. All projects will be evaluated only by your peers. You must choose between the following options:
 
-#### Project Choices
+#### Project Choices 1
 
 • [```FdF```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/FDF.pdf) or [```so_long```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/so_long.pdf) or [```fract-ol```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/fract-ol.pdf)
 
@@ -133,6 +135,8 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 - **fract-ol**: The `fract-ol` project involves creating fractal images, which is a fascinating topic in computer graphics. However, I chose `FdF` because it offers more direct applications to my field of study in mechanical engineering, particularly in areas like 3D modeling and simulation.
 
+#### Project Choices 2
+
 • [```pipex```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/pipex.pdf) or [```minitalk```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/minitalk.pdf)
 
 #### Why I Chose `pipex` Over `minitalk`
@@ -141,7 +145,7 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 - **minitalk**: While `minitalk` focuses on implementing a small data exchange program using Unix signals, which is also valuable, I found `pipex` to be more aligned with my interest in system-level programming and process management.
 
-### 1. [FdF](https://github.com/f-corvaro/FDF) (C  - solo project)
+### 1. [FdF](https://github.com/f-corvaro/FDF) (C - solo project)
 
 [![fcorvaro's 42 FdF Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
@@ -166,15 +170,19 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 <p align="justify">
 
-### 0. [exam rank 03](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03)
+### 0. [exam rank 03](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03) (C)
 
 [![fcorvaro's 42 Exam Rank 03 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-### 1. [Philosophers](https://github.com/f-corvaro/PHILOSOPHERS) (C  - solo project)
+### 1. [Philosophers](https://github.com/f-corvaro/PHILOSOPHERS) (C - solo project)
+
+[![fcorvaro's 42 Philosophers Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
 ### 2. [minishell](https://github.com/f-corvaro/MINISHELL) (C - duo project)
+
+[![fcorvaro's 42 Minishell Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
 
@@ -185,37 +193,49 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 <p align="justify">
 
-### 0. [exam rank 04](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-04)
+### 0. [exam rank 04](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-04) (C)
 
 [![fcorvaro's 42 Exam Rank 04 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-### 1. [cub3d](https://github.com/f-corvaro/CUB3D) (C - duo project)
+#### Project Choices 3
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+• [```cub3D```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/cub3D.pdf) or [```miniRT```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/miniRT.pdf)
 
-### 2. [NetPractice](https://github.com/f-corvaro/NETPRACTICE) (C  - solo project)
+#### Why I Chose `cub3D` Over `miniRT`
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+- **cub3D**: The `cub3D` project involves creating a 3D game using raycasting, which aligns well with my interest in game development and real-time rendering. This project enhances my understanding of computer graphics, particularly in the context of game engines, and provides practical experience in implementing raycasting algorithms. The skills gained from this project, such as working with graphical libraries and optimizing real-time rendering, are directly applicable to various fields, including game development and interactive simulations. Additionally, due to the blackhole system, I was near the deadline and needed to start pushing my progress quickly. The `cub3D` project allowed me to leverage my existing knowledge and complete the project within the given timeframe.
+
+- **miniRT**: The `miniRT` project focuses on creating a simple ray tracer, which is a fascinating topic in computer graphics. However, I chose `cub3D` because the blackhole system's time constraints made `cub3D` a more feasible choice for timely completion. Additionally, `cub3D` aligns better with my interest in game development and real-time rendering, allowing me to leverage my existing knowledge and skills to meet the deadline effectively.
+
+### 1. [cub3D](https://github.com/f-corvaro/CUB3D) (C - duo project)
+
+```Evaluation Length = 30 Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+
+In Milestone 4, `cub3D` is the final project that requires adherence to the Norminette coding standard.
+
+### 2. [NetPractice](https://github.com/f-corvaro/NETPRACTICE) (C - solo project)
+
+```Evaluation Length = 30 Mins``` | ```3 Peers```
 
 ### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 </p>
 <br>
@@ -224,35 +244,35 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 <p align="justify">
 
-### 0. [exam rank 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05)
+### 0. [exam rank 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05) (C++)
 
 ### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 6. [Inception](https://github.com/f-corvaro/Inception) ()
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length =  Mins``` | ```3 Peers```
 
 ### 7. [webserv](https://github.com/f-corvaro/webserv) ()
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length =  Mins``` | ```3 Peers```
 
 </p>
 <br>
@@ -261,11 +281,11 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 <p align="justify">
 
-### 0. [exam rank 06](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-06)
+### 0. [exam rank 06](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-06) ()
 
 ### 1. [ft_trascendence](https://github.com/f-corvaro/ft_trascendence) ()
 
-```Evaluation Length =  Mins``` | ```3 Peers``` | ```NORMINETTE = ON```
+```Evaluation Length =  Mins``` | ```Evaluation by 3 Peers + 1 Staff Member```
 
 </p>
 <br>
