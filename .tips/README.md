@@ -1,5 +1,9 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
 
+<p align="center" style="text-decoration: none;">
+  <a href="https://github.com/f-corvaro/42.common_core/tree/main/.tips"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
+</p>
+
 <h3 align="center">Index</h3>
 
 <p align="center">
