@@ -38,7 +38,7 @@ The purpose of the exam is to test your knowledge without any external assistanc
 
 <p align="justify">
 
-Note: The numbers indicate the corresponding milestone for the exam.
+**Note:** The numbers indicate the corresponding milestone for the exam.
 
 ### 2. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) (2 C exercises - old version)
 
