@@ -4,30 +4,7 @@
   <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
 </p>
 
-- [](#)
-	- [Exam Overview](#exam-overview)
-	- [Exams Details](#exams-details)
-		- [2. Exam 02 (2 C exercises - old version)](#2-exam-02-2-c-exercises---old-version)
-		- [3. Exam 03 (1 C exercise)](#3-exam-03-1-c-exercise)
-		- [4. Exam 04 (1 C exercise)](#4-exam-04-1-c-exercise)
-		- [5. Exam 05 (3 C++ exercises)](#5-exam-05-3-c-exercises)
-		- [6. Exam 06 ()](#6-exam-06-)
-	- [Exam Login Instructions](#exam-login-instructions)
-		- [1. Initial Login:](#1-initial-login)
-		- [2. Access Exam Terminal:](#2-access-exam-terminal)
-		- [3. Login with Your 42 Intra Account:](#3-login-with-your-42-intra-account)
-		- [4. Access the Exam Shell:](#4-access-the-exam-shell)
-		- [5. Allow Photo Check:](#5-allow-photo-check)
-		- [6. Access Rendu:](#6-access-rendu)
-		- [7. Exam Shell Commands:](#7-exam-shell-commands)
-		- [8. Open a New Terminal:](#8-open-a-new-terminal)
-		- [9. Submit Your Project:](#9-submit-your-project)
-	- [Support Me](#support-me)
-	- [Author](#author)
-
-
 <h3 align="center">Index</h3>
-
 <p align="center">
  <a href="#exam-overview">Exam Overview</a><br>
  <a href="#exams-details">Exams Details</a><br>
