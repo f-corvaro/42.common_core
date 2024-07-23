@@ -35,48 +35,49 @@
 		- [Boot - Selecting the Operating System](#boot---selecting-the-operating-system)
 		- [Boot - Enter Encrypted Disk Password](#boot---enter-encrypted-disk-password)
 		- [Boot - Enter User Credentials](#boot---enter-user-credentials)
-		- [4.1 - Installing Sudo and Configuring User and Groups](#41---installing-sudo-and-configuring-user-and-groups)
-	- [5.3 - Virtual Cores](#53---virtual-cores)
-	- [5.4 - RAM](#54---ram)
-	- [5.5 - Disk memory](#55---disk-memory)
-	- [5.6 - CPU usage percentage](#56---cpu-usage-percentage)
-	- [5.7 - Last reboot](#57---last-reboot)
-	- [5.8 - LVM activation](#58---lvm-activation)
-	- [5.9 - TCP](#59---tcp)
-	- [5.10 - Number of users](#510---number-of-users)
-	- [5.11 - IP adress](#511---ip-adress)
-	- [5.12 - Number of commands executed with sudo](#512---number-of-commands-executed-with-sudo)
-	- [5.13 - Total result of the script](#513---total-result-of-the-script)
+		- [Installing Sudo and Configuring User and Groups](#installing-sudo-and-configuring-user-and-groups)
+		- [Virtual Cores](#virtual-cores)
+		- [RAM](#ram)
+		- [Disk memory](#disk-memory)
+		- [CPU usage percentage](#cpu-usage-percentage)
+		- [Last reboot](#last-reboot)
+		- [LVM activation](#lvm-activation)
+		- [TCP](#tcp)
+		- [Number of users](#number-of-users)
+		- [IP adress](#ip-adress)
+		- [Number of commands executed with sudo](#number-of-commands-executed-with-sudo)
+		- [Total result of the script](#total-result-of-the-script)
 	- [6 - Crontab](#6---crontab)
 	- [7 - Bonus](#7---bonus)
-		- [7.1 - Wordpress \& services configuration](#71---wordpress--services-configuration)
-		- [7.1.a - Lighttpd](#71a---lighttpd)
-		- [7.1.b - WordPress](#71b---wordpress)
-		- [7.1.c - Mariadb](#71c---mariadb)
-		- [7.1.d - Database](#71d---database)
-			- [WordPress Configuration](#wordpress-configuration)
+		- [Wordpress \& services configuration](#wordpress--services-configuration)
+		- [Lighttpd](#lighttpd)
+		- [WordPress](#wordpress)
+		- [Mariadb](#mariadb)
+		- [Database](#database)
+		- [WordPress Configuration](#wordpress-configuration)
 	- [8 - Signature.txt](#8---signaturetxt)
 	- [9 - Theory](#9---theory)
-		- [9.1 - How to Correct - Evaluator Version](#91---how-to-correct---evaluator-version)
-	- [1. Preliminary Tests:](#1-preliminary-tests)
-	- [2. General Instructions:](#2-general-instructions)
-	- [3. Mandatory Part (Questions for the Student):](#3-mandatory-part-questions-for-the-student)
-		- [4. Setup:](#4-setup)
-		- [5. User:](#5-user)
-		- [6. Password Policy Check:](#6-password-policy-check)
-		- [7. Hostname and Partitions:](#7-hostname-and-partitions)
-		- [8. SUDO:](#8-sudo)
-		- [9. UFW (Uncomplicated Firewall):](#9-ufw-uncomplicated-firewall)
-		- [10. SSH:](#10-ssh)
-		- [9.2 - Essential Information](#92---essential-information)
-		- [What is a virtual machine?](#what-is-a-virtual-machine)
-		- [Why did you choose Debian/CentOS?](#why-did-you-choose-debiancentos)
-		- [Basic differences between CentOS and Debian](#basic-differences-between-centos-and-debian)
-		- [What is the purpose of virtual machines?](#what-is-the-purpose-of-virtual-machines)
-		- [Differences between apt and aptitude](#differences-between-apt-and-aptitude)
-		- [What is AppArmor?](#what-is-apparmor)
-		- [What is LVM?](#what-is-lvm)
-		- [9.3 - Correction Sheet](#93---correction-sheet)
+		- [How to Correct - Evaluator Version](#how-to-correct---evaluator-version)
+			- [1. Preliminary Tests:](#1-preliminary-tests)
+			- [2. General Instructions:](#2-general-instructions)
+			- [3. Mandatory Part (Questions for the Student):](#3-mandatory-part-questions-for-the-student)
+			- [4. Setup:](#4-setup)
+			- [5. User:](#5-user)
+			- [6. Password Policy Check:](#6-password-policy-check)
+			- [7. Hostname and Partitions:](#7-hostname-and-partitions)
+			- [8. SUDO:](#8-sudo)
+			- [9. UFW (Uncomplicated Firewall):](#9-ufw-uncomplicated-firewall)
+			- [10. SSH:](#10-ssh)
+			- [11. Script Monitoring (Questions for the Student):](#11-script-monitoring-questions-for-the-student)
+		- [Essential Information](#essential-information)
+			- [What is a virtual machine?](#what-is-a-virtual-machine)
+			- [Why did you choose Debian/CentOS?](#why-did-you-choose-debiancentos)
+			- [Basic differences between CentOS and Debian](#basic-differences-between-centos-and-debian)
+			- [What is the purpose of virtual machines?](#what-is-the-purpose-of-virtual-machines)
+			- [Differences between apt and aptitude](#differences-between-apt-and-aptitude)
+			- [What is AppArmor?](#what-is-apparmor)
+			- [What is LVM?](#what-is-lvm)
+		- [Correction Sheet](#correction-sheet)
 	- [Support Me](#support-me)
 	- [Skills developed](#skills-developed)
 	- [Author](#author)
@@ -580,7 +581,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/79.png">
 
-### 4.1 - Installing Sudo and Configuring User and Groups
+### Installing Sudo and Configuring User and Groups
 
 1. **Switch to Root User and Install Sudo**
    Begin by switching to the root user to install [sudo](https://en.wikipedia.org/wiki/Sudo). Enter `su -` in the bash prompt and provide the root password (for me, it is `Pw.20STNG!81`). Additionally, install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. Run the following commands:
@@ -631,7 +632,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 	Run root-privileged command by prefixing them with `sudo`.
 
-### 4-2 Installing and Configuring SSH
+### Installing and Configuring SSH
 
 [SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
@@ -703,7 +704,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/85.png">
 
-### 4.3 - Installing & Configuring UFW
+### Installing & Configuring UFW
 
 [UFW](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) is a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) that uses the command line for setting up [iptables](https://en.wikipedia.org/wiki/Iptables) with a small number of easy commands.
 
@@ -745,7 +746,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/88.png">
 
-### 4.4 - Setting up the sudo policies
+### Setting up the sudo policies
 
 1. **Create the Sudo Configuration File**
 
@@ -796,7 +797,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
     - `requiretty`: Requires a TTY for security reasons.
     - `secure_path`: Directories included in the secure path for sudo.
 
-### 4.5 - Setting up a strong password policy
+### Setting up a strong password policy
 
 1. **Edit the `login.defs` File**
 
@@ -856,7 +857,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
    - `difok=7`: Password must contain at least seven different characters from the previous password.
    - `enforce_for_root`: Apply this password policy to the root user.
 
-### 4.6 - Connecting via SSH
+### Connecting via SSH
 
 1. **Shut Down the Virtual Machine**
 
@@ -901,7 +902,7 @@ Pay close attention to all details in this section. You will be asked how the sc
 
 A **script** is a sequence of commands stored in a file that, when executed, will perform the specified commands.
 
-## 5.1 - Architecture
+### Architecture
 
 [Architecture](https://en.wikipedia.org/wiki/Computer_architecture) refers to the design and organization of a computer's components.
 
@@ -909,7 +910,7 @@ To display the architecture of the OS, you can use the command `uname -a` (`-a` 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/96.png">
 
-## 5.2 - Physical Cores
+### Physical Cores
 
 [Physical Cores](https://en.wikipedia.org/wiki/Central_processing_unit) refer to the actual hardware components of a CPU. To display the number of physical cores, we can use the `/proc/cpuinfo` file, which provides detailed information about the CPU, including its type, brand, model, and performance.
 
@@ -925,7 +926,7 @@ grep "physical id" /proc/cpuinfo | sort -u | wc -l
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/97.png">
 
-## 5.3 - Virtual Cores
+### Virtual Cores
 
 [Virtual Cores](https://en.wikipedia.org/wiki/Central_processing_unit) refer to the logical divisions of a physical core, often created through technologies like Hyper-Threading. To display the number of virtual cores, we use the `/proc/cpuinfo` file.
 
@@ -939,7 +940,7 @@ grep -c "processor" /proc/cpuinfo
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/98.png">
 
-## 5.4 - RAM
+### RAM
 
 [RAM](https://en.wikipedia.org/wiki/Random-access_memory) refers to the computer's short-term memory. To display RAM usage, use the `free` command, which provides real-time information about the RAM (amount used, amount available, amount reserved for other resources, etc.). For more details, use `free --help`. We will use `free --mega` since that unit of measure is specified in the subject.
 
@@ -992,7 +993,7 @@ This approach ensures that the memory usage is displayed accurately and formatte
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/99.png">
 
-## 5.5 - Disk memory
+### Disk memory
 
 [Disk memory](https://en.wikipedia.org/wiki/Disk_storage) refers to the storage capacity of a disk drive. To view the occupied and available memory of the disk, we will use the `df` command ("disk filesystem"), which provides a summary of disk space usage. As specified, the used memory should be shown in MB, so we use the `-m` flag.
 
@@ -1033,7 +1034,7 @@ df -m | grep "/dev/" | grep -v "/boot" | awk '{use += $3} {total += $2} END {pri
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/100.png">
 
-## 5.6 - CPU usage percentage
+### CPU usage percentage
 
 To view the percentage of CPU usage, we will use the `vmstat` command, which shows system statistics, including details about processes, memory usage, CPU activity, and system status. We will use an interval of 1 second and take 3 samples. The `tail -1` command will ensure that only the last line of the output is processed. We will then use `awk` to print the 15th word, which represents the idle CPU percentage.
 
@@ -1055,7 +1056,7 @@ This approach ensures that we accurately calculate and display the CPU usage per
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/101.png">
 
-## 5.7 - Last reboot
+### Last reboot
 
 To see the date and time of our last reboot, we will use the `who` command with the `-b` flag, which displays the time of the last system boot. Since this command provides more information than needed, we will filter the output to show only the relevant details. We will use the `awk` command to check if the first word of a line is "system" and then print the third and fourth words of that line.
 
@@ -1070,7 +1071,7 @@ who -b | awk '$1 == "system" {print $3 " " $4}'
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/102.png">
 
-## 5.8 - LVM activation
+### LVM activation
 
 To check if LVM is active, we will use the `lsblk` command, which shows information about all block devices (hard drives, SSDs, memories, etc.). We will count the number of lines containing "lvm" and print "Yes" if there are any, or "No" if there are none.
 
@@ -1086,7 +1087,7 @@ if [ $(lsblk | grep -c lvm) -gt 0 ]; then echo "Yes"; else echo "No"; fi
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/103.png">
 
-## 5.9 - TCP
+### TCP
 
 [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) connections.
 
@@ -1104,7 +1105,7 @@ ss -ta | grep ESTAB | wc -l
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/104.png">
 
-## 5.10 - Number of users
+### Number of users
 
 To count the number of currently logged-in users, we will use the `users` command, which displays the usernames of all logged-in users. We will then pipe the output to `wc -w` to count the number of words, which corresponds to the number of users.
 
@@ -1119,7 +1120,7 @@ users | wc -w
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/105.png">
 
-## 5.11 - IP adress
+### IP adress
 
 [IP address](https://en.wikipedia.org/wiki/IP_address).
 
@@ -1144,7 +1145,7 @@ Use the following commands:
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/106.png">
 
-## 5.12 - Number of commands executed with sudo
+### Number of commands executed with sudo
 
 To obtain the number of commands executed with `sudo`, we will use the `journalctl` command, which is responsible for collecting and managing system logs. We will filter the entries by specifying `_COMM=sudo`, which refers to the executable script for `sudo`. 
 
@@ -1164,7 +1165,7 @@ To verify that it works correctly, you can run the command in the terminal, exec
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/107.png">
 
-## 5.13 - Total result of the script
+### Total result of the script
 
 Now we need to write this script together. Go to the directory `/home/your_username/` (replace `your_username` with your actual username) and then create the script in the `monitoring.sh` file. Use the following command to open the file in `vim`:
 
@@ -1285,9 +1286,9 @@ In this example, `*/10 * * * *` means the script will run every 10 minutes.
 
 ## 7 - Bonus
 
-### 7.1 - Wordpress & services configuration
+### Wordpress & services configuration
 
-### 7.1.a - Lighttpd
+### Lighttpd
 
 <p align="justify">
 
@@ -1318,7 +1319,7 @@ In this example, `*/10 * * * *` means the script will run every 10 minutes.
 
 	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/113.png">
 
-### 7.1.b - WordPress
+### WordPress
 
 [WordPress](https://en.wikipedia.org/wiki/WordPress) is a web content management system focused on the creation of any type of website.
 
@@ -1377,7 +1378,7 @@ In this example, `*/10 * * * *` means the script will run every 10 minutes.
 
    The number `7` indicates that the owner has read, write, and execute permissions. The number `5` indicates that the group and others have read and execute permissions.
 
-### 7.1.c - Mariadb
+### Mariadb
 
 [MariaDB](https://en.wikipedia.org/wiki/MariaDB) is a relational database management system. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
 
@@ -1415,7 +1416,7 @@ In this example, `*/10 * * * *` means the script will run every 10 minutes.
 
    - Reload privilege tables now? `Y`. This will reload the MySQL permission tables so that the changes to the security settings take effect immediately.
 
-### 7.1.d - Database
+### Database
 
 1. **Access MariaDB:**
    After finishing the installation of MariaDB, we need to create the database and the user for WordPress. First, access MariaDB by typing:
@@ -1471,7 +1472,7 @@ In this example, `*/10 * * * *` means the script will run every 10 minutes.
    exit
     ```
 
-### 7.1.e - PHP
+### PHP
 
 [PHP](https://en.wikipedia.org/wiki/PHP) is a programming language primarily used for developing dynamic web applications and interactive websites. PHP runs on the server side.
 
@@ -1483,7 +1484,7 @@ sudo apt install php-cgi php-mysql
 
 When prompted, confirm the installation by typing `y`.
 
-#### WordPress Configuration
+### WordPress Configuration
 
 1. Navigate to the `html` directory:
    
@@ -1562,7 +1563,7 @@ When prompted, confirm the installation by typing `y`.
 
 12. Once logged in, you can customize your site as desired. Note that customizing the page is optional and not covered in this guide.
 
-### 7.2 - Additional service: LiteSpeed
+### Additional service: LiteSpeed
 
 [LiteSpeed](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server) is a proprietary web server software.
 
@@ -1682,22 +1683,22 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
 
 <p align="justify">
 
-### 9.1 - How to Correct - Evaluator Version
+### How to Correct - Evaluator Version
 
-## 1. Preliminary Tests:
+#### 1. Preliminary Tests:
 
  - Clone the repository using:
  ```bash
  git clone <repository_url>
  ```
 
-## 2. General Instructions:
+#### 2. General Instructions:
 
  - Verify that the repository contains the `signature.txt` file.
  - Check the signature against the student's `.vdi` file to ensure they match
  - Clone the VM or create a snapshot, then open the VM.
 
-## 3. Mandatory Part (Questions for the Student):
+#### 3. Mandatory Part (Questions for the Student):
 
  - How does a virtual machine work and what is its purpose?
  - What are the basic differences between CentOS and Debian?
@@ -1708,7 +1709,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
 
  All explanations must be satisfactory (otherwise, the evaluation stops here).
 
-### 4. Setup:
+#### 4. Setup:
 
  - Ensure that the machine does not have a graphical environment at launch.
  - Connect to the VM as a created user (not root).
@@ -1735,7 +1736,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  lsb_release -a || cat /etc/os-release
  ```
 
-### 5. User:
+#### 5. User:
 
  Ensure that a user with the login of the student being evaluated is present on the virtual machine. Verify that the user has been added and belongs to the sudo and user42 groups:
 
@@ -1746,7 +1747,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  ```bash
  getent group user42
  ```
-### 6. Password Policy Check:
+#### 6. Password Policy Check:
 
 1. **Create a New User:**
 
@@ -1790,7 +1791,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  - Ask the student to explain the advantages of the password policy beyond its requirement for the project.
  - Discuss the advantages and disadvantages of the policy implementation.
 
-### 7. Hostname and Partitions:
+#### 7. Hostname and Partitions:
 
 1. **Check Hostname:**
 
@@ -1830,7 +1831,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
 
  - Ask the student for a brief explanation of Logical Volume Management (LVM) and how it works.
 
-### 8. SUDO:
+#### 8. SUDO:
 
 1. **Check SUDO Installation:**
 
@@ -1868,7 +1869,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  cat /var/log/sudo/some_log_file  # Check for the new entry
  ```
 
-### 9. UFW (Uncomplicated Firewall):
+#### 9. UFW (Uncomplicated Firewall):
 
 1. **Check UFW Installation:**
 
@@ -1905,7 +1906,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  ```
  - Note: Replace `<rule_number>` with the actual number of the rule for port 8080 from the listed rules.
 
-### 10. SSH:
+#### 10. SSH:
 
 1. **Check SSH Service:**
 
@@ -1937,7 +1938,7 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  ssh root@127.0.0.1 -p 4242  # Should result in "Permission denied"
  ```
 
-11. Script Monitoring (Questions for the Student):
+#### 11. Script Monitoring (Questions for the Student):
 
 1. **Understanding the Script:**
 
@@ -1975,30 +1976,30 @@ Next, navigate to the directory where your virtual machine's `.vdi` file is loca
  sudo crontab -u root -e
  ```
 
-### 9.2 - Essential Information
+### Essential Information
 
-### What is a virtual machine?
+#### What is a virtual machine?
 
 A [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine) (VM) is software that emulates a computer system, allowing it to run programs as if it were a physical machine. VMs enable the creation of multiple isolated environments or dedicated resources from a single physical hardware system.
 
-### Why did you choose Debian/CentOS?
+#### Why did you choose Debian/CentOS?
 
 This is a personal choice. Here are some links for more information:
 - [Debian](https://en.wikipedia.org/wiki/Debian)
 - [CentOS](https://en.wikipedia.org/wiki/CentOS)
 
-### Basic differences between CentOS and Debian
+#### Basic differences between CentOS and Debian
 
 | CentOS vs Debian | CentOS vs Debian |
 |:-------------------------:|:-------------------------:|
 | <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/CvD1.jpeg"> | <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/CvD2.png"> |
 
 
-### What is the purpose of virtual machines?
+#### What is the purpose of virtual machines?
 
 Virtual machines (VMs) provide a hardware and operating system-independent execution environment. They abstract the underlying system details, ensuring that programs run consistently across different platforms.
 
-### Differences between apt and aptitude
+#### Differences between apt and aptitude
 
 `aptitude` offers both a command-line and text-based front-end for package management. It doesn't come by default, so you need to install it using the `apt` command. `aptitude` allows you to manage your packages through command lines and also from a visual interface directly in your terminal. You can perform main actions like installing, updating, and deleting packages. It also offers sub-commands to manage your packages similar to `apt`, but some people prefer the visual interface as it's easier to use.
 
@@ -2009,15 +2010,16 @@ Virtual machines (VMs) provide a hardware and operating system-independent execu
 - `aptitude` can interactively retrieve and display the Debian changelog of all available official packages.
 - `apt` requires the user to have a solid knowledge of Linux systems and package management, as you are running everything in the command line. It can be difficult for a novice to handle.
 - On the other hand, `aptitude` with its interface is more user-friendly as it offers a layer of abstraction regarding the different sub-commands to use for installation, upgrades, etc.
-### What is AppArmor?
+
+#### What is AppArmor?
 
 [AppArmor](https://en.wikipedia.org/wiki/AppArmor) (Application Armor) is a security module in the Linux kernel that allows system administrators to restrict the capabilities of programs using per-program profiles.
 
-### What is LVM?
+#### What is LVM?
 
 [LVM](https://en.wikipedia.org/wiki/Logical_volume_management) (Logical Volume Manager) is a system for managing logical volumes, or filesystems, in a more flexible manner than traditional partitioning schemes. It allows for dynamic resizing and efficient allocation of storage space on mass storage devices.
 
-### 9.3 - Correction Sheet
+### Correction Sheet
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/b2b_cs1.png">
 
