@@ -15,74 +15,72 @@
 </p>
 
 <h3 align="center">Index</h3>
+
 <p align="center">
-
-- [Introduction to Born2BeRoot](#introduction-to-born2beroot)
-- [Born2BeRoot Project Guide](#born2beroot-project-guide)
-	- [1 - Download the Virtual Machine ISO](#1---download-the-virtual-machine-iso)
-	- [2 - Step-by-Step Guide to Installing the Virtual Machine](#2---step-by-step-guide-to-installing-the-virtual-machine)
-	- [3 - Step-by-Step Guide to Installing Debian Without a GUI](#3---step-by-step-guide-to-installing-debian-without-a-gui)
-		- [Brief Description of Disk Partition Types](#brief-description-of-disk-partition-types)
-			- [Primary](#primary)
-			- [Extended](#extended)
-			- [Logical](#logical)
-		- [Partition Configuration Steps](#partition-configuration-steps)
-		- [Configure Encrypted Volumes](#configure-encrypted-volumes)
-		- [Configure the Logical Volume Manager](#configure-the-logical-volume-manager)
-		- [Configure Partitions and Mount Points](#configure-partitions-and-mount-points)
-		- [Configure Debian Installation](#configure-debian-installation)
-	- [4 - Virtual Machine Setup](#4---virtual-machine-setup)
-		- [Boot - Selecting the Operating System](#boot---selecting-the-operating-system)
-		- [Boot - Enter Encrypted Disk Password](#boot---enter-encrypted-disk-password)
-		- [Boot - Enter User Credentials](#boot---enter-user-credentials)
-		- [Installing Sudo and Configuring User and Groups](#installing-sudo-and-configuring-user-and-groups)
-		- [Virtual Cores](#virtual-cores)
-		- [RAM](#ram)
-		- [Disk memory](#disk-memory)
-		- [CPU usage percentage](#cpu-usage-percentage)
-		- [Last reboot](#last-reboot)
-		- [LVM activation](#lvm-activation)
-		- [TCP](#tcp)
-		- [Number of users](#number-of-users)
-		- [IP adress](#ip-adress)
-		- [Number of commands executed with sudo](#number-of-commands-executed-with-sudo)
-		- [Total result of the script](#total-result-of-the-script)
-	- [6 - Crontab](#6---crontab)
-	- [7 - Bonus](#7---bonus)
-		- [Wordpress \& services configuration](#wordpress--services-configuration)
-		- [Lighttpd](#lighttpd)
-		- [WordPress](#wordpress)
-		- [Mariadb](#mariadb)
-		- [Database](#database)
-		- [WordPress Configuration](#wordpress-configuration)
-	- [8 - Signature.txt](#8---signaturetxt)
-	- [9 - Theory](#9---theory)
-		- [How to Correct - Evaluator Version](#how-to-correct---evaluator-version)
-			- [1. Preliminary Tests:](#1-preliminary-tests)
-			- [2. General Instructions:](#2-general-instructions)
-			- [3. Mandatory Part (Questions for the Student):](#3-mandatory-part-questions-for-the-student)
-			- [4. Setup:](#4-setup)
-			- [5. User:](#5-user)
-			- [6. Password Policy Check:](#6-password-policy-check)
-			- [7. Hostname and Partitions:](#7-hostname-and-partitions)
-			- [8. SUDO:](#8-sudo)
-			- [9. UFW (Uncomplicated Firewall):](#9-ufw-uncomplicated-firewall)
-			- [10. SSH:](#10-ssh)
-			- [11. Script Monitoring (Questions for the Student):](#11-script-monitoring-questions-for-the-student)
-		- [Essential Information](#essential-information)
-			- [What is a virtual machine?](#what-is-a-virtual-machine)
-			- [Why did you choose Debian/CentOS?](#why-did-you-choose-debiancentos)
-			- [Basic differences between CentOS and Debian](#basic-differences-between-centos-and-debian)
-			- [What is the purpose of virtual machines?](#what-is-the-purpose-of-virtual-machines)
-			- [Differences between apt and aptitude](#differences-between-apt-and-aptitude)
-			- [What is AppArmor?](#what-is-apparmor)
-			- [What is LVM?](#what-is-lvm)
-		- [Correction Sheet](#correction-sheet)
-	- [Support Me](#support-me)
-	- [Skills developed](#skills-developed)
-	- [Author](#author)
-
-
+ <a href="#introduction-to-born2beroot">Introduction to Born2BeRoot</a><br>
+ <a href="#born2beroot-project-guide">Born2BeRoot Project Guide</a><br>
+ <a href="#1---download-the-virtual-machine-iso">1 - Download the Virtual Machine ISO</a><br>
+ <a href="#2---step-by-step-guide-to-installing-the-virtual-machine">2 - Step-by-Step Guide to Installing the Virtual Machine</a><br>
+ <a href="#3---step-by-step-guide-to-installing-debian-without-a-gui">3 - Step-by-Step Guide to Installing Debian Without a GUI</a><br>
+ <a href="#brief-description-of-disk-partition-types">Brief Description of Disk Partition Types</a><br>
+ <a href="#primary">Primary</a><br>
+ <a href="#extended">Extended</a><br>
+ <a href="#logical">Logical</a><br>
+ <a href="#partition-configuration-steps">Partition Configuration Steps</a><br>
+ <a href="#configure-encrypted-volumes">Configure Encrypted Volumes</a><br>
+ <a href="#configure-the-logical-volume-manager">Configure the Logical Volume Manager</a><br>
+ <a href="#configure-partitions-and-mount-points">Configure Partitions and Mount Points</a><br>
+ <a href="#configure-debian-installation">Configure Debian Installation</a><br>
+ <a href="#4---virtual-machine-setup">4 - Virtual Machine Setup</a><br>
+ <a href="#boot---selecting-the-operating-system">Boot - Selecting the Operating System</a><br>
+ <a href="#boot---enter-encrypted-disk-password">Boot - Enter Encrypted Disk Password</a><br>
+ <a href="#boot---enter-user-credentials">Boot - Enter User Credentials</a><br>
+ <a href="#installing-sudo-and-configuring-user-and-groups">Installing Sudo and Configuring User and Groups</a><br>
+ <a href="#virtual-cores">Virtual Cores</a><br>
+ <a href="#ram">RAM</a><br>
+ <a href="#disk-memory">Disk memory</a><br>
+ <a href="#cpu-usage-percentage">CPU usage percentage</a><br>
+ <a href="#last-reboot">Last reboot</a><br>
+ <a href="#lvm-activation">LVM activation</a><br>
+ <a href="#tcp">TCP</a><br>
+ <a href="#number-of-users">Number of users</a><br>
+ <a href="#ip-adress">IP address</a><br>
+ <a href="#number-of-commands-executed-with-sudo">Number of commands executed with sudo</a><br>
+ <a href="#total-result-of-the-script">Total result of the script</a><br>
+ <a href="#6---crontab">6 - Crontab</a><br>
+ <a href="#7---bonus">7 - Bonus</a><br>
+ <a href="#wordpress--services-configuration">WordPress & services configuration</a><br>
+ <a href="#lighttpd">Lighttpd</a><br>
+ <a href="#wordpress">WordPress</a><br>
+ <a href="#mariadb">Mariadb</a><br>
+ <a href="#database">Database</a><br>
+ <a href="#wordpress-configuration">WordPress Configuration</a><br>
+ <a href="#8---signaturetxt">8 - Signature.txt</a><br>
+ <a href="#9---theory">9 - Theory</a><br>
+ <a href="#how-to-correct---evaluator-version">How to Correct - Evaluator Version</a><br>
+ <a href="#1-preliminary-tests">1. Preliminary Tests</a><br>
+ <a href="#2-general-instructions">2. General Instructions</a><br>
+ <a href="#3-mandatory-part-questions-for-the-student">3. Mandatory Part (Questions for the Student)</a><br>
+ <a href="#4-setup">4. Setup</a><br>
+ <a href="#5-user">5. User</a><br>
+ <a href="#6-password-policy-check">6. Password Policy Check</a><br>
+ <a href="#7-hostname-and-partitions">7. Hostname and Partitions</a><br>
+ <a href="#8-sudo">8. SUDO</a><br>
+ <a href="#9-ufw-uncomplicated-firewall">9. UFW (Uncomplicated Firewall)</a><br>
+ <a href="#10-ssh">10. SSH</a><br>
+ <a href="#11-script-monitoring-questions-for-the-student">11. Script Monitoring (Questions for the Student)</a><br>
+ <a href="#essential-information">Essential Information</a><br>
+ <a href="#what-is-a-virtual-machine">What is a virtual machine?</a><br>
+ <a href="#why-did-you-choose-debiancentos">Why did you choose Debian/CentOS?</a><br>
+ <a href="#basic-differences-between-centos-and-debian">Basic differences between CentOS and Debian</a><br>
+ <a href="#what-is-the-purpose-of-virtual-machines">What is the purpose of virtual machines?</a><br>
+ <a href="#differences-between-apt-and-aptitude">Differences between apt and aptitude</a><br>
+ <a href="#what-is-apparmor">What is AppArmor?</a><br>
+ <a href="#what-is-lvm">What is LVM?</a><br>
+ <a href="#correction-sheet">Correction Sheet</a><br>
+ <a href="#support-me">Support Me</a><br>
+ <a href="#skills-developed">Skills developed</a><br>
+ <a href="#author">Author</a><br>
 </p>
 <br>
 
