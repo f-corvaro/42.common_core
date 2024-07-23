@@ -9,16 +9,11 @@
 <p align="justify">
 
 <p align="center">
-  <a href="https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
+  <a href="https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=yellow" /></a>
   <a href="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/en.subject.pdf">
     <img src="https://img.shields.io/badge/subject-born2beroot-blueviolet">
   </a>
 </p>
-
-<p align="center" style="text-decoration: none;">
-  <a href="https://github.com/f-corvaro/42.common_core"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
-</p>
-
 <h3 align="center">Index</h3>
 
 <p align="center">
