@@ -16,42 +16,18 @@
 
 ### Index
 
-- [**BORN2BEROOT**](#born2beroot)
-		- [Index](#index)
-	- [0 - _About_](#0---about)
-	- [1 - Download the virtual machine ISO](#1---download-the-virtual-machine-iso)
-	- [2 - Installing the VM - virtual machine](#2---installing-the-vm---virtual-machine)
-	- [3 - Installing Debian](#3---installing-debian)
-	- [4 - VM setup](#4---vm-setup)
-		- [Boot - When the system boot](#boot---when-the-system-boot)
-		- [Boot - The system will require the password of the encrypted disk](#boot---the-system-will-require-the-password-of-the-encrypted-disk)
-		- [Boot - The system will require the user and password that we created](#boot---the-system-will-require-the-user-and-password-that-we-created)
-		- [4.1 - Installing sudo \& configuration of user and groups](#41---installing-sudo--configuration-of-user-and-groups)
-		- [4.2 - Installing \& configuring SSH](#42---installing--configuring-ssh)
-		- [4.3 - Installing \& configuring UFW](#43---installing--configuring-ufw)
-		- [4.3 - Setting up the sudo policies](#43---setting-up-the-sudo-policies)
-		- [4.4 - Setting up a strong password policy](#44---setting-up-a-strong-password-policy)
-		- [4.5 - Connecting via SSH](#45---connecting-via-ssh)
-	- [5 - Script System Info](#5---script-system-info)
-		- [5.1 - Architecture](#51---architecture)
-		- [5.2 - Physical Cores](#52---physical-cores)
-		- [5.3 - Virtual Cores](#53---virtual-cores)
-		- [5.4 - RAM](#54---ram)
-		- [5.5 - Disk memory](#55---disk-memory)
-		- [5.6 - CPU usage percentage](#56---cpu-usage-percentage)
-		- [5.7 - Last reboot](#57---last-reboot)
-		- [5.8 - LVM activation](#58---lvm-activation)
-		- [5.9 - TCP](#59---tcp)
-		- [5.10 - Number of users](#510---number-of-users)
-		- [5.11 - IP adress](#511---ip-adress)
-		- [5.12 - Number of commands executed with sudo](#512---number-of-commands-executed-with-sudo)
-		- [5.13 - Total result of the script](#513---total-result-of-the-script)
-	- [6 - Crontab](#6---crontab)
-	- [7 - Bonus](#7---bonus)
-		- [7.1 - Wordpress \& services configuration](#71---wordpress--services-configuration)
-		- [7.1.a - Lighttpd](#71a---lighttpd)
-		- [7.1.b - WordPress](#71b---wordpress)
-		- [7.1.c - Mariadb](#71c---mariadb)
+- [ARCH](#arch)
+- [CPU PHYSICAL](#cpu-physical)
+- [CPU VIRTUAL](#cpu-virtual)
+- [RAM](#ram)
+- [DISK](#disk)
+- [CPU LOAD](#cpu-load)
+- [LAST BOOT](#last-boot)
+- [LVM USE](#lvm-use)
+- [TCP CONNEXIONS](#tcp-connexions)
+- [USER LOG](#user-log)
+- [NETWORK](#network)
+- [SUDO](#sudo)
 		- [7.1.d - Database](#71d---database)
 		- [7.1.e - PHP](#71e---php)
 		- [WordPress configuration](#wordpress-configuration)
@@ -71,80 +47,85 @@
 		- [9.3 - Correction Sheet](#93---correction-sheet)
 	- [Support Me](#support-me)
 	- [Skills developed](#skills-developed)
-	- [License](#license)
+	- [Author](#author)
+
 
 
 <br>
 
-## 0 - _About_
-
-<p align="justify">
-Born2beRoot is an introduction to virtualization and system administration. The purpose is to create a virtual machine which is a server implementing strict rules, and minimum required services. The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
-</p>
-<br>
-
-## 1 - Download the virtual machine ISO
+## 0 - Introduction to Born2beRoot
 
 <p align="justify">
 
-[Debian ISO url](https://www.debian.org/download.en.html). I have chosen debian because is highly recommended in the subject.
+Born2beRoot is an introduction to virtualization and system administration. The objective is to create a virtual machine that functions as a server, adhering to strict rules and providing the minimum required services. Unlike the programming-focused projects in the 42 curriculum, Born2beRoot emphasizes system setup and security. The project involves configuring a Virtual Machine, which is encrypted with a passphrase to ensure system security. Consequently, the project repository contains a script that runs every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
 
 </p>
 <br>
 
-## 2 - Installing the VM - virtual machine
+## 1 - Download the Virtual Machine ISO
+
+<p align="justify">
+
+To get started, download the Debian ISO from the official Debian website. Debian is highly recommended for this project due to its stability and extensive documentation.
+
+<p align="center">
+<a href="https://www.debian.org/download.en.html">Download Debian ISO</a>
+</p>
+
+## 2 - Step-by-Step Guide to Installing the Virtual Machine
 
 <p align="justify">
 
 In this tutorial we will use [Virtual Box](https://www.virtualbox.org/).
 
-1 | Open VirtualBox and click ```New```.
+1. Open VirtualBox and click on `New`.
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/1.png">
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/1.png">
 
-2 | Choose a name for the machine and the folder which will locate it.
-
-**IMPORTANT:** Store the machine created inside the goinfre folder located in your cluster server. This will avoid the run out of memory space in your session and avoid that the installation will fail. (Ask your staff if you can't find it). Then click ```continue```.
+2. Choose a name for the machine and the folder where it will be located.
+	
+	**IMPORTANT:** Store the machine inside the `goinfre` folder located on your cluster server. This will prevent running out of memory space in your session and avoid installation failures. (Ask your staff if you can't find it). Then click `Continue`.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/2.png">
 
-3 | Select the total RAM memory which we will reserve for the machine.
+3. Select the total RAM memory to reserve for the machine.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/3.png">
 
-4 | Select the second option - ```create a virtual hard disk now```.
+4. Select the second option - `Create a virtual hard disk now`.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/4.png">
 
-5 | Choose ```VDI``` option (we downloaded an ISO).
+5. Choose the `VDI` option (we downloaded an ISO).
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/5.png">
 
-6 | Select the ```Dynamically allocated``` option, it will allocate the memory of the physical machine as it feels necessary while using the virtual machine until we reach the available limit.
+6. Select the `Dynamically allocated` option. This will allocate the memory of the physical machine as needed while using the virtual machine until the available limit is reached.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/6.png">
 
-7 | Set ```30 GB```, because we are doing the bonus.
+7. Set `30 GB` for the virtual hard disk, as we are doing the bonus.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/7.png">
 
-8 | Click on ```Settings```.
+8. Click on `Settings`.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/8.png">
 
-9 | Now click on ```Storage``` , again click on ```💿 Empty```. Click the ```💿``` in the line of "optical drive" and click ```Choose a disk file```.
+9. Click on `Storage`, then click on `💿 Empty`. Click the `💿` icon next to "Optical Drive" and select `Choose a disk file`.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/9.png">
 
-10 | Select the ISO that we just downloaded and click ```Open```, then click on ```Ok```.
+10. Select the ISO that we just downloaded and click `Open`, then click `OK`.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/10.png">
 
-11 | Once all this steps have been completed we can ```Start``` our new virtual machine from VirtualBox.
+11. Once all these steps have been completed, you can `Start` your new virtual machine from VirtualBox.
+
 </p>
 <br>
 
-## 3 - Installing Debian
+## 3 - Step-by-Step Guide to Installing Debian
 
 <p align="justify">
 
@@ -431,79 +412,112 @@ Press ```Continue``` to finish the installation.
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/76.png">
 <br>
 
-## 4 - VM setup
+## 4 - Virtual Machine Setup
 
-### Boot - When the system boot
+### Boot - Selecting the Operating System
 
 -> Select ```Debian GNU/Linux```.
 
-### Boot - The system will require the password of the encrypted disk
+### Boot - Enter Encrypted Disk Password
 
--> Write the encryptation password that previously we set. For me is ```Pw.20STNG!81```.
+-> Enter the encryption password that was previously set. For me, it is ```Pw.20STNG!81```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/77.png">
 
-### Boot - The system will require the user and password that we created
+### Boot - Enter User Credentials
 
--> In my case the user is ```fcorvaro``` and the password is ```Pw.20STNG!81```.
+-> Enter the user credentials that were created. In my case, the user is ```fcorvaro``` and the password is ```Pw.20STNG!81```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/78.png">
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/79.png">
 
-### 4.1 - Installing sudo & configuration of user and groups
+### 4.1 - Installing Sudo and Configuring User and Groups
 
-1 | The beginning of the installation starts with changing user to root so we can install [sudo](https://en.wikipedia.org/wiki/Sudo). For doing this write ```su -``` in the bash prompt and introduce the root password (for me ```Pw.20STNG!81```). Furthermore we will install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files.
-Write the command
+1. **Switch to Root User and Install Sudo**
+   Begin by switching to the root user to install [sudo](https://en.wikipedia.org/wiki/Sudo). Enter `su -` in the bash prompt and provide the root password (for me, it is `Pw.20STNG!81`). Additionally, install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. Run the following commands:
+   ```bash
+	apt-get update
+	apt-get install vim
+	apt install sudo
+	```
+	Verify whether sudo was successfully installed via:
 
-```
-$>apt-get update
-$>apt-get install vim
-$>apt install sudo
-```
+	```bash
+	dpkg -l | grep sudo
+	```
 
-Verify whether _sudo_ was successfully installed via:
+2. **Add User to Sudo Group**
 
-```
-$>dpkg -l | grep sudo
-```
+	Add the user to the sudo group with the following command:
 
-2 | Adding User to _sudo_ Group
+	```bash
+	adduser <username> sudo
+	```
 
-```
-$>adduser <username> sudo
-```
+	Alternatively, you can add the user to the `sudo` group via:
 
-Alternatively, add user to sudo group via:
+	```bash 
+	usermod -aG sudo <username>
+	```
 
-	$>usermod -aG sudo <username>
+	Verify whether the user was successfully added to the sudo group via:
 
-Verify whether user was successfully added to sudo group via:
+	```bash
+	getent group sudo
+	```
 
-	$>getent group sudo
+	Reboot the system for changes to take effect:
 
-`sudo reboot` for changes to take effect, then log in and verify sudopowers via `sudo -v`.
+	```bash
+	sudo reboot
+	```
 
-3 | Running root-privilege commands
+	After the system reboots, log in and verify sudo powers via:
 
-Run root-privileged command via prefix ```sudo```.
+	```bash
+	sudo -v
+	```
 
-### 4.2 - Installing & configuring SSH
+3. **Running Root-Privileged Commands**
+
+	Run root-privileged command by prefixing them with `sudo`.
+
+### 4.2 - Installing and Configuring SSH
 
 [SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
-1 | Update the system using ```sudo apt update```.
+1. **Update the System**
+	
+	Update the system using:
 
-2 | Install the main tool for remote access with the SSH protocol, using OpenSSH. The packagerequired:
+	```bash
+	sudo apt update
+	```
 
-```sudo apt install openssh-server```
+2. **Install OpenSSH Server**
 
-Confirm writing ```y```, and wait for the installation time.
+   Install the main tool for remote access with the SSH protocol, using OpenSSH:
 
-```sudo service ssh status``` to check if the package was succesfully installed. **Active** is required to continue.
+	```bash
+	sudo apt install openssh-server
+	```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/80.png">
+	Confirm by typing `y`. When prompted wait for the installation to complete.
 
+	Check if the package was successfully installed:
+
+	```bash
+	sudo service ssh status
+	```
+
+	The status should be **active** to continue
+
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/80.png">
+
+3. **Edit the SSH Configuration File**
+
+ Edit the file `/etc/ssh/sshd_config`. You need root privileges to edit this file. Switch to root using `su`.
 3 | Edit the file ```/etc/ssh/sshd_config```. If you are not on root you will not be able to edit the file; as you know, for switching to root we use ```su```.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/81.png">
@@ -1352,8 +1366,7 @@ flexible than conventional partitioning schemes for storing volumes.
 ## Support Me
 
 <p align="justify">
-Remember to ⭐ the repository.
-If you want to support me:</p>
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
@@ -1369,9 +1382,13 @@ If you want to support me:</p>
   </a>
 </p><br>
 
-## License
+## Author
+
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
 <p align="center">
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License"></a>
-<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
-<br>
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
+<hr/>
