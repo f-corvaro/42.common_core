@@ -10,59 +10,59 @@
 <h3 align="center">Index</h3>
 
 <p align="center">
-<a href="#overview">Overview</a><br>
-<a href="#milestone-0">Milestone 0</a><br>
-<a href="#1-libft-c---solo-project">1. libft (C - solo project)</a><br>
-<a href="#milestone-1">Milestone 1</a><br>
-<a href="#1-born2beroot-virtual-machine---solo-project">1. born2beroot (Virtual Machine - solo project)</a><br>
-<a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
-<a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
-<a href="#milestone-2">Milestone 2</a><br>
-<a href="#0-exam-rank-02-c">0. exam rank 02 (C)</a><br>
-<a href="#project-choices-1">Project Choices 1</a><br>
-<a href="#why-i-chose-fdf-over-so_long-and-fract-ol">Why I Chose `FdF` Over `so_long` and `fract-ol`</a><br>
-<a href="#project-choices-2">Project Choices 2</a><br>
-<a href="#why-i-chose-pipex-over-minitalk">Why I Chose `pipex` Over `minitalk`</a><br>
-<a href="#1-fdf-c---solo-project">1. FdF (C - solo project)</a><br>
-<a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
-<a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
-<a href="#milestone-3">Milestone 3</a><br>
-<a href="#0-exam-rank-03-c">0. exam rank 03 (C)</a><br>
-<a href="#1-philosophers-c---solo-project">1. Philosophers (C - solo project)</a><br>
-<a href="#2-minishell-c---duo-project">2. minishell (C - duo project)</a><br>
-<a href="#milestone-4">Milestone 4</a><br>
-<a href="#0-exam-rank-04-c">0. exam rank 04 (C)</a><br>
-<a href="#project-choices-3">Project Choices 3</a><br>
-<a href="#why-i-chose-cub3d-over-minirt">Why I Chose `cub3D` Over `miniRT`</a><br>
-<a href="#1-cub3d-c---duo-project">1. cub3D (C - duo project)</a><br>
-<a href="#2-netpractice-c---solo-project">2. NetPractice (C - solo project)</a><br>
-<a href="#3-cpp00-c---single-project">3. CPP00 (C++ - single project)</a><br>
-<a href="#4-cpp01-c---single-project">4. CPP01 (C++ - single project)</a><br>
-<a href="#4-cpp02-c---single-project">4. CPP02 (C++ - single project)</a><br>
-<a href="#5-cpp03-c---single-project">5. CPP03 (C++ - single project)</a><br>
-<a href="#6-cpp04-c---single-project">6. CPP04 (C++ - single project)</a><br>
-<a href="#milestone-5">Milestone 5</a><br>
-<a href="#0-exam-rank-05-c">0. exam rank 05 (C++)</a><br>
-<a href="#1-cpp05-c---single-project">1. CPP05 (C++ - single project)</a><br>
-<a href="#2-cpp06-c---single-project">2. CPP06 (C++ - single project)</a><br>
-<a href="#3-cpp07-c---single-project">3. CPP07 (C++ - single project)</a><br>
-<a href="#4-cpp08-c---single-project">4. CPP08 (C++ - single project)</a><br>
-<a href="#5-cpp09-c---single-project">5. CPP09 (C++ - single project)</a><br>
-<a href="#6-inception-">6. Inception ()</a><br>
-<a href="#project-choices-4">Project Choices 4</a><br>
-<a href="#why-i-chose-idk-over-idk2">Why I Chose `idk` Over `idk2`</a><br>
-<a href="#7-webserv-">7. webserv ()</a><br>
-<a href="#milestone-6">Milestone 6</a><br>
-<a href="#0-exam-rank-06-">0. exam rank 06 ()</a><br>
-<a href="#1-ft_trascendence-">1. ft_trascendence ()</a><br>
-<a href="#exams">Exams</a><br>
-<a href="#holygraph">Holygraph</a><br>
-<a href="#common-core">Common Core</a><br>
-<a href="#mastery">Mastery</a><br>
-<a href="#alumni-status">Alumni Status</a><br>
-<a href="#resources">Resources</a><br>
-<a href="#support-me">Support Me</a><br>
-<a href="#author">Author</a><br>
+  <a href="#overview">Overview</a><br>
+  <a href="#milestone-0">Milestone 0</a><br>
+  <a href="#1-libft-c---solo-project">1. libft (C - solo project)</a><br>
+  <a href="#milestone-1">Milestone 1</a><br>
+  <a href="#1-born2beroot-virtual-machine---solo-project">1. born2beroot (Virtual Machine - solo project)</a><br>
+  <a href="#2-ft_printf-c---solo-project">2. ft_printf (C - solo project)</a><br>
+  <a href="#3-get_next_line-c---solo-project">3. get_next_line (C - solo project)</a><br>
+  <a href="#milestone-2">Milestone 2</a><br>
+  <a href="#0-exam-rank-02-c">0. exam rank 02 (C)</a><br>
+  <a href="#project-choices-1">Project Choices 1</a><br>
+  <a href="#why-i-chose-fdf-over-so_long-and-fract-ol">Why I Chose `FdF` Over `so_long` and `fract-ol`</a><br>
+  <a href="#project-choices-2">Project Choices 2</a><br>
+  <a href="#why-i-chose-pipex-over-minitalk">Why I Chose `pipex` Over `minitalk`</a><br>
+  <a href="#1-fdf-c---solo-project">1. FdF (C - solo project)</a><br>
+  <a href="#2-pipex-c---solo-project">2. pipex (C - solo project)</a><br>
+  <a href="#3-push_swap-c---solo-project">3. push_swap (C - solo project)</a><br>
+  <a href="#milestone-3">Milestone 3</a><br>
+  <a href="#0-exam-rank-03-c">0. exam rank 03 (C)</a><br>
+  <a href="#1-philosophers-c---solo-project">1. Philosophers (C - solo project)</a><br>
+  <a href="#2-minishell-c---duo-project">2. minishell (C - duo project)</a><br>
+  <a href="#milestone-4">Milestone 4</a><br>
+  <a href="#0-exam-rank-04-c">0. exam rank 04 (C)</a><br>
+  <a href="#project-choices-3">Project Choices 3</a><br>
+  <a href="#why-i-chose-cub3d-over-minirt">Why I Chose `cub3D` Over `miniRT`</a><br>
+  <a href="#1-cub3d-c---duo-project">1. cub3D (C - duo project)</a><br>
+  <a href="#2-netpractice-c---solo-project">2. NetPractice (C - solo project)</a><br>
+  <a href="#3-cpp00-c---single-project">3. CPP00 (C++ - single project)</a><br>
+  <a href="#4-cpp01-c---single-project">4. CPP01 (C++ - single project)</a><br>
+  <a href="#4-cpp02-c---single-project">4. CPP02 (C++ - single project)</a><br>
+  <a href="#5-cpp03-c---single-project">5. CPP03 (C++ - single project)</a><br>
+  <a href="#6-cpp04-c---single-project">6. CPP04 (C++ - single project)</a><br>
+  <a href="#milestone-5">Milestone 5</a><br>
+  <a href="#0-exam-rank-05-c">0. exam rank 05 (C++)</a><br>
+  <a href="#1-cpp05-c---single-project">1. CPP05 (C++ - single project)</a><br>
+  <a href="#2-cpp06-c---single-project">2. CPP06 (C++ - single project)</a><br>
+  <a href="#3-cpp07-c---single-project">3. CPP07 (C++ - single project)</a><br>
+  <a href="#4-cpp08-c---single-project">4. CPP08 (C++ - single project)</a><br>
+  <a href="#5-cpp09-c---single-project">5. CPP09 (C++ - single project)</a><br>
+  <a href="#6-inception-">6. Inception ()</a><br>
+  <a href="#project-choices-4">Project Choices 4</a><br>
+  <a href="#why-i-chose-idk-over-idk2">Why I Chose `idk` Over `idk2`</a><br>
+  <a href="#7-webserv-">7. webserv ()</a><br>
+  <a href="#milestone-6">Milestone 6</a><br>
+  <a href="#0-exam-rank-06-">0. exam rank 06 ()</a><br>
+  <a href="#1-ft_trascendence-">1. ft_trascendence ()</a><br>
+  <a href="#exams">Exams</a><br>
+  <a href="#holygraph">Holygraph</a><br>
+  <a href="#common-core">Common Core</a><br>
+  <a href="#mastery">Mastery</a><br>
+  <a href="#alumni-status">Alumni Status</a><br>
+  <a href="#resources">Resources</a><br>
+  <a href="#support-me">Support Me</a><br>
+  <a href="#author">Author</a><br>
 </p>
 
 ## Overview
@@ -357,15 +357,19 @@ Upon successful completion of the Common Core, students have the opportunity to 
 
 ## Resources
 
+<p align="justify">
+
+For more information about the resources, click the image below:
+
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/.tips"><img width="350" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
 
+</p>
 <br>
 
 ## Support Me
 
 <p align="justify">
-Remember to ⭐ the repository.
-If you want to support me:</p>
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>

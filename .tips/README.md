@@ -1,29 +1,35 @@
 # <a href="https://github.com/f-corvaro/42.common_core"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/42Resources.png"></a>
 
-### Index
+<h3 align="center">Index</h3>
 
-- [](#)
-    - [Index](#index)
-  - [The beginning](#the-beginning)
-  - [Github utilities](#github-utilities)
-  - [42 School](#42-school)
-  - [42 Roma Luiss](#42-roma-luiss)
-  - [Usefull commands for vim](#usefull-commands-for-vim)
-  - [Support Me](#support-me)
-  - [License](#license)
+<p align="center">
+  <a href="#post-piscine-resources-and-recommendations">Post-Piscine Resources and Recommendations</a><br>
+  <a href="#github-profile-tools">GitHub Profile Tools</a><br>
+  <a href="#42-school-resources">42 School Resources</a><br>
+  <a href="#42-roma-luiss-specific-resources">42 Roma Luiss Specific Resources</a><br>
+  <a href="#useful-vim-commands-and-configuration">Useful Vim Commands and Configuration</a><br>
+  <a href="#basic-commands">Basic Commands</a><br>
+  <a href="#configuration-settings">Configuration Settings</a><br>
+  <a href="#support-me">Support Me</a><br>
+  <a href="#author">Author</a><br>
+</p>
 
+## Post-Piscine Resources and Recommendations
 
+<p align="justify">
+
+After passing the C Piscine, you will begin the 42 Common Core. You will receive an email with your school's domain. The school will grant you access to [GitHub Pro](https://education.github.com/pack). 
+
+I recommend downloading this web browser extension to enhance your intra page experience: [Improved Intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo).
+
+Other rewards claimable with your 42 login:
+- [Lucidchart](https://www.lucidchart.com/pages/)
+- [JetBrains](https://www.jetbrains.com/community/education/#students)
+
+</p>
 <br>
 
-## The beginning
-
-After you passed the C Piscine, you will start the 42 Common Core. You will have an email with a domain of your school. The school will give to you the priviledge of [github pro](https://education.github.com/pack). I suggest to download this web browser extension that will improve your intra page [improved intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo). Other rewards claimable with 42 login:
-[Lucidchart](https://www.lucidchart.com/pages/)
-[Jet Brains](https://www.jetbrains.com/community/education/#students).
-
-I suggest installing [oh-my-zsh](https://ohmyz.sh/#install) for your terminal.
-
-## Github utilities
+## GitHub Profile Tools
 
 [Readme profile generator](https://gprm.itsvg.in/)
 
@@ -39,7 +45,7 @@ I suggest installing [oh-my-zsh](https://ohmyz.sh/#install) for your terminal.
 
 [Shields.io](https://shields.io/category/build)
 
-## 42 School
+## 42 School Resources
 
 [42 Evaluators](https://42evaluators.com/)
 
@@ -49,71 +55,67 @@ I suggest installing [oh-my-zsh](https://ohmyz.sh/#install) for your terminal.
 
 [Official NORMINETTE](https://github.com/42School/norminette)
 
-## 42 Roma Luiss
+## 42 Roma Luiss Specific Resources
 
 [Man 42 Roma Luiss](https://42romawiki.notion.site/Rules-ca552d69f6f8418f849badfb47afba0b#accc0596676a460283dafbe3d012f2a7)
 
 [moulinette](https://moulinette.42roma.it/)
 
 
-
-## Usefull commands for vim
+## Useful Vim Commands and Configuration
 
 <p align="justify">
 
-Vim is a usefull IDE that you use in the exams.
+Vim is a powerful IDE that you can use during exams.
 
-  - To creating a new file: eg. `vim filename.c`.
+### Basic Commands
 
-  - To write something: `:i`.
+- To create a new file: `vim filename.c`
+- To enter insert mode: `:i`
+- To save and quit: `:wq`
+- To force quit without saving: `:q!`
+- To enable line numbers: `:set number` or `:set nu`
+- To enable syntax highlighting: `:syntax on`
+- To enable mouse support and copy-paste without line numbers: `:set mouse=r` or `:set mouse=a`
+- To insert your header: `:Stdheader`
 
-  - For save and quit: ':wq'.
+### Configuration Settings
 
-  - For forcing quit: ':q!'.
+```vim
+set tabstop=4          " Set tab to 4 spaces
+set showmatch          " Highlight matching brackets
+set colorcolumn=80     " Highlight the 80th column
+set cursorline         " Highlight the current line
+filetype plugin indent on
+set hidden             " Keep buffers hidden after saving
+set autoindent         " Enable automatic indentation
+set shiftwidth=4       " Set indentation width to 4 spaces
+set expandtab          " Convert tabs to spaces
 
-  - To set the lines counter: `set number` or `set nu`.
+" Key mappings
+nnoremap <F5> :!gcc -Wall -Wextra -Werror %:t -o %:r.out && ./%:r.out<CR>
+nmap <F6> :NERDTreeToggle<CR>
 
-  - To have highlight syntax colours: `:syntax on`.
+" Auto-pairing for brackets and quotes
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
 
-  - Enable mouse click, + enable to copy paste without taking line number: `:set mouse=r` or `set mouse=a`.
-
-  - To insert your header: `:Stdheader`.
-
+" Color scheme
+colorscheme codedark
 ```
-  set tabstop=4     // set tab to 4 spaces
-  set showmatch
-  set colorcolumn=80
-  set cursorline
-  filetype plugin indent on
-  set hidden			// mantiene il buffer anche dopo aver salvato
-  set autoindent
-  set tabstop=4    // set tab to 4 spaces
 
-  set shiftwidth=4
-  set expandtab
-
-  nnoremap <F5> :!gcc -Wall -Wextra -Werror %:t -o %:r.out && ./%:r.out<enter>
-  nmap <F6> :NERDTreeToggle<CR>
-
-  inoremap " ""<left>
-  inoremap ' ''<left>
-  inoremap ( ()<left>
-  inoremap [ []<left>
-  inoremap { {}<left>
-  inoremap {<CR> {<CR>}<ESC>O
-  inoremap {;<CR> {<CR>};<ESC>O
-
-  colorscheme codedark
-```
 </p>
-
 <br>
 
 ## Support Me
 
 <p align="justify">
-I hope this guide helped you understand this project. Remember to ⭐ the repository.
-If you want to support me:</p>
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
@@ -121,9 +123,13 @@ If you want to support me:</p>
 
 <br>
 
-## License
+## Author
+
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
 <p align="center">
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License"></a>
-<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
-<br>
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
+<hr/>
