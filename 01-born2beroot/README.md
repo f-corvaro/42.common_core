@@ -22,10 +22,10 @@
 	- [1 - Download the Virtual Machine ISO](#1---download-the-virtual-machine-iso)
 	- [2 - Step-by-Step Guide to Installing the Virtual Machine](#2---step-by-step-guide-to-installing-the-virtual-machine)
 	- [3 - Step-by-Step Guide to Installing Debian Without a GUI](#3---step-by-step-guide-to-installing-debian-without-a-gui)
-	- [Brief Description of Disk Partition Types](#brief-description-of-disk-partition-types)
-		- [Primary](#primary)
-		- [Extended](#extended)
-		- [Logical](#logical)
+		- [Brief Description of Disk Partition Types](#brief-description-of-disk-partition-types)
+			- [Primary](#primary)
+			- [Extended](#extended)
+			- [Logical](#logical)
 		- [Partition Configuration Steps](#partition-configuration-steps)
 		- [Configure Encrypted Volumes](#configure-encrypted-volumes)
 		- [Configure the Logical Volume Manager](#configure-the-logical-volume-manager)
@@ -35,7 +35,7 @@
 		- [Boot - Selecting the Operating System](#boot---selecting-the-operating-system)
 		- [Boot - Enter Encrypted Disk Password](#boot---enter-encrypted-disk-password)
 		- [Boot - Enter User Credentials](#boot---enter-user-credentials)
-	- [4.1 - Installing Sudo and Configuring User and Groups](#41---installing-sudo-and-configuring-user-and-groups)
+		- [4.1 - Installing Sudo and Configuring User and Groups](#41---installing-sudo-and-configuring-user-and-groups)
 	- [5.3 - Virtual Cores](#53---virtual-cores)
 	- [5.4 - RAM](#54---ram)
 	- [5.5 - Disk memory](#55---disk-memory)
@@ -81,12 +81,8 @@
 	- [Skills developed](#skills-developed)
 	- [Author](#author)
 
+
 </p>
-
-
-
-
-
 <br>
 
 # Introduction to Born2BeRoot
@@ -298,17 +294,17 @@ The `cmd` key on your keyboard will help you switch the capture of your mouse fr
 
 	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/30.png">
 
-## Brief Description of Disk Partition Types
+### Brief Description of Disk Partition Types
 
 [disk partitions](https://en.wikipedia.org/wiki/Disk_partitioning)
 
-### Primary
+#### Primary
 The only partition on which an OS can be installed. There can only be 4 primary partitions per hard drive or 3 primary and one extended.
 
-### Extended
+#### Extended
 Designed to break the 4 primary partition limitation on a single physical disk. An HDD may contain only one extended partition, but that extended partition can be subdivided into multiple logical partitions. It's used to contain logical partitions.
 
-### Logical
+#### Logical
 Occupies a portion of the primary/extended partition or the whole of it, formatted with a specific type of file system (in our case, ext4), and assigned a unit so the operating system recognizes the logical partitions or their file system. There can be a maximum of 23 logical partitions in an extended partition; however, Linux (the OS we are currently working with) reduces it to 15, which is more than enough for this project.
 
 Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table)**.
@@ -584,7 +580,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/79.png">
 
-## 4.1 - Installing Sudo and Configuring User and Groups
+### 4.1 - Installing Sudo and Configuring User and Groups
 
 1. **Switch to Root User and Install Sudo**
    Begin by switching to the root user to install [sudo](https://en.wikipedia.org/wiki/Sudo). Enter `su -` in the bash prompt and provide the root password (for me, it is `Pw.20STNG!81`). Additionally, install [VIM](https://en.wikipedia.org/wiki/Vim_(text_editor)) to configure some files. Run the following commands:
@@ -635,7 +631,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 	Run root-privileged command by prefixing them with `sudo`.
 
-## 4.2 - Installing and Configuring SSH
+### 4-2 Installing and Configuring SSH
 
 [SSH](https://en.wikipedia.org/wiki/Secure_Shell) stands for "Secure Shell." The SSH protocol was designed as a secure alternative to unsecured remote shell protocols. It utilizes a client-server paradigm, in which clients and servers communicate via a secure channel.
 
@@ -707,7 +703,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/85.png">
 
-## 4.3 - Installing & Configuring UFW
+### 4.3 - Installing & Configuring UFW
 
 [UFW](https://en.wikipedia.org/wiki/Uncomplicated_Firewall) is a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) that uses the command line for setting up [iptables](https://en.wikipedia.org/wiki/Iptables) with a small number of easy commands.
 
@@ -749,7 +745,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
 
 	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/88.png">
 
-## 4.4 - Setting up the sudo policies
+### 4.4 - Setting up the sudo policies
 
 1. **Create the Sudo Configuration File**
 
@@ -800,7 +796,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
     - `requiretty`: Requires a TTY for security reasons.
     - `secure_path`: Directories included in the secure path for sudo.
 
-## 4.5 - Setting up a strong password policy
+### 4.5 - Setting up a strong password policy
 
 1. **Edit the `login.defs` File**
 
@@ -860,7 +856,7 @@ Check also the **[GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Parti
    - `difok=7`: Password must contain at least seven different characters from the previous password.
    - `enforce_for_root`: Apply this password policy to the root user.
 
-## 4.6 - Connecting via SSH
+### 4.6 - Connecting via SSH
 
 1. **Shut Down the Virtual Machine**
 
