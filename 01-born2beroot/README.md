@@ -54,13 +54,27 @@
 		- [7.1.b - WordPress](#71b---wordpress)
 		- [7.1.c - Mariadb](#71c---mariadb)
 		- [7.1.d - Database](#71d---database)
-		- [9.2 - Must to know](#92---must-to-know)
+			- [WordPress Configuration](#wordpress-configuration)
+	- [8 - Signature.txt](#8---signaturetxt)
+	- [9 - Theory](#9---theory)
+		- [9.1 - How to Correct - Evaluator Version](#91---how-to-correct---evaluator-version)
+	- [1. Preliminary Tests:](#1-preliminary-tests)
+	- [2. General Instructions:](#2-general-instructions)
+	- [3. Mandatory Part (Questions for the Student):](#3-mandatory-part-questions-for-the-student)
+		- [4. Setup:](#4-setup)
+		- [5. User:](#5-user)
+		- [6. Password Policy Check:](#6-password-policy-check)
+		- [7. Hostname and Partitions:](#7-hostname-and-partitions)
+		- [8. SUDO:](#8-sudo)
+		- [9. UFW (Uncomplicated Firewall):](#9-ufw-uncomplicated-firewall)
+		- [10. SSH:](#10-ssh)
+		- [9.2 - Essential Information](#92---essential-information)
 		- [What is a virtual machine?](#what-is-a-virtual-machine)
 		- [Why did you choose Debian/CentOS?](#why-did-you-choose-debiancentos)
 		- [Basic differences between CentOS and Debian](#basic-differences-between-centos-and-debian)
 		- [What is the purpose of virtual machines?](#what-is-the-purpose-of-virtual-machines)
 		- [Differences between apt and aptitude](#differences-between-apt-and-aptitude)
-		- [What is APPArmor?](#what-is-apparmor)
+		- [What is AppArmor?](#what-is-apparmor)
 		- [What is LVM?](#what-is-lvm)
 		- [9.3 - Correction Sheet](#93---correction-sheet)
 	- [Support Me](#support-me)
@@ -1463,104 +1477,171 @@ In this example, `*/10 * * * *` means the script will run every 10 minutes.
 
 ### 7.1.e - PHP
 
-[PHP](https://en.wikipedia.org/wiki/PHP) is a programming language. It is mainly used to develop dynamic web applications and interactive websites. PHP runs on the server side.
+[PHP](https://en.wikipedia.org/wiki/PHP) is a programming language primarily used for developing dynamic web applications and interactive websites. PHP runs on the server side.
 
-1 | We install the necessary packages to be able to run web applications written in PHP language and that need to connect to a MySQL database. ```sudo apt install php-cgi php-mysql``` and then ```y```.
+To install the necessary packages for running PHP web applications that connect to a MySQL database, use the following command:
 
-### WordPress configuration
+```bash
+sudo apt install php-cgi php-mysql
+``` 
 
-1 | Set your path to the folder html ```cd /var/www/html```.
+When prompted, confirm the installation by typing `y`.
 
-2 | Copy the file ```sudo cp wp-config-sample.php wp-config.php```.
+#### WordPress Configuration
 
-3 | Edit the file  ```sudo vim wp-config.php``` and modify the following values.
+1. Navigate to the `html` directory:
+   
+   ```bash
+   cd /var/www/html
+   ```
 
-From
+2. Copy the sample configuration file: 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/116.png">
+	```sh
+   sudo cp wp-config-sample.php wp-config.php
+   ```
 
-To (values that we have previously set when we created the database and the user so that WordPress).
+3. Edit the configuration file: 
+   
+   ```bash
+   sudo vim wp-config.php
+   ```
+   
+   Modify the following values:
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/117.png">
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/116.png">
 
-4 | We enabled the fastcgi-php module in Lighttpd to improve the performance and speed of web applications on the server. ```sudo lighty-enable-mod fastcgi```
+	Update the configuration file with the values that were set when the database and user were created for WordPress.
 
-5 | We enabled the fastcgi-php module in Lighttpd to improve the performance and speed of PHP-based web applications on the server. ```sudo lighty-enable-mod fastcgi-php```
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/117.png">
 
-6 | We update and apply the changes in the configuration with the command ```sudo service lighttpd force-reload```.
+4. Enable the `fastcgi` module in Lighttpd to improve the performance and speed of web applications on the server:
+   
+	```bash
+   sudo lighty-enable-mod fastcgi
+   ```
 
-7 | Once we have completed the previous steps we can go back to our browser and type ```localhost```.
+5. Enable the `fastcgi-php` module in Lighttpd to improve the performance and speed of PHP-based web applications on the server:
+	
+	```bash
+	sudo lighty-enable-mod fastcgi-php
+	```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/118.png">
+6. Update and apply the changes in the configuration:
 
-8 | We must fill in all the fields.
+	```bash
+	sudo service lighttpd force-reload
+	```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/119.png">
+7. Once the previous steps are completed, open your browser and navigate to:
 
-9 | Click on ```Install WordPress``` and we will have finished the installation. You will see the next tab. Now WordPress can create the tables and dump all the data it needs to work in the database we have assigned to it.
+	```plaintext
+	http://localhost
+	```
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/120.png">
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/118.png">
 
-10 | If we access again to our localhost from the browser we can see our functional page.
+8. Fill in all the required fields.	
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/121.png">
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/119.png">
 
-11 | If we want to access the admin panel to make changes to our site we will have to put in the browser ```localhost/wp-admin``` and log in with our account.
+9. Click on **Install WordPress** to complete the installation. You will see the following screen. WordPress will now create the necessary tables and populate the database with the required data.
 
-12 | Once you have logged in, you can modify whatever you like. Customizing the page is optional, as it is not specified in the subject of this guide, we will not deal with it.
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/120.png">
 
-### 7.2 - Additional service
+10. To view your functional page, open your browser and navigate to:
+    
+	```plaintext
+    http://localhost
+    ```
 
-### LiteSpeed
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/121.png">
+
+11. To access the admin panel and make changes to your site, navigate to:
+    
+    ```plaintext
+    http://localhost/wp-admin
+    ```
+    Log in with your account credentials.
+
+12. Once logged in, you can customize your site as desired. Note that customizing the page is optional and not covered in this guide.
+
+### 7.2 - Additional service: LiteSpeed
 
 [LiteSpeed](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server) is a proprietary web server software.
 
-1 | Before installing any software, it is important to ensure that the system is up to date.
+### Steps to Install and Configure OpenLiteSpeed on Debian 11
 
-```sudo apt update```
+1. Update the System:
+   Before installing any software, ensure that the system is up to date:
 
-```sudo apt upgrade```
+   ```bash
+   sudo apt update
+   sudo apt upgrade
+   ```
 
-2 | OpenLiteSpeed is available in the Debian 11 base repository. So, you must run the following command to add the OpenLiteSpeed repository to your Debian system:
+2. Add OpenLiteSpeed Repository:
+   OpenLiteSpeed is available in the Debian 11 base repository. Add the OpenLiteSpeed repository to your Debian system:
 
-```wget -O - http://rpms.litespeedtech.com/debian/enable_lst_debian_repo.sh | sudo bash```
+	```bash
+	wget -O - http://rpms.litespeedtech.com/debian/enable_lst_debian_repo.sh | sudo bash
+	```
 
-3 | Again, we update the packages and install OpenLiteSpeed.
+3. Install OpenLiteSpeed:
+   Update the package list and install OpenLiteSpeed:
 
-```sudo apt update```
+	```bash
+	sudo apt update
+	sudo apt install openlitespeed
+	```
 
-```sudo apt install openlitespeed```
+Confirm the installation by typing `y` when prompted.
 
-```y```
+4. Change Default Password:
+   The default password for OpenLiteSpeed is `123456`. Change it to something more secure by running the following command:
+   
+   ```bash
+   sudo /usr/local/lsws/admin/misc/admpass.sh
+   ```
 
-4 | The default password for OpenLiteSpeed is 123456. We will change the password to something more secure
+	Follow the prompts to set a new username and password:
 
-```sudo /usr/local/lsws/admin/misc/admpass.sh```
+	```bash
+	User name [admin]: idroot
+	Password: [your_secure_password]
+	```
 
-```User name [admin]: idroot```
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/122.png">
 
-```Password: 123456```
+5. **Configure Firewall:**
+   Allow connections through ports 8088 and 7080, then reload the firewall rules:
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/122.png">
+   ```bash
+   sudo ufw allow 8088/tcp
+   sudo ufw allow 7080/tcp
+   sudo ufw reload
+   ```
 
-5 | We configure the firewall to allow connections through ports 8088 and 7080. We then add the rules in the port forwarding.
+	Add the rules for ports 7080 and 8088 in VirtualBox settings. Here's a quick reminder on how to add rules in port forwarding:
 
-```sudo ufw allow 8088/tcp```
+	1. Close your VM.
+	2. Go to `Settings` → `Network` → `Advanced` → `Port Forwarding`.
+	3. Click on `Add Rule` and enter the necessary details for ports 7080 and 8088.
 
-```sudo ufw allow 7080/tcp```
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/123.png">
 
-```sudo ufw reload```
+6. After completing the previous steps, you can connect to the OpenLiteSpeed Web Admin. Open your browser and navigate to:
+   
+   ```plaintext
+   http://localhost:7080
+   ``` 
+   
+	Ensure that your VM is online. 
 
-Add the rule that includes port 7080 and 8088 in virtual box settings. Little reminder how to add rules in port forwarding:
-Close your VM → Settings → Network → Advanced → Port forwarding → Add Rule
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/124.png">
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/123.png">
+	<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/125.png">
 
-6 | Completed the previous steps we can connect. We will put in the search engine of our browser ```localhost:7080``` (obviously with the VM online).
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/124.png">
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/125.png">
 </p>
 <br>
 
@@ -1568,11 +1649,11 @@ Close your VM → Settings → Network → Advanced → Port forwarding → Add 
 
 <p align="justify">
 
-To obtain the signature, we must shutdown the virtual machine saving the machine state. If you turn it on or modify something, the signature will change.
+To obtain the signature, you must shut down the virtual machine while saving the machine state. If you turn it on or modify anything, the signature will change.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/126.png">
 
-The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. You can see the path in the settings -> storage.
+Next, navigate to the directory where your virtual machine's `.vdi` file is located. You can find the path in `Settings` → `Storage`.
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/127.png">
 
@@ -1580,13 +1661,24 @@ The next step will be to locate ourselves in the path where we have the .vdi of 
 
 <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/129.png">
 
-**FINAL** | Run ```shasum Born2beroot.vdi``` and this will give us the signature. The result of this signature is what we will add and push into the intra folder of the school. It is very important not to reopen the machine since the signature will be modified. For corrections, remember to clone the machine (just copy the directory of born2beroot vm) so you can turn it on without fear of changing the signature.
+**FINAL STEP:** Run the following command to generate the signature:
 
-[shasum](https://ss64.com/osx/shasum.html) is a command that allows you to identify the integrity of a file using the SHA-1 hash check sum of a file.
+ ```bash
+ shasum Born2beroot.vdi
+ ``` 
 
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/130.png">
+ This command will generate the signature. The result of this signature should be added and pushed into the intra folder of the school. It is very important not to reopen the machine, as this will modify the signature. For corrections, remember to clone the machine (just copy the directory of the	Born2beroot VM) so you can turn it on without fear of changing the	signature.
 
-Now copy the signature into the intra folder ```vim signature.txt```.
+ [shasum](https://ss64.com/osx/shasum.html) is a command that allows you to verify the integrity of a file using the SHA-1 hash checksum.
+
+ <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/130.png">
+
+ Now, copy the signature into the intra folder:
+
+ ```bash
+ vim signature.txt
+ ```
+ 
 </p>
 <br>
 
@@ -1594,250 +1686,340 @@ Now copy the signature into the intra folder ```vim signature.txt```.
 
 <p align="justify">
 
-### 9.1 - How to correct - evaluator version
+### 9.1 - How to Correct - Evaluator Version
 
-1 | Preliminary tests:
+## 1. Preliminary Tests:
 
-```Git clone``` the repo.
+ - Clone the repository using:
+ ```bash
+ git clone <repository_url>
+ ```
 
-2 | General instructions:
+## 2. General Instructions:
 
-+ Check if the repo contains the ```signature.txt``` file.
-* Check the signature against the students “.vdi” file, make sure it’s identical.
-- Clone VM || create a snapshot && open VM.
+ - Verify that the repository contains the `signature.txt` file.
+ - Check the signature against the student's `.vdi` file to ensure they match
+ - Clone the VM or create a snapshot, then open the VM.
 
-3 | Mandatory Part (Questions for the student):
+## 3. Mandatory Part (Questions for the Student):
 
-> How does a virtual machine work and what is its purpose?
+ - How does a virtual machine work and what is its purpose?
+ - What are the basic differences between CentOS and Debian?
+ - What is their choice of operating system and why?
+ - If CentOS: Explain SELinux and DNF.
+ - If Debian: Explain the difference between `aptitude` and `apt`, and what AppArmor is.
+ - During the defense, a script must display all information every 10 minutes. Its operation will be checked in detail later.
 
-> The basic differences between CentOS and Debian?
+ All explanations must be satisfactory (otherwise, the evaluation stops here).
 
-> Their choice of operating system?
+### 4. Setup:
 
-> If CentOS: what SELinux and DNF are.
+ - Ensure that the machine does not have a graphical environment at launch.
+ - Connect to the VM as a created user (not root).
+ - Ensure the password follows the required policy (2 days min, 7 days warning, 30 days max):
+ ```bash
+ sudo chage -l username
+ ```
 
-> If Debian: the difference between aptitude, apt and what APPArmor is.
+ - Check that the UFW service is started:
 
-> During the defense, a script must display all information every 10 minutes. Its operation will be checked in detail later.
+ ```bash
+ sudo ufw status  # Look for status: active
+ ```
 
-All explanations are satisfactory (else evaluation stops here)
+ - Check that the SSH service is started:
 
-4 | Setup:
+ ```bash
+ sudo systemctl status ssh
+  ```
 
-+ Ensure that the machine does not have a graphical environment at launch.
+ - Verify the chosen operating system (Debian or CentOS):
 
-* Connect to VM as a created user (which isn’t a root)
+ ```bash
+ lsb_release -a || cat /etc/os-release
+ ```
 
-* Ensure the password follows the required policy (2 days min, 7, 30 days max).
+### 5. User:
 
-```sudo chage -l username```
+ Ensure that a user with the login of the student being evaluated is present on the virtual machine. Verify that the user has been added and belongs to the sudo and user42 groups:
 
-* Evaluator checks UFW service is started.
+ ```bash
+ getent group sudo
+ ```
 
-```sudo ufw status			//look for status: active```
+ ```bash
+ getent group user42
+ ```
+### 6. Password Policy Check:
 
-* Evaluator checks SSH service is started.
+1. **Create a New User:**
 
-```sudo systemctl status ssh```
+ - Create a new user (e.g., `user42`):
+ ```bash
+ sudo adduser new_username
+ ```
 
-- Evaluator checks the chosen operating system (Debian or CentOS).
+2. **Assign a Password:**
 
-```lsb_release -a || cat /etc/os-release```
+ - Assign a password of your choice, ensuring it complies with the subject rules.
 
-5 | User:
+3. **Verify Sudo Group Membership:**
 
-+ The subject requests that a user with the login of the student being evaluated is present on the virtual machine. Check that it has been added and that it belongs to “sudo” and “user42” groups.
+ - Check if the new user is part of the `sudo` group:
+ ```bash
+ getent group sudo
+ ```
 
-```getent group sudo```
+4. **Student Explanation:**
 
-```getent group user42```
+ - Ask the student to explain how to implement the password policy. Typically, this involves modifying one or two configuration files. If there are any issues, the evaluation stops here.
 
-6 | Password policy check:
+5. **Create and Assign Group:**
 
-+ Create new user (e.g. user42).
+ - With the new user, ask the student to create a group named `evaluating` and assign the new user to this group:
+ ```bash
+ sudo groupadd evaluating
+ sudo usermod -aG evaluating new_username
+ ```
 
-```sudo adduser new_username```
+6. **Verify Group Membership:**
 
-* Assign a password of your choice, respecting subject rules.
+ - Check if the new user belongs to the `evaluating` group:
+ ```bash
+ getent group evaluating
+ ```
 
-```getent group sudo```
+7. **Discussion on Password Policy:**
 
-> Explanation from student explaining how to implement the password policy. Normally there should be one or two modified files. If there is any problem, the evaluation stops here.
+ - Ask the student to explain the advantages of the password policy beyond its requirement for the project.
+ - Discuss the advantages and disadvantages of the policy implementation.
 
-* With the new user, ask the student to create a group named “evaluating” and assign it to the new user.
+### 7. Hostname and Partitions:
 
-```sudo groupadd evaluating```
+1. **Check Hostname:**
 
-```sudo usermod -aG evaluating your_new_username```
+ - Ensure the hostname of the machine is correctly formatted as `login42` (where `login` is the student's login):
+ ```bash
+ hostnamectl
+ ```
 
-* Check if the new user belongs to the “evaluating” group.
+2. **Modify Hostname:**
 
-```getent group evaluating```
+ - Change the hostname to your own login and restart the VM:
+ ```bash
+ sudo hostnamectl set-hostname new_hostname
+ sudo reboot
+ ```
 
-> Ask the student to explain advantages of the password policy (beyond the fact that it is required for the project)
+ - **Note:** If the hostname is not updated after the restart, the evaluation stops here.
 
-> Ask the student the advantages/disadvantages of the policy implementation.
+3. **Restore Original Hostname:**
 
-7 | Hostname and partitions:
+ - Restore the machine to the original hostname and restart the VM:
+ ```bash
+ sudo hostnamectl set-hostname original_hostname
+ sudo reboot
+ ```
 
-+ Check the hostname of the machine is correctly formatted as follows: login42 (login of the student being evaluated).
+4. **View Partitions:**
 
-```hostnamectl```
+ - Ask the student how to view the partitions for the VM:
+ ```bash
+ lsblk
+ ```
 
-* Modify this hostname by replacing the login with yours, then restart VM.
+ - Compare the output with the example provided in the subject. If there are bonuses, refer to the bonus example.
 
-```sudo hostnamectl set-hostname new_hostname```
+5. **LVM Explanation:**
 
-```sudo reboot```
+ - Ask the student for a brief explanation of Logical Volume Management (LVM) and how it works.
 
-Note:	If on restart, the hostname has not been updated, the evaluation stops here.
+### 8. SUDO:
 
-* Restore the machine to the original hostname, then restart VM.
+1. **Check SUDO Installation:**
 
-```sudo hostnamectl set-hostname new_hostname```
+ - Ensure that the `sudo` program is properly installed on the virtual machine:
+ ```bash
+ dpkg -l | grep sudo
+ ```
 
-```sudo reboot```
+2. **Student Explanation:**
 
-> Ask the student being evaluated how to view the partitions for the VM.
+ - Ask the student to explain the value and operation of `sudo` using examples of their choice.
+ - **Example:** `sudo` allows a permitted user to execute a command as the superuser or another user, as specified by the security policy.
 
-```lsblk```
+3. **Verify SUDO Configuration:**
 
-- Compare the output with the example given in the subject (if there are bonuses, refer to the bonus example).
+ - Open the sudoers file to check its configuration:
+ ```bash
+ sudo visudo
+ ```
 
-> Ask the student for a brief explanation of LVM and how it works.
+4. **Check SUDO Logs:**
 
-8 | SUDO:
+ - Verify that the `/var/log/sudo/` directory exists and contains at least one file. Check the contents of the files in this directory to see a history of commands executed with `sudo`:
+ ```bash
+ ls /var/log/sudo/
+ cat /var/log/sudo/some_log_file  # Replace 'some_log_file' with an actual file name
+ ```
 
-+ Check that the “sudo” program is properly installed on the virtual machine.
+5. **Run a Command via SUDO:**
 
-```dpkg -l | grep sudo```
+ - Execute a command using `sudo` and verify that the log files in the `/var/log/sudo/` directory have been updated:
+ ```bash
+ sudo ls /root
+ ls /var/log/sudo/
+ cat /var/log/sudo/some_log_file  # Check for the new entry
+ ```
 
-* The student must explain the value and operation of sudo using examples of their choice.
+### 9. UFW (Uncomplicated Firewall):
 
-```sudo visudo ls```
+1. **Check UFW Installation:**
 
-* Verify the ```“/var/log/sudo/”``` folder exists and has at least one file. Check the contents of the files in the folder, you should see a history of the commands used with sudo.
+ - Ensure that UFW is properly installed and functioning on the VM:
+ ```bash
+  sudo ufw status numbered
+ ```
 
-- Run a command via sudo. See if the file(s) in the ```“/var/log/sudo/”``` folder have been updated.
+2. **Student Explanation:**
 
-9 | UFW:
+ - Ask the student to provide a basic explanation of UFW and its benefits.
+ - **Answer:** UFW (Uncomplicated Firewall) is a user-friendly interface for managing iptables firewall rules, making it easier to configure and maintain firewall settings.
 
-+ Check the “UFW” program is properly installed on the VM and works properly.
+3. **List Active Rules:**
 
-```sudo ufw status numbered```
+ - Verify the active UFW rules. Ensure there is a rule for port 4242:
+  ```bash
+  sudo ufw status numbered
+  ```
 
-> Ask the student for a basic explanation of UFW and the value of using it.
+4. **Add a New Rule:**
 
-* List the active rules in UFW. A rule must exist for port 4242.
+ - Add a new rule to open port 8080 and verify it has been added:
+ ```bash
+ sudo ufw allow 8080
+ sudo ufw status numbered
+ ```
 
-* Add a new rule to open port 8080. Check that this one has been added by listing the active rules.
+5. **Delete the New Rule:**
 
-```sudo ufw allow 8080```
+ - With the student's assistance, delete the newly added rule for port 8080:
+ ```bash
+ sudo ufw delete <rule_number>
+ ```
+ - Note: Replace `<rule_number>` with the actual number of the rule for port 8080 from the listed rules.
 
-- Delete this new rule with the help of the student being evaluated.
+### 10. SSH:
 
-```sudo ufw delete 4```
+1. **Check SSH Service:**
 
-```sudo ufw delete 2```
+ - Ensure the SSH service is properly installed and running on the VM:
+ ```bash
+ sudo service ssh status  # Check if it's active and using port 4242
+ ```
 
-10 | SSH:
+2. **Student Explanation:**
 
-+ Check that the SSH service is properly installed on the VM, and is working properly.
+ - Ask the student to explain what SSH is and its benefits.
+ - **Answer:** SSH (Secure Shell) allows two computers to securely communicate over a network.
 
-```sudo service ssh status 			//check if its active and port 4242```
+3. **Verify SSH Port:**
 
-> Ask the student for an explanation of what SSH is and the value of using it. (answer: secure shell, allows 2 computers to securely talk to each other)
+ - Confirm that the SSH service is configured to use only port 4242.
 
-* Verify that the SSH service only uses port 4242.
+4. **SSH Login Test:**
 
-* Ask the student to help you use SSH in order to log in with the newly created user. To do this, you can use a key or simple password, depending on the student being evaluated.
+ - Ask the student to assist you in logging in using SSH with the newly created user. This can be done using either a key or a simple password, depending on the student's setup:
+ ```bash
+ ssh new_user@127.0.0.1 -p 4242
+ ```
 
-```ssh new_user@127.0.0.1 -p 4242```
+5. **Root Login Restriction:**
 
-- Make sure you cannot use SSH with the “root” user as stated in the subject.
+ - Ensure that SSH login with the "root" user is disabled, as required:
+ ```bash
+ ssh root@127.0.0.1 -p 4242  # Should result in "Permission denied"
+ ```
 
-```ssh amusso-g42@127.0.0.1 -p 4242 		//should come up as permission denied```
+11. Script Monitoring (Questions for the Student):
 
+1. **Understanding the Script:**
 
-11 | Script Monitoring (questions for the student):
+ - Ask the student how their script works and review their code.
+ - The script should be located in the `monitoring.sh` file and display system information:
+ ```bash
+ cd /usr/local/bin && vim monitoring.sh
+ ```
 
-> Ask the student how their script works and see their code for it.
+2. **Questions to Ask:**
 
-+ Script inputted in the monitoring .sh file to display system information
+ - What is “cron”?
+ - How does the script run every 10 minutes from when the server starts?
 
-```cd /usr/local/bin && vim monitoring.sh```
+3. **Verification:**
 
-* Ask:
+ - Verify the correct functioning of the script. Ensure it runs with dynamic values correctly:
+ ```bash
+ sudo crontab -u root -e  # Change the 10-minute interval to 1 minute for testing
+ ```
 
-> what is “cron”?
+4. **Stopping the Script:**
 
-> How does the script run every 10 minutes from when the server starts?
+ - The student should demonstrate how to stop the script from running at startup without modifying the script itself. To check this, restart the VM:
+ ```bash
+ sudo cronstop
+ sudo cronstart
+ ```
 
-* Once correct functioning of the script is verified, ask the student to make sure the script runs with dynamic values correctly.
+5. **Post-Restart Checks:**
 
-```sudo crontab -u root -e (***change 10 value to 1***)```
+ - After restarting, ensure the script still exists in the same location, the permissions remain unchanged, and it has not been modified:
+ ```bash
+ sudo reboot
+ sudo crontab -u root -e
+ ```
 
-*The student being evaluated should make the script stop running when the server has started up, without modifying the script itself. To check this, restart the VM.
-
-```
-sudo cronstop
-sudo cronstart
-```
-
--At startup, check if the script still exists in the same place, the rights have remained unchanged and that it has not been modified.
-
-```
-sudo reboot
-sudo crontab -u root -e
-```
-
-### 9.2 - Must to know
+### 9.2 - Essential Information
 
 ### What is a virtual machine?
 
-A [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine) is software that simulates a computer system and can run programs as if it were a real computer. It allows the creation of multiple simulated environments or dedicated resources from a single physical hardware system.
+A [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine) (VM) is software that emulates a computer system, allowing it to run programs as if it were a physical machine. VMs enable the creation of multiple isolated environments or dedicated resources from a single physical hardware system.
 
 ### Why did you choose Debian/CentOS?
 
-This is a personal answer. [Debian](https://en.wikipedia.org/wiki/Debian) <------> [CentOS](https://en.wikipedia.org/wiki/CentOS)
+This is a personal choice. Here are some links for more information:
+- [Debian](https://en.wikipedia.org/wiki/Debian)
+- [CentOS](https://en.wikipedia.org/wiki/CentOS)
 
 ### Basic differences between CentOS and Debian
 
-v.1 | v.2
-:-------------------------:|:-------------------------:
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/CvD1.jpeg">  |  <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/CvD2.png">
-
+| CentOS vs Debian | CentOS vs Debian |
+|:-------------------------:|:-------------------------:|
+| <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/CvD1.jpeg"> | <img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/CvD2.png"> |
 
 
 ### What is the purpose of virtual machines?
 
-Their purpose is to provide a hardware platform and operating system independent execution environment, which hides the details of the underlying system and allows a program to always run the same way on any platform.
+Virtual machines (VMs) provide a hardware and operating system-independent execution environment. They abstract the underlying system details, ensuring that programs run consistently across different platforms.
 
 ### Differences between apt and aptitude
 
-Aptitude It offers a command-line and text-based front-end for package management. It doesn't come by default, so you need to install it with the `apt` command. Aptitude offers the possibility to manage your packages through command lines and also from a visual interface directly
-on your terminal. You can perform the main actions like installing, updating, and deleting your packages. it also offers sub-commands to manage your packages as apt but some people prefer the visual interface as it's easy to use.. APT is a lower-level package manager and aptitude
-is a high-level package manager. Another big difference is the functionality offered by both tools. Aptitude offers better functionality compared to apt-get.Both are able to provide the necessary means to perform package management.
-If you consider only the command-line interfaces of each, they are quite similar. There are a few differences that we can list:
+`aptitude` offers both a command-line and text-based front-end for package management. It doesn't come by default, so you need to install it using the `apt` command. `aptitude` allows you to manage your packages through command lines and also from a visual interface directly in your terminal. You can perform main actions like installing, updating, and deleting packages. It also offers sub-commands to manage your packages similar to `apt`, but some people prefer the visual interface as it's easier to use.
 
-+ Apt offers a command-line interface, while aptitude offers a visual interface.
+`apt` is a lower-level package manager, while `aptitude` is a high-level package manager. Another significant difference is the functionality offered by both tools. `aptitude` offers better functionality compared to `apt-get`. Both tools provide the necessary means to perform package management. If you consider only the command-line interfaces of each, they are quite similar. Here are a few differences:
 
-* When facing a package conflict, `apt` will not fix the issue while `aptitude` will suggest a resolution.
+- `apt` offers a command-line interface, while `aptitude` offers a visual interface.
+- When facing a package conflict, `apt` will not fix the issue, while `aptitude` will suggest a resolution.
+- `aptitude` can interactively retrieve and display the Debian changelog of all available official packages.
+- `apt` requires the user to have a solid knowledge of Linux systems and package management, as you are running everything in the command line. It can be difficult for a novice to handle.
+- On the other hand, `aptitude` with its interface is more user-friendly as it offers a layer of abstraction regarding the different sub-commands to use for installation, upgrades, etc.
+### What is AppArmor?
 
-* aptitude can interactively retrieve and displays the Debian changelog of all available official packages.
-
-- Apt requires the user to have a solid knowledge of Linux systems and package management as you are running everything in the command line. It can be difficult for a novice to handle.
-
-On the other hand, aptitude with its interface is more user-friendly as it offers a layer of abstraction regarding the different sub-commands to use for installation, upgrades, etc.
-
-### What is APPArmor?
-
-[APParmor](https://en.wikipedia.org/wiki/AppArmor#:~:text=AppArmor%20(%22Application%20Armor%22),capabilities%20with%20per%2Dprogram%20profiles.) is a security module in the Linux kernel that allows the system administrator to restrict the capabilities of a program.
+[AppArmor](https://en.wikipedia.org/wiki/AppArmor) (Application Armor) is a security module in the Linux kernel that allows system administrators to restrict the capabilities of programs using per-program profiles.
 
 ### What is LVM?
 
-[LVM](https://en.wikipedia.org/wiki/Logical_volume_management#:~:text=In%20computer%20storage%2C%20logical%20volume,partitioning%20schemes%20to%20store%20volumes.) is a logical volume manager. It provides a method for allocating space on mass storage devices, which is more
-flexible than conventional partitioning schemes for storing volumes.
+[LVM](https://en.wikipedia.org/wiki/Logical_volume_management) (Logical Volume Manager) is a system for managing logical volumes, or filesystems, in a more flexible manner than traditional partitioning schemes. It allows for dynamic resizing and efficient allocation of storage space on mass storage devices.
 
 ### 9.3 - Correction Sheet
 
