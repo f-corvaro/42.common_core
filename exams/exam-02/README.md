@@ -1,4 +1,4 @@
-# EXAM 02
+<h1 align="center">EXAM 02</h1>
 
 # <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
