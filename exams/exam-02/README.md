@@ -1,57 +1,64 @@
 # EXAM 02
 
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/exam02.png">
+# <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
-### Index
-- [EXAM 02](#exam-02)
-    - [Index](#index)
-  - [Exam details](#exam-details)
-    - [Level 1:](#level-1)
-    - [Level 2:](#level-2)
-  - [Level 1 - inter](#level-1---inter)
-    - [Subject:](#subject)
-    - [Solution:](#solution)
-  - [Level 1 - union](#level-1---union)
-    - [Subject:](#subject-1)
-    - [Solution:](#solution-1)
-  - [Level 2 - ft\_printf](#level-2---ft_printf)
-    - [Subject:](#subject-2)
-    - [Solution:](#solution-2)
-  - [Level 2 - get\_next\_line](#level-2---get_next_line)
-    - [Subject:](#subject-3)
-    - [Solution:](#solution-3)
-  - [Exam skill required:](#exam-skill-required)
-  - [Support Me](#support-me)
+<p align="center" style="text-decoration: none;">
+  <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
+</p>
 
-
-<br>
-
-## Exam details
-<p align="justify">
-This exam has 2 random questions picked from the first and second level. Each level give to you 50 points. To pass the exam you need 100 score. For information about exam login and other details, check:
-
-[here](https://github.com/f-corvaro/42.common_core/tree/main/exams)
-
-### Level 1:
-
-```
-- inter
-- union
-```
-I suggest to test the code compiling with the following flag: ```gcc -o name name.c``` so you can try the examples of the subject copying and pasting.
-
-### Level 2:
-```
-- Ft_Printf
-- Get_Next_Line
-```
+<h3 align="center">Index</h3>
+<p align="center">
+ <a href="#exam-02">EXAM 02</a><br>
+ <a href="#exam-details">Exam Details</a><br>
+ <a href="#level-1">Level 1:</a><br>
+ <a href="#level-2">Level 2:</a><br>
+ <a href="#inter">inter</a><br>
+ <a href="#subject">Subject:</a><br>
+ <a href="#solution">Solution:</a><br>
+ <a href="#union">union</a><br>
+ <a href="#subject-1">Subject:</a><br>
+ <a href="#solution-1">Solution:</a><br>
+ <a href="#ft_printf">ft_printf</a><br>
+ <a href="#subject-2">Subject:</a><br>
+ <a href="#solution-2">Solution:</a><br>
+ <a href="#get_next_line">get_next_line</a><br>
+ <a href="#subject-3">Subject:</a><br>
+ <a href="#solution-3">Solution:</a><br>
+ <a href="#exam-skill-required">Exam skill required:</a><br>
+ <a href="#support-me">Support Me</a><br>
+ <a href="#author">Author</a><br>
 </p>
 <br>
 
-## Level 1 - inter
+## Exam Details
 
-### Subject:
-```
+<p align="justify">
+
+This exam consists of 2 random questions selected from the first and second levels. Each level awards you 50 points. To pass the exam, you need a total score of 100 points. For more information about exam login and other details, check:
+
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
+</p>
+
+**Note:** This repository documents my journey through the previous version of the exam. Please be aware that the exam format has since been updated, but I am preserving these exam subjects for historical reference and to document my experience at 42 School.
+
+## Level 1:
+
+- inter
+- union
+
+## Level 2:
+
+- Ft_Printf
+- Get_Next_Line
+
+</p>
+<br>
+
+### inter
+
+#### Subject:
+
+```plaintext
 Assignment name  : inter
 Expected files   : inter.c
 Allowed functions: write
@@ -77,16 +84,17 @@ $>./inter | cat -e
 $
 ```
 
-### Solution:
+#### Solution:
 
 [inter.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/inter/inter.c)
 
 <br>
 
-## Level 1 - union
+### union
 
-### Subject:
-```
+#### Subject:
+
+```plaintext
 Assignment name  : union
 Expected files   : union.c
 Allowed functions: write
@@ -116,19 +124,17 @@ $
 $>
 ```
 
-### Solution:
+#### Solution:
 
 [union.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/union/union.c)
 
 <br>
 
-## Level 2 - ft_printf
+### ft_printf
 
-### Subject:
+#### Subject:
 
-(It's an old version of the subject, but the solution is for the newer version).
-
-```
+```plaintext
 Assignment name  : ft_printf
 Expected files   : ft_printf.c
 Allowed functions: malloc, free, write, va_start, va_arg, va_copy, va_end
@@ -159,19 +165,17 @@ call: ft_printf("Hexadecimal for %d is %x\n", 42, 42);
 out:Hexadecimal for 42 is 2a$
 ```
 
-### Solution:
+#### Solution:
 
 [ft_printf.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/printf/ft_printf.c)
 
 <br>
 
-## Level 2 - get_next_line
+### get_next_line
 
-### Subject:
+#### Subject:
 
-(It's an old version of the subject, but the solution is for the newer version).
-
-```
+```plaintext
 Assignment name  : get_next_line
 Expected files   : get_next_line.c get_next_line.h
 Allowed functions: read, free, malloc
@@ -208,7 +212,7 @@ Finally we consider that get_next_line has an undefined behavior when reading fr
 You should use the test.sh to help you test your get_next_line.
 ```
 
-### Solution:
+#### Solution:
 
 [get_next_line.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-02/gnl/get_next_line.c)
 
@@ -228,11 +232,21 @@ You should use the test.sh to help you test your get_next_line.
 ## Support Me
 
 <p align="justify">
-I hope this guide helped you understand this project. Remember to ⭐ the repository.
-If you want to support me:</p>
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
 <a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
 
 <br>
+
+## Author
+
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
+<p align="center">
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
+<hr/>
