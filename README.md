@@ -128,6 +128,8 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 [![fcorvaro's 42 Exam Rank 02 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
 From this point onward, the MOULINETTE automated evaluation system is no longer available. All projects will be evaluated only by your peers. You must choose between the following options:
 
 #### Project Choices 1
@@ -181,6 +183,8 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 [![fcorvaro's 42 Exam Rank 03 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
 ### 1. [Philosophers](https://github.com/f-corvaro/PHILOSOPHERS) (C - solo project)
 
 [![fcorvaro's 42 Philosophers Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
@@ -204,6 +208,9 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 [![fcorvaro's 42 Exam Rank 04 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
+
 #### Project Choices 3
 
 • [```cub3D```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/cub3D.pdf) or [```miniRT```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/miniRT.pdf)
@@ -224,25 +231,37 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 2. [NetPractice](https://github.com/f-corvaro/NETPRACTICE) (C - solo project)
 
+**Status:** Coming Soon
+
 ```Evaluation Length = 30 Mins``` | ```3 Peers```
 
 ### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+**Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - single project)
 
+**Status:** Coming Soon
+
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+**Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - single project)
 
+**Status:** Coming Soon
+
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+**Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
@@ -255,27 +274,43 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 0. [exam rank 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05) (C++)
 
+**Status:** Coming Soon
+
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
 ### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
+**Status:** Coming Soon
+
 ### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+**Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - single project)
 
+**Status:** Coming Soon
+
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - single project)
+
+**Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - single project)
 
+**Status:** Coming Soon
+
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 6. [Inception](https://github.com/f-corvaro/Inception) ()
+
+**Status:** Coming Soon
 
 ```Evaluation Length =  Mins``` | ```3 Peers```
 
@@ -285,11 +320,15 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 #### Why I Chose `idk` Over `idk2`
 
+**Status:** Coming Soon
+
 - **webserv**: 
 
 - **ft_irc**: 
 
 ### 7. [webserv](https://github.com/f-corvaro/webserv) ()
+
+**Status:** Coming Soon
 
 ```Evaluation Length =  Mins``` | ```3 Peers```
 
@@ -302,7 +341,13 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 0. [exam rank 06](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-06) ()
 
+**Status:** Coming Soon
+
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
 ### 1. [ft_trascendence](https://github.com/f-corvaro/ft_trascendence) ()
+
+**Status:** Coming Soon
 
 ```Evaluation Length =  Mins``` | ```Evaluation by 3 Peers + 1 Staff Member```
 
