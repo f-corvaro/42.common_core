@@ -1,51 +1,61 @@
-## Excepted Files
+# <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
-- microshell.c
+<h1 align="center">EXAM 04</h1>
 
-## Subject Text
+<p align="center" style="text-decoration: none;">
+  <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-04"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
+</p>
 
-Allowed functions: 
+<h3 align="center">Index</h3>
+<p align="center">
+<a href="#index">Index</a><br>
+<a href="#exam-details">Exam details</a><br>
+<a href="#exam-skill-required">Exam skill required:</a><br>
+<a href="#support-me">Support Me</a><br>
+<a href="#license">License</a><br>
+</p>
+<br>
 
-> malloc, free, write, close, fork, waitpid, signal, kill, exit, chdir, execve, dup, dup2, pipe, strcmp, strncmp
+## Exam Details
 
+<p align="justify">
 
-## The Program
-Write a program that will behave like executing a shell command
+This exam is about [microshell](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/ft_printf) or [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/gnl). For more information about exam login and other details, check:
 
-- The command line to execute will be the arguments of this program
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
+</p>
 
-- Executable's path will be absolute or relative but your program must not build a path (from the PATH variable for example)
+### Code Solutions:
 
-- You must implement "|" and ";" like in bash
-	- we will never try a "|" immediately followed or preceded by nothing or "|" or ";"
+- [ft_printf.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/ft_printf/ft_printf.c)
+- [get_next_line.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/gnl/get_next_line.c) & [get_next_line.h](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/gnl/get_next_line.h)
 
-- Your program must implement the built-in command cd only with a path as argument (no '-' or without parameters)
-	- if cd has the wrong number of argument your program should print in STDERR "error: cd: bad arguments" followed by a '\n'
-	- if cd failed your program should print in STDERR "error: cd: cannot change directory to path_to_change" followed by a '\n' with path_to_change replaced by the argument to cd
-	- a cd command will never be immediately followed or preceded by a "|"
+## Exam skill required:
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,c,vim" />
+  </a>
+</p>
+<br>
 
-- You don't need to manage any type of wildcards (*, ~ etc...)
+## Support Me
 
-- You don't need to manage environment variables ($BLA ...)
+<p align="justify">
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
 
-- If a system call, except execve and chdir, returns an error your program should immediatly print "error: fatal" in STDERR followed by a '\n' and the program should exit
+<p align="center">
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
 
-- If execve failed you should print "error: cannot execute executable_that_failed" in STDERR followed by a '\n' with executable_that_failed replaced with the path of the failed executable (It should be the first argument of execve)
+<br>
 
-- Your program should be able to manage more than hundreds of "|" even if we limit the number of "open files" to less than 30.
+## Author
 
-## Example
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
+<p align="center">
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
 
-for example this should work:
-```
-$>./microshell /bin/ls "|" /usr/bin/grep microshell ";" /bin/echo i love my microshell
-microshell
-i love my microshell
-$>
-
->./microshell 
-```
-
-## Hints
-- Don't forget to pass the environment variable to execve
-- Do not leak file descriptors!
+<hr/>
