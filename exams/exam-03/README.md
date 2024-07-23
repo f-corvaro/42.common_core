@@ -6,16 +6,14 @@
   <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
 </p>
 
-### Index
-
-- [](#)
-		- [Index](#index)
-	- [Exam details](#exam-details)
-	- [Exam skill required:](#exam-skill-required)
-	- [Support Me](#support-me)
-	- [License](#license)
-
-
+<h3 align="center">Index</h3>
+<p align="center">
+<a href="#index">Index</a><br>
+<a href="#exam-details">Exam details</a><br>
+<a href="#exam-skill-required">Exam skill required:</a><br>
+<a href="#support-me">Support Me</a><br>
+<a href="#license">License</a><br>
+</p>
 <br>
 
 ## Exam Details
