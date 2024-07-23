@@ -1,24 +1,36 @@
-# EXAM 03
+# <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
-<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/exam-03.png">
+<h1 align="center">EXAM 03</h1>
+
+<p align="center" style="text-decoration: none;">
+  <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
+</p>
 
 ### Index
 
-- [EXAM 03](#exam-03)
+- [](#)
 		- [Index](#index)
 	- [Exam details](#exam-details)
 	- [Exam skill required:](#exam-skill-required)
 	- [Support Me](#support-me)
 	- [License](#license)
 
+
 <br>
 
-## Exam details
+## Exam Details
+
 <p align="justify">
 
-This exam includes one random question, which could be related to either [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/ft_printf) or [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/gnl). For information about exam login procedures and other details, please visit the following link:
+This exam includes one random question, which could be related to either [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/ft_printf) or [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/gnl). For more information about exam login and other details, check:
 
-[here](https://github.com/f-corvaro/42.common_core/tree/main/exams)
+<a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
+</p>
+
+### Code Solutions:
+
+- [ft_printf.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/ft_printf/ft_printf.c)
+- [get_next_line.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/gnl/get_next_line.c) & [get_next_line.h](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/gnl/get_next_line.h)
 
 ## Exam skill required:
 <p align="center">
@@ -26,14 +38,12 @@ This exam includes one random question, which could be related to either [ft_pri
     <img src="https://skillicons.dev/icons?i=git,c,vim" />
   </a>
 </p>
-
 <br>
 
 ## Support Me
 
 <p align="justify">
-I hope this guide helped you understand this project. Remember to ⭐ the repository.
-If you want to support me:</p>
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
@@ -41,10 +51,13 @@ If you want to support me:</p>
 
 <br>
 
-## License
-<p align="center">
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License"></a>
-<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
-<br>
+## Author
 
+<p align="center"><a href="https://profile.intra.42.fr/users/fcorvaro"><img style="height:auto;" src="https://avatars.githubusercontent.com/u/102758065?v=4" width="100" height="100"alt=""></a>
+<p align="center">
+<a href="mailto:fcorvaro@student.42roma.it"><kbd>Email</kbd><alt=""></a>
+<a href="https://github.com/f-corvaro"><kbd>Github</kbd><alt=""></a>
+<a href="https://www.linkedin.com/in/f-corvaro/"><kbd>Linkedin</kbd><alt=""></a>
+<a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
+
+<hr/>

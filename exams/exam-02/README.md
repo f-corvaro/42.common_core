@@ -2,8 +2,6 @@
 
 <h1 align="center">EXAM 02</h1>
 
-
-
 <p align="center" style="text-decoration: none;">
   <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
 </p>
