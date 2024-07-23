@@ -43,7 +43,7 @@ Other rewards claimable with your 42 login:
 
 [Skills Icons](https://skillicons.dev)
 
-[Shields.io](https://shields.io/category/build)
+[Shields.io](https://shields.io/)
 
 ## 42 School Resources
 
