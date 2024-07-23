@@ -1,137 +1,210 @@
 # <a href="https://github.com/f-corvaro/42.common_core/tree/main"><img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/exams/.extra/42exams.png"></a>
 
+<p align="center" style="text-decoration: none;">
+  <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
+</p>
+
 - [](#)
-		- [Index](#index)
-	- [Briefing](#briefing)
-	- [Exams](#exams)
-		- [0. Exam 02 (2 C exercises)](#0-exam-02-2-c-exercises)
-        - [1. Exam 03 (1 C exercises)](#1-exam-03-1-c-exercises)
-	- [Exam Login Details](#exam-login-details)
-		- [1. Login with the following:](#1-login-with-the-following)
-		- [2. To access at exam terminal, type into the terminal:](#2-to-access-at-exam-terminal-type-into-the-terminal)
-		- [3. Login with your 42 intra account:](#3-login-with-your-42-intra-account)
-		- [4. To access at the exam shell, type in the terminal:](#4-to-access-at-the-exam-shell-type-in-the-terminal)
-		- [5. Allow photo check:](#5-allow-photo-check)
-		- [6. Access Rendu typing:](#6-access-rendu-typing)
-		- [7. In the Exam Shell, you have 3 commands:](#7-in-the-exam-shell-you-have-3-commands)
-		- [8. Open a new terminal:](#8-open-a-new-terminal)
-		- [9. Submit your project:](#9-submit-your-project)
-	- [Author](#author)
+	- [Exam Overview](#exam-overview)
+	- [Exams Details](#exams-details)
+		- [2. Exam 02 (2 C exercises - old version)](#2-exam-02-2-c-exercises---old-version)
+		- [3. Exam 03 (1 C exercise)](#3-exam-03-1-c-exercise)
+		- [4. Exam 04 (1 C exercise)](#4-exam-04-1-c-exercise)
+		- [5. Exam 05 (3 C++ exercises)](#5-exam-05-3-c-exercises)
+		- [6. Exam 06 ()](#6-exam-06-)
+	- [Exam Login Instructions](#exam-login-instructions)
+		- [1. Initial Login:](#1-initial-login)
+		- [2. Access Exam Terminal:](#2-access-exam-terminal)
+		- [3. Login with Your 42 Intra Account:](#3-login-with-your-42-intra-account)
+		- [4. Access the Exam Shell:](#4-access-the-exam-shell)
+		- [5. Allow Photo Check:](#5-allow-photo-check)
+		- [6. Access Rendu:](#6-access-rendu)
+		- [7. Exam Shell Commands:](#7-exam-shell-commands)
+		- [8. Open a New Terminal:](#8-open-a-new-terminal)
+		- [9. Submit Your Project:](#9-submit-your-project)
 	- [Support Me](#support-me)
-	- [License](#license)
+	- [Author](#author)
+
+
+<h3 align="center">Index</h3>
+
+<p align="center">
+ <a href="#exam-overview">Exam Overview</a><br>
+ <a href="#exams-details">Exams Details</a><br>
+ <a href="#2-exam-02-2-c-exercises---old-version">2. Exam 02 (2 C exercises - old version)</a><br>
+ <a href="#3-exam-03-1-c-exercise">3. Exam 03 (1 C exercise)</a><br>
+ <a href="#4-exam-04-1-c-exercise">4. Exam 04 (1 C exercise)</a><br>
+ <a href="#5-exam-05-3-c-exercises">5. Exam 05 (3 C++ exercises)</a><br>
+ <a href="#6-exam-06-">6. Exam 06 ()</a><br>
+ <a href="#exam-login-instructions">Exam Login Instructions</a><br>
+ <a href="#1-initial-login">1. Initial Login:</a><br>
+ <a href="#2-access-exam-terminal">2. Access Exam Terminal:</a><br>
+ <a href="#3-login-with-your-42-intra-account">3. Login with Your 42 Intra Account:</a><br>
+ <a href="#4-access-the-exam-shell">4. Access the Exam Shell:</a><br>
+ <a href="#5-allow-photo-check">5. Allow Photo Check:</a><br>
+ <a href="#6-access-rendu">6. Access Rendu:</a><br>
+ <a href="#7-exam-shell-commands">7. Exam Shell Commands:</a><br>
+ <a href="#8-open-a-new-terminal">8. Open a New Terminal:</a><br>
+ <a href="#9-submit-your-project">9. Submit Your Project:</a><br>
+ <a href="#support-me">Support Me</a><br>
+ <a href="#author">Author</a><br>
+</p>
+<br>
+
+## Exam Overview
+
+The purpose of the exam is to test your knowledge without any external assistance and within a limited time frame. If you push the code and fail the exercise, you will receive a timeout that increases progressively with each failed attempt. The timeout is designed to prevent excessive retries.
 
 <br>
 
-## Briefing
-
-The purpose of the exam is to test your knowledge without any kind of help and with limited time. If you push the code and fail the exercise, you will receive a timeout that increase time after time. The timeout is made with the purpose of avoid too many tries
-
-<br>
-
-## Exams
-
+## Exams Details
 
 <p align="justify">
 
-### 0. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) (2 C exercises)
+Note: The numbers indicate the corresponding milestone for the exam.
+
+### 2. [Exam 02](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-02) (2 C exercises - old version)
 
 [![fcorvaro's 42 Exam Rank 02 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```BlackHole = 0 Days``` | ```Length = 180 Mins``` | ```NORMINETTE = OFF```
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
 </p>
-
 <br>
 
 <p align="justify">
 
-### 1. [Exam 03](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03) (1 C exercises)
+### 3. [Exam 03](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03) (1 C exercise)
 
+[![fcorvaro's 42 Exam Rank 03 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-
-```BlackHole = 0 Days``` | ```Length = 180 Mins``` | ```NORMINETTE = OFF```
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
 </p>
-
 <br>
 
+### 4. [Exam 04](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-04) (1 C exercise)
 
-## Exam Login Details
+[![fcorvaro's 42 Exam Rank 04 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
+
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
+</p>
+<br>
+
+**Note:** For the last two exams, you can use the `code` command to open Visual Studio Code as your IDE.
+
+### 5. [Exam 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05) (3 C++ exercises)
+
+**Status:** Coming Soon
+
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
+</p>
+<br>
+
+### 6. [Exam 06](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-06) ()
+
+**Status:** Coming Soon
+
+```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
+</p>
+<br>
+
+## Exam Login Instructions
 
 <p align="justify">
 
-### 1. Login with the following:
+### 1. Initial Login:
 
-```
+```plaintext
 login -> exam
 password -> exam
 ```
 
-### 2. To access at exam terminal, type into the terminal:
+### 2. Access Exam Terminal:
 
-```
+```bash
 kinit
 ```
 
-### 3. Login with your 42 intra account:
+### 3. Login with Your 42 Intra Account:
 
-```
+```plaintext
 login -> your 42 intra username (eg. fcorvaro)
 pasword -> your password
 ```
 
-### 4. To access at the exam shell, type in the terminal:
+### 4. Access the Exam Shell:
 
-```
+```bash
 examshell
 ```
 
-### 5. Allow photo check:
+### 5. Allow Photo Check:
 
-```
+```plaintext
 'yes'
 ```
 
-### 6. Access Rendu typing:
+### 6. Access Rendu:
 
-```
+```plaintext
 'y'
 ```
 
-### 7. In the Exam Shell, you have 3 commands:
+### 7. Exam Shell Commands:
 
-```
-- 'status' - check the time and other things
-- 'grademe' - checking pushed exercise (moulinet)
-- 'finish' - closing examshell and finish exam
-```
-### 8. Open a new terminal:
+- `status` - Check the time and other details
+- `grademe` - Check pushed exercise (moulinet)
+- `finish` - Close examshell and finish exam
 
-```
-- You can find your exam subject in the directory subject
-- Then you can see directory Rendu. It is your repository.
-- You must create a folder named by the project and start working in that folder.
-```
-### 9. Submit your project:
+### 8. Open a New Terminal:
 
-When you are ready to sumbit your work, go into Rendu and push the folder you created by doing the following:
+- You can find your exam subject in the `subject` directory.
+- Then you can see the `Rendu` directory, which is your repository.
+- Create a folder named after the project and start working in that folder.
+- If you fail the exercise, the system will provide the expected output and the output returned in the `traces` folder.
+- If Bash commands don't work in the terminal, type `bash` to start a Bash session.
 
-```
-'git add <folder name/files in folder>'
+### 9. Submit Your Project:
+
+When you are ready to submit your work, go into `Rendu` and push the folder you created by doing the following:
+
+```bash
+git status
 ```
 
+```bash
+git add <folder name/files in folder>
 ```
-'git status'
+
+```bash
+git status
 ```
+
+```bash
+git commit -m "any commit message you like in these strings"
 ```
-'git commit -m "any commit message you like in these strings"'
+
+```bash
+git push
 ```
-```
-'git push'
-```
-After you git push, type ```grademe``` in the examshell for your project to be evaluated
+
+After you `git push`, type `grademe` in the examshell for your project to be evaluated.
 
 </p>
+<br>
+
+## Support Me
+
+<p align="justify">
+If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
+
+<p align="center">
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
 
 <br>
 
@@ -145,24 +218,3 @@ After you git push, type ```grademe``` in the examshell for your project to be e
 <a href="https://42born2code.slack.com/team/U050L8XAFLK"><kbd>Slack</kbd><alt=""></a>
 
 <hr/>
-
-<br>
-
-## Support Me
-
-<p align="justify">
-I hope this guide helped you understand this project. Remember to ⭐ the repository.
-If you want to support me:</p>
-
-<p align="center">
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
-<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
-
-<br>
-
-## License
-<p align="center">
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
-<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License"></a>
-<a href="http://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License"></a>
-<br>
