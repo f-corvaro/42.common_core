@@ -20,15 +20,14 @@
 
 <p align="justify">
 
-This exam is about [microshell](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/ft_printf) or [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/gnl). For more information about exam login and other details, check:
+This exam focuses on the [microshell](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-04/microshell/README.md) project. For more information about exam login and other details, check:
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
 </p>
 
-### Code Solutions:
+### Code Solution:
 
-- [ft_printf.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/ft_printf/ft_printf.c)
-- [get_next_line.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/gnl/get_next_line.c) & [get_next_line.h](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-03/gnl/get_next_line.h)
+- [microshell.c](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-04/microshell/microshell.c)
 
 ## Exam skill required:
 <p align="center">
