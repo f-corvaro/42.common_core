@@ -130,6 +130,8 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
+<br>
+
 From this point onward, the MOULINETTE automated evaluation system is no longer available. All projects will be evaluated only by your peers. You must choose between the following options:
 
 #### Project Choices 1
@@ -185,6 +187,8 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
+<br>
+
 ### 1. [Philosophers](https://github.com/f-corvaro/PHILOSOPHERS) (C - solo project)
 
 [![fcorvaro's 42 Philosophers Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
@@ -210,6 +214,7 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
+<br>
 
 #### Project Choices 3
 
@@ -278,6 +283,8 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
+<br>
+
 ### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
@@ -344,6 +351,8 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 **Status:** Coming Soon
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
+
+<br>
 
 ### 1. [ft_trascendence](https://github.com/f-corvaro/ft_trascendence) ()
 
