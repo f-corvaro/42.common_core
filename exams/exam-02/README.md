@@ -24,8 +24,8 @@
  <a href="#get_next_line">get_next_line</a><br>
  <a href="#subject-3">Subject:</a><br>
  <a href="#solution-3">Solution:</a><br>
- <a href="#exam-skill-required">Exam skill required:</a><br>
- <a href="#support-me">Support Me</a><br>
+ <a href="#exam-skills-required">Exam Skills Required:</a><br>
+ <a href="#support-and-contributions">Support and Contributions</a><br>
  <a href="#author">Author</a><br>
 </p>
 <br>
@@ -220,7 +220,7 @@ You should use the test.sh to help you test your get_next_line.
 
 <br>
 
-## Exam skill required:
+## Exam Skills Required
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,c,vim" />
@@ -229,10 +229,10 @@ You should use the test.sh to help you test your get_next_line.
 
 <br>
 
-## Support Me
+## Support and Contributions
 
-<p align="justify">
-If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
+<p align="center">
+If you find this repository helpful, please consider starring it to show your support. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>

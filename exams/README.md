@@ -23,7 +23,7 @@
  <a href="#7-exam-shell-commands">7. Exam Shell Commands:</a><br>
  <a href="#8-open-a-new-terminal">8. Open a New Terminal:</a><br>
  <a href="#9-submit-your-project">9. Submit Your Project:</a><br>
- <a href="#support-me">Support Me</a><br>
+ <a href="#support-and-contributions">Support and Contributions</a><br>
  <a href="#author">Author</a><br>
 </p>
 <br>
@@ -174,10 +174,10 @@ After you `git push`, type `grademe` in the examshell for your project to be eva
 </p>
 <br>
 
-## Support Me
+## Support and Contributions
 
-<p align="justify">
-If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
+<p align="center">
+If you find this repository helpful, please consider starring it to show your support. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>

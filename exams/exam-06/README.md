@@ -6,16 +6,18 @@
   <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-06"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
 </p>
 
+
 **Status:** Coming Soon
 
 
 <h3 align="center">Index</h3>
 <p align="center">
-<a href="#index">Index</a><br>
-<a href="#exam-details">Exam details</a><br>
-<a href="#exam-skill-required">Exam skill required:</a><br>
-<a href="#support-me">Support Me</a><br>
-<a href="#license">License</a><br>
+ <a href="#exam-06">EXAM 06</a><br>
+ <a href="#exam-details">Exam Details</a><br>
+ <a href="#code-solutions">Code Solutions:</a><br>
+ <a href="#exam-skills-required">Exam Skills Required</a><br>
+ <a href="#support-and-contributions">Support and Contributions</a><br>
+ <a href="#author">Author</a><br>
 </p>
 <br>
 
@@ -32,18 +34,17 @@ For more information about exam login and other details, check:
 
 
 
-## Exam skill required:
+## Exam Skills Required
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,vim,vscode" />
+    <img src="https://skillicons.dev/icons?i=git,c,vim" />
   </a>
 </p>
-<br>
 
-## Support Me
+## Support and Contributions
 
-<p align="justify">
-If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
+<p align="center">
+If you find this repository helpful, please consider starring it to show your support. Your support is greatly appreciated!</p>
 
 <p align="center">
 <a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
