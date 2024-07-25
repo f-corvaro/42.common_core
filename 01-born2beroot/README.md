@@ -78,8 +78,8 @@
  <a href="#what-is-apparmor">What is AppArmor?</a><br>
  <a href="#what-is-lvm">What is LVM?</a><br>
  <a href="#correction-sheet">Correction Sheet</a><br>
- <a href="#support-me">Support Me</a><br>
- <a href="#skills-developed">Skills developed</a><br>
+ <a href="#developed-skills">Developed Skills</a><br>
+ <a href="#support-and-contributions">Support and Contributions</a><br>
  <a href="#author">Author</a><br>
 </p>
 <br>
@@ -2030,24 +2030,24 @@ Virtual machines (VMs) provide a hardware and operating system-independent execu
 </p>
 <br>
 
-## Support Me
-
-<p align="justify">
-If you find this repository helpful, please consider starring it. Your support is greatly appreciated!</p>
-
-<p align="center">
-<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
-<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
-
-<br>
-
-## Skills developed
+## Developed Skills
 
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,linux,wordpress" />
   </a>
 </p><br>
+
+## Support and Contributions
+
+<p align="center">
+If you find this repository helpful, please consider starring it to show your support. Your support is greatly appreciated!</p>
+
+<p align="center">
+<a href="https://ko-fi.com/fcorvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-ko-fi.svg"><alt=""></a>
+<a href="https://github.com/sponsors/f-corvaro"><img width="180" img align="center" src="https://github.com/f-corvaro/42.common_core/blob/main/.extra/support-me-github.svg"><alt=""></a>
+
+<br>
 
 ## Author
 
