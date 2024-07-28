@@ -240,31 +240,31 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ```Evaluation Length = 30 Mins``` | ```3 Peers```
 
-### 3. [CPP00](https://github.com/f-corvaro/CPP/tree/main/CPP00) (C++ - single project)
+### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 4. [CPP01](https://github.com/f-corvaro/CPP/tree/main/CPP01) (C++ - single project)
+### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 4. [CPP02](https://github.com/f-corvaro/CPP/tree/main/CPP02) (C++ - single project)
+### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 5. [CPP03](https://github.com/f-corvaro/CPP/tree/main/CPP03) (C++ - single project)
+### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 6. [CPP04](https://github.com/f-corvaro/CPP/tree/main/CPP04) (C++ - single project)
+### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
@@ -285,31 +285,31 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 <br>
 
-### 1. [CPP05](https://github.com/f-corvaro/CPP/tree/main/CPP05) (C++ - single project)
+### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 2. [CPP06](https://github.com/f-corvaro/CPP/tree/main/CPP06) (C++ - single project)
+### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 3. [CPP07](https://github.com/f-corvaro/CPP/tree/main/CPP07) (C++ - single project)
+### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 4. [CPP08](https://github.com/f-corvaro/CPP/tree/main/CPP08) (C++ - single project)
+### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 5. [CPP09](https://github.com/f-corvaro/CPP/tree/main/CPP09) (C++ - single project)
+### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - single project)
 
 **Status:** Coming Soon
 
