@@ -287,9 +287,9 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
-
 **Status:** Coming Soon
+
+```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
 ### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - single project)
 
