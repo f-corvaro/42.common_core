@@ -54,7 +54,7 @@
   <a href="#7-webserv-">7. webserv ()</a><br>
   <a href="#milestone-6">Milestone 6</a><br>
   <a href="#0-exam-rank-06-">0. exam rank 06 ()</a><br>
-  <a href="#1-ft_trascendence-">1. ft_trascendence ()</a><br>
+  <a href="#1-ft_transcendence-">1. ft_transcendence ()</a><br>
   <a href="#exams">Exams</a><br>
   <a href="#holygraph">Holygraph</a><br>
   <a href="#common-core">Common Core</a><br>
@@ -354,7 +354,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 <br>
 
-### 1. [ft_trascendence](https://github.com/f-corvaro/ft_trascendence) ()
+### 1. [ft_transcendence](https://github.com/f-corvaro/ft_transcendence) ()
 
 **Status:** Coming Soon
 
