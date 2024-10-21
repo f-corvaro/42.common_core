@@ -35,7 +35,7 @@
   <a href="#project-choices-3">Project Choices 3</a><br>
   <a href="#why-i-chose-cub3d-over-minirt">Why I Chose `cub3D` Over `miniRT`</a><br>
   <a href="#1-cub3d-c---duo-project">1. cub3D (C - duo project)</a><br>
-  <a href="#2-netpractice-c---solo-project">2. NetPractice (C - solo project)</a><br>
+  <a href="#2-netpractice-c---solo-project">2. NetPractice (TCP/IP networks - solo project)</a><br>
   <a href="#3-cpp00-c---single-project">3. CPP00 (C++ - single project)</a><br>
   <a href="#4-cpp01-c---single-project">4. CPP01 (C++ - single project)</a><br>
   <a href="#4-cpp02-c---single-project">4. CPP02 (C++ - single project)</a><br>
@@ -234,11 +234,11 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 In Milestone 4, `cub3D` is the final project that requires adherence to the Norminette coding standard.
 
-### 2. [NetPractice](https://github.com/f-corvaro/NETPRACTICE) (C - solo project)
+### 2. [NetPractice](https://github.com/f-corvaro/NETPRACTICE) (TCP/IP networks - solo project)
 
-**Status:** Coming Soon
+[![fcorvaro's 42 NetPractice Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 30 Mins``` | ```3 Peers```
+```Evaluation Length = 30 Mins``` | ```3 Peers``` 
 
 ### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - single project)
 
