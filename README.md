@@ -35,20 +35,20 @@
   <a href="#project-choices-3">Project Choices 3</a><br>
   <a href="#why-i-chose-cub3d-over-minirt">Why I Chose `cub3D` Over `miniRT`</a><br>
   <a href="#1-cub3d-c---duo-project">1. cub3D (C - duo project)</a><br>
-  <a href="#2-netpractice-c---solo-project">2. NetPractice (TCP/IP networks - solo project)</a><br>
-  <a href="#3-cpp00-c---single-project">3. CPP00 (C++ - single project)</a><br>
-  <a href="#4-cpp01-c---single-project">4. CPP01 (C++ - single project)</a><br>
-  <a href="#4-cpp02-c---single-project">4. CPP02 (C++ - single project)</a><br>
-  <a href="#5-cpp03-c---single-project">5. CPP03 (C++ - single project)</a><br>
-  <a href="#6-cpp04-c---single-project">6. CPP04 (C++ - single project)</a><br>
+  <a href="#2-netpractice-tcpip-networks---solo-project">2. NetPractice (TCP/IP networks - solo project)</a><br>
+  <a href="#3-cpp00-c---solo-project">3. CPP00 (C++ - solo project)</a><br>
+  <a href="#4-cpp01-c---solo-project">4. CPP01 (C++ - solo project)</a><br>
+  <a href="#4-cpp02-c---solo-project">4. CPP02 (C++ - solo project)</a><br>
+  <a href="#5-cpp03-c---solo-project">5. CPP03 (C++ - solo project)</a><br>
+  <a href="#6-cpp04-c---solo-project">6. CPP04 (C++ - solo project)</a><br>
   <a href="#milestone-5">Milestone 5</a><br>
   <a href="#0-exam-rank-05-c">0. exam rank 05 (C++)</a><br>
-  <a href="#1-cpp05-c---single-project">1. CPP05 (C++ - single project)</a><br>
-  <a href="#2-cpp06-c---single-project">2. CPP06 (C++ - single project)</a><br>
-  <a href="#3-cpp07-c---single-project">3. CPP07 (C++ - single project)</a><br>
-  <a href="#4-cpp08-c---single-project">4. CPP08 (C++ - single project)</a><br>
-  <a href="#5-cpp09-c---single-project">5. CPP09 (C++ - single project)</a><br>
-  <a href="#6-inception-">6. Inception ()</a><br>
+  <a href="#1-cpp05-c---solo-project">1. CPP05 (C++ - solo project)</a><br>
+  <a href="#2-cpp06-c---solo-project">2. CPP06 (C++ - solo project)</a><br>
+  <a href="#3-cpp07-c---solo-project">3. CPP07 (C++ - solo project)</a><br>
+  <a href="#4-cpp08-c---solo-project">4. CPP08 (C++ - solo project)</a><br>
+  <a href="#5-cpp09-c---solo-project">5. CPP09 (C++ - solo project)</a><br>
+  <a href="#6-inception----solo-project">6. Inception ( - solo project)</a><br>
   <a href="#project-choices-4">Project Choices 4</a><br>
   <a href="#why-i-chose-idk-over-idk2">Why I Chose `idk` Over `idk2`</a><br>
   <a href="#7-webserv-">7. webserv ()</a><br>
@@ -240,31 +240,31 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ```Evaluation Length = 30 Mins``` | ```3 Peers``` 
 
-### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
@@ -285,37 +285,37 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 <br>
 
-### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - single project)
+### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
 ```Evaluation Length = 15/30 Mins``` | ```3 Peers```
 
-### 6. [Inception](https://github.com/f-corvaro/Inception) ()
+### 6. [Inception](https://github.com/f-corvaro/Inception) ( - solo project)
 
 **Status:** Coming Soon
 
