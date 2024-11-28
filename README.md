@@ -238,37 +238,37 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 [![fcorvaro's 42 NetPractice Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 30 Mins``` | ```3 Peers``` 
+```Evaluation Length = 30 Mins``` | ```2 Peers``` 
 
 ### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
-**Status:** Coming Soon
+[![fcorvaro's 42 CPP00 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 4. [CPP01](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
-**Status:** Coming Soon
+[![fcorvaro's 42 CPP01 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 4. [CPP02](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 5. [CPP03](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 </p>
 <br>
@@ -289,31 +289,31 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 2. [CPP06](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 3. [CPP07](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 4. [CPP08](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 5. [CPP09](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
 **Status:** Coming Soon
 
-```Evaluation Length = 15/30 Mins``` | ```3 Peers```
+```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
 ### 6. [Inception](https://github.com/f-corvaro/Inception) ( - solo project)
 
