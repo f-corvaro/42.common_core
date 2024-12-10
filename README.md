@@ -101,7 +101,7 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 [![fcorvaro's 42 Born2beroot Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/125.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF``` 
+```Evaluation Length = 60 Mins``` | ```3 Peers``` | ```NORMINETTE = OFF```
 
 **note:** This project provides evaluators with a 2-point evaluation system, but you only utilized 1 point.
 
@@ -152,7 +152,7 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 #### Why I Chose `pipex` Over `minitalk`
 
-- **pipex**: The `pipex` project involves creating a simplified version of the Unix `pipe` command, which is fundamental for chaining commands and managing data streams in Unix-based systems. This project allows me to deepen my understanding of Unix systems, inter-process communication, and system programming. 
+- **pipex**: The `pipex` project involves creating a simplified version of the Unix `pipe` command, which is fundamental for chaining commands and managing data streams in Unix-based systems. This project allows me to deepen my understanding of Unix systems, inter-process communication, and system programming.
 
 - **minitalk**: While `minitalk` focuses on implementing a small data exchange program using Unix signals, which is also valuable, I found `pipex` to be more aligned with my interest in system-level programming and process management.
 
@@ -238,7 +238,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 [![fcorvaro's 42 NetPractice Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
-```Evaluation Length = 30 Mins``` | ```2 Peers``` 
+```Evaluation Length = 30 Mins``` | ```2 Peers```
 
 ### 3. [CPP00](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
@@ -266,7 +266,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
-iasd
+[![fcorvaro's 42 CPP04 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
@@ -329,9 +329,9 @@ iasd
 
 **Status:** Coming Soon
 
-- **webserv**: 
+- **webserv**:
 
-- **ft_irc**: 
+- **ft_irc**:
 
 ### 7. [webserv](https://github.com/f-corvaro/webserv) ()
 
@@ -374,7 +374,7 @@ For more information about the exams, click the image below:
 </p>
 <br>
 
-## Holygraph 
+## Holygraph
 
 <p align="justify">
 
