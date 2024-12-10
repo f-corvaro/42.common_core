@@ -31,7 +31,6 @@ This exam is based on C++. There are 3 levels, and to successfully complete the 
 - [Level 3 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_3/subject.txt)
 
 For more information about exam login and other details, check:
-
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
 </p>
 
