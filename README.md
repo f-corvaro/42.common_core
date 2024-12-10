@@ -266,7 +266,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 6. [CPP04](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
-**Status:** Coming Soon
+iasd
 
 ```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
