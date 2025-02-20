@@ -9,13 +9,6 @@ Warlock::Warlock()
 {
 }
 
-Warlock & Warlock::operator=(Warlock const & rhs)
-{
-	this->_name = rhs._name;
-	this->_title = rhs._title;
-	return *this;
-}
-
 Warlock::Warlock(Warlock const & obj)
 {
 	*this = obj;
@@ -24,6 +17,13 @@ Warlock::Warlock(Warlock const & obj)
 Warlock::~Warlock()
 {
 	std::cout << _name << ": My job here is done!" << std::endl;
+}
+
+Warlock & Warlock::operator=(Warlock const & rhs)
+{
+	this->_name = rhs._name;
+	this->_title = rhs._title;
+	return *this;
 }
 
 std::string const & Warlock::getName() const
