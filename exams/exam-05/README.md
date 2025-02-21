@@ -6,15 +6,13 @@
   <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=black" /></a>
 </p>
 
-
-**Status:** Coming Soon
-
-
 <h3 align="center">Index</h3>
 <p align="center">
- <a href="#exam-05">EXAM 05</a><br>
  <a href="#exam-details">Exam Details</a><br>
- <a href="#code-solutions">Code Solutions:</a><br>
+ <a href="#level-1-warlock-class">Level 1: Warlock Class</a><br>
+ <a href="#level-2-spell-and-target-classes">Level 2: Spell and Target Classes</a><br>
+ <a href="#level-3-advanced-spell-and-target-management">Level 3: Advanced Spell and Target Management</a><br>
+ <a href="#code-solution">Code Solution</a><br>
  <a href="#exam-skills-required">Exam Skills Required</a><br>
  <a href="#support-and-contributions">Support and Contributions</a><br>
  <a href="#author">Author</a><br>
@@ -25,13 +23,28 @@
 
 <p align="justify">
 
-This exam is based on C++. There are 3 levels, and to successfully complete the exam, you must pass all levels.
+This exam consists of three levels, each building upon the previous one, to test your understanding and implementation of C++ concepts, particularly focusing on the Coplien form and object-oriented programming principles.
+
+To successfully complete the exam, you must pass all levels.
 - [Level 1 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_1/subject.txt)
 - [Level 2 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_2/subject.txt)
 - [Level 3 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_3/subject.txt)
 
+
 For more information about exam login and other details, check:
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
+
+### Level 1: Warlock Class
+In the first level, you are required to create a `Warlock` class in Coplien's form. The class should have private attributes for `name` and `title`, along with appropriate getters and setters. The `Warlock` class should not be copyable or assignable. Additionally, the class should include a constructor that initializes the `name` and `title`, and a method to introduce the Warlock.
+
+### Level 2: Spell and Target Classes
+The second level introduces abstract classes `ASpell` and `ATarget`, each with specific attributes and methods. You will implement concrete classes `Fwoosh` and `Dummy` based on these abstract classes. The `Warlock` class will be extended to learn, forget, and launch spells on targets. This level emphasizes polymorphism and dynamic memory management.
+
+### Level 3: Advanced Spell and Target Management
+In the final level, you will create additional spells (`Fireball` and `Polymorph`) and a new target (`BrickWall`). You will also implement a `SpellBook` class to manage spells and a `TargetGenerator` class to manage targets. The `Warlock` class will be modified to use these new classes for spell and target management. This level focuses on advanced class interactions and resource management.
+
+Throughout the exam, the use of the switch statement is forbidden, and adherence to the Coplien form is mandatory to ensure proper resource management and object copying.
+
 </p>
 
 ### Code Solution:
