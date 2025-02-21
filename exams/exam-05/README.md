@@ -54,7 +54,7 @@ The solutions are saved in [./exam/](https://github.com/f-corvaro/42.common_core
 ## Exam Skills Required
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,c,vim" />
+    <img src="https://skillicons.dev/icons?i=git,cpp,vscode,vim" />
   </a>
 </p>
 
