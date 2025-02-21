@@ -4,6 +4,11 @@ ASpell::ASpell(std::string name, std::string effects) : _name(name), _effects(ef
 {
 }
 
+ASpell::ASpell(ASpell const & obj)
+{
+	*this = obj;
+}
+
 ASpell & ASpell::operator=(ASpell const & rhs)
 {
 	_name = rhs.getName();
@@ -11,14 +16,8 @@ ASpell & ASpell::operator=(ASpell const & rhs)
 	return *this;
 }
 
-ASpell::ASpell(ASpell const & obj)
-{
-	*this = obj;
-}
-
 ASpell::~ASpell()
 {
-
 }
 
 std::string ASpell::getName() const

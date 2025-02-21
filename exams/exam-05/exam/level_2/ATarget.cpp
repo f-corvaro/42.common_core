@@ -5,20 +5,19 @@ ATarget::ATarget(std::string type) : _type(type)
 
 }
 
+ATarget::ATarget(ATarget const & obj)
+{
+	*this = obj;
+}
+
 ATarget & ATarget::operator=(ATarget const & rhs)
 {
 	_type = rhs.getType();
 	return *this;
 }
 
-ATarget::ATarget(ATarget const & obj)
-{
-	*this = obj;
-}
-
 ATarget::~ATarget()
 {
-
 }
 
 std::string ATarget::getType() const
