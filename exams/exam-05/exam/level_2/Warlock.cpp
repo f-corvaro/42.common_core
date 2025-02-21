@@ -1,12 +1,12 @@
 #include "Warlock.hpp"
 
-Warlock::Warlock(std::string const &name, std::string const &title): _name(name), _title(title)
-{
-	std::cout << _name << ": This looks like another boring day." << std::endl;
-}
-
 Warlock::Warlock()
 {
+}
+
+Warlock::Warlock(Warlock const & obj)
+{
+	*this = obj;
 }
 
 Warlock & Warlock::operator=(Warlock const & rhs)
@@ -16,9 +16,9 @@ Warlock & Warlock::operator=(Warlock const & rhs)
 	return *this;
 }
 
-Warlock::Warlock(Warlock const & obj)
+Warlock::Warlock(std::string const &name, std::string const &title): _name(name), _title(title)
 {
-	*this = obj;
+	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
 
 Warlock::~Warlock()
@@ -59,7 +59,8 @@ void Warlock::learnSpell(ASpell* spell)
 
 void Warlock::forgetSpell(std::string SpellName)
 {
-	if (_SpellBook.find(SpellName) != _SpellBook.end()) {
+	if (_SpellBook.find(SpellName) != _SpellBook.end()) 
+	{
 		delete _SpellBook[SpellName];	
 		_SpellBook.erase(_SpellBook.find(SpellName));
 	}

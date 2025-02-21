@@ -11,9 +11,10 @@ class ATarget
 	
 	public :
 		ATarget(std::string type);
-		ATarget & operator=(ATarget const & rhs);
 		ATarget(ATarget const & obj);
+		ATarget & operator=(ATarget const & rhs);
 		virtual ~ATarget();
+		
 		std::string getType() const;
 		virtual ATarget* clone() const = 0;
 		void	getHitBySpell(ASpell const & spell) const;
