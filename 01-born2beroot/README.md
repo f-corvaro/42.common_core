@@ -10,8 +10,6 @@
 
 <p align="center">
   <a href="https://github.com/f-corvaro/42.common_core/tree/main/01-born2beroot"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/f-corvaro/42.common_core?color=yellow" /></a>
-  <a href="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/en.subject.pdf">
-    <img src="https://img.shields.io/badge/subject-born2beroot-blueviolet">
   </a>
 </p>
 <h3 align="center">Index</h3>
@@ -2016,16 +2014,6 @@ Virtual machines (VMs) provide a hardware and operating system-independent execu
 #### What is LVM?
 
 [LVM](https://en.wikipedia.org/wiki/Logical_volume_management) (Logical Volume Manager) is a system for managing logical volumes, or filesystems, in a more flexible manner than traditional partitioning schemes. It allows for dynamic resizing and efficient allocation of storage space on mass storage devices.
-
-### Correction Sheet
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/b2b_cs1.png">
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/b2b_cs2.png">
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/b2b_cs3.png">
-
-<img width="650" src="https://github.com/f-corvaro/42.common_core/blob/main/01-born2beroot/.extra/b2b_cs4.png">
 
 </p>
 <br>
