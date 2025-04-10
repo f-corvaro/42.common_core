@@ -75,7 +75,6 @@
  <a href="#differences-between-apt-and-aptitude">Differences between apt and aptitude</a><br>
  <a href="#what-is-apparmor">What is AppArmor?</a><br>
  <a href="#what-is-lvm">What is LVM?</a><br>
- <a href="#correction-sheet">Correction Sheet</a><br>
  <a href="#developed-skills">Developed Skills</a><br>
  <a href="#support-and-contributions">Support and Contributions</a><br>
  <a href="#author">Author</a><br>
