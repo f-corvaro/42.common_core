@@ -77,6 +77,9 @@ I hope you find my work insightful and inspiring. Happy coding!
 
 **Note:** When I started this journey, project evaluations were conducted using the blackhole system. Now, evaluations are based on milestones.
 
+`⚠️ To comply with copyright regulations and avoid potential issues with 42 School, all subjects, exams, and correction sheets have been removed from this repository and any related sub-repositories containing my work.`
+
+
 </p>
 <br>
 
@@ -279,7 +282,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 0. [exam rank 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05) (C++)
 
-**Status:** Coming Soon
+[![fcorvaro's 42 Exam Rank 05 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
@@ -287,7 +290,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 ### 1. [CPP05](https://github.com/f-corvaro/CPP) (C++ - solo project)
 
-**Status:** Coming Soon
+[![fcorvaro's 42 CPP05 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ```Evaluation Length = 15/30 Mins``` | ```2 Peers```
 
