@@ -21,7 +21,7 @@
 
 <p align="justify">
 
-This exam focuses on the [microshell](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-04/microshell/README.md) project. For more information about exam login and other details, check:
+This exam focuses on the `microshell` project. For more information about exam login and other details, check:
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
 </p>

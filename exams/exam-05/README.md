@@ -26,10 +26,6 @@
 This exam consists of three levels, each building upon the previous one, to test your understanding and implementation of C++ concepts, particularly focusing on the Coplien form and object-oriented programming principles.
 
 To successfully complete the exam, you must pass all levels.
-- [Level 1 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_1/subject.txt)
-- [Level 2 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_2/subject.txt)
-- [Level 3 Subject](https://github.com/f-corvaro/42.common_core/blob/main/exams/exam-05/exam/level_3/subject.txt)
-
 
 For more information about exam login and other details, check:
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
