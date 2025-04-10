@@ -332,7 +332,7 @@ In Milestone 4, `cub3D` is the final project that requires adherence to the Norm
 
 #### Project Choices 4
 
-• [```webserv```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/webserv.pdf) or [```ft_irc```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/ft_irc.pdf)
+• [```webserv```](https://projects.intra.42.fr/projects/42cursus-webserv) or [```ft_irc```](https://projects.intra.42.fr/projects/42cursus-ft_irc)
 
 #### Why I Chose `idk` Over `idk2`
 
