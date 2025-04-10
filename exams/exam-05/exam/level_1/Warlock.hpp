@@ -1,6 +1,6 @@
 #include <iostream>
 
-class Warlock {
+class Warlock{
 	private:
 		std::string _name;
 		std::string _title;
@@ -13,6 +13,6 @@ class Warlock {
 
 		std::string const & getName() const;
 		std::string const & getTitle() const;
-		void	setTitle(std::string const & str);
-		void	introduce() const;
+		void setTitle(std::string const & str);
+		void introduce() const;
 };
