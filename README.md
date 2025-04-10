@@ -139,7 +139,7 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 #### Project Choices 1
 
-• [```FdF```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/FDF.pdf) or [```so_long```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/so_long.pdf) or [```fract-ol```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/fract-ol.pdf)
+• [```FdF```](https://projects.intra.42.fr/projects/42cursus-fdf) or [```so_long```](https://projects.intra.42.fr/projects/so_long) or [```fract-ol```](https://projects.intra.42.fr/projects/42cursus-fract-ol)
 
 #### Why I Chose `FdF` Over `so_long` and `fract-ol`
 
@@ -147,17 +147,21 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 - **so_long**: The `so_long` project focuses on creating a simple 2D game, which is interesting but less relevant to my specific interests in 3D modeling and visualization.
 
-- **fract-ol**: The `fract-ol` project involves creating fractal images, which is a fascinating topic in computer graphics. However, I chose `FdF` because it offers more direct applications to my field of study in mechanical engineering, particularly in areas like 3D modeling and simulation.
+- **fract-ol**: The `fract-ol` project involves creating fractal images, which is a fascinating topic in computer graphics.
+
+However, I chose `FdF` because it offers more direct applications to my field of study in mechanical engineering, particularly in areas like 3D modeling and simulation.
 
 #### Project Choices 2
 
-• [```pipex```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/pipex.pdf) or [```minitalk```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/minitalk.pdf)
+• [```pipex```](https://projects.intra.42.fr/projects/42cursus-pipex) or [```minitalk```](https://projects.intra.42.fr/projects/42cursus-minitalk)
 
 #### Why I Chose `pipex` Over `minitalk`
 
 - **pipex**: The `pipex` project involves creating a simplified version of the Unix `pipe` command, which is fundamental for chaining commands and managing data streams in Unix-based systems. This project allows me to deepen my understanding of Unix systems, inter-process communication, and system programming.
 
-- **minitalk**: While `minitalk` focuses on implementing a small data exchange program using Unix signals, which is also valuable, I found `pipex` to be more aligned with my interest in system-level programming and process management.
+- **minitalk**: While `minitalk` focuses on implementing a small data exchange program using Unix signals, which is also valuable, 
+ 
+I found `pipex` to be more aligned with my interest in system-level programming and process management.
 
 ### 1. [FdF](https://github.com/f-corvaro/FDF) (C - solo project)
 
@@ -221,13 +225,15 @@ From this point onward, the MOULINETTE automated evaluation system is no longer 
 
 #### Project Choices 3
 
-• [```cub3D```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/cub3D.pdf) or [```miniRT```](https://github.com/f-corvaro/42.common_core/blob/main/.extra/.othersubject/miniRT.pdf)
+• [```cub3D```](https://projects.intra.42.fr/projects/42cursus-cub3D) or [```miniRT```](https://projects.intra.42.fr/projects/42cursus-miniRT)
 
 #### Why I Chose `cub3D` Over `miniRT`
 
-- **cub3D**: The `cub3D` project involves creating a 3D game using raycasting, which aligns well with my interest in game development and real-time rendering. This project enhances my understanding of computer graphics, particularly in the context of game engines, and provides practical experience in implementing raycasting algorithms. The skills gained from this project, such as working with graphical libraries and optimizing real-time rendering, are directly applicable to various fields, including game development and interactive simulations. Additionally, due to the blackhole system, I was near the deadline and needed to start pushing my progress quickly. The `cub3D` project allowed me to leverage my existing knowledge and complete the project within the given timeframe.
-
-- **miniRT**: The `miniRT` project focuses on creating a simple ray tracer, which is a fascinating topic in computer graphics. However, I chose `cub3D` because the blackhole system's time constraints made `cub3D` a more feasible choice for timely completion. Additionally, `cub3D` aligns better with my interest in game development and real-time rendering, allowing me to leverage my existing knowledge and skills to meet the deadline effectively.
+- **cub3D**: The `cub3D` project involves creating a 3D game using raycasting.
+  
+- **miniRT**: The `miniRT` project focuses on creating a simple ray tracer, which is a fascinating topic in computer graphics. 
+ 
+However, I chose `cub3D` because the blackhole system's time constraints made `cub3D` a more feasible choice for timely completion.
 
 ### 1. [cub3D](https://github.com/f-corvaro/CUB3D) (C - duo project)
 
