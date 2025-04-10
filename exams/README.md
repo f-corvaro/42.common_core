@@ -12,21 +12,19 @@
  <a href="#3-exam-03-1-c-exercise">3. Exam 03 (1 C exercise)</a><br>
  <a href="#4-exam-04-1-c-exercise">4. Exam 04 (1 C exercise)</a><br>
  <a href="#5-exam-05-3-c-exercises">5. Exam 05 (3 C++ exercises)</a><br>
- <a href="#6-exam-06-">6. Exam 06 ()</a><br>
+ <a href="#6-exam-06-coming-soon">6. Exam 06 (Coming Soon)</a><br>
  <a href="#exam-login-instructions">Exam Login Instructions</a><br>
- <a href="#1-initial-login">1. Initial Login:</a><br>
- <a href="#2-access-exam-terminal">2. Access Exam Terminal:</a><br>
- <a href="#3-login-with-your-42-intra-account">3. Login with Your 42 Intra Account:</a><br>
- <a href="#4-access-the-exam-shell">4. Access the Exam Shell:</a><br>
- <a href="#5-allow-photo-check">5. Allow Photo Check:</a><br>
- <a href="#6-access-rendu">6. Access Rendu:</a><br>
- <a href="#7-exam-shell-commands">7. Exam Shell Commands:</a><br>
- <a href="#8-open-a-new-terminal">8. Open a New Terminal:</a><br>
- <a href="#9-submit-your-project">9. Submit Your Project:</a><br>
+ <a href="#1-initial-login">1. Initial Login</a><br>
+ <a href="#2-access-exam-terminal">2. Access Exam Terminal</a><br>
+ <a href="#3-login-with-your-42-intra-account">3. Login with Your 42 Intra Account</a><br>
+ <a href="#4-allow-photo-check">4. Allow Photo Check</a><br>
+ <a href="#5-access-rendu">5. Access Rendu</a><br>
+ <a href="#6-exam-shell-commands">6. Exam Shell Commands</a><br>
+ <a href="#7-open-a-new-terminal">7. Open a New Terminal</a><br>
+ <a href="#8-submit-your-project">8. Submit Your Project</a><br>
  <a href="#support-and-contributions">Support and Contributions</a><br>
  <a href="#author">Author</a><br>
 </p>
-<br>
 
 ## Exam Overview
 
@@ -73,7 +71,7 @@ The purpose of the exam is to test your knowledge without any external assistanc
 
 ### 5. [Exam 05](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-05) (3 C++ exercises)
 
-**Status:** Coming Soon
+[![fcorvaro's 42 Exam Rank 05 Score](https://github.com/f-corvaro/42.common_core/blob/main/.extra/100.png)](https://profile.intra.42.fr/users/fcorvaro)
 
 ```Length = 180 Mins``` | ```NORMINETTE = OFF```
 
@@ -103,7 +101,7 @@ password -> exam
 ### 2. Access Exam Terminal:
 
 ```bash
-kinit
+examshell
 ```
 
 ### 3. Login with Your 42 Intra Account:
@@ -113,31 +111,25 @@ login -> your 42 intra username (eg. fcorvaro)
 pasword -> your password
 ```
 
-### 4. Access the Exam Shell:
-
-```bash
-examshell
-```
-
-### 5. Allow Photo Check:
+### 4. Allow Photo Check:
 
 ```plaintext
 'yes'
 ```
 
-### 6. Access Rendu:
+### 5. Access Rendu:
 
 ```plaintext
 'y'
 ```
 
-### 7. Exam Shell Commands:
+### 6. Exam Shell Commands:
 
 - `status` - Check the time and other details
 - `grademe` - Check pushed exercise (moulinet)
 - `finish` - Close examshell and finish exam
 
-### 8. Open a New Terminal:
+### 7. Open a New Terminal:
 
 - You can find your exam subject in the `subject` directory.
 - Then you can see the `Rendu` directory, which is your repository.
@@ -145,7 +137,7 @@ examshell
 - If you fail the exercise, the system will provide the expected output and the output returned in the `traces` folder.
 - If Bash commands don't work in the terminal, type `bash` to start a Bash session.
 
-### 9. Submit Your Project:
+### 8. Submit Your Project:
 
 When you are ready to submit your work, go into `Rendu` and push the folder you created by doing the following:
 
