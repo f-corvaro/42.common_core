@@ -21,7 +21,7 @@
 
 <p align="justify">
 
-This exam includes one random question, which could be related to either [ft_printf](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/ft_printf) or [get_next_line](https://github.com/f-corvaro/42.common_core/tree/main/exams/exam-03/gnl). For more information about exam login and other details, check:
+This exam includes one random question, which could be related to either `ft_printf` or `get_next_line`. For more information about exam login and other details, check:
 
 <a href="https://github.com/f-corvaro/42.common_core/tree/main/exams">here</a>.
 </p>
